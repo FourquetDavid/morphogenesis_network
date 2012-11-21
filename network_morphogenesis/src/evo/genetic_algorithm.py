@@ -5,9 +5,9 @@ inspired by Telmo Menezes's work : telmomenezes.com
 '''
 import random
 import network_development as nd
-import network_evaluation as ne
-import pyevolve as py
-from pyevolve import *
+import network_evaluation as ne 
+import pyevolve as py 
+
 
 """ 
 contains two main function :
@@ -32,7 +32,10 @@ def new_genome(choices,results_path,**kwargs):
                 possible crossover :
                 possible evaluator : "degree_distribution"
      '''           
+    
     genome = py.GTree.GTree()
+   
+    
     genome.setParams(nb_nodes=ne.get_number_of_nodes(results_path))
     genome.setParams(nb_edges=ne.get_number_of_edges(results_path))
     genome.setParams(results_path=results_path)
@@ -61,6 +64,7 @@ def new_genome(choices,results_path,**kwargs):
     genome.setParams(mutation_method = kwargs.get("mutation_method","default_mutation"))
     genome.mutator.set(mutate_tree)
     
+    tree_init(genome)
     return genome
 
 def evolve(genome,**kwargs): 
@@ -70,18 +74,19 @@ def evolve(genome,**kwargs):
                 returns infos about the best individual
     '''
     
-    genetic_algorithm = kwargs.get("genetic_algorithm","default")
-    if genetic_algorithm == "default" :
-        ga = py.GSimpleGA.GSimpleGA(genome)
-    ga.setGenerations(int(kwargs.get("nb_generations","100")))
-    ga.evolve()
-    return ga.bestIndividual()
+    genetic_algorithm = kwargs.get("genetic_algorithm","default_algorithm")
+    
+    algo = py.GSimpleGA.GSimpleGA(genome)
+    algo.setGenerations(int(kwargs.get("nb_generations","100")))
+    algo.setMinimax(py.Consts.minimaxType[kwargs.get("goal","maximize")])
+    algo.evolve()
+    return algo.bestIndividual()
 
 '''
 Functions that build trees
 '''
     
-def tree_init(genome):
+def tree_init(genome,**args):
     max_depth = genome.getParam("max_depth")
     max_siblings = genome.getParam("max_siblings")
     allele = genome.getParam("allele")
@@ -89,12 +94,14 @@ def tree_init(genome):
     init_method = genome.getParam("init_method")
     if init_method == "grow" :
         root = buildGTreeGrow(0, allele[0][0],allele[0][1], max_siblings, max_depth)
-    if init_method == "default_init" :
+    else :
+        #default method
         root = buildGTreeGrow(0, allele[0][0],allele[0][1], max_siblings, max_depth)
             
     genome.setRoot(root)
     genome.processNodes()
     assert genome.getHeight() <= max_depth
+    
 
 def buildGTreeGrow(depth, value_callback, value_leaf, max_siblings, max_depth):
     random_value = random.choice(value_callback)
@@ -126,21 +133,28 @@ def buildGTreeGrow(depth, value_callback, value_leaf, max_siblings, max_depth):
 '''
 Functions that mutate trees
 '''
-def mutate_tree(genome, **args):
+def simple_mutate_tree(genome, **args):
     mutations = 0
+    allele = genome.getParam("allele")
     for node in genome.getAllNodes() :
         if py.Util.randomFlipCoin(args["pmut"]):
             mutations += 1
             if node.isLeaf() : 
-                node.setData(random.choice(["OrigId","TargId","OrigInDegree","TargInDegree","OrigOutDegree","TargOutDegree"]))
+                node.setData(random.choice(allele[0][1]))
             else : 
-                node.setData(random.choice(["+","-","*"]))
+                node.setData(random.choice(allele[0][0]))
     return mutations
+
+def mutate_tree(genome, **args):
+    mutation_method = genome.getParam("mutation_method")
+    if mutation_method == "simple_mutation" :
+        return simple_mutate_tree(genome, **args)
+    #default method
+    return simple_mutate_tree(genome, **args)
     
 '''
 Functions that evaluate trees
 '''
-
 def eval_func(chromosome):
     net = nd.grow_network(chromosome,int(chromosome.getParam("nb_nodes")),int(chromosome.getParam("nb_edges")))
     score = ne.eval_network(net,chromosome.getParam("results_path"),evaluation_method=chromosome.getParam("evaluation_method"))                          

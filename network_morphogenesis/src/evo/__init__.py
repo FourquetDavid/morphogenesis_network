@@ -6,7 +6,7 @@ Created on 12 nov. 2012
 inspired by Telmo Menezes's work : telmomenezes.com
 '''
 
-import network_evaluation as ne
+import network_evaluation as ne 
 import genetic_algorithm as ga
 
 '''
@@ -17,9 +17,8 @@ and call it
 '''
 
 
-
 #possible arguments : 
-#*evaluation_method : the method used to evaluate teh proximity between real network and generated network
+#*evaluation_method : the method used to evaluate the proximity between real network and generated network
 #                        possible values : "degree_distribution"
 ne.get_datas_from_real_network('../../data/karate.gml',
                                '../../results/karate.txt',
@@ -28,22 +27,25 @@ ne.get_datas_from_real_network('../../data/karate.gml',
 #optional arguments for genome : 
 #*max_depth : maximal depth of the decision tree that defines a genome 
 #             possible values : int > 0
-#*building_tree_method : method to build a decision tree
+#*init_method : method to build a decision tree
 #                        possible values : "grow"
 genome = ga.new_genome(
                        [["+","-","*"],
                         ["OrigId","TargId","OrigInDegree","TargInDegree","OrigOutDegree","OrigInDegree"]],
                        '../../results/karate.txt',
                        max_depth=3,
-                       building_tree_method="grow",
+                       init_method ="grow",
+                       evaluation_method="degree_distribution"
                        )
 
 #optional arguments for evolve :
-#*nb_generations : number of generatiosn of teh evolution 
+#*nb_generations : number of generations of the evolution 
 #                   possible values : int > 0
-#*evaluation_method : the method used to evaluate teh proximity between real network and generated network
+#*evaluation_method : the method used to evaluate the proximity between real network and generated network
 #                        possible values : "degree_distribution"
-#*genetic_algorithm : the genetic algorithm used for the evolution process
-results = ga.evolve(genome, evaluation_method = "degree_distribution", nb_generations =1)
+#*goal : "minimize" if the goal is to minimize the evaluation function
+#        "maximize" if the goal is to maximize the evaluation function
+
+results = ga.evolve(genome, nb_generations =2, goal="minimize")
 print results
 

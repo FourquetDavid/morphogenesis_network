@@ -6,7 +6,7 @@ inspired by Telmo Menezes's work : telmomenezes.com
 '''
 import numpy as np
 import networkx as nx
-
+ 
 """ 
 contains two main function :
 
@@ -40,7 +40,7 @@ def get_datas_from_real_network (data_path,results_path,**kwargs):
 def eval_network(network,results_path,**kwargs):
     '''takes a network and returns a number that caracterizes 
     the proximity between the network and the real network already registered in results_path'''
-    # default evaluation method is node dsitribution
+    # default evaluation method is node distribution
     eval_method = kwargs.get("evaluation_method","default_eval")
     if eval_method == eval_degree_distribution :
         return eval_degree_distribution(network,results_path)
@@ -61,7 +61,7 @@ def eval_degree_distribution(network,results_path):
     hist_test = np.array(nx.degree_histogram(network))
     
     #build the array describing the distribution of degrees of the real network
-    #item k is tke number of nodes of degree k
+    #item k is the number of nodes of degree k
     f = open(results_path, 'r')
     lines = f.readlines()
     hist_goal = np.fromstring(lines[2],dtype=int)
@@ -70,7 +70,7 @@ def eval_degree_distribution(network,results_path):
     result = compare(hist_test,hist_goal )
     f.close() 
     return result
-                     
+                  
 def compare(array1, array2):
     #compare 2 arrays by appending with zeros the little one
     #gives the sum of absolute differences between corresponding items of both arrays
