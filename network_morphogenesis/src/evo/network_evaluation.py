@@ -6,7 +6,7 @@ inspired by Telmo Menezes's work : telmomenezes.com
 '''
 import numpy as np
 import networkx as nx
- 
+import itertools as it
 """ 
 contains two main function :
 
@@ -33,7 +33,9 @@ def get_datas_from_real_network (data_path,results_path,**kwargs):
     f.write(str(nx.number_of_edges(graph))+"\n")
     
     #Other infos depend on the evaluation method used
-    f.write(get_evaluation_datas(graph,method=kwargs.get("evaluation_method","default")))
+    result = get_evaluation_datas(graph,method=kwargs.get("evaluation_method","default"))
+
+    f.write(result.__repr__())
     
     f.close()
 
@@ -57,28 +59,28 @@ def default_eval(network,results_path):
 
 def eval_degree_distribution(network,results_path):
     '''  the bigger the result is, the worse the network is '''
-    #build the array describing the distribution of degrees of the evaluated network
-    hist_test = np.array(nx.degree_histogram(network))
+    #build the alist describing the distribution of degrees of the evaluated network
+    hist_test = nx.degree_histogram(network)
     
-    #build the array describing the distribution of degrees of the real network
+    #build the list describing the distribution of degrees of the real network
     #item k is the number of nodes of degree k
     f = open(results_path, 'r')
     lines = f.readlines()
-    hist_goal = np.fromstring(lines[2],dtype=int)
-    
-    #this function compares arrays and return
+    hist_goal = eval(lines[2])
+    #this function compares list and return the difference in 
     result = compare(hist_test,hist_goal )
     f.close() 
     return result
                   
-def compare(array1, array2):
+def compare(list1, list2):
     #compare 2 arrays by appending with zeros the little one
     #gives the sum of absolute differences between corresponding items of both arrays
+   
+    list1.extend(it.repeat(0,len(list2)-len(list1)))
+    list2.extend(it.repeat(0,len(list1)-len(list2)))
     
-    if array1.size > array2.size :
-        array2 = np.concatenate((array2,np.zeros(array1.size-array2.size)))
-    if array2.size > array1.size :
-        array1= np.concatenate((array1,np.zeros(array2.size-array1.size)))    
+    array1 = np.array(list1)
+    array2 = np.array(list2)
     return sum(abs(array1-array2))
     
     
@@ -106,7 +108,8 @@ def get_evaluation_datas(graph, **kwargs) :
     return default_method(graph)
 
 def degree_distribution(graph) :
-    return np.array(nx.degree_histogram(graph)).tostring()
+    result = nx.degree_histogram(graph)
+    return result
 
 def default_method(graph) :
     print "default evaluation (degree distribution) method has been used"

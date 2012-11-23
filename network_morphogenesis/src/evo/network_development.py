@@ -7,6 +7,7 @@ inspired by Telmo Menezes's work : telmomenezes.com
 import networkx as nx
 import random
 import numpy  as np
+import itertools as it
 
 """ 
 contains one main function :
@@ -33,11 +34,10 @@ def grow_network(decision_tree,number_of_nodes, number_of_edges):
     #directed graph
     graph = nx.DiGraph() 
     #begins with an empty graph with the number of nodes  of the real network
-    for i in range(number_of_nodes) :
+    for i in xrange(number_of_nodes) :
         graph.add_node(i)
     #adds one edge according to its probability
-    for i in range(number_of_edges) :
-        print(i)
+    for i in xrange(number_of_edges) :
         #each edge has a probability that is the result of the tree
         probas = calc(decision_tree.getRoot(),graph)
         #we remove unnecessary edges : self loops, negative proba
@@ -53,9 +53,46 @@ def grow_network(decision_tree,number_of_nodes, number_of_edges):
 Functions that let us choose a random element in the matrix of probabilities
 '''
 
-   
 def choose_edge(probas,network):
     ''' takes a matrix of probabilities and a network, 
+    returns an edge (no self loop, not already present in the network) according to probabilities '''
+    #we mark impossible edge, because it faster to remove them this way instead of filtering the matrix enumerated
+    # finding edges in matrices is in constant time 
+    #finding edges in sequences is in linear time
+    
+    #gives -infinity as probability to self loops
+    np.fill_diagonal(probas, float('-inf'))
+    #gives -infinity as probability to already existing edges
+    for edge in network.edges_iter() :
+        probas[edge] = float('-inf')
+    
+    
+    liste_probas = np.ndenumerate(probas)
+    #we list possible edge : no self loops, no existing edges
+    possible_edges = filter(lambda x : x[1] > float('-inf'), liste_probas)
+    #we list edges with strictly positive probabilities
+    positive_edges = filter(lambda x : x[1] > 0, possible_edges)
+    
+    
+
+    weights_sum = sum(weighted_edge[1] for weighted_edge in positive_edges)
+   
+            
+    #if every probability is negative, we choose one edge among the possible     
+    if weights_sum == 0 :
+        return random.choice([weighted_edge[0] for weighted_edge in possible_edges])
+    #if there is one positive probability, we choose one edge between those with positive probability
+    else :
+        rand = random.random() * weights_sum
+        for edge,weight in positive_edges :
+                rand-=weight
+                if  rand <= 0 :
+                    return edge
+
+
+def choose_edge3(probas,network):
+    '''deprecated because choose_edge is more efficienta at doing the same job
+    takes a matrix of probabilities and a network, 
     returns an edge (no self loop, not already present in the network) according to probabilities '''
     
     #gives -infinity as probability to self loops
@@ -69,14 +106,17 @@ def choose_edge(probas,network):
     #we count the number of possible edges in case every probability is negative or 0
     count_numbers  = 0
     #use a loop to count
-    for weight in probas.flat :
-        if weight > 0 : weights_sum += weight
-        if weight > float('-inf') : count_numbers+=1
-    
+    for weight in  probas.flat :
+        if weight > float('-inf') : 
+            count_numbers+=1
+            if weight > 0 : 
+                weights_sum += weight
+            
     #if every probability is negative, we choose one edge among the possible (impossible have been marked by -inifinity)    
-    if weights_sum ==0 :
-        #we assume that there is at least one possible edge    
-        rand = random.randint(0,count_numbers) 
+    if weights_sum == 0 :
+        #we assume that there is at least one possible edge
+        #count_numbers is excluded    
+        rand = np.random.randint(0,count_numbers)
         for edge,weight in np.ndenumerate(probas) :
             if weight > float('-inf') :
                 if  rand == 0 :
@@ -88,9 +128,9 @@ def choose_edge(probas,network):
         for edge,weight in np.ndenumerate(probas) :
             if weight > 0 :
                 rand-=weight
-                if  rand < 0 :
+                if  rand <= 0 :
                     return edge
-       
+      
 
 '''
 Functions that compute the tree for each node
@@ -148,7 +188,7 @@ def TargInDegree(graph) :
     probas =  np.dot( 
                   np.ones((graph.number_of_nodes(),1)),
                   np.array(list(graph.in_degree().values()), ndmin=2,dtype=float)
-                  )        
+                  )       
     return probas
 
 
@@ -159,7 +199,7 @@ def TargOutDegree(graph) :
     probas =  np.dot( 
                   np.ones((graph.number_of_nodes(),1)),
                   np.array(list(graph.out_degree().values()), ndmin=2,dtype=float)
-                  )        
+                  )       
     return probas
    
 def TargId(graph) : 
@@ -168,10 +208,10 @@ def TargId(graph) :
     probas =  np.dot( 
                   np.ones((graph.number_of_nodes(),1)),
                   np.array(range(graph.number_of_nodes()), ndmin=2,dtype=float)
-                  )        
+                  )  
+          
     return probas
     
-
 
   
 

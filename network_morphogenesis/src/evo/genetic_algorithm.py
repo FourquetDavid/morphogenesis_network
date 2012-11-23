@@ -7,6 +7,8 @@ import random
 import network_development as nd
 import network_evaluation as ne 
 import pyevolve as py 
+from pyevolve import *
+import statistics as st
 
 
 """ 
@@ -74,13 +76,31 @@ def evolve(genome,**kwargs):
                 returns infos about the best individual
     '''
     
-    genetic_algorithm = kwargs.get("genetic_algorithm","default_algorithm")
+    #genetic_algorithm = kwargs.get("genetic_algorithm","default_algorithm")
     
     algo = py.GSimpleGA.GSimpleGA(genome)
-    algo.setGenerations(int(kwargs.get("nb_generations","100")))
-    algo.setMinimax(py.Consts.minimaxType[kwargs.get("goal","maximize")])
-    algo.evolve()
-    return algo.bestIndividual()
+    algo.setMultiProcessing()
+    
+    algo.setMinimax(py.Consts.minimaxType[kwargs.get("goal")])
+    
+    
+    #now we do evolve with algorithm and every freq stats, we compute statistics
+    freq_stats =int(kwargs.get("freq_stats","1"))
+    number_of_steps =int(kwargs.get("nb_generations","100"))/freq_stats
+    
+    current_generation = 0
+    for _ in xrange(number_of_steps) :
+        algo.setGenerations(current_generation+freq_stats)
+        algo.evolve()
+        st.deal_with_stats(algo,kwargs.get("stats_path"))
+        print "stats written"
+        current_generation+=freq_stats
+        
+       
+            
+            
+            
+        
 
 '''
 Functions that build trees

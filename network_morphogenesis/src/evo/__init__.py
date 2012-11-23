@@ -7,8 +7,9 @@ inspired by Telmo Menezes's work : telmomenezes.com
 '''
 
 import network_evaluation as ne 
-import genetic_algorithm as ga
-
+import genetic_algorithm as ga 
+import numpy as np
+import os, sys 
 '''
 This is the main file of the program :
 it stores datas from the real network necessary to the chosen evaluation method 
@@ -45,7 +46,9 @@ genome = ga.new_genome(
 #                        possible values : "degree_distribution"
 #*goal : "minimize" if the goal is to minimize the evaluation function
 #        "maximize" if the goal is to maximize the evaluation function
+if len(sys.argv) > 1 : numero= sys.argv[1]
+else : numero = 0
+ga.evolve(genome,stats_path = '../../results/karate_stats{}.txt'.format(numero), nb_generations =100, goal="minimize",freq_stats = 1)
 
-results = ga.evolve(genome, nb_generations =2, goal="minimize")
-print results
+
 
