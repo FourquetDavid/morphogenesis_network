@@ -17,6 +17,7 @@ contains two main function :
                 methods of evaluation implemented : degree_distribution
 """
 
+        
 def get_datas_from_real_network (data_path,results_path,**kwargs):
     '''takes a relative path to network-type file and store relevant infos for future studies
     '''
@@ -29,13 +30,14 @@ def get_datas_from_real_network (data_path,results_path,**kwargs):
     #First relevant infos are number of nodes and number of edges, 
     #should be dependant on the method used to develop the network, 
     #but until now they are necessary and always stored
-    f.write(str(nx.number_of_nodes(graph))+"\n")
-    f.write(str(nx.number_of_edges(graph))+"\n")
-    
+    f.write(str(nx.number_of_nodes(graph)))
+    f.write("\n")
+    f.write(str(nx.number_of_edges(graph)))
+    f.write("\n")
     #Other infos depend on the evaluation method used
-    result = get_evaluation_datas(graph,method=kwargs.get("evaluation_method","default"))
+    result = get_evaluation_datas(graph,evaluation_method=kwargs.get("evaluation_method"))
 
-    f.write(result.__repr__())
+    f.write(result)
     
     f.close()
 
@@ -43,10 +45,11 @@ def eval_network(network,results_path,**kwargs):
     '''takes a network and returns a number that caracterizes 
     the proximity between the network and the real network already registered in results_path'''
     # default evaluation method is node distribution
-    eval_method = kwargs.get("evaluation_method","default_eval")
-    if eval_method == eval_degree_distribution :
+    eval_method = kwargs.get("evaluation_method")
+    if eval_method == "degree_distribution" :
         return eval_degree_distribution(network,results_path)
-    return default_eval(network,results_path)
+    if eval_method == "weighted" :
+        return eval_weighted(network,results_path)
     
   
   
@@ -54,8 +57,7 @@ def eval_network(network,results_path,**kwargs):
     Function that help evaluating network
     """ 
          
-def default_eval(network,results_path): 
-    return eval_degree_distribution(network,results_path)
+
 
 def eval_degree_distribution(network,results_path):
     '''  the bigger the result is, the worse the network is '''
@@ -69,6 +71,27 @@ def eval_degree_distribution(network,results_path):
     hist_goal = eval(lines[2])
     #this function compares list and return the difference in 
     result = compare(hist_test,hist_goal )
+    f.close() 
+    return result
+
+def eval_weighted(network,results_path):
+    '''  the bigger the result is, the worse the network is '''
+    #build the alist describing the distribution of degrees of the evaluated network
+    hist_test_indegree = get_histogram(network.in_degree().values())
+    hist_test_outdegree = get_histogram(network.out_degree().values())
+    #this line converts dict of dict of lengths to list of lists, chain them, then get an histogram 
+    hist_test_distances = get_histogram(list(it.chain.from_iterable([ dict_of_length.values() for dict_of_length in nx.shortest_path_length(network).values()])))
+    
+    #build the list describing the distribution of indegrees, outdegrees and distances of the real network
+    #item k is the number of nodes of degree k
+    f = open(results_path, 'r')
+    lines = f.readlines()
+    hist_goal_indegree = eval(lines[2])
+    hist_goal_outdegree = eval(lines[3])
+    hist_goal_distances = eval(lines[4])
+    
+    #this function compares list and return the difference in 
+    result = compare(hist_test_indegree,hist_goal_indegree ) + compare(hist_test_outdegree,hist_goal_outdegree ) + compare(hist_test_distances,hist_goal_distances ) 
     f.close() 
     return result
                   
@@ -102,18 +125,25 @@ def read_typed_file(path) :
 def get_evaluation_datas(graph, **kwargs) :
     #cast to string relevant infos for the evaluation of networks
     # default_method is node_distribution
-    method = kwargs.get("method","default_method") 
-    if method == "degree_distribution" :
+    evaluation_method = kwargs.get("evaluation_method") 
+    if evaluation_method == "degree_distribution" :
         return degree_distribution(graph)
-    return default_method(graph)
+    if evaluation_method == "weighted" :
+        return weighted(graph)
 
 def degree_distribution(graph) :
-    result = nx.degree_histogram(graph)
+    result = str(get_histogram(graph.degree().values())) 
+   
     return result
 
-def default_method(graph) :
-    print "default evaluation (degree distribution) method has been used"
-    return degree_distribution(graph)
+def weighted(graph) :
+    #results are not weight-dependant because we have no weight on real edges
+    indegree = get_histogram(graph.in_degree().values())
+    outdegree = get_histogram(graph.out_degree().values())
+    #this line converts dict of dict of lengths to list of lists, chain them, then get an histogram 
+    shortest_path = get_histogram(list(it.chain.from_iterable([ dict_of_length.values() for dict_of_length in nx.shortest_path_length(graph).values()])))
+    
+    return '\n'.join([str(indegree),str(outdegree),str(shortest_path)])
     
 def get_number_of_nodes(results_path):    
     f = open(results_path, 'r')
@@ -128,3 +158,11 @@ def get_number_of_edges(results_path):
     nb_edges = int(lines[1])
     f.close()
     return nb_edges
+
+def get_histogram(degseq):
+    '''takes a sequence of integer values and returns the distribution of values'''    
+    dmax=max(degseq)+1
+    freq= [ 0 for d in range(dmax) ]
+    for d in degseq:
+        freq[d] += 1
+    return freq

@@ -20,14 +20,14 @@ def deal_with_stats(engine,stat_path) :
     """ writes population statistics and the 5 best elements"""
     
     f = open(stat_path, 'a')
-    f.write( "#####      Generation  {numero}   ###########".format(numero=engine.getCurrentGeneration()))
+    f.write( "#####      Generation  {numero}   ###########\n".format(numero=engine.getCurrentGeneration()))
     print "#####      Generation  {numero}   ###########".format(numero=engine.getCurrentGeneration())
     print engine.getStatistics()
     f.write(engine.getStatistics().__repr__())
     
     pop = engine.getPopulation()
     for i in xrange(5) :
-        f.write( "######### Arbre num {numero} ###########".format(numero=i) )
+        f.write( "######### Arbre num {numero} ###########\n".format(numero=i) )
         print "######### Arbre num {numero} ###########".format(numero=i)
         tree = pop.bestFitness(i)
         f.write( str(tree.getFitnessScore()))

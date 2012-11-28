@@ -9,6 +9,7 @@ import network_evaluation as ne
 import pyevolve as py 
 from pyevolve import *
 import statistics as st
+import evaluation_method_options as emo
 
 
 """ 
@@ -23,7 +24,7 @@ contains two main function :
                 
 """
 
-def new_genome(choices,results_path,**kwargs):
+def new_genome(results_path,**kwargs):
     '''
     *new_genome : takes a set of alleles [function_alleles, leaves_alleles] 
                 and options that define initializator, mutator, crossover, evaluator 
@@ -33,8 +34,9 @@ def new_genome(choices,results_path,**kwargs):
                 possible mutator : "simple" : change genomic alleles with possible alleles with probability pmut
                 possible crossover :
                 possible evaluator : "degree_distribution"
-     '''           
-    
+     '''  
+    evaluation_method = kwargs.get("evaluation_method")      
+    choices = emo.get_alleles(evaluation_method)
     genome = py.GTree.GTree()
    
     
@@ -57,7 +59,7 @@ def new_genome(choices,results_path,**kwargs):
     genome.initializator.set(tree_init)
     
     #define the how to evaluate a genome
-    genome.setParams(evaluation_method = kwargs.get("evaluation_method","default_evaluation"))
+    genome.setParams(evaluation_method = evaluation_method)
     genome.evaluator.set(eval_func)
     
     #define the crossover function - default now
@@ -75,13 +77,16 @@ def evolve(genome,**kwargs):
                 apply it to the genome
                 returns infos about the best individual
     '''
-    
+    #depending on the evaluation_method, we will have different goals
+    goal = emo.get_goal( kwargs.get("evaluation_method"))         
+   
     #genetic_algorithm = kwargs.get("genetic_algorithm","default_algorithm")
     
     algo = py.GSimpleGA.GSimpleGA(genome)
-    algo.setMultiProcessing()
+    #algo.setMultiProcessing()
     
-    algo.setMinimax(py.Consts.minimaxType[kwargs.get("goal")])
+    
+    algo.setMinimax(py.Consts.minimaxType[goal])
     
     
     #now we do evolve with algorithm and every freq stats, we compute statistics
@@ -105,7 +110,7 @@ def evolve(genome,**kwargs):
 '''
 Functions that build trees
 '''
-    
+  
 def tree_init(genome,**args):
     max_depth = genome.getParam("max_depth")
     max_siblings = genome.getParam("max_siblings")
@@ -175,7 +180,9 @@ def mutate_tree(genome, **args):
 '''
 Functions that evaluate trees
 '''
+
 def eval_func(chromosome):
-    net = nd.grow_network(chromosome,int(chromosome.getParam("nb_nodes")),int(chromosome.getParam("nb_edges")))
+    net = nd.grow_network(chromosome,int(chromosome.getParam("nb_nodes")),int(chromosome.getParam("nb_edges")),
+                          evaluation_method=chromosome.getParam("evaluation_method"))
     score = ne.eval_network(net,chromosome.getParam("results_path"),evaluation_method=chromosome.getParam("evaluation_method"))                          
     return score  
