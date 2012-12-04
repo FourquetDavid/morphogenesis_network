@@ -4,7 +4,7 @@ Created on 15 nov. 2012
 @author: David
 inspired by Telmo Menezes's work : telmomenezes.com
 '''
-import numpy as np
+import numpy as np 
 import networkx as nx
 import itertools as it
 """ 

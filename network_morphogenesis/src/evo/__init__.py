@@ -6,8 +6,8 @@ Created on 12 nov. 2012
 inspired by Telmo Menezes's work : telmomenezes.com
 '''
 
-import network_evaluation as ne 
-import genetic_algorithm as ga 
+import network_evaluation as ne  
+import genetic_algorithm as ga  
 import numpy as np
 import os, sys
 import warnings
@@ -20,20 +20,21 @@ and call it
 '''
 
 def main() :
-    np.seterr('ignore')
+    
     #possible arguments : 
 #*evaluation_method : the method used to evaluate the proximity between real network and generated network
 #                        possible values : "degree_distribution""weighted"
-    evaluation_method ="weighted"
+    evaluation_method ="degree_distribution"
+    multiprocessing = True
     
+    #do not display numpy warnings     
+    np.seterr('ignore') 
     
-        
-        
 #arguments : path to the real network, path to print datas
     ne.get_datas_from_real_network('../../data/karate.gml',
-                               '../../results/karate.txt',
+                               '../../results/karate_weighted.txt',
                                evaluation_method= evaluation_method)
-    print "datas printed"
+    
     
 #arguments : path to datas about the real network
 #optional arguments for genome : 
@@ -42,11 +43,11 @@ def main() :
 #*init_method : method to build a decision tree
 #                        possible values : "grow"
     genome = ga.new_genome(
-                       '../../results/karate.txt',
+                       '../../results/karate_weighted.txt',
                        evaluation_method= evaluation_method
                        )
     
-    print "genome is ready"
+    
 #optional arguments for evolve :
 #*nb_generations : number of generations of the evolution 
 #                   possible values : int > 0 : default : 100
@@ -57,7 +58,7 @@ def main() :
     if len(sys.argv) > 1 : numero= sys.argv[1]
     else : numero = 0
 
-    ga.evolve(genome,stats_path = '../../results/karate_stats{}.txt'.format(numero), nb_generations =5,freq_stats = 1)
+    ga.evolve(genome,stats_path = '../../results/karate_weighted_stats{}.txt'.format(numero), nb_generations =100,freq_stats = 5, multiprocessing = multiprocessing)
 
 if __name__ == "__main__":
     main()

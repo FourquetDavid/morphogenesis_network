@@ -8,6 +8,7 @@ import networkx as nx
 import random
 import numpy  as np
 import operator as op
+import math
 """ 
 contains one main function :
 
@@ -43,6 +44,25 @@ def grow_network(decision_tree,number_of_nodes, number_of_edges,**kwargs):
 '''
 Functions that grow a network according to the method of evaluation used
 ''' 
+def grow_simple_network(decision_tree,number_of_nodes, number_of_edges):
+    '''takes a tree of decision and returns the graph that grows according to those rules'''
+    '''graph is directed but unweighted'''
+    #directed graph
+    graph = nx.DiGraph() 
+    #begins with an empty graph with the number of nodes  of the real network
+    for i in xrange(number_of_nodes) :
+        graph.add_node(i)
+    #adds one edge according to its probability
+    for i in xrange(number_of_edges) :
+        #each edge has a probability that is the result of the tree
+        probas = calc(decision_tree.getRoot(),graph)
+        #we remove unnecessary edges : self loops, negative proba
+        #we choose one among remaining ones
+        edge = choose_edge(probas, graph)
+        
+        graph.add_edge(*edge)
+        
+    return graph
     
 def grow_weighted_network(decision_tree,number_of_nodes, number_of_edges):
     '''takes a tree of decision and returns the graph that grows according to those rules'''
@@ -64,25 +84,7 @@ def grow_weighted_network(decision_tree,number_of_nodes, number_of_edges):
         
     return graph 
     
-def grow_simple_network(decision_tree,number_of_nodes, number_of_edges):
-    '''takes a tree of decision and returns the graph that grows according to those rules'''
-    '''graph is directed but unweighted'''
-    #directed graph
-    graph = nx.DiGraph() 
-    #begins with an empty graph with the number of nodes  of the real network
-    for i in xrange(number_of_nodes) :
-        graph.add_node(i)
-    #adds one edge according to its probability
-    for i in xrange(number_of_edges) :
-        #each edge has a probability that is the result of the tree
-        probas = calc(decision_tree.getRoot(),graph)
-        #we remove unnecessary edges : self loops, negative proba
-        #we choose one among remaining ones
-        edge = choose_edge(probas, graph)
-        
-        graph.add_edge(*edge)
-        
-    return graph
+
 
 
 '''
@@ -156,20 +158,20 @@ def choose_edge_with_weight(probas,network):
     
     #if some probability are infinite, we choose one edge among the inifinite probabilities
     if len(infinite_edges) != 0 :
-        edge = random.choice([weighted_edge[0] for weighted_edge in infinite_edges])
-        return (edge,1)
+        weighted_edge = random.choice(infinite_edges)
+        return (weighted_edge[0],1)
     
     #if every probability is negative, we choose one edge among the possible 
     if len(positive_edges) == 0 :
-        edge = random.choice([weighted_edge[0] for weighted_edge in possible_edges])
-        return (edge, 0.5)
+        edge,weight = random.choice(possible_edges)
+        return (edge, math.erf(weight))
     
     #if there is one positive probability, we choose one edge between those with positive probability
     rand = random.random() * weights_sum
     for edge,weight in positive_edges :
             rand-=weight
             if  rand <= 0 :
-                return (edge,1+np.tanh(weight)/2)
+                return (edge,math.erf(weight))
 
 '''
 Functions that compute the tree for each node

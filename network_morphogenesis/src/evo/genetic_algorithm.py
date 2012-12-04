@@ -71,7 +71,7 @@ def new_genome(results_path,**kwargs):
     tree_init(genome)
     return genome
 
-def evolve(genome,**kwargs): 
+def evolve(genome,**kwargs):  
     '''
      takes a genome and options that define the genetic algorithm
                 apply it to the genome
@@ -79,27 +79,39 @@ def evolve(genome,**kwargs):
     '''
     #depending on the evaluation_method, we will have different goals
     goal = emo.get_goal( kwargs.get("evaluation_method"))         
-   
+    multiprocessing = kwargs.get("multiprocessing",False)   
     #genetic_algorithm = kwargs.get("genetic_algorithm","default_algorithm")
     
     algo = py.GSimpleGA.GSimpleGA(genome)
-    #algo.setMultiProcessing()
+    algo.setMultiProcessing(multiprocessing)
+
+    
+    
+    #the selector is used to choose which ones will be parents of the next generation
+    algo.selector.set(Selectors.GRouletteWheel)
+    
+    #elitism will keep the top individuals with their score in the next generation : 
+    #it can help us to keep track of some of the best graph generations
+    #algo.setElitism(True)
+    #algo.setElitismReplacement(10)
     
     
     algo.setMinimax(py.Consts.minimaxType[goal])
     
     
-    #now we do evolve with algorithm and every freq stats, we compute statistics
-    freq_stats =int(kwargs.get("freq_stats","1"))
-    number_of_steps =int(kwargs.get("nb_generations","100"))/freq_stats
     
-    current_generation = 0
-    for _ in xrange(number_of_steps) :
-        algo.setGenerations(current_generation+freq_stats)
-        algo.evolve()
-        st.deal_with_stats(algo,kwargs.get("stats_path"))
-        print "stats written"
-        current_generation+=freq_stats
+    
+    #now we do evolve with algorithm and every freq stats, we compute statistics
+    freq_stats = int(kwargs.get("freq_stats","1"))
+    filename_stats = kwargs.get("stats_path")
+    stats_adapter = st.StatisticsInTxt(filename=filename_stats,frequency = freq_stats)
+    algo.setDBAdapter(stats_adapter)
+    
+    
+    number_of_generations = int(kwargs.get("nb_generations","100"))
+    algo.setGenerations(number_of_generations)
+    algo.evolve()
+   
         
        
             
