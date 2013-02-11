@@ -35,7 +35,7 @@ def get_datas_from_real_network (data_path,results_path,**kwargs):
     f.write(str(nx.number_of_edges(graph)))
     f.write("\n")
     #Other infos depend on the evaluation method used
-    result = get_evaluation_datas(graph,evaluation_method=kwargs.get("evaluation_method"))
+    result = get_evaluation_datas(graph,evaluation_method=kwargs.get("evaluation_method"),network_type = kwargs["network_type"])
 
     f.write(result)
     
@@ -46,12 +46,18 @@ def eval_network(network,results_path,**kwargs):
     the proximity between the network and the real network already registered in results_path'''
     # default evaluation method is node distribution
     eval_method = kwargs.get("evaluation_method")
+    network_type = kwargs["network_type"]
     if eval_method == "degree_distribution" :
-        return eval_degree_distribution(network,results_path)
-    if eval_method == "weighted" :
-        return eval_weighted(network,results_path)
+        if network_type == "wundirected_weighted"  or network_type == "undirected_unweighted" :
+            return eval_degree_distribution(network,results_path)
     
-  
+    
+    if eval_method == "2distributions" :
+        if network_type == "directed_weighted"  or network_type == "directed_unweighted" :
+            return eval_2distributions_directed(network,results_path)
+        if network_type == "undirected_weighted"  or network_type == "undirected_unweighted" :
+            return eval_2distributions_undirected(network,results_path)
+    raise Exception("no evaluation_method or network_type given")
   
     """ 
     Function that help evaluating network
@@ -74,7 +80,7 @@ def eval_degree_distribution(network,results_path):
     f.close() 
     return result
 
-def eval_weighted(network,results_path):
+def eval_2distributions_directed(network,results_path):
     '''  the bigger the result is, the worse the network is '''
     #build the alist describing the distribution of degrees of the evaluated network
     hist_test_indegree = get_histogram(network.in_degree().values())
@@ -94,10 +100,29 @@ def eval_weighted(network,results_path):
     result = compare(hist_test_indegree,hist_goal_indegree ) + compare(hist_test_outdegree,hist_goal_outdegree ) + compare(hist_test_distances,hist_goal_distances ) 
     f.close() 
     return result
+
+def eval_2distributions_undirected(network,results_path):
+    '''  the bigger the result is, the worse the network is '''
+    #build the alist describing the distribution of degrees of the evaluated network
+    hist_test_degree = get_histogram(network.degree().values())
+    #this line converts dict of dict of lengths to list of lists, chain them, then get an histogram 
+    hist_test_distances = get_histogram(list(it.chain.from_iterable([ dict_of_length.values() for dict_of_length in nx.shortest_path_length(network).values()])))
+    
+    #build the list describing the distribution of indegrees, outdegrees and distances of the real network
+    #item k is the number of nodes of degree k
+    f = open(results_path, 'r')
+    lines = f.readlines()
+    hist_goal_degree = eval(lines[2])
+    hist_goal_distances = eval(lines[3])
+    
+    #this function compares list and return the difference in 
+    result = compare(hist_test_degree,hist_goal_degree ) + compare(hist_test_distances,hist_goal_distances ) 
+    f.close() 
+    return result
                   
 def compare(list1, list2):
-    #compare 2 arrays by appending with zeros the little one
-    #gives the sum of absolute differences between corresponding items of both arrays
+    '''compares 2 arrays by appending with zeros the little one
+    gives the sum of absolute differences between corresponding items of both arrays'''
    
     list1.extend(it.repeat(0,len(list2)-len(list1)))
     list2.extend(it.repeat(0,len(list1)-len(list2)))
@@ -126,24 +151,37 @@ def get_evaluation_datas(graph, **kwargs) :
     #cast to string relevant infos for the evaluation of networks
     # default_method is node_distribution
     evaluation_method = kwargs.get("evaluation_method") 
+    network_type = kwargs.get("network_type")
     if evaluation_method == "degree_distribution" :
-        return degree_distribution(graph)
-    if evaluation_method == "weighted" :
-        return weighted(graph)
+        if network_type == "undirected_weighted"  or network_type == "undirected_unweighted" :
+            return datas_degree_distribution(graph)
+        
+    if evaluation_method == "2distributions" :
+        if network_type == "directed_weighted"  or network_type == "directed_unweighted" :
+            return datas_2distributions_directed(graph)
+        if network_type == "undirected_weighted"  or network_type == "undirected_unweighted" :
+            return datas_2distributions_undirected(graph)
+    raise Exception("no evaluation_method or network_type given")
 
-def degree_distribution(graph) :
+def datas_degree_distribution(graph) :
     result = str(get_histogram(graph.degree().values())) 
    
     return result
 
-def weighted(graph) :
+def datas_2distributions_directed(graph) :
     #results are not weight-dependant because we have no weight on real edges
     indegree = get_histogram(graph.in_degree().values())
     outdegree = get_histogram(graph.out_degree().values())
     #this line converts dict of dict of lengths to list of lists, chain them, then get an histogram 
     shortest_path = get_histogram(list(it.chain.from_iterable([ dict_of_length.values() for dict_of_length in nx.shortest_path_length(graph).values()])))
-    
     return '\n'.join([str(indegree),str(outdegree),str(shortest_path)])
+
+def datas_2distributions_undirected(graph) :
+    #results are not weight-dependant because we have no weight on real edges
+    indegree = get_histogram(graph.degree().values())
+    #this line converts dict of dict of lengths to list of lists, chain them, then get an histogram 
+    shortest_path = get_histogram(list(it.chain.from_iterable([ dict_of_length.values() for dict_of_length in nx.shortest_path_length(graph).values()])))
+    return '\n'.join([str(indegree),str(shortest_path)])
     
 def get_number_of_nodes(results_path):    
     f = open(results_path, 'r')

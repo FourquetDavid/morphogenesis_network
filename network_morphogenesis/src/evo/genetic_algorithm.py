@@ -6,10 +6,12 @@ inspired by Telmo Menezes's work : telmomenezes.com
 import random
 import network_development as nd
 import network_evaluation as ne 
-import pyevolve as py 
-from pyevolve import *
+import pyevolve as py
 import statistics as st
 import evaluation_method_options as emo
+import randomization_control as rc
+import pyevolve.GAllele as gall
+import pyevolve.GSimpleGA as gsga
 
 
 """ 
@@ -33,10 +35,13 @@ def new_genome(results_path,**kwargs):
                 possible initializator : "grow" : "grow" algorithm of network = recursive and possibly incomplete
                 possible mutator : "simple" : change genomic alleles with possible alleles with probability pmut
                 possible crossover :
-                possible evaluator : "degree_distribution"
+                possible evaluator : "degree_distribution", "2distributions"
+                possible network-type : "directed_weighted", "directed_unweighted", "undirected_weighted", "undirected_unweighted"
+                possible tree_type : "with_constants"
      '''  
-    evaluation_method = kwargs.get("evaluation_method")      
-    choices = emo.get_alleles(evaluation_method)
+    evaluation_method = kwargs.get("evaluation_method")
+    network_type =kwargs.get("network_type")    
+    choices = emo.get_alleles(evaluation_method,network_type)
     genome = py.GTree.GTree()
    
     
@@ -45,30 +50,32 @@ def new_genome(results_path,**kwargs):
     genome.setParams(results_path=results_path)
     
 
-    #define alleles : one array containing possible leaves and one containing possible functions
-    alleles = py.GAllele.GAlleles()
-    lst = py.GAllele.GAlleleList(choices)
+    #defines alleles : one array containing possible leaves and one containing possible functions
+    alleles = gall.GAlleles()
+    lst = gall.GAlleleList(choices)
     alleles.add(lst)
     genome.setParams(allele=alleles)
     
-    #define the way to construct a random tree
+    #defines the way to construct a random tree
     genome.setParams(max_depth=int(kwargs.get("max_depth","3"))) 
     genome.setParams(max_siblings=int(kwargs.get("max_siblings","2")))
     
-    genome.setParams(init_method = kwargs.get("init_method","default_init"))
+    genome.setParams(tree_type = kwargs.get("tree_type","default"))
     genome.initializator.set(tree_init)
     
-    #define the how to evaluate a genome
+    #defines the how to evaluate a genome
     genome.setParams(evaluation_method = evaluation_method)
     genome.evaluator.set(eval_func)
     
-    #define the crossover function - default now
+    #defines the crossover function - default now
     
-    #define the function that mutates trees
-    genome.setParams(mutation_method = kwargs.get("mutation_method","default_mutation"))
+    #defines the function that mutates trees
     genome.mutator.set(mutate_tree)
     
-    tree_init(genome)
+    #defines the network_type
+    genome.setParams(network_type = network_type)
+    
+    #tree_init(genome)
     return genome
 
 def evolve(genome,**kwargs):  
@@ -78,17 +85,17 @@ def evolve(genome,**kwargs):
                 returns infos about the best individual
     '''
     #depending on the evaluation_method, we will have different goals
-    goal = emo.get_goal( kwargs.get("evaluation_method"))         
+    goal = emo.get_goal(genome.getParam("evaluation_method"))         
     multiprocessing = kwargs.get("multiprocessing",False)   
     #genetic_algorithm = kwargs.get("genetic_algorithm","default_algorithm")
     
-    algo = py.GSimpleGA.GSimpleGA(genome)
+    algo = gsga.GSimpleGA(genome)
     algo.setMultiProcessing(multiprocessing)
 
     
     
     #the selector is used to choose which ones will be parents of the next generation
-    algo.selector.set(Selectors.GRouletteWheel)
+    algo.selector.set(py.Selectors.GRouletteWheel)
     
     #elitism will keep the top individuals with their score in the next generation : 
     #it can help us to keep track of some of the best graph generations
@@ -122,25 +129,28 @@ def evolve(genome,**kwargs):
 '''
 Functions that build trees
 '''
-  
+
 def tree_init(genome,**args):
     max_depth = genome.getParam("max_depth")
     max_siblings = genome.getParam("max_siblings")
     allele = genome.getParam("allele")
     
-    init_method = genome.getParam("init_method")
-    if init_method == "grow" :
-        root = buildGTreeGrow(0, allele[0][0],allele[0][1], max_siblings, max_depth)
-    else :
+    tree_type = genome.getParam("tree_type")
+    if tree_type == "with_constants" :
+        root = buildGTreeGrowWithConstants(0, allele[0][0],allele[0][1], max_siblings, max_depth) 
+    if tree_type == "simple" :
         #default method
-        root = buildGTreeGrow(0, allele[0][0],allele[0][1], max_siblings, max_depth)
-            
+        root = buildGTreeGrow(0, allele[0][0],allele[0][1], max_siblings, max_depth)       
     genome.setRoot(root)
     genome.processNodes()
     assert genome.getHeight() <= max_depth
     
 
 def buildGTreeGrow(depth, value_callback, value_leaf, max_siblings, max_depth):
+    ''' this function build tree with a maximal depth recursively : 
+    at each step it has a probability of 0,5 of being a leaf , 0,5 of having two childs:
+    a leaf contains variables, a node contains functions
+    '''
     random_value = random.choice(value_callback)
     random_value_leaf =  random.choice(value_leaf)
     n = py.GTree.GTreeNode(0)
@@ -155,6 +165,33 @@ def buildGTreeGrow(depth, value_callback, value_leaf, max_siblings, max_depth):
         n.addChild(child)
         
         child = buildGTreeGrow(depth + 1, value_callback, value_leaf, max_siblings, max_depth)
+        child.setParent(n)
+        n.addChild(child)
+    
+    if n.isLeaf() : 
+        n.setData(random_value_leaf)
+    else :
+        n.setData(random_value)
+    return n
+
+def buildGTreeGrowWithConstants(depth, value_callback, value_leaf, max_siblings, max_depth):
+    ''' this is the same as the previous function but leaves contain a constant and variable
+    the constant is decided by the module of control of randomization
+    '''
+    random_value = random.choice(value_callback)
+    random_value_leaf =  [rc.new_constant(),random.choice(value_leaf)]
+    n = py.GTree.GTreeNode(0)
+
+    if depth == max_depth: 
+        n.setData(random_value_leaf)
+        return n
+
+    if py.Util.randomFlipCoin(0.5) :
+        child = buildGTreeGrowWithConstants(depth + 1, value_callback, value_leaf, max_siblings, max_depth)
+        child.setParent(n)
+        n.addChild(child)
+        
+        child = buildGTreeGrowWithConstants(depth + 1, value_callback, value_leaf, max_siblings, max_depth)
         child.setParent(n)
         n.addChild(child)
     
@@ -182,19 +219,45 @@ def simple_mutate_tree(genome, **args):
                 node.setData(random.choice(allele[0][0]))
     return mutations
 
+def mutate_tree_with_constants(genome, **args):
+    ''' this mutates the constant part, the variable part of the leaves or the function in a node
+    mutations add a random number to previous constant
+    mutations change function and variable randomly
+    ''' 
+    mutations = 0
+    allele = genome.getParam("allele")
+    for node in genome.getAllNodes() :
+        if node.isLeaf() :
+            #potentially change constant in leaf 
+            if py.Util.randomFlipCoin(args["pmut"]):
+                mutations += 1 
+                constant, variable = node.getData()
+                node.setData([rc.mutated_constant(constant),variable])
+            #potentially change the variable in leaf
+            if py.Util.randomFlipCoin(args["pmut"]):
+                mutations += 1
+                constant, variable = node.getData()
+                node.setData([constant,random.choice(allele[0][1])])
+        else :
+            #potentially change function in node
+            if py.Util.randomFlipCoin(args["pmut"]):
+                mutations += 1
+                node.setData(random.choice(allele[0][0]))  
+    return mutations
+
 def mutate_tree(genome, **args):
-    mutation_method = genome.getParam("mutation_method")
-    if mutation_method == "simple_mutation" :
+    mutation_method = genome.getParam("tree_type")
+    if mutation_method == "with_constants" :
+        return mutate_tree_with_constants(genome,**args)
+    if mutation_method == "simple" : 
         return simple_mutate_tree(genome, **args)
-    #default method
-    return simple_mutate_tree(genome, **args)
+    raise Exception("no tree_type given") 
     
 '''
 Functions that evaluate trees
 '''
 
 def eval_func(chromosome):
-    net = nd.grow_network(chromosome,int(chromosome.getParam("nb_nodes")),int(chromosome.getParam("nb_edges")),
-                          evaluation_method=chromosome.getParam("evaluation_method"))
-    score = ne.eval_network(net,chromosome.getParam("results_path"),evaluation_method=chromosome.getParam("evaluation_method"))                          
+    net = nd.grow_network(chromosome )
+    score = ne.eval_network(net,chromosome.getParam("results_path"),evaluation_method=chromosome.getParam("evaluation_method"),network_type = chromosome.getParam("network_type"))                          
     return score  

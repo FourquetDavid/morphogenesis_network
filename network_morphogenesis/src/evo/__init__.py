@@ -18,33 +18,50 @@ it stores datas from the real network necessary to the chosen evaluation method
 define the genetic algorithm and its grammar
 and call it
 '''
-
+#@profile
 def main() :
-    
-    #possible arguments : 
-#*evaluation_method : the method used to evaluate the proximity between real network and generated network
-#                        possible values : "degree_distribution""weighted"
-    evaluation_method ="degree_distribution"
-    multiprocessing = True
-    
+    if len(sys.argv) > 1 : numero= sys.argv[1]
+    else : numero = 0
+
+    evaluation_method ="2distributions"
+    tree_type = "with_constants"
+    network_type = "undirected_unweighted"
+    network = "karate_undirected"
+    multiprocessing = False
+    data_path = '../../data/{}.gml'.format(network)
+    results_path ='../../results/{}_{}.txt'.format(network,evaluation_method)
+    stats_path = '../../results/{}_{}_stats{}.txt'.format(network,evaluation_method,numero)
+    nb_generations =10
+    freq_stats =5
     #do not display numpy warnings     
     np.seterr('ignore') 
+ 
     
 #arguments : path to the real network, path to print datas
-    ne.get_datas_from_real_network('../../data/karate.gml',
-                               '../../results/karate_weighted.txt',
-                               evaluation_method= evaluation_method)
+    #possible arguments : 
+#*evaluation_method : the method used to evaluate the proximity between real network and generated network
+#                        possible values : "degree_distribution""2distributions"(= degree + distance distribution)
+    ne.get_datas_from_real_network(data_path,
+                               results_path,
+                               evaluation_method= evaluation_method,
+                               network_type = network_type)
     
     
 #arguments : path to datas about the real network
 #optional arguments for genome : 
 #*max_depth : maximal depth of the decision tree that defines a genome 
 #             possible values : int > 0
-#*init_method : method to build a decision tree
-#                        possible values : "grow"
+#evaluation_method : the method used to evaluate the proximity between real network and generated network
+#                        possible values : "degree_distribution""3distributions"
+#tree_type : the type of the trees used to stores genomes : with or without constants in leaves
+#                        possible values : "with_constants" "simple"
+#network_type : the type of the networks studied and generated : directed or not
+#                possible values : "(un)weighted_(un)directed"
     genome = ga.new_genome(
-                       '../../results/karate_weighted.txt',
-                       evaluation_method= evaluation_method
+                       results_path,
+                       evaluation_method= evaluation_method,
+                       tree_type = tree_type,
+                       network_type = network_type
                        )
     
     
@@ -54,11 +71,11 @@ def main() :
 #*freq_stats : number of generations between two prints of statistics 
 #                   possible values : int > 0 : default : 5
 #*stats_path : path to the file where the stats will be printed 
-#                   
-    if len(sys.argv) > 1 : numero= sys.argv[1]
-    else : numero = 0
+#*multiprocessing : will use or not multiprocessing 
+#                possible values : True False
+    
 
-    ga.evolve(genome,stats_path = '../../results/karate_weighted_stats{}.txt'.format(numero), nb_generations =100,freq_stats = 5, multiprocessing = multiprocessing)
+    ga.evolve(genome,stats_path = stats_path , nb_generations =nb_generations,freq_stats = freq_stats, multiprocessing = multiprocessing)
 
 if __name__ == "__main__":
     main()
