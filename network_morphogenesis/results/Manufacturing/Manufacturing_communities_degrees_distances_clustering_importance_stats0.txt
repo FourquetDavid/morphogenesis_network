@@ -1,0 +1,123 @@
+number of generations = 11 
+evaluation_method = communities_degrees_distances_clustering_importance 
+network_type = undirected_unweighted 
+tree_type = with_constants 
+selector = Slot [Selector] (Count: 1)
+		Name: GRouletteWheel - Weight: 0.50
+		Doc:  The Roulette Wheel selector 
+ 
+multiprocessing = False 
+#####      Generation  0   ###########
+- Statistics
+	Minimum raw score                             = 0.25
+	Fitness average                               = 0.52
+	Minimum fitness                               = 0.37
+	Raw scores variance                           = 0.03
+	Standard deviation of raw scores              = 0.16
+	Average of raw scores                         = 0.52
+	Maximum fitness                               = 0.63
+	Maximum raw score                             = 0.71
+######### Arbre num 0 ###########
+0.710992621142GTreeNodeBase [Childs=2] - [min]
+  GTreeNodeBase [Childs=0] - [[0.30535471842971557, 'NormalizedTargId']]
+  GTreeNodeBase [Childs=0] - [[6.917718839400816, 'Random']]
+######### Arbre num 1 ###########
+0.709245413937GTreeNodeBase [Childs=0] - [[1.2580227945126787, 'OrigDegree']]
+######### Arbre num 2 ###########
+0.677109798395GTreeNodeBase [Childs=0] - [[4.293992103864291, 'NormalizedOrigId']]
+######### Arbre num 3 ###########
+0.672898481859GTreeNodeBase [Childs=2] - [abs]
+  GTreeNodeBase [Childs=0] - [[7.212809947131079, 'OrigDegree']]
+  GTreeNodeBase [Childs=0] - [[4.274256621966113, 'Distance']]
+######### Arbre num 4 ###########
+0.672867049363GTreeNodeBase [Childs=0] - [[0.038124445688454814, 'NormalizedTargId']]
+#####      Generation  5   ###########
+- Statistics
+	Minimum raw score                             = 0.53
+	Fitness average                               = 0.62
+	Minimum fitness                               = 0.53
+	Raw scores variance                           = 0.00
+	Standard deviation of raw scores              = 0.04
+	Average of raw scores                         = 0.62
+	Maximum fitness                               = 0.75
+	Maximum raw score                             = 0.74
+######### Arbre num 0 ###########
+0.737903875913GTreeNodeBase [Childs=2] - [/]
+  GTreeNodeBase [Childs=0] - [[4.8039936299557375, 'Distance']]
+  GTreeNodeBase [Childs=0] - [[3.497223387067649, 'OrigId']]
+######### Arbre num 1 ###########
+0.733888458782GTreeNodeBase [Childs=2] - [/]
+  GTreeNodeBase [Childs=0] - [[4.8039936299557375, 'Distance']]
+  GTreeNodeBase [Childs=2] - [-]
+    GTreeNodeBase [Childs=0] - [[3.497223387067649, 'OrigId']]
+    GTreeNodeBase [Childs=0] - [[3.789383407200049, 'NormalizedOrigId']]
+######### Arbre num 2 ###########
+0.688171658507GTreeNodeBase [Childs=2] - [-]
+  GTreeNodeBase [Childs=0] - [[0.7206791108657279, 'NormalizedOrigId']]
+  GTreeNodeBase [Childs=2] - [opp]
+    GTreeNodeBase [Childs=0] - [[3.7965933341521896, 'OrigDegree']]
+    GTreeNodeBase [Childs=0] - [[1.581571299129614, 'NormalizedDistance']]
+######### Arbre num 3 ###########
+0.682814781076GTreeNodeBase [Childs=0] - [[3.497223387067649, 'OrigId']]
+######### Arbre num 4 ###########
+0.681993306875GTreeNodeBase [Childs=0] - [[0.3605495230934039, 'OrigId']]
+#####      Generation  10   ###########
+- Statistics
+	Minimum raw score                             = 0.55
+	Fitness average                               = 0.63
+	Minimum fitness                               = 0.54
+	Raw scores variance                           = 0.00
+	Standard deviation of raw scores              = 0.04
+	Average of raw scores                         = 0.63
+	Maximum fitness                               = 0.75
+	Maximum raw score                             = 0.74
+######### Arbre num 0 ###########
+0.737903875913GTreeNodeBase [Childs=2] - [/]
+  GTreeNodeBase [Childs=0] - [[4.8039936299557375, 'Distance']]
+  GTreeNodeBase [Childs=0] - [[3.497223387067649, 'OrigId']]
+######### Arbre num 1 ###########
+0.733184912887GTreeNodeBase [Childs=2] - [/]
+  GTreeNodeBase [Childs=0] - [[3.497223387067649, 'NormalizedDistance']]
+  GTreeNodeBase [Childs=0] - [[1.5357162358994112, 'TargId']]
+######### Arbre num 2 ###########
+0.70805285986GTreeNodeBase [Childs=0] - [[0.05725875408199019, 'TargId']]
+######### Arbre num 3 ###########
+0.696428351288GTreeNodeBase [Childs=0] - [[3.7965933341521896, 'OrigDegree']]
+######### Arbre num 4 ###########
+0.689080138822GTreeNodeBase [Childs=2] - [*]
+  GTreeNodeBase [Childs=0] - [[0.3605495230934039, 'OrigId']]
+  GTreeNodeBase [Childs=0] - [[3.547657602720491, 'NormalizedOrigId']]
+#####      Generation  11   ###########
+- Statistics
+	Minimum raw score                             = 0.48
+	Fitness average                               = 0.62
+	Minimum fitness                               = 0.47
+	Raw scores variance                           = 0.00
+	Standard deviation of raw scores              = 0.04
+	Average of raw scores                         = 0.62
+	Maximum fitness                               = 0.75
+	Maximum raw score                             = 0.74
+######### Arbre num 0 ###########
+0.737903875913GTreeNodeBase [Childs=2] - [/]
+  GTreeNodeBase [Childs=0] - [[4.8039936299557375, 'Distance']]
+  GTreeNodeBase [Childs=0] - [[3.497223387067649, 'OrigId']]
+######### Arbre num 1 ###########
+0.730216520988GTreeNodeBase [Childs=2] - [inv]
+  GTreeNodeBase [Childs=0] - [[0.3605495230934039, 'OrigId']]
+  GTreeNodeBase [Childs=2] - [log]
+    GTreeNodeBase [Childs=0] - [[3.7965933341521896, 'OrigDegree']]
+    GTreeNodeBase [Childs=0] - [[1.5357162358994112, 'NormalizedTargDegree']]
+######### Arbre num 2 ###########
+0.717978244694GTreeNodeBase [Childs=2] - [/]
+  GTreeNodeBase [Childs=0] - [[1.9466297456874824, 'NumberOfEdges']]
+  GTreeNodeBase [Childs=0] - [[3.497223387067649, 'OrigId']]
+######### Arbre num 3 ###########
+0.70354505629GTreeNodeBase [Childs=2] - [/]
+  GTreeNodeBase [Childs=0] - [[4.8039936299557375, 'Distance']]
+  GTreeNodeBase [Childs=0] - [[0.3605495230934039, 'OrigId']]
+######### Arbre num 4 ###########
+0.680373755405GTreeNodeBase [Childs=2] - [*]
+  GTreeNodeBase [Childs=0] - [[0.3605495230934039, 'OrigId']]
+  GTreeNodeBase [Childs=2] - [abs]
+    GTreeNodeBase [Childs=0] - [[1.9466297456874824, 'NumberOfEdges']]
+    GTreeNodeBase [Childs=0] - [[3.497223387067649, 'OrigId']]

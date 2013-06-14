@@ -1,0 +1,1012 @@
+#####      Generation  0   ###########
+- Statistics
+	Minimum raw score                             = 16.00
+	Fitness average                               = 29.80
+	Minimum fitness                               = 25.73
+	Raw scores variance                           = 31.45
+	Standard deviation of raw scores              = 5.61
+	Average of raw scores                         = 29.80
+	Maximum fitness                               = 35.76
+	Maximum raw score                             = 50.00
+######### Arbre num 0 ###########
+25.7283168317GTreeNodeBase [Childs=2] - [max]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=2] - [min]
+      GTreeNodeBase [Childs=0] - [OrigId]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+    GTreeNodeBase [Childs=2] - [+]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=2] - [min]
+    GTreeNodeBase [Childs=2] - [min]
+      GTreeNodeBase [Childs=0] - [TargInDegree]
+      GTreeNodeBase [Childs=0] - [TargInDegree]
+    GTreeNodeBase [Childs=2] - [max]
+      GTreeNodeBase [Childs=0] - [OrigId]
+      GTreeNodeBase [Childs=0] - [OrigId]
+######### Arbre num 1 ###########
+26.3184158416GTreeNodeBase [Childs=2] - [max]
+  GTreeNodeBase [Childs=2] - [max]
+    GTreeNodeBase [Childs=2] - [max]
+      GTreeNodeBase [Childs=0] - [OrigId]
+      GTreeNodeBase [Childs=0] - [TargInDegree]
+    GTreeNodeBase [Childs=2] - [+]
+      GTreeNodeBase [Childs=0] - [TargId]
+      GTreeNodeBase [Childs=0] - [OrigId]
+  GTreeNodeBase [Childs=2] - [+]
+    GTreeNodeBase [Childs=2] - [-]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+      GTreeNodeBase [Childs=0] - [OrigId]
+    GTreeNodeBase [Childs=2] - [max]
+      GTreeNodeBase [Childs=0] - [OrigId]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 2 ###########
+26.3184158416GTreeNodeBase [Childs=0] - [TargId]
+######### Arbre num 3 ###########
+26.9085148515GTreeNodeBase [Childs=0] - [OrigId]
+######### Arbre num 4 ###########
+26.9085148515GTreeNodeBase [Childs=2] - [max]
+  GTreeNodeBase [Childs=0] - [TargId]
+  GTreeNodeBase [Childs=2] - [min]
+    GTreeNodeBase [Childs=0] - [OrigOutDegree]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+#####      Generation  5   ###########
+- Statistics
+	Minimum raw score                             = 16.00
+	Fitness average                               = 29.82
+	Minimum fitness                               = 19.74
+	Raw scores variance                           = 23.11
+	Standard deviation of raw scores              = 4.81
+	Average of raw scores                         = 29.82
+	Maximum fitness                               = 35.79
+	Maximum raw score                             = 38.00
+######### Arbre num 0 ###########
+19.7374006116GTreeNodeBase [Childs=2] - [+]
+  GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=2] - [+]
+    GTreeNodeBase [Childs=0] - [OrigId]
+    GTreeNodeBase [Childs=2] - [max]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+######### Arbre num 1 ###########
+21.1967278287GTreeNodeBase [Childs=2] - [min]
+  GTreeNodeBase [Childs=0] - [TargId]
+  GTreeNodeBase [Childs=2] - [-]
+    GTreeNodeBase [Childs=0] - [TargInDegree]
+    GTreeNodeBase [Childs=0] - [OrigId]
+######### Arbre num 2 ###########
+22.6560550459GTreeNodeBase [Childs=2] - [+]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=0] - [TargInDegree]
+######### Arbre num 3 ###########
+22.6560550459GTreeNodeBase [Childs=2] - [*]
+  GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 4 ###########
+22.6560550459GTreeNodeBase [Childs=0] - [OrigInDegree]
+#####      Generation  10   ###########
+- Statistics
+	Minimum raw score                             = 14.00
+	Fitness average                               = 28.40
+	Minimum fitness                               = 21.35
+	Raw scores variance                           = 22.72
+	Standard deviation of raw scores              = 4.77
+	Average of raw scores                         = 28.40
+	Maximum fitness                               = 34.08
+	Maximum raw score                             = 40.00
+######### Arbre num 0 ###########
+21.3489655172GTreeNodeBase [Childs=2] - [+]
+  GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=2] - [+]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [TargInDegree]
+######### Arbre num 1 ###########
+23.3075862069GTreeNodeBase [Childs=2] - [min]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [TargInDegree]
+  GTreeNodeBase [Childs=2] - [-]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 2 ###########
+24.2868965517GTreeNodeBase [Childs=0] - [OrigId]
+######### Arbre num 3 ###########
+24.2868965517GTreeNodeBase [Childs=2] - [+]
+  GTreeNodeBase [Childs=2] - [min]
+    GTreeNodeBase [Childs=0] - [TargId]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=0] - [TargInDegree]
+######### Arbre num 4 ###########
+25.2662068966GTreeNodeBase [Childs=2] - [-]
+  GTreeNodeBase [Childs=0] - [TargId]
+  GTreeNodeBase [Childs=0] - [OrigOutDegree]
+#####      Generation  15   ###########
+- Statistics
+	Minimum raw score                             = 14.00
+	Fitness average                               = 28.52
+	Minimum fitness                               = 19.78
+	Raw scores variance                           = 24.89
+	Standard deviation of raw scores              = 4.99
+	Average of raw scores                         = 28.52
+	Maximum fitness                               = 34.23
+	Maximum raw score                             = 38.00
+######### Arbre num 0 ###########
+19.7793403694GTreeNodeBase [Childs=2] - [+]
+  GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=2] - [+]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [TargInDegree]
+######### Arbre num 1 ###########
+22.1877836412GTreeNodeBase [Childs=0] - [OrigId]
+######### Arbre num 2 ###########
+22.1877836412GTreeNodeBase [Childs=2] - [-]
+  GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigId]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=2] - [min]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigId]
+######### Arbre num 3 ###########
+23.392005277GTreeNodeBase [Childs=2] - [min]
+  GTreeNodeBase [Childs=0] - [TargId]
+  GTreeNodeBase [Childs=2] - [min]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=2] - [min]
+      GTreeNodeBase [Childs=0] - [OrigId]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 4 ###########
+23.392005277GTreeNodeBase [Childs=2] - [+]
+  GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=0] - [OrigOutDegree]
+#####      Generation  20   ###########
+- Statistics
+	Minimum raw score                             = 14.00
+	Fitness average                               = 27.92
+	Minimum fitness                               = 24.40
+	Raw scores variance                           = 33.26
+	Standard deviation of raw scores              = 5.77
+	Average of raw scores                         = 27.93
+	Maximum fitness                               = 33.51
+	Maximum raw score                             = 50.00
+######### Arbre num 0 ###########
+24.4019592299GTreeNodeBase [Childs=2] - [+]
+  GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=2] - [+]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [TargInDegree]
+######### Arbre num 1 ###########
+25.4139637599GTreeNodeBase [Childs=2] - [-]
+  GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=2] - [min]
+    GTreeNodeBase [Childs=0] - [TargInDegree]
+    GTreeNodeBase [Childs=0] - [TargId]
+######### Arbre num 2 ###########
+25.4139637599GTreeNodeBase [Childs=2] - [min]
+  GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigId]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=2] - [min]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 3 ###########
+25.9199660249GTreeNodeBase [Childs=2] - [+]
+  GTreeNodeBase [Childs=0] - [OrigId]
+  GTreeNodeBase [Childs=0] - [OrigId]
+######### Arbre num 4 ###########
+25.9199660249GTreeNodeBase [Childs=0] - [OrigId]
+#####      Generation  25   ###########
+- Statistics
+	Minimum raw score                             = 12.00
+	Fitness average                               = 28.62
+	Minimum fitness                               = 25.59
+	Raw scores variance                           = 43.00
+	Standard deviation of raw scores              = 6.56
+	Average of raw scores                         = 28.62
+	Maximum fitness                               = 34.35
+	Maximum raw score                             = 60.00
+######### Arbre num 0 ###########
+25.5914342629GTreeNodeBase [Childs=2] - [+]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigId]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 1 ###########
+26.6862549801GTreeNodeBase [Childs=2] - [-]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=0] - [TargInDegree]
+######### Arbre num 2 ###########
+26.6862549801GTreeNodeBase [Childs=2] - [-]
+  GTreeNodeBase [Childs=0] - [OrigOutDegree]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=0] - [OrigId]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 3 ###########
+26.6862549801GTreeNodeBase [Childs=2] - [-]
+  GTreeNodeBase [Childs=2] - [+]
+    GTreeNodeBase [Childs=2] - [-]
+      GTreeNodeBase [Childs=0] - [OrigId]
+      GTreeNodeBase [Childs=0] - [TargInDegree]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigId]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=2] - [min]
+      GTreeNodeBase [Childs=0] - [TargInDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 4 ###########
+26.6862549801GTreeNodeBase [Childs=2] - [-]
+  GTreeNodeBase [Childs=0] - [OrigId]
+  GTreeNodeBase [Childs=2] - [+]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigId]
+#####      Generation  30   ###########
+- Statistics
+	Minimum raw score                             = 12.00
+	Fitness average                               = 28.05
+	Minimum fitness                               = 19.00
+	Raw scores variance                           = 30.48
+	Standard deviation of raw scores              = 5.52
+	Average of raw scores                         = 28.05
+	Maximum fitness                               = 33.66
+	Maximum raw score                             = 38.00
+######### Arbre num 0 ###########
+19.0007035176GTreeNodeBase [Childs=2] - [+]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigId]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 1 ###########
+21.2559798995GTreeNodeBase [Childs=2] - [+]
+  GTreeNodeBase [Childs=0] - [OrigId]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 2 ###########
+21.2559798995GTreeNodeBase [Childs=2] - [*]
+  GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=2] - [-]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigId]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigId]
+######### Arbre num 3 ###########
+21.2559798995GTreeNodeBase [Childs=2] - [+]
+  GTreeNodeBase [Childs=2] - [+]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=2] - [+]
+      GTreeNodeBase [Childs=0] - [TargInDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 4 ###########
+22.3836180905GTreeNodeBase [Childs=2] - [-]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigId]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=0] - [OrigId]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+#####      Generation  35   ###########
+- Statistics
+	Minimum raw score                             = 12.00
+	Fitness average                               = 28.25
+	Minimum fitness                               = 21.57
+	Raw scores variance                           = 25.86
+	Standard deviation of raw scores              = 5.09
+	Average of raw scores                         = 28.25
+	Maximum fitness                               = 33.90
+	Maximum raw score                             = 42.00
+######### Arbre num 0 ###########
+21.5727272727GTreeNodeBase [Childs=2] - [+]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigId]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 1 ###########
+24.0381818182GTreeNodeBase [Childs=2] - [-]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=2] - [max]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigId]
+    GTreeNodeBase [Childs=0] - [OrigId]
+  GTreeNodeBase [Childs=0] - [TargInDegree]
+######### Arbre num 2 ###########
+24.86GTreeNodeBase [Childs=2] - [-]
+  GTreeNodeBase [Childs=2] - [-]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigId]
+  GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 3 ###########
+24.86GTreeNodeBase [Childs=2] - [-]
+  GTreeNodeBase [Childs=0] - [OrigId]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=0] - [OrigId]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 4 ###########
+24.86GTreeNodeBase [Childs=0] - [OrigInDegree]
+#####      Generation  40   ###########
+- Statistics
+	Minimum raw score                             = 12.00
+	Fitness average                               = 27.48
+	Minimum fitness                               = 17.50
+	Raw scores variance                           = 26.20
+	Standard deviation of raw scores              = 5.12
+	Average of raw scores                         = 27.48
+	Maximum fitness                               = 32.97
+	Maximum raw score                             = 36.00
+######### Arbre num 0 ###########
+17.5002052786GTreeNodeBase [Childs=2] - [+]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigId]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 1 ###########
+20.0785043988GTreeNodeBase [Childs=2] - [max]
+  GTreeNodeBase [Childs=2] - [+]
+    GTreeNodeBase [Childs=2] - [+]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=2] - [min]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=2] - [+]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [TargInDegree]
+######### Arbre num 2 ###########
+20.0785043988GTreeNodeBase [Childs=2] - [-]
+  GTreeNodeBase [Childs=2] - [-]
+    GTreeNodeBase [Childs=0] - [OrigOutDegree]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 3 ###########
+21.3676539589GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 4 ###########
+22.6568035191GTreeNodeBase [Childs=2] - [min]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigId]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+#####      Generation  45   ###########
+- Statistics
+	Minimum raw score                             = 12.00
+	Fitness average                               = 26.90
+	Minimum fitness                               = 18.09
+	Raw scores variance                           = 21.66
+	Standard deviation of raw scores              = 4.65
+	Average of raw scores                         = 26.90
+	Maximum fitness                               = 32.28
+	Maximum raw score                             = 36.00
+######### Arbre num 0 ###########
+18.090989011GTreeNodeBase [Childs=2] - [+]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigId]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 1 ###########
+20.4558241758GTreeNodeBase [Childs=2] - [max]
+  GTreeNodeBase [Childs=2] - [+]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 2 ###########
+21.6382417582GTreeNodeBase [Childs=2] - [+]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigId]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [TargInDegree]
+######### Arbre num 3 ###########
+21.6382417582GTreeNodeBase [Childs=2] - [+]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigId]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [TargInDegree]
+######### Arbre num 4 ###########
+22.8206593407GTreeNodeBase [Childs=2] - [+]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigId]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+#####      Generation  50   ###########
+- Statistics
+	Minimum raw score                             = 12.00
+	Fitness average                               = 27.90
+	Minimum fitness                               = 22.39
+	Raw scores variance                           = 34.62
+	Standard deviation of raw scores              = 5.88
+	Average of raw scores                         = 27.90
+	Maximum fitness                               = 33.48
+	Maximum raw score                             = 44.00
+######### Arbre num 0 ###########
+22.3893167702GTreeNodeBase [Childs=2] - [+]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigId]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 1 ###########
+24.4688198758GTreeNodeBase [Childs=2] - [+]
+  GTreeNodeBase [Childs=2] - [+]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+      GTreeNodeBase [Childs=0] - [OrigId]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=2] - [max]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [TargInDegree]
+######### Arbre num 2 ###########
+24.4688198758GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 3 ###########
+24.4688198758GTreeNodeBase [Childs=2] - [*]
+  GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 4 ###########
+24.4688198758GTreeNodeBase [Childs=2] - [max]
+  GTreeNodeBase [Childs=0] - [OrigId]
+  GTreeNodeBase [Childs=2] - [+]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigId]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+#####      Generation  55   ###########
+- Statistics
+	Minimum raw score                             = 12.00
+	Fitness average                               = 26.42
+	Minimum fitness                               = 23.19
+	Raw scores variance                           = 40.48
+	Standard deviation of raw scores              = 6.36
+	Average of raw scores                         = 26.43
+	Maximum fitness                               = 31.71
+	Maximum raw score                             = 50.00
+######### Arbre num 0 ###########
+23.1912301166GTreeNodeBase [Childs=2] - [min]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigOutDegree]
+  GTreeNodeBase [Childs=2] - [max]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigOutDegree]
+######### Arbre num 1 ###########
+23.6395864263GTreeNodeBase [Childs=2] - [*]
+  GTreeNodeBase [Childs=2] - [-]
+    GTreeNodeBase [Childs=0] - [OrigOutDegree]
+    GTreeNodeBase [Childs=2] - [+]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 2 ###########
+24.0879427359GTreeNodeBase [Childs=2] - [max]
+  GTreeNodeBase [Childs=0] - [OrigOutDegree]
+  GTreeNodeBase [Childs=0] - [TargInDegree]
+######### Arbre num 3 ###########
+24.0879427359GTreeNodeBase [Childs=2] - [-]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 4 ###########
+24.0879427359GTreeNodeBase [Childs=0] - [OrigInDegree]
+#####      Generation  60   ###########
+- Statistics
+	Minimum raw score                             = 12.00
+	Fitness average                               = 27.53
+	Minimum fitness                               = 24.89
+	Raw scores variance                           = 63.01
+	Standard deviation of raw scores              = 7.94
+	Average of raw scores                         = 27.52
+	Maximum fitness                               = 33.03
+	Maximum raw score                             = 60.00
+######### Arbre num 0 ###########
+24.8932794457GTreeNodeBase [Childs=2] - [+]
+  GTreeNodeBase [Childs=2] - [-]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigId]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 1 ###########
+25.5713394919GTreeNodeBase [Childs=2] - [-]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigOutDegree]
+  GTreeNodeBase [Childs=2] - [+]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=2] - [+]
+      GTreeNodeBase [Childs=0] - [TargInDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 2 ###########
+25.910369515GTreeNodeBase [Childs=2] - [max]
+  GTreeNodeBase [Childs=0] - [TargId]
+  GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 3 ###########
+25.910369515GTreeNodeBase [Childs=2] - [-]
+  GTreeNodeBase [Childs=2] - [max]
+    GTreeNodeBase [Childs=2] - [-]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [TargInDegree]
+  GTreeNodeBase [Childs=2] - [-]
+    GTreeNodeBase [Childs=0] - [TargInDegree]
+    GTreeNodeBase [Childs=0] - [OrigId]
+######### Arbre num 4 ###########
+25.910369515GTreeNodeBase [Childs=2] - [max]
+  GTreeNodeBase [Childs=0] - [TargId]
+  GTreeNodeBase [Childs=0] - [OrigInDegree]
+#####      Generation  65   ###########
+- Statistics
+	Minimum raw score                             = 12.00
+	Fitness average                               = 28.08
+	Minimum fitness                               = 23.96
+	Raw scores variance                           = 39.13
+	Standard deviation of raw scores              = 6.26
+	Average of raw scores                         = 28.07
+	Maximum fitness                               = 33.69
+	Maximum raw score                             = 50.00
+######### Arbre num 0 ###########
+23.9581870011GTreeNodeBase [Childs=2] - [max]
+  GTreeNodeBase [Childs=2] - [+]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=0] - [TargInDegree]
+######### Arbre num 1 ###########
+24.4703876853GTreeNodeBase [Childs=2] - [-]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=0] - [OrigOutDegree]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=2] - [max]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+######### Arbre num 2 ###########
+24.9825883694GTreeNodeBase [Childs=2] - [-]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=2] - [+]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=2] - [+]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 3 ###########
+25.4947890536GTreeNodeBase [Childs=2] - [-]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=2] - [+]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=2] - [+]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=2] - [+]
+      GTreeNodeBase [Childs=0] - [TargInDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 4 ###########
+26.0069897377GTreeNodeBase [Childs=2] - [+]
+  GTreeNodeBase [Childs=0] - [TargInDegree]
+  GTreeNodeBase [Childs=2] - [max]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+#####      Generation  70   ###########
+- Statistics
+	Minimum raw score                             = 12.00
+	Fitness average                               = 29.78
+	Minimum fitness                               = 25.01
+	Raw scores variance                           = 52.96
+	Standard deviation of raw scores              = 7.28
+	Average of raw scores                         = 29.77
+	Maximum fitness                               = 35.73
+	Maximum raw score                             = 52.00
+######### Arbre num 0 ###########
+25.0123397075GTreeNodeBase [Childs=2] - [*]
+  GTreeNodeBase [Childs=2] - [-]
+    GTreeNodeBase [Childs=0] - [OrigOutDegree]
+    GTreeNodeBase [Childs=2] - [+]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=2] - [min]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 1 ###########
+26.6199887514GTreeNodeBase [Childs=2] - [min]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=2] - [+]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 2 ###########
+27.155871766GTreeNodeBase [Childs=2] - [max]
+  GTreeNodeBase [Childs=2] - [+]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 3 ###########
+27.6917547807GTreeNodeBase [Childs=2] - [max]
+  GTreeNodeBase [Childs=0] - [TargInDegree]
+  GTreeNodeBase [Childs=2] - [+]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=2] - [+]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+######### Arbre num 4 ###########
+27.6917547807GTreeNodeBase [Childs=2] - [+]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=0] - [OrigOutDegree]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=2] - [+]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+#####      Generation  75   ###########
+- Statistics
+	Minimum raw score                             = 12.00
+	Fitness average                               = 28.53
+	Minimum fitness                               = 25.53
+	Raw scores variance                           = 55.97
+	Standard deviation of raw scores              = 7.48
+	Average of raw scores                         = 28.52
+	Maximum fitness                               = 34.23
+	Maximum raw score                             = 60.00
+######### Arbre num 0 ###########
+25.5297617156GTreeNodeBase [Childs=2] - [+]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=0] - [OrigOutDegree]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=2] - [+]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+######### Arbre num 1 ###########
+26.2547815727GTreeNodeBase [Childs=2] - [*]
+  GTreeNodeBase [Childs=2] - [+]
+    GTreeNodeBase [Childs=2] - [+]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=2] - [max]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 2 ###########
+26.2547815727GTreeNodeBase [Childs=2] - [*]
+  GTreeNodeBase [Childs=2] - [-]
+    GTreeNodeBase [Childs=2] - [min]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=2] - [max]
+      GTreeNodeBase [Childs=0] - [TargInDegree]
+      GTreeNodeBase [Childs=0] - [TargId]
+  GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 3 ###########
+26.6172915012GTreeNodeBase [Childs=2] - [*]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=2] - [max]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=2] - [max]
+    GTreeNodeBase [Childs=2] - [+]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 4 ###########
+26.9798014297GTreeNodeBase [Childs=2] - [+]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+#####      Generation  80   ###########
+- Statistics
+	Minimum raw score                             = 12.00
+	Fitness average                               = 29.08
+	Minimum fitness                               = 26.06
+	Raw scores variance                           = 64.60
+	Standard deviation of raw scores              = 8.04
+	Average of raw scores                         = 29.07
+	Maximum fitness                               = 34.89
+	Maximum raw score                             = 62.00
+######### Arbre num 0 ###########
+26.0593242217GTreeNodeBase [Childs=2] - [+]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=0] - [OrigOutDegree]
+    GTreeNodeBase [Childs=2] - [-]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=2] - [+]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+######### Arbre num 1 ###########
+26.4125512528GTreeNodeBase [Childs=2] - [+]
+  GTreeNodeBase [Childs=2] - [+]
+    GTreeNodeBase [Childs=2] - [+]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=2] - [max]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=2] - [+]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+######### Arbre num 2 ###########
+26.765778284GTreeNodeBase [Childs=2] - [+]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=0] - [OrigOutDegree]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=2] - [+]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+######### Arbre num 3 ###########
+27.1190053151GTreeNodeBase [Childs=2] - [min]
+  GTreeNodeBase [Childs=2] - [min]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=0] - [OrigOutDegree]
+######### Arbre num 4 ###########
+27.4722323462GTreeNodeBase [Childs=2] - [max]
+  GTreeNodeBase [Childs=2] - [+]
+    GTreeNodeBase [Childs=0] - [OrigOutDegree]
+    GTreeNodeBase [Childs=2] - [max]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+  GTreeNodeBase [Childs=0] - [OrigInDegree]
+#####      Generation  85   ###########
+- Statistics
+	Minimum raw score                             = 12.00
+	Fitness average                               = 28.45
+	Minimum fitness                               = 25.48
+	Raw scores variance                           = 43.95
+	Standard deviation of raw scores              = 6.63
+	Average of raw scores                         = 28.45
+	Maximum fitness                               = 34.14
+	Maximum raw score                             = 60.00
+######### Arbre num 0 ###########
+25.4832646593GTreeNodeBase [Childs=2] - [max]
+  GTreeNodeBase [Childs=2] - [max]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigOutDegree]
+  GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 1 ###########
+26.204659271GTreeNodeBase [Childs=2] - [*]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigOutDegree]
+  GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 2 ###########
+26.5653565769GTreeNodeBase [Childs=2] - [+]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=0] - [OrigId]
+    GTreeNodeBase [Childs=0] - [OrigOutDegree]
+  GTreeNodeBase [Childs=2] - [+]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [TargId]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=2] - [-]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigId]
+######### Arbre num 3 ###########
+26.5653565769GTreeNodeBase [Childs=2] - [max]
+  GTreeNodeBase [Childs=2] - [max]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigOutDegree]
+  GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 4 ###########
+26.5653565769GTreeNodeBase [Childs=2] - [max]
+  GTreeNodeBase [Childs=0] - [TargId]
+  GTreeNodeBase [Childs=2] - [+]
+    GTreeNodeBase [Childs=0] - [OrigOutDegree]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+#####      Generation  90   ###########
+- Statistics
+	Minimum raw score                             = 12.00
+	Fitness average                               = 28.27
+	Minimum fitness                               = 18.81
+	Raw scores variance                           = 26.40
+	Standard deviation of raw scores              = 5.14
+	Average of raw scores                         = 28.27
+	Maximum fitness                               = 33.93
+	Maximum raw score                             = 38.00
+######### Arbre num 0 ###########
+18.8112339332GTreeNodeBase [Childs=2] - [max]
+  GTreeNodeBase [Childs=2] - [max]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigOutDegree]
+  GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 1 ###########
+21.1371979434GTreeNodeBase [Childs=2] - [*]
+  GTreeNodeBase [Childs=0] - [OrigOutDegree]
+  GTreeNodeBase [Childs=2] - [+]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 2 ###########
+23.4631619537GTreeNodeBase [Childs=2] - [*]
+  GTreeNodeBase [Childs=2] - [+]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 3 ###########
+23.4631619537GTreeNodeBase [Childs=2] - [*]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=2] - [max]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+  GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 4 ###########
+23.4631619537GTreeNodeBase [Childs=2] - [max]
+  GTreeNodeBase [Childs=2] - [max]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+#####      Generation  95   ###########
+- Statistics
+	Minimum raw score                             = 12.00
+	Fitness average                               = 27.98
+	Minimum fitness                               = 20.54
+	Raw scores variance                           = 21.62
+	Standard deviation of raw scores              = 4.65
+	Average of raw scores                         = 27.98
+	Maximum fitness                               = 33.57
+	Maximum raw score                             = 40.00
+######### Arbre num 0 ###########
+20.5421413721GTreeNodeBase [Childs=2] - [max]
+  GTreeNodeBase [Childs=2] - [max]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigOutDegree]
+  GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 1 ###########
+21.4727027027GTreeNodeBase [Childs=2] - [+]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=2] - [+]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [OrigOutDegree]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+######### Arbre num 2 ###########
+24.2643866944GTreeNodeBase [Childs=2] - [max]
+  GTreeNodeBase [Childs=0] - [OrigInDegree]
+  GTreeNodeBase [Childs=0] - [OrigOutDegree]
+######### Arbre num 3 ###########
+25.1949480249GTreeNodeBase [Childs=2] - [min]
+  GTreeNodeBase [Childs=0] - [TargId]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=0] - [OrigId]
+    GTreeNodeBase [Childs=2] - [max]
+      GTreeNodeBase [Childs=0] - [OrigInDegree]
+      GTreeNodeBase [Childs=0] - [TargId]
+######### Arbre num 4 ###########
+25.1949480249GTreeNodeBase [Childs=2] - [min]
+  GTreeNodeBase [Childs=0] - [TargId]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=0] - [OrigOutDegree]
+    GTreeNodeBase [Childs=0] - [OrigInDegree]

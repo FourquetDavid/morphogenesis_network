@@ -1,0 +1,46 @@
+################rule studied###############
+GTreeNodeBase [Childs=0] - [[5, 'TotalWeight']]####################rules found#####################
+GTreeNodeBase [Childs=0] - [[8.61088829276219, 'Constant']]
+4.0
+GTreeNodeBase [Childs=2] - [inv]
+  GTreeNodeBase [Childs=2] - [exp]
+    GTreeNodeBase [Childs=0] - [[-3.962585430591909, 'AverageStrength']]
+    GTreeNodeBase [Childs=2] - [exp]
+      GTreeNodeBase [Childs=0] - [[7.96251983238963, 'NormalizedOrigStrength']]
+      GTreeNodeBase [Childs=0] - [[5.358643609744826, 'NormalizedOrigStrength']]
+  GTreeNodeBase [Childs=2] - [exp]
+    GTreeNodeBase [Childs=2] - [exp]
+      GTreeNodeBase [Childs=0] - [[-1.5957534220181988, 'MaxStrength']]
+      GTreeNodeBase [Childs=0] - [[-4.5322275246552355, 'NormalizedOrigStrength']]
+    GTreeNodeBase [Childs=0] - [[5.358643609744826, 'NormalizedOrigStrength']]
+0.0
+GTreeNodeBase [Childs=2] - [opp]
+  GTreeNodeBase [Childs=0] - [[1.9746646493725228, 'NumberOfNodes']]
+  GTreeNodeBase [Childs=2] - [exp]
+    GTreeNodeBase [Childs=0] - [[1.9746646493725228, 'NormalizedOrigId']]
+    GTreeNodeBase [Childs=2] - [/]
+      GTreeNodeBase [Childs=0] - [[7.721026894059264, 'OrigId']]
+      GTreeNodeBase [Childs=0] - [[15.474922542163235, 'NormalizedTargStrength']]
+0.0
+GTreeNodeBase [Childs=0] - [[8.781280966493277, 'OrigId']]
+0.0
+GTreeNodeBase [Childs=0] - [[2.7556490989569804, 'NormalizedOrigStrength']]
+0.0
+GTreeNodeBase [Childs=0] - [[-1.2486852119342895, 'NumberOfNodes']]
+0.0
+GTreeNodeBase [Childs=2] - [+]
+  GTreeNodeBase [Childs=2] - [min]
+    GTreeNodeBase [Childs=0] - [[8.121227682384674, 'NormalizedTargStrength']]
+    GTreeNodeBase [Childs=0] - [[8.121227682384674, 'NormalizedTargStrength']]
+  GTreeNodeBase [Childs=2] - [exp]
+    GTreeNodeBase [Childs=0] - [[-1.9340751954621884, 'MaxDistance']]
+    GTreeNodeBase [Childs=0] - [[8.121227682384674, 'Constant']]
+0.0
+GTreeNodeBase [Childs=2] - [opp]
+  GTreeNodeBase [Childs=0] - [[2.3909630473624572, 'MaxStrength']]
+  GTreeNodeBase [Childs=0] - [[0.6102873759172822, 'AverageStrength']]
+0.0
+GTreeNodeBase [Childs=0] - [[11.145448258815582, 'Constant']]
+0.0
+GTreeNodeBase [Childs=0] - [[4.087976398744887, 'TotalWeight']]
+0.0

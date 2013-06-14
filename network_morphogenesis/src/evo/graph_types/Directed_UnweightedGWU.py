@@ -16,10 +16,10 @@ import GraphWithUpdate as gwu
 
 class Directed_UnweightedGWU(gwu.GraphWithUpdate,nx.DiGraph):
     
-    def __init__(self):
+    def __init__(self,graph = None,**args):
         """ The creator of DiselfWithUpdate Class """
         
-        nx.DiGraph.__init__(self)
+        nx.DiGraph.__init__(self,graph,args)
         self.shortest_path_dict = None
         self.max_distance = None
         self.max_in_degree = None
@@ -110,7 +110,7 @@ class Directed_UnweightedGWU(gwu.GraphWithUpdate,nx.DiGraph):
         ''' 
         probas =  np.dot( 
                       np.ones((self.number_of_nodes(),1)),
-                      np.array(self.out_degree().values(),dtype=float)
+                      np.array(self.out_degree().values(),dtype=float).reshape(1,-1)
                       )       
         return probas
     

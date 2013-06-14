@@ -16,10 +16,9 @@ import GraphWithUpdate as gwu
 
 class Undirected_WeightedGWU(gwu.GraphWithUpdate,nx.Graph):
     
-    def __init__(self):
+    def __init__(self,graph = None,**args):
         """ The creator of DiGraphWithUpdate Class """
-        
-        nx.Graph.__init__(self)
+        nx.Graph.__init__(self,graph,args)
         self.shortest_path_dict = None
         self.max_distance = None
         self.max_strength = None

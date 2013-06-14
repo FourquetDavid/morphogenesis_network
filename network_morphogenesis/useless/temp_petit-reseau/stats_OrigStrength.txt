@@ -1,0 +1,46 @@
+################rule studied###############
+GTreeNodeBase [Childs=0] - [[5, 'OrigStrength']]####################rules found#####################
+GTreeNodeBase [Childs=2] - [abs]
+  GTreeNodeBase [Childs=0] - [[11.199673061304116, 'AverageWeight']]
+  GTreeNodeBase [Childs=0] - [[-5.489701625086701, 'MaxWeight']]
+0.0
+GTreeNodeBase [Childs=0] - [[1.0670271740829258, 'NormalizedOrigStrength']]
+0.0
+GTreeNodeBase [Childs=0] - [[-7.54043765212251, 'OrigId']]
+0.0
+GTreeNodeBase [Childs=2] - [*]
+  GTreeNodeBase [Childs=0] - [[0.8690453749903416, 'OrigStrength']]
+  GTreeNodeBase [Childs=0] - [[1.7572868017627898, 'Constant']]
+0.0
+GTreeNodeBase [Childs=0] - [[-1.187762859379522, 'NormalizedOrigStrength']]
+0.0
+GTreeNodeBase [Childs=2] - [*]
+  GTreeNodeBase [Childs=2] - [+]
+    GTreeNodeBase [Childs=2] - [+]
+      GTreeNodeBase [Childs=0] - [[12.517030864918542, 'MaxDistance']]
+      GTreeNodeBase [Childs=0] - [[0.4203324507341266, 'Random']]
+    GTreeNodeBase [Childs=0] - [[-4.926238680643229, 'OrigId']]
+  GTreeNodeBase [Childs=2] - [abs]
+    GTreeNodeBase [Childs=2] - [opp]
+      GTreeNodeBase [Childs=0] - [[-2.64860013491531, 'NumberOfNodes']]
+      GTreeNodeBase [Childs=0] - [[-2.64860013491531, 'NumberOfNodes']]
+    GTreeNodeBase [Childs=0] - [[7.3514858934514775, 'TargId']]
+0.0
+GTreeNodeBase [Childs=2] - [min]
+  GTreeNodeBase [Childs=0] - [[-7.058196347465283, 'NormalizedTargId']]
+  GTreeNodeBase [Childs=0] - [[-14.959914479393357, 'AverageDistance']]
+0.0
+GTreeNodeBase [Childs=2] - [abs]
+  GTreeNodeBase [Childs=0] - [[8.311649360035364, 'AverageWeight']]
+  GTreeNodeBase [Childs=2] - [abs]
+    GTreeNodeBase [Childs=0] - [[-4.171892018322968, 'NumberOfEdges']]
+    GTreeNodeBase [Childs=0] - [[3.215339176160248, 'Random']]
+4.0
+GTreeNodeBase [Childs=2] - [/]
+  GTreeNodeBase [Childs=2] - [max]
+    GTreeNodeBase [Childs=0] - [[-5.793379050873373, 'OrigStrength']]
+    GTreeNodeBase [Childs=0] - [[-0.5688910747332142, 'OrigStrength']]
+  GTreeNodeBase [Childs=0] - [[-5.641982049732839, 'NormalizedTargId']]
+0.0
+GTreeNodeBase [Childs=0] - [[2.7195166063434466, 'TargStrength']]
+0.0

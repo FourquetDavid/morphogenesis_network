@@ -1,0 +1,30 @@
+
+### Sorted by Quality ####
+variable : NormalizedTargId number of apparitions = 4036 quality = 19.7285478062 
+variable : NormalizedTargStrength number of apparitions = 3761 quality = 19.933131704 
+variable : AverageStrength number of apparitions = 2403 quality = 20.0426484906 
+variable : AverageWeight number of apparitions = 2498 quality = 20.5002470288 
+variable : NumberOfNodes number of apparitions = 6956 quality = 20.9115605535 
+variable : NumberOfEdges number of apparitions = 6684 quality = 21.1712074956 
+variable : AverageDistance number of apparitions = 5499 quality = 21.1924101429 
+variable : Random number of apparitions = 4366 quality = 21.7493155461 
+
+#####Sorted by Quantity*Quality#########
+variable : NormalizedTargStrength number of apparitions = 3761 quality = 19.933131704 
+variable : TargStrength number of apparitions = 4700 quality = 16.7806807375 
+variable : NormalizedTargId number of apparitions = 4036 quality = 19.7285478062 
+variable : Random number of apparitions = 4366 quality = 21.7493155461 
+variable : NormalizedOrigId number of apparitions = 5252 quality = 19.5352852651 
+variable : AverageDistance number of apparitions = 5499 quality = 21.1924101429 
+variable : NumberOfEdges number of apparitions = 6684 quality = 21.1712074956 
+variable : NumberOfNodes number of apparitions = 6956 quality = 20.9115605535 
+
+######Sorted by Rate######
+variable : NormalizedTargStrength number of apparitions = 3761 quality = 19.933131704 
+variable : NormalizedTargId number of apparitions = 4036 quality = 19.7285478062 
+variable : TargStrength number of apparitions = 4700 quality = 16.7806807375 
+variable : Random number of apparitions = 4366 quality = 21.7493155461 
+variable : NormalizedOrigId number of apparitions = 5252 quality = 19.5352852651 
+variable : AverageDistance number of apparitions = 5499 quality = 21.1924101429 
+variable : NumberOfEdges number of apparitions = 6684 quality = 21.1712074956 
+variable : NumberOfNodes number of apparitions = 6956 quality = 20.9115605535 

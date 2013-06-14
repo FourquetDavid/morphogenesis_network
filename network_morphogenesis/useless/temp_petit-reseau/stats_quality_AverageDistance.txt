@@ -1,0 +1,30 @@
+
+### Sorted by Quality ####
+variable : MaxStrength number of apparitions = 4531 quality = 16.0454242395 
+variable : NormalizedTargId number of apparitions = 4139 quality = 16.1511506016 
+variable : AverageDistance number of apparitions = 3094 quality = 16.4273395577 
+variable : AverageStrength number of apparitions = 4287 quality = 16.5071278384 
+variable : TotalWeight number of apparitions = 3643 quality = 16.879810324 
+variable : NumberOfEdges number of apparitions = 4231 quality = 17.0369785735 
+variable : TargId number of apparitions = 5971 quality = 17.4077289359 
+variable : TotalDistance number of apparitions = 4218 quality = 18.0682015267 
+
+#####Sorted by Quantity*Quality#########
+variable : NumberOfNodes number of apparitions = 4070 quality = 15.1614814094 
+variable : NormalizedTargId number of apparitions = 4139 quality = 16.1511506016 
+variable : AverageStrength number of apparitions = 4287 quality = 16.5071278384 
+variable : NumberOfEdges number of apparitions = 4231 quality = 17.0369785735 
+variable : MaxStrength number of apparitions = 4531 quality = 16.0454242395 
+variable : TotalDistance number of apparitions = 4218 quality = 18.0682015267 
+variable : NormalizedOrigStrength number of apparitions = 5185 quality = 15.0203286322 
+variable : TargId number of apparitions = 5971 quality = 17.4077289359 
+
+######Sorted by Rate######
+variable : NumberOfNodes number of apparitions = 4070 quality = 15.1614814094 
+variable : NormalizedTargId number of apparitions = 4139 quality = 16.1511506016 
+variable : AverageStrength number of apparitions = 4287 quality = 16.5071278384 
+variable : NumberOfEdges number of apparitions = 4231 quality = 17.0369785735 
+variable : TotalDistance number of apparitions = 4218 quality = 18.0682015267 
+variable : MaxStrength number of apparitions = 4531 quality = 16.0454242395 
+variable : NormalizedOrigStrength number of apparitions = 5185 quality = 15.0203286322 
+variable : TargId number of apparitions = 5971 quality = 17.4077289359 

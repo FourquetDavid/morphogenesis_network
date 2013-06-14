@@ -12,6 +12,9 @@ import evaluation_method_options as emo
 import randomization_control as rc
 import pyevolve.GAllele as gall
 import pyevolve.GSimpleGA as gsga
+import networkx as nx
+import matplotlib.pyplot as plt
+import os
 
 
 """ 
@@ -40,15 +43,22 @@ def new_genome(results_path,**kwargs):
                 possible tree_type : "with_constants"
      '''  
     evaluation_method = kwargs.get("evaluation_method")
-    network_type =kwargs.get("network_type")    
+    network_type =kwargs.get("network_type")
+    data_path = kwargs.get("data_path")
+    name = kwargs.get("name") 
+    dynamic = kwargs.get("dynamic")
+    extension = kwargs.get("extension")
+    
     choices = emo.get_alleles(evaluation_method,network_type)
     genome = py.GTree.GTree()
    
     
-    genome.setParams(nb_nodes=ne.get_number_of_nodes(results_path))
-    genome.setParams(nb_edges=ne.get_number_of_edges(results_path))
+    #genome.setParams(nb_nodes=ne.get_number_of_nodes(results_path))
+    #genome.setParams(nb_edges=ne.get_number_of_edges(results_path))
+    genome.setParams(data_path=data_path)
     genome.setParams(results_path=results_path)
-    
+    genome.setParams(name=name)
+    genome.setParams(extension = extension)
 
     #defines alleles : one array containing possible leaves and one containing possible functions
     alleles = gall.GAlleles()
@@ -65,7 +75,10 @@ def new_genome(results_path,**kwargs):
     
     #defines the how to evaluate a genome
     genome.setParams(evaluation_method = evaluation_method)
-    genome.evaluator.set(eval_func)
+    if dynamic :
+        genome.evaluator.set(eval_func_dynamic)
+    else :
+        genome.evaluator.set(eval_func)
     
     #defines the crossover function - default now
     
@@ -78,7 +91,7 @@ def new_genome(results_path,**kwargs):
     #tree_init(genome)
     return genome
 
-def evolve(genome,**kwargs):  
+def evolve(genome,initial_graph = None,**kwargs):  
     '''
      takes a genome and options that define the genetic algorithm
                 apply it to the genome
@@ -119,7 +132,7 @@ def evolve(genome,**kwargs):
     algo.setGenerations(number_of_generations)
     algo.evolve()
    
-        
+    store_best_network(algo.bestIndividual(),number_of_generations)   
        
             
             
@@ -257,7 +270,114 @@ def mutate_tree(genome, **args):
 Functions that evaluate trees
 '''
 
+def store_best_network(chromosome,nb_tests) :
+    score_max = 0
+    for _ in range(nb_tests) :
+        number_of_nodes,number_of_edges = ne.get_number_of_nodes_and_edges(chromosome.getParam("results_path"))
+        net = nd.grow_network(chromosome,number_of_nodes,number_of_edges )
+        scores = ne.eval_network(net,chromosome.getParam("results_path"),evaluation_method=chromosome.getParam("evaluation_method"),network_type = chromosome.getParam("network_type"), name = chromosome.getParam("name"))                          
+        if scores['proximity_aggregated'] > score_max :
+            score_max = scores['proximity_aggregated'] 
+            nx.draw(net)
+            plt.savefig(chromosome.getParam('results_path').replace(".xml",".png"))
+            plt.close()
+            
+            print scores
+            f = open(chromosome.getParam('results_path'), 'a')
+            f.write(str(scores))
+            f.close()
+
+def eval_func(chromosome): 
+    number_of_nodes,number_of_edges = ne.get_number_of_nodes_and_edges(chromosome.getParam("results_path"))
+    net = nd.grow_network(chromosome,number_of_nodes,number_of_edges )
+    score = ne.eval_network(net,chromosome.getParam("results_path"),
+                            evaluation_method=chromosome.getParam("evaluation_method"),
+                            network_type = chromosome.getParam("network_type"),
+                            name = chromosome.getParam("name"))
+    return score['proximity_aggregated']
+
+def eval_func_dynamic(chromosome):
+    results_path = chromosome.getParam("results_path")
+    evaluation_method=chromosome.getParam("evaluation_method")
+    data_path = chromosome.getParam("data_path")
+    network_type = chromosome.getParam("network_type")
+    extension = chromosome.getParam("extension")
+    name = chromosome.getParam("name")
+    number_of_networks = len([namefile for namefile in os.listdir(data_path) if extension in namefile])
+    
+
+    scores ={}
+    #we create a graph that is similar to the initial graph
+         
+    initial_network = ne.read_typed_file(data_path+"0"+extension)
+    net = nd.createGraph(network_type,initial_network)
+        
+        
+    for numero in range(number_of_networks-1) :
+        nodes_next,edges_next = ne.get_number_of_nodes_and_edges(results_path, numero+1)
+        nodes_now,edges_now = ne.get_number_of_nodes_and_edges(results_path, numero)
+        difference_of_size = nodes_next-nodes_now 
+        difference_of_edge_number = edges_next-edges_now
+            
+        # at each step we add nodes and edges to match with graph at next step
+        net = nd.grow_network(chromosome,difference_of_size,difference_of_edge_number,net)
+            
+        #comparison with the network at next step : returns a dict  : observable-proximity related to the observable
+        scores[str(numero+1)] = ne.eval_network(net,
+                                                  results_path,numero+1,
+                                                  evaluation_method=evaluation_method,
+                                                  network_type = network_type,
+                                                  name = name)    
+        
+    #we compute a list that contains aggregated proximity at each time step                      
+    scores_aggregated = [score['proximity_aggregated'] for numero,score in scores]
+    return min(scores_aggregated)   
+     
+'''           
 def eval_func(chromosome):
-    net = nd.grow_network(chromosome )
-    score = ne.eval_network(net,chromosome.getParam("results_path"),evaluation_method=chromosome.getParam("evaluation_method"),network_type = chromosome.getParam("network_type"))                          
-    return score  
+    results_path = chromosome.getParam("results_path")
+    evaluation_method=chromosome.getParam("evaluation_method")
+    dynamic = chromosome.getParam("dynamic")
+    data_path = chromosome.getParam("data_path")
+    network_type = chromosome.getParam("network_type")
+    extension = chromosome.getParam("extension")
+    
+    #if we deal with a dynamic network :
+    if dynamic :
+        scores ={}
+        #we create a graph that is similar to the initial graph
+         
+        initial_network = ne.read_typed_file(data_path+"0"+extension)
+        net = nd.createGraph(network_type,initial_network)
+        
+        
+        for numero in range(number_of_networks) :
+            nodes_next,edges_next = ne.get_number_of_nodes_and_edges(results_path, numero+1)
+            nodes_now,edges_now = ne.get_number_of_nodes_and_edges(results_path, numero)
+            difference_of_size = nodes_next-nodes_now 
+            difference_of_edge_number = edges_next-edges_now
+            
+            # at each step we add nodes and edges to match with graph at next step
+            net = nd.grow_network(net,chromosome,difference_of_size,difference_of_edge_number)
+            
+            #comparison with the network at next step : returns a dict  : observable-proximity related to the observable
+            scores[str(numero+1)] = ne.eval_network(net,numero+1,
+                                                  results_path,
+                                                  evaluation_method=evaluation_method,
+                                                  network_type = network_type)    
+        
+        #we compute a list that contains aggregated proximity at each time step                      
+        scores_aggregated = [score['proximity_aggregated'] for numero,score in scores]
+        return min(scores_aggregated)
+    
+    else :
+        number_of_nodes,number_of_edges = ne.get_number_of_nodes_and_edges(results_path)
+        
+        #we create an empty graph of given type
+        init = nd.createGraph(network_type)
+        net = nd.grow_network(init,chromosome,int(number_of_nodes),int(number_of_edges))  
+        scores = ne.eval_network(net,None,results_path,
+                                                  evaluation_method=evaluation_method,
+                                                  network_type = network_type)
+        return scores['proximity_aggregated']
+        '''

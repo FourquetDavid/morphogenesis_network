@@ -1,0 +1,2517 @@
+*network gephi-politics-uk_unified_k5
+*vertices 419
+1 gloriadepieromp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1967.2749, 'x': -1649.0745, 'z': 0.0}, 'size': 35.95238}" community labour label gloriadepieromp
+2 ivanlewis_mp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1656.5769, 'x': -1137.3534, 'z': 0.0}, 'size': 19.761906}" community labour label ivanlewis_mp
+3 kwasikwarteng 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1366.4606, 'x': 1341.0028, 'z': 0.0}, 'size': 15.952381}" community conservative label kwasikwarteng
+4 tracey_crouch 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -718.7141, 'x': 1434.9865, 'z': 0.0}, 'size': 21.666668}" community conservative label tracey_crouch
+5 markjsimmonds 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -99.93274, 'x': 995.16766, 'z': 0.0}, 'size': 16.904762}" community conservative label markjsimmonds
+6 jojohnsonmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -490.36566, 'x': 1339.2987, 'z': 0.0}, 'size': 15.952381}" community conservative label jojohnsonmp
+7 lucianaberger 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 2052.3167, 'x': -1552.699, 'z': 0.0}, 'size': 24.52381}" community labour label lucianaberger
+8 emmareynoldsmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1810.8265, 'x': -1604.0414, 'z': 0.0}, 'size': 17.857143}" community labour label emmareynoldsmp
+9 siobhainmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1881.724, 'x': -1197.6227, 'z': 0.0}, 'size': 15.0}" community labour label siobhainmp
+10 kirby4kt 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1281.2367, 'x': 994.3885, 'z': 0.0}, 'size': 15.952381}" community conservative label kirby4kt
+11 steverotherammp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 2235.6543, 'x': -1070.4426, 'z': 0.0}, 'size': 17.857143}" community labour label steverotherammp
+12 robertbuckland 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1320.62, 'x': 1056.9286, 'z': 0.0}, 'size': 21.666668}" community conservative label robertbuckland
+13 markreckless 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -366.06976, 'x': 1233.2067, 'z': 0.0}, 'size': 18.809525}" community conservative label markreckless
+14 marymacleodmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1031.9166, 'x': 1337.1041, 'z': 0.0}, 'size': 38.809525}" community conservative label marymacleodmp
+15 andyburnhammp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 2001.8167, 'x': -1737.8141, 'z': 0.0}, 'size': 15.952381}" community labour label andyburnhammp
+16 annemiltonmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -770.4219, 'x': 1063.5028, 'z': 0.0}, 'size': 21.666668}" community conservative label annemiltonmp
+17 peterhain 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1531.4384, 'x': -1093.1449, 'z': 0.0}, 'size': 17.857143}" community labour label peterhain
+18 paulflynnmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1193.4385, 'x': -1037.8285, 'z': 0.0}, 'size': 17.857143}" community labour label paulflynnmp
+19 anassarwar 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 700.033, 'x': -1513.4019, 'z': 0.0}, 'size': 25.47619}" community labour label anassarwar
+20 margotjamesmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -950.50085, 'x': 1650.0724, 'z': 0.0}, 'size': 22.619047}" community conservative label margotjamesmp
+21 duncanhames 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -1155.2391, 'x': -938.7658, 'z': 0.0}, 'size': 28.333334}" community libdem label duncanhames
+22 joswinson 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -1074.5553, 'x': -927.98553, 'z': 0.0}, 'size': 23.571428}" community libdem label joswinson
+23 iandavidsonmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 515.79785, 'x': -1653.3279, 'z': 0.0}, 'size': 15.0}" community labour label iandavidsonmp
+24 samgyimah 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -831.90894, 'x': 1496.7448, 'z': 0.0}, 'size': 34.04762}" community conservative label samgyimah
+25 michaelmccannmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 470.66766, 'x': -1512.3466, 'z': 0.0}, 'size': 16.904762}" community labour label michaelmccannmp
+26 billestersonmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1927.5872, 'x': -1093.2327, 'z': 0.0}, 'size': 23.571428}" community labour label billestersonmp
+27 geraintdaviesmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1205.2502, 'x': -1231.813, 'z': 0.0}, 'size': 15.952381}" community labour label geraintdaviesmp
+28 jimmurphymp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1101.9292, 'x': -1607.3615, 'z': 0.0}, 'size': 20.714287}" community labour label jimmurphymp
+29 jessicamordenmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1411.6863, 'x': -646.74084, 'z': 0.0}, 'size': 15.0}" community labour label jessicamordenmp
+30 cliveefford 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1407.0311, 'x': -755.43616, 'z': 0.0}, 'size': 15.0}" community labour label cliveefford
+31 sheilagilmoremp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 617.66455, 'x': -1459.822, 'z': 0.0}, 'size': 15.0}" community labour label sheilagilmoremp
+32 chrislesliemp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 2031.2703, 'x': -1221.4156, 'z': 0.0}, 'size': 16.904762}" community labour label chrislesliemp
+33 markpawsey 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -921.18494, 'x': 796.4587, 'z': 0.0}, 'size': 15.952381}" community conservative label markpawsey
+34 nickymorgan01 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1052.4847, 'x': 1208.6996, 'z': 0.0}, 'size': 29.285715}" community conservative label nickymorgan01
+35 tomharrismp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1225.3634, 'x': -1666.9663, 'z': 0.0}, 'size': 15.952381}" community labour label tomharrismp
+36 hammersmithandy 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1400.2455, 'x': -988.28436, 'z': 0.0}, 'size': 20.714287}" community labour label hammersmithandy
+37 karlmccartney 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -701.69507, 'x': 923.6622, 'z': 0.0}, 'size': 28.333334}" community conservative label karlmccartney
+38 bphillipsonmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1866.3359, 'x': -500.96548, 'z': 0.0}, 'size': 15.952381}" community labour label bphillipsonmp
+39 waynedavidmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1534.2886, 'x': -551.7782, 'z': 0.0}, 'size': 19.761906}" community labour label waynedavidmp
+40 martinvickersmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -800.4137, 'x': 602.1882, 'z': 0.0}, 'size': 16.904762}" community conservative label martinvickersmp
+41 paulmaskeymp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 101, 'b': 119, 'g': 153}, 'position': {'y': 330.5961, 'x': -1092.1992, 'z': 0.0}, 'size': 17.857143}" community other label paulmaskeymp
+42 matthancockmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -427.37592, 'x': 1499.3688, 'z': 0.0}, 'size': 48.333332}" community conservative label matthancockmp
+43 david_cameron 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -335.1469, 'x': 1621.3927, 'z': 0.0}, 'size': 15.0}" community conservative label david_cameron
+44 heatherwheeler 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1198.8925, 'x': 1142.5155, 'z': 0.0}, 'size': 15.952381}" community conservative label heatherwheeler
+45 annette4mdnp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -759.39453, 'x': -1003.86475, 'z': 0.0}, 'size': 17.857143}" community libdem label annette4mdnp
+46 greghands 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -314.1468, 'x': 1393.6251, 'z': 0.0}, 'size': 32.142857}" community conservative label greghands
+47 craigwhi2kermp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -941.90393, 'x': 543.434, 'z': 0.0}, 'size': 17.857143}" community conservative label craigwhi2kermp
+48 justinegreening 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -183.26459, 'x': 1012.3722, 'z': 0.0}, 'size': 16.904762}" community conservative label justinegreening
+49 stephenctimms 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1176.9963, 'x': -1324.6296, 'z': 0.0}, 'size': 15.0}" community labour label stephenctimms
+50 jonathanevansmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -589.236, 'x': 63.783936, 'z': 0.0}, 'size': 15.952381}" community conservative label jonathanevansmp
+51 mike_weatherley 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1330.3993, 'x': 965.555, 'z': 0.0}, 'size': 15.952381}" community conservative label mike_weatherley
+52 giselastuart 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1379.0857, 'x': -1225.1769, 'z': 0.0}, 'size': 16.904762}" community labour label giselastuart
+53 louiseellman 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 2194.509, 'x': -1128.449, 'z': 0.0}, 'size': 15.952381}" community labour label louiseellman
+54 drphillipleemp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -694.58276, 'x': 1089.4984, 'z': 0.0}, 'size': 15.952381}" community conservative label drphillipleemp
+55 gildernewmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 101, 'b': 119, 'g': 153}, 'position': {'y': 276.00607, 'x': -947.74817, 'z': 0.0}, 'size': 19.761906}" community other label gildernewmp
+56 davidcairns4mp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1024.7927, 'x': -1484.6602, 'z': 0.0}, 'size': 15.952381}" community labour label davidcairns4mp
+57 andrew_selousmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1257.4601, 'x': 1113.195, 'z': 0.0}, 'size': 16.904762}" community conservative label andrew_selousmp
+58 georgegalloway 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 101, 'b': 119, 'g': 153}, 'position': {'y': 1593.5282, 'x': -1718.8148, 'z': 0.0}, 'size': 15.0}" community other label georgegalloway
+59 thomasbrake 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -839.4282, 'x': -1086.0532, 'z': 0.0}, 'size': 27.380953}" community libdem label thomasbrake
+60 gregknightmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1209.4448, 'x': 652.39667, 'z': 0.0}, 'size': 15.952381}" community conservative label gregknightmp
+61 ianlaverymp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 2141.815, 'x': -684.2628, 'z': 0.0}, 'size': 17.857143}" community labour label ianlaverymp
+62 grahamevansmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -899.6968, 'x': 610.7056, 'z': 0.0}, 'size': 25.47619}" community conservative label grahamevansmp
+63 markhuntermp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -968.6991, 'x': -930.6806, 'z': 0.0}, 'size': 15.952381}" community libdem label markhuntermp
+64 margaret_curran 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 709.3076, 'x': -1417.7411, 'z': 0.0}, 'size': 31.190475}" community labour label margaret_curran
+65 mike_fabricant 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -272.0089, 'x': 1126.3995, 'z': 0.0}, 'size': 15.952381}" community conservative label mike_fabricant
+66 johnstevensonmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -834.6981, 'x': 740.7945, 'z': 0.0}, 'size': 15.0}" community conservative label johnstevensonmp
+67 nicolablackwood 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1068.0123, 'x': 1510.2811, 'z': 0.0}, 'size': 15.0}" community conservative label nicolablackwood
+68 williamjhague 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -210.11957, 'x': 1421.4996, 'z': 0.0}, 'size': 17.857143}" community conservative label williamjhague
+69 mikeweirsnp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 158, 'b': 158, 'g': 108}, 'position': {'y': -199.24817, 'x': -553.44, 'z': 0.0}, 'size': 20.714287}" community snp label mikeweirsnp
+70 tessamunt 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -1123.1652, 'x': -1122.843, 'z': 0.0}, 'size': 21.666668}" community libdem label tessamunt
+71 nadinedorriesmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -235.27539, 'x': 1340.649, 'z': 0.0}, 'size': 15.0}" community conservative label nadinedorriesmp
+72 normanlamb 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -888.7051, 'x': -1174.248, 'z': 0.0}, 'size': 15.0}" community libdem label normanlamb
+73 jbrokenshire 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1167.1041, 'x': 1599.5868, 'z': 0.0}, 'size': 18.809525}" community conservative label jbrokenshire
+74 frankfieldteam 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1677.2222, 'x': -1313.395, 'z': 0.0}, 'size': 15.0}" community labour label frankfieldteam
+75 swilliamsmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -1085.8219, 'x': -805.8466, 'z': 0.0}, 'size': 34.04762}" community libdem label swilliamsmp
+76 lisanandy 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1924.6412, 'x': -1013.0909, 'z': 0.0}, 'size': 15.952381}" community labour label lisanandy
+77 adamafriyie 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1257.1409, 'x': 1618.1276, 'z': 0.0}, 'size': 15.0}" community conservative label adamafriyie
+78 edballsmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1853.9365, 'x': -1883.3824, 'z': 0.0}, 'size': 19.761906}" community labour label edballsmp
+79 tweetbrooks 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -649.8247, 'x': 1350.1056, 'z': 0.0}, 'size': 47.38095}" community conservative label tweetbrooks
+80 chriswmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1734.2228, 'x': -860.3426, 'z': 0.0}, 'size': 24.52381}" community labour label chriswmp
+81 dalexandermp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1027.4208, 'x': -1699.0459, 'z': 0.0}, 'size': 16.904762}" community labour label dalexandermp
+82 jessicaleemp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1024.294, 'x': 800.9671, 'z': 0.0}, 'size': 15.0}" community conservative label jessicaleemp
+83 michael_ellis1 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1277.6163, 'x': 1465.7914, 'z': 0.0}, 'size': 15.0}" community conservative label michael_ellis1
+84 hackneyabbott 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1841.8662, 'x': -1679.4648, 'z': 0.0}, 'size': 15.952381}" community labour label hackneyabbott
+85 sharonhodgsonmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 2014.0979, 'x': -756.5384, 'z': 0.0}, 'size': 35.0}" community labour label sharonhodgsonmp
+86 ianclucas 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1631.8059, 'x': -739.28784, 'z': 0.0}, 'size': 17.857143}" community labour label ianclucas
+87 george4mvmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1429.4021, 'x': 1286.9938, 'z': 0.0}, 'size': 16.904762}" community conservative label george4mvmp
+88 clivebettsmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1649.3846, 'x': -851.8337, 'z': 0.0}, 'size': 15.0}" community labour label clivebettsmp
+89 aluncairns 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -420.77643, 'x': 837.31256, 'z': 0.0}, 'size': 25.47619}" community conservative label aluncairns
+90 juliansmithmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -764.87695, 'x': 715.6855, 'z': 0.0}, 'size': 25.47619}" community conservative label juliansmithmp
+91 cherylgillanmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -439.57178, 'x': 629.47186, 'z': 0.0}, 'size': 18.809525}" community conservative label cherylgillanmp
+92 jackdromeymp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1919.6143, 'x': -825.8001, 'z': 0.0}, 'size': 17.857143}" community labour label jackdromeymp
+93 iainastewart 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1140.0453, 'x': 1194.4913, 'z': 0.0}, 'size': 15.952381}" community conservative label iainastewart
+94 jtomlinsonmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1254.4385, 'x': 876.9627, 'z': 0.0}, 'size': 21.666668}" community conservative label jtomlinsonmp
+95 dlidington 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -329.37976, 'x': 1089.1722, 'z': 0.0}, 'size': 19.761906}" community conservative label dlidington
+96 sjacksonmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -503.12372, 'x': 1255.3615, 'z': 0.0}, 'size': 36.904762}" community conservative label sjacksonmp
+97 bernardjenkin 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -186.30664, 'x': 1186.233, 'z': 0.0}, 'size': 17.857143}" community conservative label bernardjenkin
+98 chrisskidmoremp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -815.5513, 'x': 1590.1783, 'z': 0.0}, 'size': 15.952381}" community conservative label chrisskidmoremp
+99 geoffrey_cox 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1324.4038, 'x': 1405.5582, 'z': 0.0}, 'size': 24.52381}" community conservative label geoffrey_cox
+100 davidrutleymp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -963.46704, 'x': 826.757, 'z': 0.0}, 'size': 16.904762}" community conservative label davidrutleymp
+101 sbrine 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1084.1526, 'x': 1643.2618, 'z': 0.0}, 'size': 19.761906}" community conservative label sbrine
+102 tomgreatrexmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 833.1294, 'x': -1643.6299, 'z': 0.0}, 'size': 23.571428}" community labour label tomgreatrexmp
+103 karlturnermp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 2086.5605, 'x': -897.043, 'z': 0.0}, 'size': 17.857143}" community labour label karlturnermp
+104 gbirtwistle_mp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -945.08545, 'x': -1183.0979, 'z': 0.0}, 'size': 15.0}" community libdem label gbirtwistle_mp
+105 robertabwmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 2040.5634, 'x': -627.6321, 'z': 0.0}, 'size': 18.809525}" community labour label robertabwmp
+106 alison_mcgovern 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 2193.3323, 'x': -1271.0881, 'z': 0.0}, 'size': 22.619047}" community labour label alison_mcgovern
+107 grahamjones_mp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1922.5809, 'x': -776.2402, 'z': 0.0}, 'size': 15.0}" community labour label grahamjones_mp
+108 annemcintoshmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -887.8402, 'x': 746.0152, 'z': 0.0}, 'size': 15.0}" community conservative label annemcintoshmp
+109 ben4ipswich 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -638.28674, 'x': 1218.704, 'z': 0.0}, 'size': 24.52381}" community conservative label ben4ipswich
+110 gemmawdmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 816.26166, 'x': -1418.5427, 'z': 0.0}, 'size': 27.380953}" community labour label gemmawdmp
+111 peterjluff 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -862.97046, 'x': 1426.2535, 'z': 0.0}, 'size': 15.952381}" community conservative label peterjluff
+112 helengrantmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -931.7307, 'x': 1457.6581, 'z': 0.0}, 'size': 22.619047}" community conservative label helengrantmp
+113 liambyrnemp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1492.9838, 'x': -1529.079, 'z': 0.0}, 'size': 19.761906}" community labour label liambyrnemp
+114 gwilliamsonmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1255.1492, 'x': 609.4931, 'z': 0.0}, 'size': 15.952381}" community conservative label gwilliamsonmp
+115 simonhughesmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -800.396, 'x': -834.00433, 'z': 0.0}, 'size': 15.0}" community libdem label simonhughesmp
+116 mingcampbellmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -1170.0834, 'x': -1078.4429, 'z': 0.0}, 'size': 15.0}" community libdem label mingcampbellmp
+117 jeremy_hunt 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -566.1615, 'x': 1660.8405, 'z': 0.0}, 'size': 15.952381}" community conservative label jeremy_hunt
+118 jonashworth 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 2044.4366, 'x': -1324.1708, 'z': 0.0}, 'size': 36.904762}" community labour label jonashworth
+119 marymacleod4mp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1128.8634, 'x': 1241.5245, 'z': 0.0}, 'size': 15.952381}" community conservative label marymacleod4mp
+120 johnredwood 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -257.1067, 'x': 1455.2726, 'z': 0.0}, 'size': 15.0}" community conservative label johnredwood
+121 frankroymp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 398.07797, 'x': -1576.2847, 'z': 0.0}, 'size': 15.0}" community labour label frankroymp
+122 adriansandersmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -1109.3085, 'x': -1194.2041, 'z': 0.0}, 'size': 24.52381}" community libdem label adriansandersmp
+123 esthermcveymp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -923.2041, 'x': 1296.003, 'z': 0.0}, 'size': 16.904762}" community conservative label esthermcveymp
+124 olivercolvile 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1108.2783, 'x': 886.50385, 'z': 0.0}, 'size': 15.0}" community conservative label olivercolvile
+125 carolinenokes 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1334.4277, 'x': 902.27264, 'z': 0.0}, 'size': 17.857143}" community conservative label carolinenokes
+126 avmitchell2010 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1447.6376, 'x': -791.8974, 'z': 0.0}, 'size': 15.0}" community labour label avmitchell2010
+127 anna_soubrymp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -505.2057, 'x': 1146.0756, 'z': 0.0}, 'size': 15.0}" community conservative label anna_soubrymp
+128 spellar 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1414.958, 'x': -1292.4131, 'z': 0.0}, 'size': 23.571428}" community labour label spellar
+129 tom_watson 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1548.7474, 'x': -1780.3888, 'z': 0.0}, 'size': 15.0}" community labour label tom_watson
+130 annemcguiremp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 513.67194, 'x': -1571.2083, 'z': 0.0}, 'size': 20.714287}" community labour label annemcguiremp
+131 nickdebois 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -410.65332, 'x': 1160.872, 'z': 0.0}, 'size': 23.571428}" community conservative label nickdebois
+132 kevanjonesmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1889.7935, 'x': -296.99686, 'z': 0.0}, 'size': 15.0}" community labour label kevanjonesmp
+133 laurasandysmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -724.4016, 'x': 1168.567, 'z': 0.0}, 'size': 23.571428}" community conservative label laurasandysmp
+134 juliehillingmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1605.9666, 'x': -954.5072, 'z': 0.0}, 'size': 15.0}" community labour label juliehillingmp
+135 richard4watford 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -984.1234, 'x': 1514.5411, 'z': 0.0}, 'size': 16.904762}" community conservative label richard4watford
+136 benpbradshaw 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1332.9248, 'x': -1502.4203, 'z': 0.0}, 'size': 15.0}" community labour label benpbradshaw
+137 lindsayhoyle_mp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 2002.6107, 'x': -666.5039, 'z': 0.0}, 'size': 15.0}" community labour label lindsayhoyle_mp
+138 jamesgraymp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1192.7719, 'x': 1346.8368, 'z': 0.0}, 'size': 15.0}" community conservative label jamesgraymp
+139 kerrymp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 2059.0354, 'x': -1653.1597, 'z': 0.0}, 'size': 15.952381}" community labour label kerrymp
+140 grahamemorris 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 2105.8035, 'x': -590.187, 'z': 0.0}, 'size': 17.857143}" community labour label grahamemorris
+141 chukaumunna 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1728.895, 'x': -1785.5693, 'z': 0.0}, 'size': 22.619047}" community labour label chukaumunna
+142 liamfoxmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -274.05493, 'x': 1197.5729, 'z': 0.0}, 'size': 15.0}" community conservative label liamfoxmp
+143 davidnuttallmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1146.7839, 'x': 721.7966, 'z': 0.0}, 'size': 15.952381}" community conservative label davidnuttallmp
+144 gsutcliffemp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1881.6226, 'x': -969.4929, 'z': 0.0}, 'size': 15.0}" community labour label gsutcliffemp
+145 karen__bradley 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1249.4613, 'x': 796.0754, 'z': 0.0}, 'size': 16.904762}" community conservative label karen__bradley
+146 jdjanogly 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -928.4293, 'x': 1133.8488, 'z': 0.0}, 'size': 15.0}" community conservative label jdjanogly
+147 ed_miliband 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1673.4929, 'x': -1857.6022, 'z': 0.0}, 'size': 19.761906}" community labour label ed_miliband
+148 johnglenmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1233.2036, 'x': 1556.7291, 'z': 0.0}, 'size': 19.761906}" community conservative label johnglenmp
+149 donfostermp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -878.23206, 'x': -978.417, 'z': 0.0}, 'size': 38.809525}" community libdem label donfostermp
+150 dmiliband 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1465.7985, 'x': -1895.5968, 'z': 0.0}, 'size': 15.952381}" community labour label dmiliband
+151 cathyjamieson 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 820.3767, 'x': -1530.977, 'z': 0.0}, 'size': 31.190475}" community labour label cathyjamieson
+152 simonreevell 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1290.4185, 'x': 670.6827, 'z': 0.0}, 'size': 17.857143}" community conservative label simonreevell
+153 russellbrownmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 589.0509, 'x': -1524.7256, 'z': 0.0}, 'size': 22.619047}" community labour label russellbrownmp
+154 stewarthosiemp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 158, 'b': 158, 'g': 108}, 'position': {'y': -217.93777, 'x': -619.5883, 'z': 0.0}, 'size': 19.761906}" community snp label stewarthosiemp
+155 nadhimzahawi 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -695.1372, 'x': 1537.6671, 'z': 0.0}, 'size': 51.190475}" community conservative label nadhimzahawi
+156 gregmulholland1 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -802.46606, 'x': -409.75226, 'z': 0.0}, 'size': 15.0}" community libdem label gregmulholland1
+157 carolinelucas 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 101, 'b': 119, 'g': 153}, 'position': {'y': 1318.656, 'x': -938.9334, 'z': 0.0}, 'size': 15.0}" community other label carolinelucas
+158 edvaizey 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -392.26465, 'x': 1384.0358, 'z': 0.0}, 'size': 17.857143}" community conservative label edvaizey
+159 drwollastonmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -402.63867, 'x': 1084.1803, 'z': 0.0}, 'size': 16.904762}" community conservative label drwollastonmp
+160 peter_aldous 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1199.0116, 'x': 1207.9601, 'z': 0.0}, 'size': 19.761906}" community conservative label peter_aldous
+161 jeremycorbyn 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1254.0442, 'x': -957.1508, 'z': 0.0}, 'size': 22.619047}" community labour label jeremycorbyn
+162 simonkirbymp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1159.9432, 'x': 908.5578, 'z': 0.0}, 'size': 18.809525}" community conservative label simonkirbymp
+163 marycreagh_mp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1663.386, 'x': -1222.313, 'z': 0.0}, 'size': 31.190475}" community labour label marycreagh_mp
+164 philipdaviesmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -534.82324, 'x': 1021.3312, 'z': 0.0}, 'size': 17.857143}" community conservative label philipdaviesmp
+165 rogerwilliamsmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -747.3556, 'x': -583.0799, 'z': 0.0}, 'size': 16.904762}" community libdem label rogerwilliamsmp
+166 tomblenkinsop 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1967.8649, 'x': -931.9225, 'z': 0.0}, 'size': 37.857143}" community labour label tomblenkinsop
+167 stephen_gilbert 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -1034.181, 'x': -1142.5286, 'z': 0.0}, 'size': 25.47619}" community libdem label stephen_gilbert
+168 paulburstow 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -972.40137, 'x': -810.8073, 'z': 0.0}, 'size': 23.571428}" community libdem label paulburstow
+169 johnpenrosenews 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -595.5759, 'x': 1260.0192, 'z': 0.0}, 'size': 15.0}" community conservative label johnpenrosenews
+170 davidmundellmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -514.21576, 'x': 843.3663, 'z': 0.0}, 'size': 15.0}" community conservative label davidmundellmp
+171 stocktonnorth 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1631.4874, 'x': -417.47275, 'z': 0.0}, 'size': 15.952381}" community labour label stocktonnorth
+172 nicksmith4bg 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1084.2644, 'x': -890.35516, 'z': 0.0}, 'size': 15.0}" community labour label nicksmith4bg
+173 jamesduddridge 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1263.3671, 'x': 1299.5497, 'z': 0.0}, 'size': 25.47619}" community conservative label jamesduddridge
+174 valerie_vazmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 2060.6086, 'x': -955.04425, 'z': 0.0}, 'size': 15.0}" community labour label valerie_vazmp
+175 rorystewartuk 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -495.2019, 'x': 1674.5397, 'z': 0.0}, 'size': 15.0}" community conservative label rorystewartuk
+176 conormurphymp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 101, 'b': 119, 'g': 153}, 'position': {'y': 282.82098, 'x': -1022.3955, 'z': 0.0}, 'size': 19.761906}" community other label conormurphymp
+177 zacgoldsmith 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -142.66632, 'x': 1358.9716, 'z': 0.0}, 'size': 18.809525}" community conservative label zacgoldsmith
+178 sheryllmurray 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1129.7147, 'x': 1332.5563, 'z': 0.0}, 'size': 16.904762}" community conservative label sheryllmurray
+179 mpdavidmorris 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1075.3583, 'x': 840.8957, 'z': 0.0}, 'size': 15.0}" community conservative label mpdavidmorris
+180 steve_mccabe 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1366.1354, 'x': -1079.6558, 'z': 0.0}, 'size': 17.857143}" community labour label steve_mccabe
+181 meg_hilliermp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 2023.7306, 'x': -848.5209, 'z': 0.0}, 'size': 17.857143}" community labour label meg_hilliermp
+182 mpritchardmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -364.70825, 'x': 1000.74133, 'z': 0.0}, 'size': 15.0}" community conservative label mpritchardmp
+183 angiebraymp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -648.09106, 'x': 1035.7948, 'z': 0.0}, 'size': 16.904762}" community conservative label angiebraymp
+184 alanwhiteheadmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1558.4363, 'x': -1404.373, 'z': 0.0}, 'size': 15.0}" community labour label alanwhiteheadmp
+185 stevebarclaymp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -562.8529, 'x': 1167.8793, 'z': 0.0}, 'size': 18.809525}" community conservative label stevebarclaymp
+186 edwardleighac 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1219.5077, 'x': 729.4594, 'z': 0.0}, 'size': 15.0}" community conservative label edwardleighac
+187 bsheermanmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1877.6014, 'x': -1133.9479, 'z': 0.0}, 'size': 15.0}" community labour label bsheermanmp
+188 gwynnemp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1830.9896, 'x': -1429.094, 'z': 0.0}, 'size': 19.761906}" community labour label gwynnemp
+189 blaenaugwentmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1654.7687, 'x': -543.90546, 'z': 0.0}, 'size': 15.952381}" community labour label blaenaugwentmp
+190 maria_millermp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -631.2898, 'x': 1093.267, 'z': 0.0}, 'size': 15.952381}" community conservative label maria_millermp
+191 johndenhammp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1743.8093, 'x': -1283.4891, 'z': 0.0}, 'size': 15.0}" community labour label johndenhammp
+192 nickherbertmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -561.92456, 'x': 1485.7338, 'z': 0.0}, 'size': 17.857143}" community conservative label nickherbertmp
+193 paulblomfieldmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1608.8953, 'x': -803.7481, 'z': 0.0}, 'size': 18.809525}" community labour label paulblomfieldmp
+194 barrygardiner 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1475.6487, 'x': -1084.7722, 'z': 0.0}, 'size': 16.904762}" community labour label barrygardiner
+195 ammorrismp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -612.7181, 'x': 1142.7699, 'z': 0.0}, 'size': 15.0}" community conservative label ammorrismp
+196 emilythornberry 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1691.3915, 'x': -799.80194, 'z': 0.0}, 'size': 19.761906}" community labour label emilythornberry
+197 paulmaynardmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1231.8125, 'x': 1062.1198, 'z': 0.0}, 'size': 15.0}" community conservative label paulmaynardmp
+198 jennychapman 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1999.0575, 'x': -384.00317, 'z': 0.0}, 'size': 18.809525}" community labour label jennychapman
+199 neil_mp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -601.38257, 'x': 847.91864, 'z': 0.0}, 'size': 15.952381}" community conservative label neil_mp
+200 davidtcdavies 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -484.59686, 'x': 670.78107, 'z': 0.0}, 'size': 15.0}" community conservative label davidtcdavies
+201 nigeldoddsmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 101, 'b': 119, 'g': 153}, 'position': {'y': -162.77866, 'x': -388.97147, 'z': 0.0}, 'size': 15.952381}" community other label nigeldoddsmp
+202 agriffithsmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1148.3867, 'x': 802.58307, 'z': 0.0}, 'size': 28.333334}" community conservative label agriffithsmp
+203 aidanburleymp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1046.1943, 'x': 927.20013, 'z': 0.0}, 'size': 15.952381}" community conservative label aidanburleymp
+204 kevinbrennanmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1574.401, 'x': -1307.0864, 'z': 0.0}, 'size': 36.904762}" community labour label kevinbrennanmp
+205 johnhemmingmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -997.073, 'x': -1199.3403, 'z': 0.0}, 'size': 15.0}" community libdem label johnhemmingmp
+206 malcolmbruce 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -1243.8939, 'x': -936.4622, 'z': 0.0}, 'size': 15.952381}" community libdem label malcolmbruce
+207 jakeberrymp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -973.62915, 'x': 1165.1161, 'z': 0.0}, 'size': 17.857143}" community conservative label jakeberrymp
+208 markdurkan 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 101, 'b': 119, 'g': 153}, 'position': {'y': 431.19598, 'x': -939.835, 'z': 0.0}, 'size': 16.904762}" community other label markdurkan
+209 trussliz 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -634.5227, 'x': 1635.8224, 'z': 0.0}, 'size': 18.809525}" community conservative label trussliz
+210 charlieelphicke 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -817.1311, 'x': 1387.8182, 'z': 0.0}, 'size': 20.714287}" community conservative label charlieelphicke
+211 chionwurah 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1744.5688, 'x': -464.8995, 'z': 0.0}, 'size': 16.904762}" community labour label chionwurah
+212 thomas_docherty 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 794.03424, 'x': -1306.428, 'z': 0.0}, 'size': 15.0}" community labour label thomas_docherty
+213 markfieldmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -588.2906, 'x': 1041.2904, 'z': 0.0}, 'size': 15.952381}" community conservative label markfieldmp
+214 angelaeagle 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 2196.1653, 'x': -1192.3164, 'z': 0.0}, 'size': 16.904762}" community labour label angelaeagle
+215 stephentwigg 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1759.8486, 'x': -1335.3955, 'z': 0.0}, 'size': 18.809525}" community labour label stephentwigg
+216 chloesmithmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -771.8816, 'x': 1440.6022, 'z': 0.0}, 'size': 15.0}" community conservative label chloesmithmp
+217 grahamallenmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1869.547, 'x': -805.2798, 'z': 0.0}, 'size': 15.0}" community labour label grahamallenmp
+218 julieelliottmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1947.6154, 'x': -427.197, 'z': 0.0}, 'size': 15.0}" community labour label julieelliottmp
+219 gregbarkermp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -382.1371, 'x': 1290.236, 'z': 0.0}, 'size': 17.857143}" community conservative label gregbarkermp
+220 timloughton 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -754.86707, 'x': 1381.973, 'z': 0.0}, 'size': 16.904762}" community conservative label timloughton
+221 chhcalling 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1138.9435, 'x': 968.3841, 'z': 0.0}, 'size': 18.809525}" community conservative label chhcalling
+222 greggmcclymont 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 640.6794, 'x': -1622.6366, 'z': 0.0}, 'size': 30.238094}" community labour label greggmcclymont
+223 rushanaraali 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1486.6317, 'x': -1143.1611, 'z': 0.0}, 'size': 15.952381}" community labour label rushanaraali
+224 cj_dinenage 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1253.331, 'x': 1176.8922, 'z': 0.0}, 'size': 17.857143}" community conservative label cj_dinenage
+225 richardburdenmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 2030.1565, 'x': -1113.2156, 'z': 0.0}, 'size': 16.904762}" community labour label richardburdenmp
+226 billcashmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -596.14404, 'x': 978.9168, 'z': 0.0}, 'size': 15.952381}" community conservative label billcashmp
+227 simondanczuk 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1584.6694, 'x': -866.19794, 'z': 0.0}, 'size': 19.761906}" community labour label simondanczuk
+228 andrew4pendle 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -924.2915, 'x': 932.0932, 'z': 0.0}, 'size': 53.095238}" community conservative label andrew4pendle
+229 hbaldwinmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -810.2573, 'x': 1273.7823, 'z': 0.0}, 'size': 53.095238}" community conservative label hbaldwinmp
+230 johnhealey_mp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1905.5511, 'x': -1430.1951, 'z': 0.0}, 'size': 15.0}" community labour label johnhealey_mp
+231 patmcfaddenmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1508.4436, 'x': -1642.9294, 'z': 0.0}, 'size': 15.952381}" community labour label patmcfaddenmp
+232 irrancadaviesmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1496.259, 'x': -1223.7374, 'z': 0.0}, 'size': 19.761906}" community labour label irrancadaviesmp
+233 anncoffey_mp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1489.0573, 'x': -836.6899, 'z': 0.0}, 'size': 15.0}" community labour label anncoffey_mp
+234 jamesmorrismp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -903.1886, 'x': 1059.4689, 'z': 0.0}, 'size': 16.904762}" community conservative label jamesmorrismp
+235 gavinbarwellmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -299.48724, 'x': 875.13715, 'z': 0.0}, 'size': 19.761906}" community conservative label gavinbarwellmp
+236 craig_whittaker 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1190.5391, 'x': 573.47504, 'z': 0.0}, 'size': 15.952381}" community conservative label craig_whittaker
+237 sadiqkhan 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1474.4796, 'x': -1333.21, 'z': 0.0}, 'size': 16.904762}" community labour label sadiqkhan
+238 virendrasharma 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1150.3962, 'x': -866.1565, 'z': 0.0}, 'size': 16.904762}" community labour label virendrasharma
+239 gareththomasmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 2128.4795, 'x': -953.6882, 'z': 0.0}, 'size': 17.857143}" community labour label gareththomasmp
+240 amberruddmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -838.2062, 'x': 1044.1259, 'z': 0.0}, 'size': 20.714287}" community conservative label amberruddmp
+241 gavinshuker 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1752.8606, 'x': -1514.4078, 'z': 0.0}, 'size': 15.0}" community labour label gavinshuker
+242 amcdonnellmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 101, 'b': 119, 'g': 153}, 'position': {'y': 165.6039, 'x': -817.60425, 'z': 0.0}, 'size': 15.0}" community other label amcdonnellmp
+243 carolineflintmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1630.3317, 'x': -1621.6134, 'z': 0.0}, 'size': 30.238094}" community labour label carolineflintmp
+244 davidheathmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -835.6813, 'x': -883.9329, 'z': 0.0}, 'size': 15.0}" community libdem label davidheathmp
+245 fionaodonnellmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 460.3745, 'x': -1627.5894, 'z': 0.0}, 'size': 19.761906}" community labour label fionaodonnellmp
+246 scrabbmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -435.3246, 'x': 739.17474, 'z': 0.0}, 'size': 20.714287}" community conservative label scrabbmp
+247 julianhuppert 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -958.27625, 'x': -729.25165, 'z': 0.0}, 'size': 23.571428}" community libdem label julianhuppert
+248 andy4boro 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 2051.0144, 'x': -417.405, 'z': 0.0}, 'size': 15.0}" community labour label andy4boro
+249 karenpbuckmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1855.3412, 'x': -762.6435, 'z': 0.0}, 'size': 15.0}" community labour label karenpbuckmp
+250 stevereedmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 2130.5146, 'x': -1570.8041, 'z': 0.0}, 'size': 15.0}" community labour label stevereedmp
+251 angelasmithmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1611.1643, 'x': -1086.9891, 'z': 0.0}, 'size': 22.619047}" community labour label angelasmithmp
+252 johnleechmcr 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -977.32263, 'x': -1054.7976, 'z': 0.0}, 'size': 33.095238}" community libdem label johnleechmcr
+253 karenbuckmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1478.5435, 'x': -1010.7502, 'z': 0.0}, 'size': 15.0}" community labour label karenbuckmp
+254 tobyperkinsmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1689.3407, 'x': -1438.8741, 'z': 0.0}, 'size': 48.333332}" community labour label tobyperkinsmp
+255 nickhurdmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1008.34045, 'x': 1582.9164, 'z': 0.0}, 'size': 16.904762}" community conservative label nickhurdmp
+256 stevebakermp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -282.8211, 'x': 1276.7396, 'z': 0.0}, 'size': 23.571428}" community conservative label stevebakermp
+257 brandonlewis 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -532.76135, 'x': 1575.3468, 'z': 0.0}, 'size': 24.52381}" community conservative label brandonlewis
+258 damiangreenmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -808.25073, 'x': 1148.6683, 'z': 0.0}, 'size': 16.904762}" community conservative label damiangreenmp
+259 nicdakinmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1843.1278, 'x': -870.6878, 'z': 0.0}, 'size': 25.47619}" community labour label nicdakinmp
+260 lfeatherstone 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -917.9857, 'x': -1123.4517, 'z': 0.0}, 'size': 17.857143}" community libdem label lfeatherstone
+261 mark4wyreforest 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -764.33875, 'x': 1123.1984, 'z': 0.0}, 'size': 15.952381}" community conservative label mark4wyreforest
+262 vincecable 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -1002.0537, 'x': -960.5364, 'z': 0.0}, 'size': 15.0}" community libdem label vincecable
+263 theresecoffey 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -532.1372, 'x': 1413.6957, 'z': 0.0}, 'size': 26.428572}" community conservative label theresecoffey
+264 johnrobertsonmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 558.8173, 'x': -1621.0417, 'z': 0.0}, 'size': 16.904762}" community labour label johnrobertsonmp
+265 damian57 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1197.1875, 'x': 1432.3302, 'z': 0.0}, 'size': 30.238094}" community conservative label damian57
+266 philwilsonmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1880.9995, 'x': -392.92877, 'z': 0.0}, 'size': 27.380953}" community labour label philwilsonmp
+267 geraldhowarth 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1255.4778, 'x': 1371.9493, 'z': 0.0}, 'size': 15.0}" community conservative label geraldhowarth
+268 highpeakandrew 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1329.7798, 'x': 778.05707, 'z': 0.0}, 'size': 20.714287}" community conservative label highpeakandrew
+269 freeman_george 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -918.0624, 'x': 1372.5302, 'z': 0.0}, 'size': 30.238094}" community conservative label freeman_george
+270 inverclydemp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 742.3128, 'x': -1627.5276, 'z': 0.0}, 'size': 16.904762}" community labour label inverclydemp
+271 smcpartlandmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -755.6194, 'x': 451.5025, 'z': 0.0}, 'size': 15.0}" community conservative label smcpartlandmp
+272 chrisruanemp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1593.6642, 'x': -570.9056, 'z': 0.0}, 'size': 15.0}" community labour label chrisruanemp
+273 keeleymp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1801.8318, 'x': -786.8235, 'z': 0.0}, 'size': 23.571428}" community labour label keeleymp
+274 johnmannoffice 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1834.1515, 'x': -937.2979, 'z': 0.0}, 'size': 15.0}" community labour label johnmannoffice
+275 tristramhuntmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1797.435, 'x': -1538.5293, 'z': 0.0}, 'size': 15.0}" community labour label tristramhuntmp
+276 clesliemp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -912.73926, 'x': 1188.5035, 'z': 0.0}, 'size': 15.0}" community conservative label clesliemp
+277 pauluppal 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1308.1852, 'x': 837.54254, 'z': 0.0}, 'size': 15.952381}" community conservative label pauluppal
+278 ianmearnsmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 2119.118, 'x': -466.53415, 'z': 0.0}, 'size': 17.857143}" community labour label ianmearnsmp
+279 alanduncan4mp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -898.4883, 'x': 1589.1747, 'z': 0.0}, 'size': 15.0}" community conservative label alanduncan4mp
+280 ianmurraymp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 943.6692, 'x': -1386.3221, 'z': 0.0}, 'size': 40.714287}" community labour label ianmurraymp
+281 danjarvismp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1789.3738, 'x': -1479.5502, 'z': 0.0}, 'size': 20.714287}" community labour label danjarvismp
+282 peterbonemp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -618.5022, 'x': 719.9139, 'z': 0.0}, 'size': 15.952381}" community conservative label peterbonemp
+283 mikegapes 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1286.6958, 'x': -1214.3171, 'z': 0.0}, 'size': 19.761906}" community labour label mikegapes
+284 pauluppalmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1025.4344, 'x': 849.04596, 'z': 0.0}, 'size': 15.0}" community conservative label pauluppalmp
+285 murrisonmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -572.8379, 'x': 927.7657, 'z': 0.0}, 'size': 15.0}" community conservative label murrisonmp
+286 patglassmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1982.7172, 'x': -539.70715, 'z': 0.0}, 'size': 43.57143}" community labour label patglassmp
+287 meaglemp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 2263.4, 'x': -1176.1938, 'z': 0.0}, 'size': 17.857143}" community labour label meaglemp
+288 mark4ceredigion 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -711.28186, 'x': -795.9317, 'z': 0.0}, 'size': 18.809525}" community libdem label mark4ceredigion
+289 andysawfordmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 2185.2446, 'x': -1531.389, 'z': 0.0}, 'size': 16.904762}" community labour label andysawfordmp
+290 annmckechinmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 395.28198, 'x': -1444.2748, 'z': 0.0}, 'size': 18.809525}" community labour label annmckechinmp
+291 michaelmeacher 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1561.6432, 'x': -739.4336, 'z': 0.0}, 'size': 15.952381}" community labour label michaelmeacher
+292 charles_kennedy 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -1231.087, 'x': -1080.9075, 'z': 0.0}, 'size': 17.857143}" community libdem label charles_kennedy
+293 pamela_nash 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 588.70807, 'x': -1381.9993, 'z': 0.0}, 'size': 21.666668}" community labour label pamela_nash
+294 crockartmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -1248.2872, 'x': -1170.0771, 'z': 0.0}, 'size': 20.714287}" community libdem label crockartmp
+295 kategreenmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1537.1138, 'x': -947.1508, 'z': 0.0}, 'size': 23.571428}" community labour label kategreenmp
+296 douglascarswell 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -185.96283, 'x': 1301.3976, 'z': 0.0}, 'size': 19.761906}" community conservative label douglascarswell
+297 megmunnmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1333.8523, 'x': -1363.1107, 'z': 0.0}, 'size': 15.0}" community labour label megmunnmp
+298 alecshelbrooke 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1211.2489, 'x': 996.9374, 'z': 0.0}, 'size': 24.52381}" community conservative label alecshelbrooke
+299 andrewrosindell 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1160.4678, 'x': 1279.3302, 'z': 0.0}, 'size': 15.0}" community conservative label andrewrosindell
+300 adrian_bailey 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1452.7935, 'x': -1184.6644, 'z': 0.0}, 'size': 15.0}" community labour label adrian_bailey
+301 pennymordauntmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1132.4752, 'x': 1135.2438, 'z': 0.0}, 'size': 20.714287}" community conservative label pennymordauntmp
+302 jimsheridanmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 618.5305, 'x': -1206.4696, 'z': 0.0}, 'size': 15.952381}" community labour label jimsheridanmp
+303 grahamstuart 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -788.04736, 'x': 837.10785, 'z': 0.0}, 'size': 18.809525}" community conservative label grahamstuart
+304 mikefreermp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -978.9955, 'x': 755.0926, 'z': 0.0}, 'size': 23.571428}" community conservative label mikefreermp
+305 stevewebb1 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -1162.9022, 'x': -845.3985, 'z': 0.0}, 'size': 15.0}" community libdem label stevewebb1
+306 andrewgeorgeld 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -971.97034, 'x': -881.3521, 'z': 0.0}, 'size': 15.0}" community libdem label andrewgeorgeld
+307 helengoodmanmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1820.1963, 'x': -442.74313, 'z': 0.0}, 'size': 16.904762}" community labour label helengoodmanmp
+308 petewishart 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 158, 'b': 158, 'g': 108}, 'position': {'y': -171.14417, 'x': -690.5474, 'z': 0.0}, 'size': 19.761906}" community snp label petewishart
+309 dannyalexander 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -1182.9315, 'x': -1020.7924, 'z': 0.0}, 'size': 17.857143}" community libdem label dannyalexander
+310 naomi_long 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 101, 'b': 119, 'g': 153}, 'position': {'y': -28.277939, 'x': -961.56775, 'z': 0.0}, 'size': 21.666668}" community other label naomi_long
+311 seemamalhotra1 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1699.2477, 'x': -1003.7085, 'z': 0.0}, 'size': 25.47619}" community labour label seemamalhotra1
+312 vernon_coakermp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1515.7161, 'x': -1381.5154, 'z': 0.0}, 'size': 15.952381}" community labour label vernon_coakermp
+313 davidevennett 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1145.5854, 'x': 1678.3732, 'z': 0.0}, 'size': 15.952381}" community conservative label davidevennett
+314 jonathanplaid 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 101, 'b': 119, 'g': 153}, 'position': {'y': -134.21367, 'x': -501.57422, 'z': 0.0}, 'size': 19.761906}" community other label jonathanplaid
+315 markspencermp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -787.91943, 'x': 915.47406, 'z': 0.0}, 'size': 21.666668}" community conservative label markspencermp
+316 andrewpercy 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -863.0613, 'x': 816.6503, 'z': 0.0}, 'size': 18.809525}" community conservative label andrewpercy
+317 davidhansonmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1565.7291, 'x': -1178.0583, 'z': 0.0}, 'size': 25.47619}" community labour label davidhansonmp
+318 rogergodsiff 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1370.9465, 'x': -915.0419, 'z': 0.0}, 'size': 15.952381}" community labour label rogergodsiff
+319 stuartandrewmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1042.1096, 'x': 621.13275, 'z': 0.0}, 'size': 17.857143}" community conservative label stuartandrewmp
+320 niagriffithmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1322.7479, 'x': -827.5759, 'z': 0.0}, 'size': 15.952381}" community labour label niagriffithmp
+321 damiancollins 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1042.6323, 'x': 1452.1053, 'z': 0.0}, 'size': 20.714287}" community conservative label damiancollins
+322 annebegg 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 735.2775, 'x': -1570.2604, 'z': 0.0}, 'size': 15.0}" community labour label annebegg
+323 ianaustinmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1749.3446, 'x': -1566.4495, 'z': 0.0}, 'size': 18.809525}" community labour label ianaustinmp
+324 grantshapps 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -383.27686, 'x': 1596.6393, 'z': 0.0}, 'size': 15.952381}" community conservative label grantshapps
+325 minforcivsoc 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -860.58215, 'x': 1624.1989, 'z': 0.0}, 'size': 15.0}" community conservative label minforcivsoc
+326 jesse_norman 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -447.4245, 'x': 1382.1134, 'z': 0.0}, 'size': 15.0}" community conservative label jesse_norman
+327 stellacreasy 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 2091.825, 'x': -1503.609, 'z': 0.0}, 'size': 15.0}" community labour label stellacreasy
+328 chrisbryantmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1535.8617, 'x': -1697.145, 'z': 0.0}, 'size': 18.809525}" community labour label chrisbryantmp
+329 iainwrightmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1792.5829, 'x': -388.28644, 'z': 0.0}, 'size': 18.809525}" community labour label iainwrightmp
+330 joncruddasmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1796.7063, 'x': -501.88336, 'z': 0.0}, 'size': 15.0}" community labour label joncruddasmp
+331 andrewbridgenmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -869.0182, 'x': 1122.0123, 'z': 0.0}, 'size': 17.857143}" community conservative label andrewbridgenmp
+332 mp4chester 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1073.4586, 'x': 728.8581, 'z': 0.0}, 'size': 27.380953}" community conservative label mp4chester
+333 mark_j_harper 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -695.6477, 'x': 756.632, 'z': 0.0}, 'size': 15.0}" community conservative label mark_j_harper
+334 margarethodge 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1560.8545, 'x': -1030.8182, 'z': 0.0}, 'size': 16.904762}" community labour label margarethodge
+335 rosie4westlancs 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1985.6796, 'x': -1039.3262, 'z': 0.0}, 'size': 15.0}" community labour label rosie4westlancs
+336 pauline_latham 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1143.1075, 'x': 1026.0682, 'z': 0.0}, 'size': 16.904762}" community conservative label pauline_latham
+337 heidi_mp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1761.038, 'x': -959.7625, 'z': 0.0}, 'size': 21.666668}" community labour label heidi_mp
+338 leicesterliz 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 2075.9412, 'x': -1426.3094, 'z': 0.0}, 'size': 23.571428}" community labour label leicesterliz
+339 tonybaldry 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1347.0206, 'x': 1165.9999, 'z': 0.0}, 'size': 15.0}" community conservative label tonybaldry
+340 hilarybennmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1693.4453, 'x': -1577.5737, 'z': 0.0}, 'size': 15.0}" community labour label hilarybennmp
+341 robwilson_rdg 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -626.42334, 'x': 1453.7958, 'z': 0.0}, 'size': 18.809525}" community conservative label robwilson_rdg
+342 leighmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1451.2002, 'x': -947.4414, 'z': 0.0}, 'size': 15.0}" community labour label leighmp
+343 michaeldughermp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1895.21, 'x': -1518.7579, 'z': 0.0}, 'size': 42.61905}" community labour label michaeldughermp
+344 sdoughtymp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1629.2714, 'x': -1028.6229, 'z': 0.0}, 'size': 15.952381}" community labour label sdoughtymp
+345 claire4devizes 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -771.9197, 'x': 1654.9025, 'z': 0.0}, 'size': 34.04762}" community conservative label claire4devizes
+346 danielbyles 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -411.36487, 'x': 1331.9049, 'z': 0.0}, 'size': 15.0}" community conservative label danielbyles
+347 y_fovarguemp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1768.848, 'x': -732.33966, 'z': 0.0}, 'size': 17.857143}" community labour label y_fovarguemp
+348 yasminqureshimp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1642.6549, 'x': -914.9245, 'z': 0.0}, 'size': 18.809525}" community labour label yasminqureshimp
+349 sarahchampionmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 2230.26, 'x': -1433.8312, 'z': 0.0}, 'size': 15.0}" community labour label sarahchampionmp
+350 simonwrightmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -1216.911, 'x': -819.01556, 'z': 0.0}, 'size': 16.904762}" community libdem label simonwrightmp
+351 johnpughmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -1210.6102, 'x': -873.00214, 'z': 0.0}, 'size': 15.0}" community libdem label johnpughmp
+352 dianajohnsonmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1761.6125, 'x': -1131.7335, 'z': 0.0}, 'size': 47.38095}" community labour label dianajohnsonmp
+353 keith_vazmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 2018.6057, 'x': -1487.054, 'z': 0.0}, 'size': 15.0}" community labour label keith_vazmp
+354 davidburrowesmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -733.0398, 'x': 1018.0272, 'z': 0.0}, 'size': 15.952381}" community conservative label davidburrowesmp
+355 lucympowell 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 2167.156, 'x': -1426.1292, 'z': 0.0}, 'size': 18.809525}" community labour label lucympowell
+356 catmckinnellmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1900.3033, 'x': -673.567, 'z': 0.0}, 'size': 46.42857}" community labour label catmckinnellmp
+357 chriswhite_mp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -705.93945, 'x': 1236.4095, 'z': 0.0}, 'size': 15.952381}" community conservative label chriswhite_mp
+358 martinchelt 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -1092.5052, 'x': -1030.7698, 'z': 0.0}, 'size': 31.190475}" community libdem label martinchelt
+359 chrispincher 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1032.3333, 'x': 1054.2694, 'z': 0.0}, 'size': 55.0}" community conservative label chrispincher
+360 angusmacneilmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 158, 'b': 158, 'g': 108}, 'position': {'y': -282.3006, 'x': -622.7369, 'z': 0.0}, 'size': 18.809525}" community snp label angusmacneilmp
+361 yvettecoopermp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1886.68, 'x': -1776.5433, 'z': 0.0}, 'size': 21.666668}" community labour label yvettecoopermp
+362 ericjoyce 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1122.3337, 'x': -1424.8407, 'z': 0.0}, 'size': 15.952381}" community labour label ericjoyce
+363 timfarron 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -1140.3502, 'x': -719.1757, 'z': 0.0}, 'size': 17.857143}" community libdem label timfarron
+364 apmiller1949 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1625.618, 'x': -485.53796, 'z': 0.0}, 'size': 15.0}" community labour label apmiller1949
+365 davidjonesmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -442.2292, 'x': 956.32184, 'z': 0.0}, 'size': 18.809525}" community conservative label davidjonesmp
+366 ericpickles 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -460.00525, 'x': 1606.0253, 'z': 0.0}, 'size': 15.952381}" community conservative label ericpickles
+367 robflellomp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1694.1285, 'x': -719.5718, 'z': 0.0}, 'size': 18.809525}" community labour label robflellomp
+368 moraymp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 158, 'b': 158, 'g': 108}, 'position': {'y': -267.80698, 'x': -546.8138, 'z': 0.0}, 'size': 20.714287}" community snp label moraymp
+369 marklazarowicz 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 519.78265, 'x': -1478.0519, 'z': 0.0}, 'size': 15.952381}" community labour label marklazarowicz
+370 conor_burnsmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -535.49835, 'x': 1098.3773, 'z': 0.0}, 'size': 18.809525}" community conservative label conor_burnsmp
+371 debbie_abrahams 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1824.716, 'x': -1023.6971, 'z': 0.0}, 'size': 21.666668}" community labour label debbie_abrahams
+372 tpearce003 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 2045.557, 'x': -1057.3545, 'z': 0.0}, 'size': 15.0}" community labour label tpearce003
+373 shammondmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1005.4879, 'x': 673.1104, 'z': 0.0}, 'size': 15.0}" community conservative label shammondmp
+374 jeremylefroymp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1151.0692, 'x': 638.28143, 'z': 0.0}, 'size': 18.809525}" community conservative label jeremylefroymp
+375 jreedmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1987.7275, 'x': -1561.9261, 'z': 0.0}, 'size': 15.952381}" community labour label jreedmp
+376 michaelmooremp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -1298.0829, 'x': -906.71405, 'z': 0.0}, 'size': 17.857143}" community libdem label michaelmooremp
+377 davidlammy 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1782.1212, 'x': -1709.9852, 'z': 0.0}, 'size': 16.904762}" community labour label davidlammy
+378 philipdavies422 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -972.339, 'x': 1218.3783, 'z': 0.0}, 'size': 15.0}" community conservative label philipdavies422
+379 glyndaviesmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -371.31818, 'x': 644.2564, 'z': 0.0}, 'size': 18.809525}" community conservative label glyndaviesmp
+380 jimmcgovernmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 476.9365, 'x': -1691.7395, 'z': 0.0}, 'size': 15.0}" community labour label jimmcgovernmp
+381 iswales 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -1235.4254, 'x': -990.82886, 'z': 0.0}, 'size': 17.857143}" community libdem label iswales
+382 nick_clegg 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -1029.7064, 'x': -880.92865, 'z': 0.0}, 'size': 15.952381}" community libdem label nick_clegg
+383 johnmannmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 2098.7783, 'x': -1227.2762, 'z': 0.0}, 'size': 15.952381}" community labour label johnmannmp
+384 fionamacmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1303.0087, 'x': -1015.632, 'z': 0.0}, 'size': 15.952381}" community labour label fionamacmp
+385 fabianhamilton 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1273.0846, 'x': -883.50323, 'z': 0.0}, 'size': 18.809525}" community labour label fabianhamilton
+386 acunninghammp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1740.2284, 'x': -615.693, 'z': 0.0}, 'size': 50.238094}" community labour label acunninghammp
+387 liliangreenwood 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1953.8308, 'x': -1198.7273, 'z': 0.0}, 'size': 16.904762}" community labour label liliangreenwood
+388 acarmichaelmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -1292.6996, 'x': -1040.669, 'z': 0.0}, 'size': 22.619047}" community libdem label acarmichaelmp
+389 andrealeadsom 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1174.1293, 'x': 1082.537, 'z': 0.0}, 'size': 20.714287}" community conservative label andrealeadsom
+390 j_donaldson_mp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 101, 'b': 119, 'g': 153}, 'position': {'y': 732.4458, 'x': -446.0277, 'z': 0.0}, 'size': 15.0}" community other label j_donaldson_mp
+391 halfon4harlowmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -309.61603, 'x': 1527.0858, 'z': 0.0}, 'size': 21.666668}" community conservative label halfon4harlowmp
+392 william_bain 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 925.01166, 'x': -1528.2643, 'z': 0.0}, 'size': 16.904762}" community labour label william_bain
+393 rachelreevesmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1880.7322, 'x': -1329.4491, 'z': 0.0}, 'size': 51.190475}" community labour label rachelreevesmp
+394 jreynoldsmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1979.4464, 'x': -1424.7789, 'z': 0.0}, 'size': 29.285715}" community labour label jreynoldsmp
+395 glendajacksonmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1544.7526, 'x': -816.4507, 'z': 0.0}, 'size': 15.0}" community labour label glendajacksonmp
+396 harrietharman 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1774.1829, 'x': -1869.6583, 'z': 0.0}, 'size': 23.571428}" community labour label harrietharman
+397 gregclarkmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -663.095, 'x': 1150.0538, 'z': 0.0}, 'size': 15.0}" community conservative label gregclarkmp
+398 davidwrightmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1150.6803, 'x': -1158.4049, 'z': 0.0}, 'size': 16.904762}" community labour label davidwrightmp
+399 hazelblearsmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1238.5203, 'x': -1351.3219, 'z': 0.0}, 'size': 15.0}" community labour label hazelblearsmp
+400 lorelyburt 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -1185.3917, 'x': -1139.7502, 'z': 0.0}, 'size': 15.0}" community libdem label lorelyburt
+401 jennywillott 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -776.7412, 'x': -915.45544, 'z': 0.0}, 'size': 16.904762}" community libdem label jennywillott
+402 alisonseabeck 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1338.3895, 'x': -1158.6595, 'z': 0.0}, 'size': 23.571428}" community labour label alisonseabeck
+403 johnmcdonnellmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1463.8708, 'x': -734.4263, 'z': 0.0}, 'size': 15.952381}" community labour label johnmcdonnellmp
+404 hendonmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1057.4045, 'x': 883.22394, 'z': 0.0}, 'size': 15.0}" community conservative label hendonmp
+405 jowellt 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1895.4788, 'x': -1705.058, 'z': 0.0}, 'size': 16.904762}" community labour label jowellt
+406 davidwardmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -885.1299, 'x': -828.4394, 'z': 0.0}, 'size': 16.904762}" community libdem label davidwardmp
+407 linda_riordan 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1294.4022, 'x': -1088.8414, 'z': 0.0}, 'size': 15.952381}" community labour label linda_riordan
+408 jon_trickett 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1786.4272, 'x': -1386.9824, 'z': 0.0}, 'size': 15.952381}" community labour label jon_trickett
+409 shabanamahmood 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 2093.492, 'x': -834.3305, 'z': 0.0}, 'size': 15.952381}" community labour label shabanamahmood
+410 owensmithmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1555.7693, 'x': -681.3119, 'z': 0.0}, 'size': 19.761906}" community labour label owensmithmp
+411 chrishuhne 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -914.5122, 'x': -883.19696, 'z': 0.0}, 'size': 16.904762}" community libdem label chrishuhne
+412 hugoswire 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -154.95612, 'x': 946.6518, 'z': 0.0}, 'size': 17.857143}" community conservative label hugoswire
+413 andrewjonesmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -994.9949, 'x': 559.21906, 'z': 0.0}, 'size': 15.952381}" community conservative label andrewjonesmp
+414 gutobebb 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -510.0677, 'x': 762.9748, 'z': 0.0}, 'size': 15.0}" community conservative label gutobebb
+415 richardbenyonmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1074.0446, 'x': 1579.1632, 'z': 0.0}, 'size': 15.952381}" community conservative label richardbenyonmp
+416 jasonmccartney 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1082.6913, 'x': 525.23615, 'z': 0.0}, 'size': 26.428572}" community conservative label jasonmccartney
+417 tobiasellwoodmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 111, 'b': 241, 'g': 147}, 'position': {'y': -1091.3116, 'x': 937.09296, 'z': 0.0}, 'size': 15.0}" community conservative label tobiasellwoodmp
+418 eddaveykands 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 242, 'b': 117, 'g': 242}, 'position': {'y': -769.95935, 'x': -934.7636, 'z': 0.0}, 'size': 16.904762}" community libdem label eddaveykands
+419 jwoodcockmp 0.0 0.0 ellipse viz "{'color': {'a': 1.0, 'r': 255, 'b': 140, 'g': 140}, 'position': {'y': 1727.9543, 'x': -1647.2968, 'z': 0.0}, 'size': 22.619047}" community labour label jwoodcockmp
+*arcs
+1 204 1.0
+1 393 1.0
+1 118 1.0
+1 394 1.0
+1 343 1.0
+2 386 1.0
+2 254 1.0
+2 118 1.0
+2 394 1.0
+2 343 1.0
+3 99 1.0
+3 87 1.0
+3 298 1.0
+3 265 1.0
+3 155 1.0
+4 345 1.0
+4 263 1.0
+4 96 1.0
+4 229 1.0
+4 112 1.0
+5 48 1.0
+5 95 1.0
+5 412 1.0
+5 68 1.0
+5 246 1.0
+6 24 1.0
+6 42 1.0
+6 46 1.0
+6 185 1.0
+6 177 1.0
+7 1 1.0
+7 393 1.0
+7 243 1.0
+7 343 1.0
+7 394 1.0
+8 254 1.0
+8 231 1.0
+8 419 1.0
+8 394 1.0
+8 338 1.0
+9 405 1.0
+9 337 1.0
+9 311 1.0
+9 323 1.0
+9 181 1.0
+10 162 1.0
+10 51 1.0
+10 44 1.0
+10 303 1.0
+10 112 1.0
+11 286 1.0
+11 106 1.0
+11 26 1.0
+11 287 1.0
+11 7 1.0
+12 228 1.0
+12 4 1.0
+12 34 1.0
+12 359 1.0
+12 94 1.0
+13 79 1.0
+13 155 1.0
+13 4 1.0
+13 229 1.0
+13 296 1.0
+14 24 1.0
+14 20 1.0
+14 229 1.0
+14 359 1.0
+14 155 1.0
+15 375 1.0
+15 188 1.0
+15 78 1.0
+15 343 1.0
+15 338 1.0
+16 14 1.0
+16 185 1.0
+16 228 1.0
+16 359 1.0
+16 229 1.0
+17 86 1.0
+17 204 1.0
+17 393 1.0
+17 254 1.0
+17 343 1.0
+18 204 1.0
+18 254 1.0
+18 17 1.0
+18 232 1.0
+18 352 1.0
+19 110 1.0
+19 102 1.0
+19 280 1.0
+19 64 1.0
+19 151 1.0
+20 14 1.0
+20 79 1.0
+20 345 1.0
+20 229 1.0
+20 155 1.0
+21 252 1.0
+21 75 1.0
+21 22 1.0
+21 358 1.0
+21 167 1.0
+22 75 1.0
+22 149 1.0
+22 388 1.0
+22 59 1.0
+22 21 1.0
+23 222 1.0
+23 153 1.0
+23 245 1.0
+23 264 1.0
+23 64 1.0
+24 14 1.0
+24 42 1.0
+24 79 1.0
+24 155 1.0
+24 269 1.0
+25 222 1.0
+25 293 1.0
+25 130 1.0
+25 245 1.0
+25 290 1.0
+26 85 1.0
+26 163 1.0
+26 352 1.0
+26 166 1.0
+26 317 1.0
+27 222 1.0
+27 26 1.0
+27 280 1.0
+27 232 1.0
+27 317 1.0
+28 110 1.0
+28 280 1.0
+28 243 1.0
+28 81 1.0
+28 64 1.0
+29 189 1.0
+29 320 1.0
+29 410 1.0
+29 232 1.0
+29 39 1.0
+30 196 1.0
+30 211 1.0
+30 273 1.0
+30 64 1.0
+30 80 1.0
+31 153 1.0
+31 280 1.0
+31 369 1.0
+31 151 1.0
+31 19 1.0
+32 286 1.0
+32 393 1.0
+32 254 1.0
+32 118 1.0
+32 343 1.0
+33 228 1.0
+33 62 1.0
+33 357 1.0
+33 359 1.0
+33 234 1.0
+34 345 1.0
+34 263 1.0
+34 389 1.0
+34 228 1.0
+34 229 1.0
+35 254 1.0
+35 280 1.0
+35 28 1.0
+35 102 1.0
+35 328 1.0
+36 386 1.0
+36 311 1.0
+36 352 1.0
+36 295 1.0
+36 237 1.0
+37 228 1.0
+37 131 1.0
+37 391 1.0
+37 359 1.0
+37 96 1.0
+38 266 1.0
+38 85 1.0
+38 356 1.0
+38 166 1.0
+38 386 1.0
+39 86 1.0
+39 204 1.0
+39 286 1.0
+39 329 1.0
+39 410 1.0
+40 282 1.0
+40 315 1.0
+40 389 1.0
+40 62 1.0
+40 47 1.0
+41 293 1.0
+41 55 1.0
+41 176 1.0
+41 312 1.0
+41 310 1.0
+42 257 1.0
+42 24 1.0
+42 345 1.0
+42 46 1.0
+42 155 1.0
+43 42 1.0
+43 324 1.0
+43 229 1.0
+43 68 1.0
+43 117 1.0
+44 14 1.0
+44 34 1.0
+44 173 1.0
+44 37 1.0
+44 359 1.0
+45 149 1.0
+45 401 1.0
+45 21 1.0
+45 59 1.0
+45 418 1.0
+46 79 1.0
+46 42 1.0
+46 131 1.0
+46 391 1.0
+46 96 1.0
+47 228 1.0
+47 416 1.0
+47 62 1.0
+47 90 1.0
+47 359 1.0
+48 366 1.0
+48 95 1.0
+48 412 1.0
+48 90 1.0
+48 5 1.0
+49 110 1.0
+49 113 1.0
+49 334 1.0
+49 280 1.0
+49 317 1.0
+50 89 1.0
+50 165 1.0
+50 379 1.0
+50 314 1.0
+50 91 1.0
+51 162 1.0
+51 160 1.0
+51 10 1.0
+51 268 1.0
+51 133 1.0
+52 204 1.0
+52 113 1.0
+52 352 1.0
+52 128 1.0
+52 402 1.0
+53 106 1.0
+53 387 1.0
+53 214 1.0
+53 287 1.0
+53 26 1.0
+54 301 1.0
+54 269 1.0
+54 109 1.0
+54 16 1.0
+54 96 1.0
+55 208 1.0
+55 310 1.0
+55 385 1.0
+55 176 1.0
+55 41 1.0
+56 293 1.0
+56 110 1.0
+56 280 1.0
+56 28 1.0
+56 419 1.0
+57 79 1.0
+57 173 1.0
+57 228 1.0
+57 12 1.0
+57 298 1.0
+58 84 1.0
+58 147 1.0
+58 361 1.0
+58 161 1.0
+58 328 1.0
+59 252 1.0
+59 149 1.0
+59 260 1.0
+59 358 1.0
+59 22 1.0
+60 268 1.0
+60 304 1.0
+60 316 1.0
+60 94 1.0
+60 47 1.0
+61 286 1.0
+61 278 1.0
+61 356 1.0
+61 103 1.0
+61 140 1.0
+62 90 1.0
+62 332 1.0
+62 40 1.0
+62 359 1.0
+62 47 1.0
+63 75 1.0
+63 149 1.0
+63 122 1.0
+63 168 1.0
+63 70 1.0
+64 293 1.0
+64 110 1.0
+64 280 1.0
+64 151 1.0
+64 19 1.0
+65 89 1.0
+65 46 1.0
+65 256 1.0
+65 263 1.0
+65 96 1.0
+66 301 1.0
+66 183 1.0
+66 228 1.0
+66 62 1.0
+66 90 1.0
+67 14 1.0
+67 101 1.0
+67 228 1.0
+67 20 1.0
+67 112 1.0
+68 79 1.0
+68 42 1.0
+68 155 1.0
+68 391 1.0
+68 158 1.0
+69 360 1.0
+69 308 1.0
+69 368 1.0
+69 154 1.0
+69 314 1.0
+70 252 1.0
+70 75 1.0
+70 294 1.0
+70 122 1.0
+70 358 1.0
+71 42 1.0
+71 164 1.0
+71 4 1.0
+71 177 1.0
+71 296 1.0
+72 252 1.0
+72 167 1.0
+72 149 1.0
+72 70 1.0
+72 59 1.0
+73 20 1.0
+73 99 1.0
+73 4 1.0
+73 229 1.0
+73 313 1.0
+74 106 1.0
+74 215 1.0
+74 128 1.0
+74 407 1.0
+74 188 1.0
+75 247 1.0
+75 252 1.0
+75 149 1.0
+75 358 1.0
+75 21 1.0
+76 85 1.0
+76 393 1.0
+76 356 1.0
+76 166 1.0
+76 394 1.0
+77 101 1.0
+77 415 1.0
+77 173 1.0
+77 73 1.0
+77 265 1.0
+78 393 1.0
+78 147 1.0
+78 361 1.0
+78 343 1.0
+78 396 1.0
+79 24 1.0
+79 228 1.0
+79 46 1.0
+79 210 1.0
+79 155 1.0
+80 386 1.0
+80 254 1.0
+80 356 1.0
+80 259 1.0
+80 393 1.0
+81 150 1.0
+81 280 1.0
+81 28 1.0
+81 64 1.0
+81 19 1.0
+82 301 1.0
+82 57 1.0
+82 240 1.0
+82 62 1.0
+82 90 1.0
+83 14 1.0
+83 178 1.0
+83 148 1.0
+83 99 1.0
+83 34 1.0
+84 118 1.0
+84 377 1.0
+84 15 1.0
+84 371 1.0
+84 396 1.0
+85 286 1.0
+85 386 1.0
+85 356 1.0
+85 166 1.0
+85 352 1.0
+86 204 1.0
+86 386 1.0
+86 286 1.0
+86 166 1.0
+86 317 1.0
+87 148 1.0
+87 298 1.0
+87 99 1.0
+87 265 1.0
+87 3 1.0
+88 193 1.0
+88 386 1.0
+88 259 1.0
+88 163 1.0
+88 251 1.0
+89 365 1.0
+89 155 1.0
+89 37 1.0
+89 359 1.0
+89 96 1.0
+90 79 1.0
+90 269 1.0
+90 228 1.0
+90 416 1.0
+90 62 1.0
+91 89 1.0
+91 14 1.0
+91 379 1.0
+91 246 1.0
+91 37 1.0
+92 386 1.0
+92 273 1.0
+92 352 1.0
+92 393 1.0
+92 80 1.0
+93 37 1.0
+93 101 1.0
+93 228 1.0
+93 34 1.0
+93 298 1.0
+94 79 1.0
+94 268 1.0
+94 221 1.0
+94 12 1.0
+94 359 1.0
+95 79 1.0
+95 42 1.0
+95 109 1.0
+95 16 1.0
+95 269 1.0
+96 42 1.0
+96 46 1.0
+96 256 1.0
+96 229 1.0
+96 155 1.0
+97 89 1.0
+97 79 1.0
+97 256 1.0
+97 177 1.0
+97 296 1.0
+98 269 1.0
+98 42 1.0
+98 20 1.0
+98 209 1.0
+98 155 1.0
+99 228 1.0
+99 173 1.0
+99 148 1.0
+99 359 1.0
+99 135 1.0
+100 301 1.0
+100 269 1.0
+100 304 1.0
+100 240 1.0
+100 109 1.0
+101 345 1.0
+101 155 1.0
+101 148 1.0
+101 265 1.0
+101 229 1.0
+102 222 1.0
+102 280 1.0
+102 243 1.0
+102 151 1.0
+102 110 1.0
+103 286 1.0
+103 259 1.0
+103 352 1.0
+103 343 1.0
+103 80 1.0
+104 252 1.0
+104 167 1.0
+104 149 1.0
+104 294 1.0
+104 59 1.0
+105 286 1.0
+105 85 1.0
+105 259 1.0
+105 356 1.0
+105 386 1.0
+106 26 1.0
+106 393 1.0
+106 11 1.0
+106 394 1.0
+106 7 1.0
+107 286 1.0
+107 386 1.0
+107 11 1.0
+107 80 1.0
+107 251 1.0
+108 315 1.0
+108 90 1.0
+108 413 1.0
+108 34 1.0
+108 207 1.0
+109 269 1.0
+109 42 1.0
+109 263 1.0
+109 209 1.0
+109 155 1.0
+110 293 1.0
+110 280 1.0
+110 102 1.0
+110 64 1.0
+110 19 1.0
+111 345 1.0
+111 263 1.0
+111 34 1.0
+111 229 1.0
+111 96 1.0
+112 14 1.0
+112 79 1.0
+112 345 1.0
+112 4 1.0
+112 24 1.0
+113 141 1.0
+113 393 1.0
+113 396 1.0
+113 343 1.0
+113 237 1.0
+114 268 1.0
+114 374 1.0
+114 202 1.0
+114 145 1.0
+114 203 1.0
+115 247 1.0
+115 149 1.0
+115 401 1.0
+115 63 1.0
+115 411 1.0
+116 149 1.0
+116 381 1.0
+116 70 1.0
+116 206 1.0
+116 122 1.0
+117 79 1.0
+117 42 1.0
+117 345 1.0
+117 155 1.0
+117 123 1.0
+118 1 1.0
+118 254 1.0
+118 343 1.0
+118 166 1.0
+118 338 1.0
+119 269 1.0
+119 24 1.0
+119 389 1.0
+119 359 1.0
+119 160 1.0
+120 155 1.0
+120 256 1.0
+120 341 1.0
+120 13 1.0
+120 296 1.0
+121 222 1.0
+121 130 1.0
+121 153 1.0
+121 245 1.0
+121 290 1.0
+122 252 1.0
+122 167 1.0
+122 149 1.0
+122 388 1.0
+122 358 1.0
+123 14 1.0
+123 345 1.0
+123 228 1.0
+123 359 1.0
+123 229 1.0
+124 14 1.0
+124 178 1.0
+124 240 1.0
+124 416 1.0
+124 332 1.0
+125 268 1.0
+125 202 1.0
+125 224 1.0
+125 359 1.0
+125 332 1.0
+126 266 1.0
+126 26 1.0
+126 385 1.0
+126 280 1.0
+126 386 1.0
+127 315 1.0
+127 4 1.0
+127 192 1.0
+127 261 1.0
+127 159 1.0
+128 204 1.0
+128 402 1.0
+128 259 1.0
+128 118 1.0
+128 352 1.0
+129 35 1.0
+129 323 1.0
+129 147 1.0
+129 343 1.0
+129 328 1.0
+130 222 1.0
+130 102 1.0
+130 280 1.0
+130 64 1.0
+130 151 1.0
+131 42 1.0
+131 46 1.0
+131 391 1.0
+131 229 1.0
+131 96 1.0
+132 266 1.0
+132 386 1.0
+132 286 1.0
+132 329 1.0
+132 198 1.0
+133 228 1.0
+133 263 1.0
+133 359 1.0
+133 210 1.0
+133 112 1.0
+134 386 1.0
+134 215 1.0
+134 2 1.0
+134 348 1.0
+134 295 1.0
+135 14 1.0
+135 257 1.0
+135 228 1.0
+135 229 1.0
+135 155 1.0
+136 402 1.0
+136 254 1.0
+136 128 1.0
+136 28 1.0
+136 328 1.0
+137 278 1.0
+137 347 1.0
+137 348 1.0
+137 273 1.0
+137 103 1.0
+138 220 1.0
+138 148 1.0
+138 173 1.0
+138 228 1.0
+138 99 1.0
+139 1 1.0
+139 254 1.0
+139 419 1.0
+139 394 1.0
+139 7 1.0
+140 286 1.0
+140 85 1.0
+140 356 1.0
+140 166 1.0
+140 386 1.0
+141 393 1.0
+141 147 1.0
+141 254 1.0
+141 78 1.0
+141 396 1.0
+142 79 1.0
+142 42 1.0
+142 370 1.0
+142 97 1.0
+142 95 1.0
+143 374 1.0
+143 202 1.0
+143 37 1.0
+143 265 1.0
+143 332 1.0
+144 239 1.0
+144 259 1.0
+144 251 1.0
+144 163 1.0
+144 181 1.0
+145 173 1.0
+145 34 1.0
+145 389 1.0
+145 33 1.0
+145 374 1.0
+146 14 1.0
+146 125 1.0
+146 228 1.0
+146 192 1.0
+146 331 1.0
+147 141 1.0
+147 393 1.0
+147 243 1.0
+147 343 1.0
+147 396 1.0
+148 101 1.0
+148 99 1.0
+148 341 1.0
+148 265 1.0
+148 155 1.0
+149 247 1.0
+149 252 1.0
+149 358 1.0
+149 59 1.0
+149 168 1.0
+150 141 1.0
+150 147 1.0
+150 81 1.0
+150 78 1.0
+150 396 1.0
+151 392 1.0
+151 280 1.0
+151 102 1.0
+151 64 1.0
+151 19 1.0
+152 228 1.0
+152 416 1.0
+152 12 1.0
+152 94 1.0
+152 319 1.0
+153 222 1.0
+153 110 1.0
+153 280 1.0
+153 64 1.0
+153 151 1.0
+154 360 1.0
+154 308 1.0
+154 368 1.0
+154 314 1.0
+154 69 1.0
+155 14 1.0
+155 42 1.0
+155 79 1.0
+155 359 1.0
+155 24 1.0
+156 247 1.0
+156 75 1.0
+156 416 1.0
+156 168 1.0
+156 363 1.0
+157 18 1.0
+157 163 1.0
+157 194 1.0
+157 403 1.0
+157 161 1.0
+158 79 1.0
+158 42 1.0
+158 263 1.0
+158 391 1.0
+158 155 1.0
+159 42 1.0
+159 235 1.0
+159 131 1.0
+159 133 1.0
+159 229 1.0
+160 269 1.0
+160 12 1.0
+160 207 1.0
+160 359 1.0
+160 109 1.0
+161 196 1.0
+161 194 1.0
+161 36 1.0
+161 283 1.0
+161 80 1.0
+162 304 1.0
+162 155 1.0
+162 359 1.0
+162 210 1.0
+162 332 1.0
+163 393 1.0
+163 243 1.0
+163 343 1.0
+163 232 1.0
+163 352 1.0
+164 79 1.0
+164 228 1.0
+164 256 1.0
+164 131 1.0
+164 37 1.0
+165 252 1.0
+165 75 1.0
+165 288 1.0
+165 406 1.0
+165 22 1.0
+166 286 1.0
+166 393 1.0
+166 356 1.0
+166 343 1.0
+166 352 1.0
+167 252 1.0
+167 149 1.0
+167 260 1.0
+167 358 1.0
+167 22 1.0
+168 247 1.0
+168 75 1.0
+168 149 1.0
+168 59 1.0
+168 22 1.0
+169 14 1.0
+169 37 1.0
+169 155 1.0
+169 133 1.0
+169 158 1.0
+170 89 1.0
+170 65 1.0
+170 416 1.0
+170 158 1.0
+170 303 1.0
+171 266 1.0
+171 211 1.0
+171 38 1.0
+171 307 1.0
+171 367 1.0
+172 110 1.0
+172 238 1.0
+172 398 1.0
+172 385 1.0
+172 171 1.0
+173 79 1.0
+173 228 1.0
+173 12 1.0
+173 229 1.0
+173 265 1.0
+174 286 1.0
+174 225 1.0
+174 367 1.0
+174 8 1.0
+174 409 1.0
+175 24 1.0
+175 345 1.0
+175 155 1.0
+175 46 1.0
+175 391 1.0
+176 293 1.0
+176 55 1.0
+176 310 1.0
+176 161 1.0
+176 41 1.0
+177 97 1.0
+177 42 1.0
+177 46 1.0
+177 219 1.0
+177 296 1.0
+178 14 1.0
+178 34 1.0
+178 345 1.0
+178 359 1.0
+178 229 1.0
+179 37 1.0
+179 228 1.0
+179 12 1.0
+179 34 1.0
+179 332 1.0
+180 52 1.0
+180 386 1.0
+180 128 1.0
+180 113 1.0
+180 317 1.0
+181 196 1.0
+181 85 1.0
+181 311 1.0
+181 356 1.0
+181 105 1.0
+182 370 1.0
+182 235 1.0
+182 13 1.0
+182 331 1.0
+182 159 1.0
+183 14 1.0
+183 24 1.0
+183 370 1.0
+183 235 1.0
+183 229 1.0
+184 61 1.0
+184 163 1.0
+184 270 1.0
+184 243 1.0
+184 118 1.0
+185 269 1.0
+185 24 1.0
+185 96 1.0
+185 16 1.0
+185 42 1.0
+186 277 1.0
+186 226 1.0
+186 160 1.0
+186 236 1.0
+186 152 1.0
+187 259 1.0
+187 2 1.0
+187 163 1.0
+187 281 1.0
+187 239 1.0
+188 204 1.0
+188 254 1.0
+188 166 1.0
+188 394 1.0
+188 352 1.0
+189 86 1.0
+189 286 1.0
+189 307 1.0
+189 39 1.0
+189 118 1.0
+190 42 1.0
+190 34 1.0
+190 263 1.0
+190 224 1.0
+190 246 1.0
+191 204 1.0
+191 393 1.0
+191 352 1.0
+191 163 1.0
+191 343 1.0
+192 42 1.0
+192 46 1.0
+192 155 1.0
+192 220 1.0
+192 96 1.0
+193 227 1.0
+193 311 1.0
+193 251 1.0
+193 352 1.0
+193 80 1.0
+194 85 1.0
+194 163 1.0
+194 243 1.0
+194 232 1.0
+194 352 1.0
+195 89 1.0
+195 96 1.0
+195 341 1.0
+195 359 1.0
+195 112 1.0
+196 85 1.0
+196 311 1.0
+196 356 1.0
+196 163 1.0
+196 393 1.0
+197 359 1.0
+197 228 1.0
+197 62 1.0
+197 99 1.0
+197 265 1.0
+198 266 1.0
+198 386 1.0
+198 286 1.0
+198 356 1.0
+198 166 1.0
+199 315 1.0
+199 90 1.0
+199 219 1.0
+199 133 1.0
+199 109 1.0
+200 89 1.0
+200 365 1.0
+200 304 1.0
+200 379 1.0
+200 246 1.0
+201 302 1.0
+201 228 1.0
+201 310 1.0
+201 368 1.0
+201 69 1.0
+202 155 1.0
+202 228 1.0
+202 221 1.0
+202 359 1.0
+202 332 1.0
+203 99 1.0
+203 202 1.0
+203 37 1.0
+203 359 1.0
+203 96 1.0
+204 1 1.0
+204 393 1.0
+204 352 1.0
+204 254 1.0
+204 317 1.0
+205 252 1.0
+205 149 1.0
+205 70 1.0
+205 358 1.0
+205 122 1.0
+206 75 1.0
+206 388 1.0
+206 381 1.0
+206 358 1.0
+206 22 1.0
+207 79 1.0
+207 160 1.0
+207 228 1.0
+207 34 1.0
+207 229 1.0
+208 238 1.0
+208 402 1.0
+208 176 1.0
+208 55 1.0
+208 310 1.0
+209 269 1.0
+209 24 1.0
+209 96 1.0
+209 257 1.0
+209 42 1.0
+210 79 1.0
+210 42 1.0
+210 345 1.0
+210 133 1.0
+210 321 1.0
+211 266 1.0
+211 386 1.0
+211 286 1.0
+211 356 1.0
+211 166 1.0
+212 280 1.0
+212 153 1.0
+212 348 1.0
+212 25 1.0
+212 19 1.0
+213 183 1.0
+213 24 1.0
+213 304 1.0
+213 235 1.0
+213 155 1.0
+214 106 1.0
+214 254 1.0
+214 287 1.0
+214 356 1.0
+214 7 1.0
+215 204 1.0
+215 106 1.0
+215 393 1.0
+215 243 1.0
+215 7 1.0
+216 269 1.0
+216 42 1.0
+216 34 1.0
+216 133 1.0
+216 209 1.0
+217 193 1.0
+217 387 1.0
+217 105 1.0
+217 337 1.0
+217 347 1.0
+218 286 1.0
+218 386 1.0
+218 329 1.0
+218 198 1.0
+218 166 1.0
+219 257 1.0
+219 42 1.0
+219 177 1.0
+219 229 1.0
+219 133 1.0
+220 79 1.0
+220 228 1.0
+220 263 1.0
+220 341 1.0
+220 229 1.0
+221 389 1.0
+221 202 1.0
+221 229 1.0
+221 359 1.0
+221 96 1.0
+222 102 1.0
+222 280 1.0
+222 64 1.0
+222 151 1.0
+222 19 1.0
+223 141 1.0
+223 311 1.0
+223 2 1.0
+223 163 1.0
+223 118 1.0
+224 14 1.0
+224 301 1.0
+224 125 1.0
+224 229 1.0
+224 265 1.0
+225 227 1.0
+225 118 1.0
+225 343 1.0
+225 394 1.0
+225 80 1.0
+226 97 1.0
+226 213 1.0
+226 185 1.0
+226 331 1.0
+226 109 1.0
+227 286 1.0
+227 273 1.0
+227 280 1.0
+227 259 1.0
+227 371 1.0
+228 79 1.0
+228 416 1.0
+228 229 1.0
+228 359 1.0
+228 37 1.0
+229 257 1.0
+229 345 1.0
+229 228 1.0
+229 359 1.0
+229 155 1.0
+230 32 1.0
+230 254 1.0
+230 361 1.0
+230 118 1.0
+230 2 1.0
+231 8 1.0
+231 113 1.0
+231 254 1.0
+231 419 1.0
+231 28 1.0
+232 204 1.0
+232 163 1.0
+232 243 1.0
+232 166 1.0
+232 7 1.0
+233 227 1.0
+233 273 1.0
+233 337 1.0
+233 295 1.0
+233 384 1.0
+234 14 1.0
+234 24 1.0
+234 96 1.0
+234 359 1.0
+234 332 1.0
+235 79 1.0
+235 46 1.0
+235 131 1.0
+235 229 1.0
+235 359 1.0
+236 152 1.0
+236 416 1.0
+236 316 1.0
+236 298 1.0
+236 319 1.0
+237 204 1.0
+237 113 1.0
+237 393 1.0
+237 36 1.0
+237 352 1.0
+238 386 1.0
+238 283 1.0
+238 36 1.0
+238 161 1.0
+238 295 1.0
+239 286 1.0
+239 61 1.0
+239 311 1.0
+239 356 1.0
+239 118 1.0
+240 42 1.0
+240 345 1.0
+240 133 1.0
+240 359 1.0
+240 24 1.0
+241 204 1.0
+241 1 1.0
+241 254 1.0
+241 394 1.0
+241 352 1.0
+242 208 1.0
+242 55 1.0
+242 201 1.0
+242 176 1.0
+242 310 1.0
+243 1 1.0
+243 393 1.0
+243 361 1.0
+243 163 1.0
+243 7 1.0
+244 45 1.0
+244 165 1.0
+244 406 1.0
+244 122 1.0
+244 70 1.0
+245 222 1.0
+245 102 1.0
+245 130 1.0
+245 64 1.0
+245 151 1.0
+246 89 1.0
+246 365 1.0
+246 95 1.0
+246 91 1.0
+246 332 1.0
+247 252 1.0
+247 75 1.0
+247 149 1.0
+247 363 1.0
+247 168 1.0
+248 356 1.0
+248 278 1.0
+248 105 1.0
+248 198 1.0
+248 386 1.0
+249 85 1.0
+249 311 1.0
+249 92 1.0
+249 337 1.0
+249 386 1.0
+250 141 1.0
+250 355 1.0
+250 393 1.0
+250 289 1.0
+250 118 1.0
+251 343 1.0
+251 254 1.0
+251 163 1.0
+251 281 1.0
+251 352 1.0
+252 167 1.0
+252 75 1.0
+252 149 1.0
+252 358 1.0
+252 59 1.0
+253 356 1.0
+253 377 1.0
+253 161 1.0
+253 295 1.0
+253 36 1.0
+254 393 1.0
+254 419 1.0
+254 343 1.0
+254 352 1.0
+254 338 1.0
+255 14 1.0
+255 321 1.0
+255 155 1.0
+255 173 1.0
+255 269 1.0
+256 79 1.0
+256 42 1.0
+256 345 1.0
+256 46 1.0
+256 96 1.0
+257 42 1.0
+257 263 1.0
+257 391 1.0
+257 229 1.0
+257 24 1.0
+258 79 1.0
+258 321 1.0
+258 240 1.0
+258 16 1.0
+258 112 1.0
+259 286 1.0
+259 386 1.0
+259 352 1.0
+259 166 1.0
+259 85 1.0
+260 252 1.0
+260 167 1.0
+260 149 1.0
+260 21 1.0
+260 59 1.0
+261 24 1.0
+261 228 1.0
+261 155 1.0
+261 359 1.0
+261 315 1.0
+262 358 1.0
+262 382 1.0
+262 411 1.0
+262 59 1.0
+262 21 1.0
+263 257 1.0
+263 42 1.0
+263 4 1.0
+263 229 1.0
+263 96 1.0
+264 222 1.0
+264 293 1.0
+264 153 1.0
+264 392 1.0
+264 64 1.0
+265 14 1.0
+265 79 1.0
+265 24 1.0
+265 321 1.0
+265 269 1.0
+266 286 1.0
+266 85 1.0
+266 356 1.0
+266 166 1.0
+266 386 1.0
+267 57 1.0
+267 111 1.0
+267 173 1.0
+267 93 1.0
+267 73 1.0
+268 125 1.0
+268 316 1.0
+268 16 1.0
+268 359 1.0
+268 94 1.0
+269 359 1.0
+269 24 1.0
+269 265 1.0
+269 209 1.0
+269 109 1.0
+270 222 1.0
+270 153 1.0
+270 280 1.0
+270 25 1.0
+270 151 1.0
+271 315 1.0
+271 62 1.0
+271 374 1.0
+271 50 1.0
+271 199 1.0
+272 356 1.0
+272 329 1.0
+272 410 1.0
+272 317 1.0
+272 39 1.0
+273 85 1.0
+273 356 1.0
+273 140 1.0
+273 371 1.0
+273 352 1.0
+274 85 1.0
+274 254 1.0
+274 348 1.0
+274 356 1.0
+274 371 1.0
+275 1 1.0
+275 393 1.0
+275 215 1.0
+275 8 1.0
+275 317 1.0
+276 90 1.0
+276 98 1.0
+276 16 1.0
+276 207 1.0
+276 265 1.0
+277 268 1.0
+277 152 1.0
+277 87 1.0
+277 6 1.0
+277 60 1.0
+278 266 1.0
+278 386 1.0
+278 286 1.0
+278 140 1.0
+278 61 1.0
+279 79 1.0
+279 345 1.0
+279 255 1.0
+279 173 1.0
+279 192 1.0
+280 222 1.0
+280 386 1.0
+280 102 1.0
+280 151 1.0
+280 19 1.0
+281 1 1.0
+281 393 1.0
+281 243 1.0
+281 343 1.0
+281 352 1.0
+282 229 1.0
+282 62 1.0
+282 40 1.0
+282 13 1.0
+282 246 1.0
+283 204 1.0
+283 402 1.0
+283 254 1.0
+283 128 1.0
+283 352 1.0
+284 234 1.0
+284 416 1.0
+284 202 1.0
+284 359 1.0
+284 210 1.0
+285 54 1.0
+285 412 1.0
+285 94 1.0
+285 190 1.0
+285 109 1.0
+286 266 1.0
+286 386 1.0
+286 356 1.0
+286 198 1.0
+286 166 1.0
+287 106 1.0
+287 254 1.0
+287 11 1.0
+287 214 1.0
+287 26 1.0
+288 252 1.0
+288 75 1.0
+288 168 1.0
+288 59 1.0
+288 167 1.0
+289 1 1.0
+289 355 1.0
+289 393 1.0
+289 118 1.0
+289 343 1.0
+290 222 1.0
+290 280 1.0
+290 130 1.0
+290 245 1.0
+290 19 1.0
+291 356 1.0
+291 17 1.0
+291 105 1.0
+291 161 1.0
+291 80 1.0
+292 149 1.0
+292 294 1.0
+292 388 1.0
+292 309 1.0
+292 21 1.0
+293 222 1.0
+293 110 1.0
+293 280 1.0
+293 64 1.0
+293 151 1.0
+294 252 1.0
+294 388 1.0
+294 70 1.0
+294 292 1.0
+294 122 1.0
+295 393 1.0
+295 356 1.0
+295 166 1.0
+295 371 1.0
+295 394 1.0
+296 155 1.0
+296 256 1.0
+296 131 1.0
+296 13 1.0
+296 96 1.0
+297 163 1.0
+297 283 1.0
+297 281 1.0
+297 151 1.0
+297 251 1.0
+298 79 1.0
+298 228 1.0
+298 416 1.0
+298 131 1.0
+298 359 1.0
+299 79 1.0
+299 228 1.0
+299 173 1.0
+299 298 1.0
+299 73 1.0
+300 362 1.0
+300 26 1.0
+300 323 1.0
+300 337 1.0
+300 318 1.0
+301 14 1.0
+301 224 1.0
+301 298 1.0
+301 265 1.0
+301 155 1.0
+302 110 1.0
+302 317 1.0
+302 153 1.0
+302 64 1.0
+302 19 1.0
+303 42 1.0
+303 228 1.0
+303 416 1.0
+303 96 1.0
+303 316 1.0
+304 162 1.0
+304 24 1.0
+304 229 1.0
+304 359 1.0
+304 332 1.0
+305 376 1.0
+305 75 1.0
+305 149 1.0
+305 358 1.0
+305 350 1.0
+306 252 1.0
+306 75 1.0
+306 149 1.0
+306 358 1.0
+306 168 1.0
+307 266 1.0
+307 85 1.0
+307 286 1.0
+307 356 1.0
+307 386 1.0
+308 360 1.0
+308 290 1.0
+308 368 1.0
+308 154 1.0
+308 69 1.0
+309 167 1.0
+309 149 1.0
+309 21 1.0
+309 292 1.0
+309 22 1.0
+310 55 1.0
+310 149 1.0
+310 288 1.0
+310 176 1.0
+310 41 1.0
+311 85 1.0
+311 393 1.0
+311 280 1.0
+311 254 1.0
+311 338 1.0
+312 1 1.0
+312 254 1.0
+312 356 1.0
+312 118 1.0
+312 343 1.0
+313 24 1.0
+313 99 1.0
+313 20 1.0
+313 135 1.0
+313 73 1.0
+314 18 1.0
+314 308 1.0
+314 368 1.0
+314 154 1.0
+314 69 1.0
+315 269 1.0
+315 202 1.0
+315 229 1.0
+315 359 1.0
+315 155 1.0
+316 228 1.0
+316 202 1.0
+316 46 1.0
+316 229 1.0
+316 96 1.0
+317 204 1.0
+317 26 1.0
+317 393 1.0
+317 394 1.0
+317 352 1.0
+318 52 1.0
+318 227 1.0
+318 180 1.0
+318 161 1.0
+318 367 1.0
+319 416 1.0
+319 228 1.0
+319 164 1.0
+319 37 1.0
+319 94 1.0
+320 18 1.0
+320 17 1.0
+320 27 1.0
+320 344 1.0
+320 39 1.0
+321 269 1.0
+321 229 1.0
+321 265 1.0
+321 210 1.0
+321 112 1.0
+322 222 1.0
+322 110 1.0
+322 280 1.0
+322 151 1.0
+322 19 1.0
+323 1 1.0
+323 254 1.0
+323 128 1.0
+323 118 1.0
+323 343 1.0
+324 79 1.0
+324 42 1.0
+324 46 1.0
+324 263 1.0
+324 229 1.0
+325 79 1.0
+325 101 1.0
+325 255 1.0
+325 155 1.0
+325 109 1.0
+326 155 1.0
+326 42 1.0
+326 256 1.0
+326 229 1.0
+326 96 1.0
+327 1 1.0
+327 166 1.0
+327 139 1.0
+327 394 1.0
+327 419 1.0
+328 204 1.0
+328 1 1.0
+328 254 1.0
+328 243 1.0
+328 343 1.0
+329 266 1.0
+329 386 1.0
+329 286 1.0
+329 356 1.0
+329 166 1.0
+330 196 1.0
+330 266 1.0
+330 286 1.0
+330 410 1.0
+330 92 1.0
+331 14 1.0
+331 79 1.0
+331 202 1.0
+331 359 1.0
+331 265 1.0
+332 14 1.0
+332 162 1.0
+332 304 1.0
+332 202 1.0
+332 359 1.0
+333 258 1.0
+333 240 1.0
+333 90 1.0
+333 246 1.0
+333 332 1.0
+334 254 1.0
+334 215 1.0
+334 356 1.0
+334 295 1.0
+334 371 1.0
+335 386 1.0
+335 402 1.0
+335 26 1.0
+335 53 1.0
+335 106 1.0
+336 34 1.0
+336 228 1.0
+336 389 1.0
+336 37 1.0
+336 155 1.0
+337 386 1.0
+337 393 1.0
+337 166 1.0
+337 118 1.0
+337 151 1.0
+338 1 1.0
+338 254 1.0
+338 118 1.0
+338 166 1.0
+338 343 1.0
+339 321 1.0
+339 336 1.0
+339 12 1.0
+339 265 1.0
+339 94 1.0
+340 243 1.0
+340 163 1.0
+340 361 1.0
+340 408 1.0
+340 281 1.0
+341 345 1.0
+341 155 1.0
+341 228 1.0
+341 229 1.0
+341 96 1.0
+342 193 1.0
+342 128 1.0
+342 180 1.0
+342 76 1.0
+342 36 1.0
+343 1 1.0
+343 254 1.0
+343 166 1.0
+343 281 1.0
+343 118 1.0
+344 355 1.0
+344 356 1.0
+344 273 1.0
+344 151 1.0
+344 118 1.0
+345 42 1.0
+345 46 1.0
+345 155 1.0
+345 229 1.0
+345 96 1.0
+346 256 1.0
+346 46 1.0
+346 263 1.0
+346 345 1.0
+346 37 1.0
+347 386 1.0
+347 311 1.0
+347 273 1.0
+347 259 1.0
+347 163 1.0
+348 227 1.0
+348 311 1.0
+348 273 1.0
+348 371 1.0
+348 352 1.0
+349 355 1.0
+349 361 1.0
+349 239 1.0
+349 289 1.0
+349 118 1.0
+350 252 1.0
+350 75 1.0
+350 381 1.0
+350 376 1.0
+350 168 1.0
+351 376 1.0
+351 168 1.0
+351 350 1.0
+351 21 1.0
+351 167 1.0
+352 204 1.0
+352 85 1.0
+352 393 1.0
+352 356 1.0
+352 317 1.0
+353 383 1.0
+353 118 1.0
+353 361 1.0
+353 323 1.0
+353 352 1.0
+354 14 1.0
+354 228 1.0
+354 131 1.0
+354 359 1.0
+354 112 1.0
+355 106 1.0
+355 393 1.0
+355 7 1.0
+355 118 1.0
+355 188 1.0
+356 286 1.0
+356 386 1.0
+356 352 1.0
+356 166 1.0
+356 85 1.0
+357 257 1.0
+357 42 1.0
+357 229 1.0
+357 359 1.0
+357 123 1.0
+358 252 1.0
+358 75 1.0
+358 149 1.0
+358 122 1.0
+358 21 1.0
+359 228 1.0
+359 221 1.0
+359 202 1.0
+359 229 1.0
+359 155 1.0
+360 308 1.0
+360 368 1.0
+360 154 1.0
+360 314 1.0
+360 69 1.0
+361 1 1.0
+361 393 1.0
+361 243 1.0
+361 78 1.0
+361 396 1.0
+362 110 1.0
+362 280 1.0
+362 128 1.0
+362 419 1.0
+362 64 1.0
+363 247 1.0
+363 75 1.0
+363 388 1.0
+363 21 1.0
+363 22 1.0
+364 266 1.0
+364 193 1.0
+364 347 1.0
+364 39 1.0
+364 367 1.0
+365 89 1.0
+365 257 1.0
+365 34 1.0
+365 46 1.0
+365 229 1.0
+366 79 1.0
+366 257 1.0
+366 46 1.0
+366 20 1.0
+366 155 1.0
+367 286 1.0
+367 85 1.0
+367 163 1.0
+367 386 1.0
+367 251 1.0
+368 360 1.0
+368 308 1.0
+368 154 1.0
+368 314 1.0
+368 69 1.0
+369 222 1.0
+369 130 1.0
+369 64 1.0
+369 151 1.0
+369 290 1.0
+370 42 1.0
+370 131 1.0
+370 359 1.0
+370 210 1.0
+370 109 1.0
+371 386 1.0
+371 393 1.0
+371 356 1.0
+371 254 1.0
+371 338 1.0
+372 386 1.0
+372 352 1.0
+372 181 1.0
+372 394 1.0
+372 338 1.0
+373 100 1.0
+373 304 1.0
+373 143 1.0
+373 202 1.0
+373 240 1.0
+374 145 1.0
+374 304 1.0
+374 202 1.0
+374 336 1.0
+374 228 1.0
+375 1 1.0
+375 343 1.0
+375 419 1.0
+375 166 1.0
+375 188 1.0
+376 75 1.0
+376 294 1.0
+376 388 1.0
+376 21 1.0
+376 309 1.0
+377 405 1.0
+377 141 1.0
+377 254 1.0
+377 396 1.0
+377 7 1.0
+378 99 1.0
+378 164 1.0
+378 20 1.0
+378 298 1.0
+378 303 1.0
+379 89 1.0
+379 365 1.0
+379 256 1.0
+379 37 1.0
+379 91 1.0
+380 245 1.0
+380 130 1.0
+380 153 1.0
+380 270 1.0
+380 264 1.0
+381 167 1.0
+381 75 1.0
+381 358 1.0
+381 21 1.0
+381 70 1.0
+382 247 1.0
+382 75 1.0
+382 149 1.0
+382 309 1.0
+382 292 1.0
+383 32 1.0
+383 118 1.0
+383 317 1.0
+383 103 1.0
+383 338 1.0
+384 286 1.0
+384 311 1.0
+384 280 1.0
+384 64 1.0
+384 251 1.0
+385 204 1.0
+385 386 1.0
+385 259 1.0
+385 352 1.0
+385 402 1.0
+386 266 1.0
+386 85 1.0
+386 286 1.0
+386 280 1.0
+386 356 1.0
+387 204 1.0
+387 1 1.0
+387 259 1.0
+387 254 1.0
+387 393 1.0
+388 294 1.0
+388 363 1.0
+388 122 1.0
+388 358 1.0
+388 22 1.0
+389 34 1.0
+389 221 1.0
+389 345 1.0
+389 359 1.0
+389 229 1.0
+390 223 1.0
+390 235 1.0
+390 410 1.0
+390 2 1.0
+390 310 1.0
+391 79 1.0
+391 42 1.0
+391 46 1.0
+391 155 1.0
+391 257 1.0
+392 222 1.0
+392 102 1.0
+392 280 1.0
+392 166 1.0
+392 151 1.0
+393 1 1.0
+393 254 1.0
+393 243 1.0
+393 343 1.0
+393 352 1.0
+394 204 1.0
+394 1 1.0
+394 393 1.0
+394 254 1.0
+394 352 1.0
+395 196 1.0
+395 334 1.0
+395 337 1.0
+395 295 1.0
+395 80 1.0
+396 1 1.0
+396 141 1.0
+396 393 1.0
+396 243 1.0
+396 78 1.0
+397 321 1.0
+397 219 1.0
+397 16 1.0
+397 133 1.0
+397 258 1.0
+398 180 1.0
+398 402 1.0
+398 56 1.0
+398 128 1.0
+398 283 1.0
+399 110 1.0
+399 402 1.0
+399 28 1.0
+399 295 1.0
+399 188 1.0
+400 167 1.0
+400 168 1.0
+400 294 1.0
+400 122 1.0
+400 388 1.0
+401 252 1.0
+401 45 1.0
+401 149 1.0
+401 288 1.0
+401 59 1.0
+402 204 1.0
+402 386 1.0
+402 254 1.0
+402 352 1.0
+402 251 1.0
+403 356 1.0
+403 291 1.0
+403 161 1.0
+403 295 1.0
+403 80 1.0
+404 14 1.0
+404 315 1.0
+404 304 1.0
+404 119 1.0
+404 332 1.0
+405 1 1.0
+405 141 1.0
+405 393 1.0
+405 396 1.0
+405 338 1.0
+406 358 1.0
+406 75 1.0
+406 149 1.0
+406 21 1.0
+406 59 1.0
+407 385 1.0
+407 36 1.0
+407 398 1.0
+407 283 1.0
+407 352 1.0
+408 85 1.0
+408 343 1.0
+408 243 1.0
+408 281 1.0
+408 352 1.0
+409 337 1.0
+409 85 1.0
+409 273 1.0
+409 92 1.0
+409 225 1.0
+410 204 1.0
+410 286 1.0
+410 393 1.0
+410 356 1.0
+410 343 1.0
+411 247 1.0
+411 358 1.0
+411 260 1.0
+411 21 1.0
+411 418 1.0
+412 48 1.0
+412 95 1.0
+412 5 1.0
+412 68 1.0
+412 91 1.0
+413 114 1.0
+413 100 1.0
+413 90 1.0
+413 62 1.0
+413 332 1.0
+414 89 1.0
+414 185 1.0
+414 354 1.0
+414 90 1.0
+414 379 1.0
+415 79 1.0
+415 160 1.0
+415 345 1.0
+415 20 1.0
+415 265 1.0
+416 228 1.0
+416 303 1.0
+416 202 1.0
+416 298 1.0
+416 319 1.0
+417 301 1.0
+417 370 1.0
+417 62 1.0
+417 173 1.0
+417 298 1.0
+418 247 1.0
+418 45 1.0
+418 288 1.0
+418 122 1.0
+418 59 1.0
+419 204 1.0
+419 254 1.0
+419 343 1.0
+419 394 1.0
+419 7 1.0

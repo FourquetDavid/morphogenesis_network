@@ -1,6 +1,4 @@
-
 '''
-Created on 12 nov. 2012
 
 @author: David
 inspired by Telmo Menezes's work : telmomenezes.com
@@ -9,8 +7,8 @@ inspired by Telmo Menezes's work : telmomenezes.com
 import network_evaluation as ne  
 import genetic_algorithm as ga  
 import numpy as np
-import os, sys
-import warnings
+
+
  
 '''
 This is the main file of the program :
@@ -20,18 +18,18 @@ and call it
 '''
 #@profile
 def main() :
-    if len(sys.argv) > 1 : numero= sys.argv[1]
-    else : numero = 0
 
-    evaluation_method ="2distributions"
+    evaluation_method ="communities_degrees_distances_clustering_importance"
     tree_type = "with_constants"
     network_type = "undirected_unweighted"
-    network = "karate_undirected"
+    network = "adjnoun"
     multiprocessing = False
-    data_path = '../../data/{}.gml'.format(network)
-    results_path ='../../results/{}_{}.txt'.format(network,evaluation_method)
-    stats_path = '../../results/{}_{}_stats{}.txt'.format(network,evaluation_method,numero)
-    nb_generations =10
+    dynamic = False
+    extension = ".gml"
+    data_path = '../../data/{}/'.format(network)
+    results_path ='../../results/{}/{}.xml'.format(network,evaluation_method)
+    stats_path = '../../results/{}/{}_stats.txt'.format(network,evaluation_method)
+    nb_generations =11 
     freq_stats =5
     #do not display numpy warnings     
     np.seterr('ignore') 
@@ -40,11 +38,14 @@ def main() :
 #arguments : path to the real network, path to print datas
     #possible arguments : 
 #*evaluation_method : the method used to evaluate the proximity between real network and generated network
-#                        possible values : "degree_distribution""2distributions"(= degree + distance distribution)
+#                        possible values : "(nodes)_(vertices)_(clustering)_(importance)_(communities)_(distances)_(degrees)"
     ne.get_datas_from_real_network(data_path,
                                results_path,
+                               name= network,
                                evaluation_method= evaluation_method,
-                               network_type = network_type)
+                               network_type = network_type,
+                               dynamic = dynamic,
+                               extension = extension)
     
     
 #arguments : path to datas about the real network
@@ -52,18 +53,23 @@ def main() :
 #*max_depth : maximal depth of the decision tree that defines a genome 
 #             possible values : int > 0
 #evaluation_method : the method used to evaluate the proximity between real network and generated network
-#                        possible values : "degree_distribution""3distributions"
+#                        possible values : "(nodes)_(vertices)_(clustering)_(importance)_(communities)_(distances)_(degrees)"
 #tree_type : the type of the trees used to stores genomes : with or without constants in leaves
 #                        possible values : "with_constants" "simple"
 #network_type : the type of the networks studied and generated : directed or not
 #                possible values : "(un)weighted_(un)directed"
+#dynamic : if the network is dynamic or not
+    
     genome = ga.new_genome(
                        results_path,
+                       name= network,
+                       data_path = data_path,
                        evaluation_method= evaluation_method,
+                       dynamic = dynamic,
                        tree_type = tree_type,
-                       network_type = network_type
+                       network_type = network_type,
+                       extension = extension
                        )
-    
     
 #optional arguments for evolve :
 #*nb_generations : number of generations of the evolution 

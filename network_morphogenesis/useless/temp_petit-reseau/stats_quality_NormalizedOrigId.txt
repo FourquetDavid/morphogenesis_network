@@ -1,0 +1,30 @@
+
+### Sorted by Quality ####
+variable : AverageWeight number of apparitions = 2622 quality = 11.4418565954 
+variable : TotalWeight number of apparitions = 3862 quality = 11.6988478904 
+variable : AverageDistance number of apparitions = 3514 quality = 11.6990798544 
+variable : NormalizedTargId number of apparitions = 4345 quality = 12.011761595 
+variable : MaxDistance number of apparitions = 5666 quality = 12.0274917879 
+variable : NumberOfNodes number of apparitions = 3878 quality = 12.1802927029 
+variable : MaxWeight number of apparitions = 3846 quality = 12.2300379624 
+variable : NormalizedTargStrength number of apparitions = 4076 quality = 16.1262767168 
+
+#####Sorted by Quantity*Quality#########
+variable : MaxWeight number of apparitions = 3846 quality = 12.2300379624 
+variable : NumberOfNodes number of apparitions = 3878 quality = 12.1802927029 
+variable : NormalizedOrigId number of apparitions = 5152 quality = 9.46861506762 
+variable : Constant number of apparitions = 4352 quality = 11.298501234 
+variable : NormalizedTargId number of apparitions = 4345 quality = 12.011761595 
+variable : TotalDistance number of apparitions = 5341 quality = 10.1774166477 
+variable : NormalizedTargStrength number of apparitions = 4076 quality = 16.1262767168 
+variable : MaxDistance number of apparitions = 5666 quality = 12.0274917879 
+
+######Sorted by Rate######
+variable : MaxWeight number of apparitions = 3846 quality = 12.2300379624 
+variable : NumberOfNodes number of apparitions = 3878 quality = 12.1802927029 
+variable : Constant number of apparitions = 4352 quality = 11.298501234 
+variable : NormalizedTargId number of apparitions = 4345 quality = 12.011761595 
+variable : NormalizedTargStrength number of apparitions = 4076 quality = 16.1262767168 
+variable : NormalizedOrigId number of apparitions = 5152 quality = 9.46861506762 
+variable : TotalDistance number of apparitions = 5341 quality = 10.1774166477 
+variable : MaxDistance number of apparitions = 5666 quality = 12.0274917879 

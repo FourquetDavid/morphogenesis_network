@@ -1,0 +1,7 @@
+number of generations = 100 
+evaluation_method = weighted 
+selector = Slot [Selector] (Count: 1)
+		Name: GRouletteWheel - Weight: 0.50
+		Doc:  The Roulette Wheel selector 
+ 
+multiprocessing = True 

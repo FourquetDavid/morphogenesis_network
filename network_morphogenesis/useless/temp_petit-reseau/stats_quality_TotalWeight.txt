@@ -1,0 +1,30 @@
+
+### Sorted by Quality ####
+variable : MaxStrength number of apparitions = 2892 quality = 12.4881231214 
+variable : AverageStrength number of apparitions = 3844 quality = 12.6431685084 
+variable : NormalizedOrigStrength number of apparitions = 7555 quality = 13.0196746847 
+variable : NumberOfNodes number of apparitions = 5852 quality = 13.0785439112 
+variable : TargStrength number of apparitions = 4683 quality = 13.2035460824 
+variable : MaxWeight number of apparitions = 2538 quality = 13.2943367244 
+variable : MaxDistance number of apparitions = 3694 quality = 14.0884458009 
+variable : AverageDistance number of apparitions = 3750 quality = 14.2268063856 
+
+#####Sorted by Quantity*Quality#########
+variable : MaxDistance number of apparitions = 3694 quality = 14.0884458009 
+variable : NormalizedTargStrength number of apparitions = 4656 quality = 11.193624255 
+variable : AverageWeight number of apparitions = 4570 quality = 11.532907042 
+variable : AverageDistance number of apparitions = 3750 quality = 14.2268063856 
+variable : TargStrength number of apparitions = 4683 quality = 13.2035460824 
+variable : Constant number of apparitions = 6774 quality = 9.81458554119 
+variable : NumberOfNodes number of apparitions = 5852 quality = 13.0785439112 
+variable : NormalizedOrigStrength number of apparitions = 7555 quality = 13.0196746847 
+
+######Sorted by Rate######
+variable : AverageDistance number of apparitions = 3750 quality = 14.2268063856 
+variable : NormalizedOrigId number of apparitions = 4179 quality = 11.280679561 
+variable : AverageWeight number of apparitions = 4570 quality = 11.532907042 
+variable : NormalizedTargStrength number of apparitions = 4656 quality = 11.193624255 
+variable : TargStrength number of apparitions = 4683 quality = 13.2035460824 
+variable : NumberOfNodes number of apparitions = 5852 quality = 13.0785439112 
+variable : Constant number of apparitions = 6774 quality = 9.81458554119 
+variable : NormalizedOrigStrength number of apparitions = 7555 quality = 13.0196746847 

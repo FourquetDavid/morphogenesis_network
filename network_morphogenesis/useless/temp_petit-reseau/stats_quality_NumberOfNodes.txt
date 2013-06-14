@@ -1,0 +1,30 @@
+
+### Sorted by Quality ####
+variable : Random number of apparitions = 4356 quality = 10.3102728448 
+variable : NormalizedTargId number of apparitions = 5644 quality = 10.6023369039 
+variable : NormalizedOrigId number of apparitions = 4247 quality = 10.7336936444 
+variable : Constant number of apparitions = 4541 quality = 11.0761721129 
+variable : TotalDistance number of apparitions = 4850 quality = 11.3266457585 
+variable : NumberOfNodes number of apparitions = 6097 quality = 11.7407720907 
+variable : AverageDistance number of apparitions = 6466 quality = 12.0665877868 
+variable : OrigStrength number of apparitions = 4264 quality = 13.6425160512 
+
+#####Sorted by Quantity*Quality#########
+variable : Random number of apparitions = 4356 quality = 10.3102728448 
+variable : NormalizedOrigId number of apparitions = 4247 quality = 10.7336936444 
+variable : Constant number of apparitions = 4541 quality = 11.0761721129 
+variable : TotalDistance number of apparitions = 4850 quality = 11.3266457585 
+variable : OrigStrength number of apparitions = 4264 quality = 13.6425160512 
+variable : NormalizedTargId number of apparitions = 5644 quality = 10.6023369039 
+variable : NumberOfNodes number of apparitions = 6097 quality = 11.7407720907 
+variable : AverageDistance number of apparitions = 6466 quality = 12.0665877868 
+
+######Sorted by Rate######
+variable : NormalizedOrigId number of apparitions = 4247 quality = 10.7336936444 
+variable : Random number of apparitions = 4356 quality = 10.3102728448 
+variable : Constant number of apparitions = 4541 quality = 11.0761721129 
+variable : OrigStrength number of apparitions = 4264 quality = 13.6425160512 
+variable : TotalDistance number of apparitions = 4850 quality = 11.3266457585 
+variable : NormalizedTargId number of apparitions = 5644 quality = 10.6023369039 
+variable : NumberOfNodes number of apparitions = 6097 quality = 11.7407720907 
+variable : AverageDistance number of apparitions = 6466 quality = 12.0665877868 

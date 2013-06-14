@@ -1,0 +1,9 @@
+number of generations = 11 
+evaluation_method = nodes_vertices_communities_degrees_distances_clustering_importance 
+network_type = directed_unweighted 
+tree_type = with_constants 
+selector = Slot [Selector] (Count: 1)
+		Name: GRouletteWheel - Weight: 0.50
+		Doc:  The Roulette Wheel selector 
+ 
+multiprocessing = False 

@@ -1,0 +1,84 @@
+################rule studied###############
+GTreeNodeBase [Childs=0] - [[5, 'Random']]####################rules found#####################
+GTreeNodeBase [Childs=2] - [min]
+  GTreeNodeBase [Childs=0] - [[0.23619448294417045, 'Constant']]
+  GTreeNodeBase [Childs=2] - [abs]
+    GTreeNodeBase [Childs=0] - [[0.26976965587799717, 'MaxWeight']]
+    GTreeNodeBase [Childs=0] - [[-5.999506615909059, 'Random']]
+0.0
+GTreeNodeBase [Childs=0] - [[8.07508043250013, 'NormalizedOrigId']]
+0.0
+GTreeNodeBase [Childs=2] - [max]
+  GTreeNodeBase [Childs=0] - [[6.009673602079601, 'Random']]
+  GTreeNodeBase [Childs=0] - [[6.009673602079601, 'NormalizedDistance']]
+0.0
+GTreeNodeBase [Childs=0] - [[-1.832240825972518, 'NumberOfNodes']]
+0.0
+GTreeNodeBase [Childs=0] - [[-18.694047263324997, 'AverageDistance']]
+0.0
+GTreeNodeBase [Childs=2] - [-]
+  GTreeNodeBase [Childs=0] - [[-9.108816468464674, 'TotalWeight']]
+  GTreeNodeBase [Childs=2] - [-]
+    GTreeNodeBase [Childs=0] - [[-10.801605559684564, 'OrigId']]
+    GTreeNodeBase [Childs=0] - [[-9.108816468464674, 'TotalWeight']]
+0.0
+GTreeNodeBase [Childs=2] - [+]
+  GTreeNodeBase [Childs=0] - [[13.397305682960157, 'TargStrength']]
+  GTreeNodeBase [Childs=0] - [[7.742785169536846, 'AverageDistance']]
+0.0
+GTreeNodeBase [Childs=0] - [[10.14030630345161, 'TargStrength']]
+0.0
+GTreeNodeBase [Childs=2] - [inv]
+  GTreeNodeBase [Childs=2] - [inv]
+    GTreeNodeBase [Childs=0] - [[5.4537035457859195, 'Distance']]
+    GTreeNodeBase [Childs=0] - [[1.1479826182465251, 'OrigStrength']]
+  GTreeNodeBase [Childs=0] - [[0.6782602623582001, 'OrigId']]
+0.0
+GTreeNodeBase [Childs=2] - [abs]
+  GTreeNodeBase [Childs=2] - [abs]
+    GTreeNodeBase [Childs=0] - [[-4.893384246514884, 'NormalizedOrigId']]
+    GTreeNodeBase [Childs=0] - [[-5.094239303676923, 'OrigStrength']]
+  GTreeNodeBase [Childs=2] - [abs]
+    GTreeNodeBase [Childs=0] - [[7.734617314705115, 'AverageStrength']]
+    GTreeNodeBase [Childs=0] - [[7.734617314705115, 'NumberOfNodes']]
+0.0
+################rule studied###############
+GTreeNodeBase [Childs=0] - [[5, 'Random']]####################rules found#####################
+GTreeNodeBase [Childs=0] - [[-0.9046079194084493, 'MaxWeight']]
+0.0
+GTreeNodeBase [Childs=0] - [[-8.789013969349245, 'TargId']]
+4.0
+GTreeNodeBase [Childs=2] - [min]
+  GTreeNodeBase [Childs=0] - [[-12.202501662742911, 'NormalizedTargStrength']]
+  GTreeNodeBase [Childs=2] - [min]
+    GTreeNodeBase [Childs=0] - [[-12.202501662742911, 'AverageStrength']]
+    GTreeNodeBase [Childs=0] - [[-13.529482772524426, 'TargStrength']]
+0.0
+GTreeNodeBase [Childs=0] - [[9.194614048148376, 'NormalizedDistance']]
+0.0
+GTreeNodeBase [Childs=0] - [[3.7030824292710895, 'TotalWeight']]
+0.0
+GTreeNodeBase [Childs=2] - [*]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=0] - [[4.3689169699935695, 'MaxDistance']]
+    GTreeNodeBase [Childs=0] - [[5.794483562432756, 'NormalizedOrigStrength']]
+  GTreeNodeBase [Childs=2] - [min]
+    GTreeNodeBase [Childs=0] - [[-6.5793097406727945, 'NumberOfEdges']]
+    GTreeNodeBase [Childs=2] - [opp]
+      GTreeNodeBase [Childs=0] - [[-5.868467178020839, 'NormalizedOrigStrength']]
+      GTreeNodeBase [Childs=0] - [[13.7784372951096, 'NormalizedDistance']]
+0.0
+GTreeNodeBase [Childs=0] - [[2.72039415577549, 'AverageWeight']]
+0.0
+GTreeNodeBase [Childs=2] - [max]
+  GTreeNodeBase [Childs=2] - [min]
+    GTreeNodeBase [Childs=0] - [[-4.875090083096408, 'AverageStrength']]
+    GTreeNodeBase [Childs=2] - [inv]
+      GTreeNodeBase [Childs=0] - [[-3.1620684255477056, 'TotalWeight']]
+      GTreeNodeBase [Childs=0] - [[-10.494206069399874, 'MaxWeight']]
+  GTreeNodeBase [Childs=0] - [[-10.221653159216576, 'MaxWeight']]
+0.0
+GTreeNodeBase [Childs=0] - [[12.327434899101108, 'NormalizedTargId']]
+0.0
+GTreeNodeBase [Childs=0] - [[-7.864865862477863, 'Random']]
+0.0

@@ -1,0 +1,30 @@
+
+### Sorted by Quality ####
+variable : TotalWeight number of apparitions = 3707 quality = 8.80602752439 
+variable : NormalizedOrigId number of apparitions = 2631 quality = 9.15908798701 
+variable : OrigStrength number of apparitions = 7309 quality = 9.46802425782 
+variable : NormalizedTargId number of apparitions = 2823 quality = 9.68490398534 
+variable : TargId number of apparitions = 4145 quality = 9.96034093335 
+variable : Random number of apparitions = 2226 quality = 11.0255587723 
+variable : NormalizedOrigStrength number of apparitions = 5196 quality = 12.8370123267 
+variable : NormalizedTargStrength number of apparitions = 5834 quality = 13.1652091966 
+
+#####Sorted by Quantity*Quality#########
+variable : NormalizedTargId number of apparitions = 2823 quality = 9.68490398534 
+variable : TotalWeight number of apparitions = 3707 quality = 8.80602752439 
+variable : Constant number of apparitions = 5382 quality = 7.20047345748 
+variable : TargId number of apparitions = 4145 quality = 9.96034093335 
+variable : MaxStrength number of apparitions = 6339 quality = 8.06625962346 
+variable : NormalizedOrigStrength number of apparitions = 5196 quality = 12.8370123267 
+variable : OrigStrength number of apparitions = 7309 quality = 9.46802425782 
+variable : NormalizedTargStrength number of apparitions = 5834 quality = 13.1652091966 
+
+######Sorted by Rate######
+variable : NumberOfNodes number of apparitions = 3510 quality = 7.61437163659 
+variable : TotalWeight number of apparitions = 3707 quality = 8.80602752439 
+variable : TargId number of apparitions = 4145 quality = 9.96034093335 
+variable : Constant number of apparitions = 5382 quality = 7.20047345748 
+variable : NormalizedOrigStrength number of apparitions = 5196 quality = 12.8370123267 
+variable : MaxStrength number of apparitions = 6339 quality = 8.06625962346 
+variable : NormalizedTargStrength number of apparitions = 5834 quality = 13.1652091966 
+variable : OrigStrength number of apparitions = 7309 quality = 9.46802425782 

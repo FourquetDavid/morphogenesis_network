@@ -1,0 +1,1462 @@
+strict digraph "LazegaLawyers-advice" {
+	0	 [age=64,
+		gender=male,
+		law_scool="harvard, yale",
+		office=Boston,
+		practice=litigation,
+		seniority=1,
+		status=partner,
+		years_within_the_firm=31];
+	16	 [age=50,
+		gender=male,
+		law_scool="harvard, yale",
+		office=Boston,
+		practice=corporate,
+		seniority=17,
+		status=partner,
+		years_within_the_firm=23];
+	0 -> 16;
+	1	 [age=62,
+		gender=male,
+		law_scool="harvard, yale",
+		office=Boston,
+		practice=corporate,
+		seniority=2,
+		status=partner,
+		years_within_the_firm=32];
+	0 -> 1;
+	19	 [age=49,
+		gender=male,
+		law_scool="harvard, yale",
+		office=Boston,
+		practice=litigation,
+		seniority=20,
+		status=partner,
+		years_within_the_firm=19];
+	0 -> 19;
+	1 -> 0;
+	5	 [age=55,
+		gender=male,
+		law_scool="harvard, yale",
+		office=Hartford,
+		practice=litigation,
+		seniority=6,
+		status=partner,
+		years_within_the_firm=29];
+	1 -> 5;
+	1 -> 16;
+	1 -> 19;
+	21	 [age=49,
+		gender=male,
+		law_scool=other,
+		office=Boston,
+		practice=litigation,
+		seniority=22,
+		status=partner,
+		years_within_the_firm=9];
+	1 -> 21;
+	23	 [age=44,
+		gender=male,
+		law_scool=ucon,
+		office=Boston,
+		practice=litigation,
+		seniority=24,
+		status=partner,
+		years_within_the_firm=15];
+	1 -> 23;
+	25	 [age=41,
+		gender=male,
+		law_scool=other,
+		office=Boston,
+		practice=litigation,
+		seniority=26,
+		status=partner,
+		years_within_the_firm=15];
+	1 -> 25;
+	2	 [age=67,
+		gender=male,
+		law_scool="harvard, yale",
+		office=Hartford,
+		practice=litigation,
+		seniority=3,
+		status=partner,
+		years_within_the_firm=13];
+	2 -> 1;
+	2 -> 5;
+	13	 [age=56,
+		gender=male,
+		law_scool="harvard, yale",
+		office=Hartford,
+		practice=corporate,
+		seniority=14,
+		status=partner,
+		years_within_the_firm=1];
+	2 -> 13;
+	2 -> 16;
+	17	 [age=45,
+		gender=male,
+		law_scool=ucon,
+		office=Hartford,
+		practice=litigation,
+		seniority=18,
+		status=partner,
+		years_within_the_firm=18];
+	2 -> 17;
+	27	 [age=38,
+		gender=male,
+		law_scool=ucon,
+		office=Hartford,
+		practice=corporate,
+		seniority=28,
+		status=partner,
+		years_within_the_firm=11];
+	2 -> 27;
+	29	 [age=39,
+		gender=male,
+		law_scool=other,
+		office=Hartford,
+		practice=litigation,
+		seniority=30,
+		status=partner,
+		years_within_the_firm=7];
+	2 -> 29;
+	3	 [age=59,
+		gender=male,
+		law_scool=other,
+		office=Boston,
+		practice=corporate,
+		seniority=4,
+		status=partner,
+		years_within_the_firm=31];
+	3 -> 0;
+	3 -> 1;
+	3 -> 2;
+	3 -> 5;
+	8	 [age=53,
+		gender=male,
+		law_scool="harvard, yale",
+		office=Boston,
+		practice=corporate,
+		seniority=9,
+		status=partner,
+		years_within_the_firm=25];
+	3 -> 8;
+	11	 [age=52,
+		gender=male,
+		law_scool=ucon,
+		office=Boston,
+		practice=corporate,
+		seniority=12,
+		status=partner,
+		years_within_the_firm=24];
+	3 -> 11;
+	12	 [age=57,
+		gender=male,
+		law_scool=ucon,
+		office=Boston,
+		practice=litigation,
+		seniority=13,
+		status=partner,
+		years_within_the_firm=22];
+	3 -> 12;
+	3 -> 13;
+	3 -> 16;
+	18	 [age=46,
+		gender=male,
+		law_scool="harvard, yale",
+		office=Boston,
+		practice=corporate,
+		seniority=19,
+		status=partner,
+		years_within_the_firm=19];
+	3 -> 18;
+	3 -> 19;
+	20	 [age=43,
+		gender=male,
+		law_scool=ucon,
+		office=Boston,
+		practice=litigation,
+		seniority=21,
+		status=partner,
+		years_within_the_firm=17];
+	3 -> 20;
+	3 -> 21;
+	3 -> 23;
+	3 -> 25;
+	3 -> 27;
+	28	 [age=38,
+		gender=woman,
+		law_scool=other,
+		office=Boston,
+		practice=corporate,
+		seniority=29,
+		status=partner,
+		years_within_the_firm=10];
+	3 -> 28;
+	4	 [age=59,
+		gender=male,
+		law_scool=ucon,
+		office=Hartford,
+		practice=litigation,
+		seniority=5,
+		status=partner,
+		years_within_the_firm=31];
+	4 -> 0;
+	4 -> 17;
+	10	 [age=50,
+		gender=male,
+		law_scool="harvard, yale",
+		office=Boston,
+		practice=litigation,
+		seniority=11,
+		status=partner,
+		years_within_the_firm=23];
+	4 -> 10;
+	4 -> 5;
+	6	 [age=63,
+		gender=male,
+		law_scool=other,
+		office=Hartford,
+		practice=corporate,
+		seniority=7,
+		status=partner,
+		years_within_the_firm=29];
+	6 -> 1;
+	6 -> 27;
+	9	 [age=53,
+		gender=male,
+		law_scool=other,
+		office=Boston,
+		practice=corporate,
+		seniority=10,
+		status=partner,
+		years_within_the_firm=25];
+	6 -> 9;
+	33	 [age=36,
+		gender=woman,
+		law_scool=ucon,
+		office=Boston,
+		practice=corporate,
+		seniority=34,
+		status=partner,
+		years_within_the_firm=8];
+	6 -> 33;
+	7	 [age=53,
+		gender=male,
+		law_scool=other,
+		office=Boston,
+		practice=litigation,
+		seniority=8,
+		status=partner,
+		years_within_the_firm=28];
+	7 -> 0;
+	7 -> 10;
+	8 -> 16;
+	8 -> 10;
+	8 -> 11;
+	9 -> 1;
+	9 -> 33;
+	15	 [age=46,
+		gender=male,
+		law_scool="harvard, yale",
+		office=Boston,
+		practice=corporate,
+		seniority=16,
+		status=partner,
+		years_within_the_firm=20];
+	9 -> 15;
+	9 -> 16;
+	9 -> 23;
+	9 -> 25;
+	9 -> 28;
+	10 -> 0;
+	10 -> 16;
+	10 -> 11;
+	10 -> 20;
+	10 -> 7;
+	11 -> 1;
+	34	 [age=33,
+		gender=male,
+		law_scool=other,
+		office=Hartford,
+		practice=corporate,
+		seniority=35,
+		status=partner,
+		years_within_the_firm=8];
+	11 -> 34;
+	11 -> 3;
+	11 -> 33;
+	11 -> 7;
+	11 -> 8;
+	11 -> 9;
+	11 -> 10;
+	11 -> 12;
+	11 -> 13;
+	14	 [age=48,
+		gender=male,
+		law_scool=other,
+		office=Providence,
+		practice=corporate,
+		seniority=15,
+		status=partner,
+		years_within_the_firm=21];
+	11 -> 14;
+	11 -> 15;
+	11 -> 16;
+	11 -> 18;
+	41	 [age=31,
+		gender=male,
+		law_scool=ucon,
+		office=Boston,
+		practice=corporate,
+		seniority=42,
+		status=associate,
+		years_within_the_firm=4];
+	11 -> 41;
+	24	 [age=43,
+		gender=male,
+		law_scool=ucon,
+		office=Hartford,
+		practice=corporate,
+		seniority=25,
+		status=partner,
+		years_within_the_firm=15];
+	11 -> 24;
+	11 -> 25;
+	11 -> 28;
+	37	 [age=53,
+		gender=woman,
+		law_scool=ucon,
+		office=Boston,
+		practice=litigation,
+		seniority=38,
+		status=associate,
+		years_within_the_firm=7];
+	11 -> 37;
+	31	 [age=33,
+		gender=male,
+		law_scool=other,
+		office=Hartford,
+		practice=litigation,
+		seniority=32,
+		status=partner,
+		years_within_the_firm=8];
+	11 -> 31;
+	12 -> 33;
+	12 -> 37;
+	38	 [age=37,
+		gender=woman,
+		law_scool="harvard, yale",
+		office=Boston,
+		practice=litigation,
+		seniority=39,
+		status=associate,
+		years_within_the_firm=6];
+	12 -> 38;
+	12 -> 7;
+	40	 [age=31,
+		gender=male,
+		law_scool=ucon,
+		office=Boston,
+		practice=litigation,
+		seniority=41,
+		status=associate,
+		years_within_the_firm=5];
+	12 -> 40;
+	12 -> 10;
+	12 -> 11;
+	12 -> 14;
+	12 -> 15;
+	12 -> 16;
+	12 -> 19;
+	12 -> 20;
+	12 -> 23;
+	12 -> 25;
+	42	 [age=47,
+		gender=woman,
+		law_scool=ucon,
+		office=Boston,
+		practice=litigation,
+		seniority=43,
+		status=associate,
+		years_within_the_firm=5];
+	12 -> 42;
+	39	 [age=34,
+		gender=male,
+		law_scool="harvard, yale",
+		office=Boston,
+		practice=litigation,
+		seniority=40,
+		status=associate,
+		years_within_the_firm=6];
+	12 -> 39;
+	13 -> 33;
+	13 -> 2;
+	13 -> 3;
+	13 -> 5;
+	13 -> 11;
+	13 -> 34;
+	13 -> 14;
+	13 -> 15;
+	13 -> 16;
+	49	 [age=31,
+		gender=male,
+		law_scool=ucon,
+		office=Hartford,
+		practice=corporate,
+		seniority=50,
+		status=associate,
+		years_within_the_firm=3];
+	13 -> 49;
+	13 -> 24;
+	13 -> 27;
+	13 -> 29;
+	13 -> 31;
+	14 -> 1;
+	14 -> 5;
+	14 -> 33;
+	14 -> 12;
+	14 -> 13;
+	14 -> 15;
+	14 -> 21;
+	14 -> 25;
+	14 -> 28;
+	14 -> 31;
+	15 -> 0;
+	15 -> 1;
+	15 -> 3;
+	15 -> 5;
+	15 -> 6;
+	15 -> 8;
+	15 -> 9;
+	15 -> 11;
+	15 -> 13;
+	15 -> 14;
+	15 -> 16;
+	15 -> 18;
+	15 -> 23;
+	15 -> 24;
+	15 -> 25;
+	15 -> 27;
+	15 -> 28;
+	15 -> 31;
+	15 -> 33;
+	36	 [age=44,
+		gender=male,
+		law_scool=other,
+		office=Providence,
+		practice=corporate,
+		seniority=37,
+		status=associate,
+		years_within_the_firm=5];
+	15 -> 36;
+	15 -> 37;
+	44	 [age=38,
+		gender=male,
+		law_scool=other,
+		office=Boston,
+		practice=corporate,
+		seniority=45,
+		status=associate,
+		years_within_the_firm=3];
+	15 -> 44;
+	45	 [age=42,
+		gender=woman,
+		law_scool=ucon,
+		office=Hartford,
+		practice=corporate,
+		seniority=46,
+		status=associate,
+		years_within_the_firm=3];
+	15 -> 45;
+	47	 [age=35,
+		gender=woman,
+		law_scool=other,
+		office=Boston,
+		practice=corporate,
+		seniority=48,
+		status=associate,
+		years_within_the_firm=1];
+	15 -> 47;
+	15 -> 49;
+	52	 [age=38,
+		gender=male,
+		law_scool=other,
+		office=Boston,
+		practice=corporate,
+		seniority=53,
+		status=associate,
+		years_within_the_firm=10];
+	15 -> 52;
+	59	 [age=31,
+		gender=woman,
+		law_scool=ucon,
+		office=Boston,
+		practice=corporate,
+		seniority=60,
+		status=associate,
+		years_within_the_firm=2];
+	15 -> 59;
+	16 -> 0;
+	16 -> 1;
+	16 -> 45;
+	16 -> 3;
+	16 -> 33;
+	16 -> 38;
+	16 -> 7;
+	16 -> 8;
+	16 -> 47;
+	16 -> 10;
+	16 -> 11;
+	16 -> 13;
+	16 -> 15;
+	16 -> 19;
+	16 -> 20;
+	16 -> 21;
+	16 -> 23;
+	16 -> 25;
+	16 -> 27;
+	16 -> 28;
+	16 -> 39;
+	17 -> 2;
+	17 -> 4;
+	17 -> 5;
+	30	 [age=34,
+		gender=male,
+		law_scool=ucon,
+		office=Hartford,
+		practice=litigation,
+		seniority=31,
+		status=partner,
+		years_within_the_firm=8];
+	17 -> 30;
+	17 -> 31;
+	18 -> 0;
+	18 -> 1;
+	18 -> 2;
+	18 -> 3;
+	18 -> 5;
+	18 -> 8;
+	18 -> 11;
+	18 -> 12;
+	18 -> 14;
+	18 -> 16;
+	18 -> 19;
+	18 -> 20;
+	18 -> 21;
+	18 -> 23;
+	18 -> 25;
+	18 -> 27;
+	18 -> 28;
+	18 -> 29;
+	18 -> 31;
+	18 -> 33;
+	18 -> 34;
+	18 -> 36;
+	18 -> 41;
+	18 -> 42;
+	18 -> 44;
+	18 -> 45;
+	18 -> 52;
+	18 -> 59;
+	63	 [age=45,
+		gender=woman,
+		law_scool=ucon,
+		office=Boston,
+		practice=corporate,
+		seniority=64,
+		status=associate,
+		years_within_the_firm=2];
+	18 -> 63;
+	69	 [age=31,
+		gender=male,
+		law_scool=ucon,
+		office=Boston,
+		practice=corporate,
+		seniority=70,
+		status=associate,
+		years_within_the_firm=1];
+	18 -> 69;
+	19 -> 0;
+	19 -> 1;
+	19 -> 3;
+	19 -> 4;
+	19 -> 39;
+	19 -> 12;
+	19 -> 13;
+	19 -> 14;
+	19 -> 20;
+	19 -> 23;
+	19 -> 25;
+	20 -> 0;
+	20 -> 39;
+	20 -> 8;
+	20 -> 10;
+	20 -> 12;
+	20 -> 16;
+	20 -> 40;
+	20 -> 19;
+	20 -> 23;
+	20 -> 25;
+	26	 [age=47,
+		gender=woman,
+		law_scool="harvard, yale",
+		office=Boston,
+		practice=litigation,
+		seniority=27,
+		status=partner,
+		years_within_the_firm=13];
+	20 -> 26;
+	21 -> 0;
+	21 -> 1;
+	21 -> 3;
+	21 -> 33;
+	21 -> 14;
+	21 -> 15;
+	21 -> 16;
+	21 -> 18;
+	21 -> 19;
+	21 -> 27;
+	21 -> 30;
+	21 -> 31;
+	22	 [age=45,
+		gender=male,
+		law_scool=ucon,
+		office=Boston,
+		practice=litigation,
+		seniority=23,
+		status=partner,
+		years_within_the_firm=16];
+	22 -> 0;
+	22 -> 2;
+	22 -> 3;
+	22 -> 4;
+	22 -> 7;
+	22 -> 10;
+	22 -> 12;
+	22 -> 17;
+	22 -> 19;
+	23 -> 0;
+	23 -> 1;
+	23 -> 5;
+	23 -> 7;
+	23 -> 9;
+	23 -> 10;
+	23 -> 11;
+	23 -> 12;
+	23 -> 16;
+	23 -> 19;
+	23 -> 20;
+	23 -> 25;
+	23 -> 27;
+	23 -> 29;
+	23 -> 30;
+	35	 [age=43,
+		gender=male,
+		law_scool=other,
+		office=Boston,
+		practice=litigation,
+		seniority=36,
+		status=partner,
+		years_within_the_firm=5];
+	23 -> 35;
+	23 -> 37;
+	23 -> 39;
+	23 -> 40;
+	23 -> 42;
+	23 -> 52;
+	23 -> 63;
+	24 -> 2;
+	24 -> 8;
+	24 -> 11;
+	24 -> 13;
+	24 -> 16;
+	24 -> 19;
+	24 -> 27;
+	24 -> 29;
+	25 -> 0;
+	25 -> 1;
+	25 -> 3;
+	25 -> 4;
+	25 -> 5;
+	25 -> 7;
+	25 -> 8;
+	25 -> 10;
+	25 -> 11;
+	25 -> 12;
+	25 -> 14;
+	25 -> 15;
+	25 -> 16;
+	25 -> 19;
+	25 -> 20;
+	25 -> 21;
+	25 -> 23;
+	25 -> 26;
+	25 -> 28;
+	25 -> 29;
+	25 -> 31;
+	25 -> 33;
+	25 -> 39;
+	25 -> 40;
+	26 -> 0;
+	26 -> 1;
+	26 -> 3;
+	26 -> 4;
+	26 -> 5;
+	26 -> 33;
+	26 -> 8;
+	26 -> 9;
+	26 -> 10;
+	26 -> 39;
+	26 -> 12;
+	26 -> 14;
+	26 -> 15;
+	26 -> 40;
+	26 -> 19;
+	26 -> 20;
+	26 -> 22;
+	26 -> 23;
+	56	 [age=33,
+		gender=woman,
+		law_scool=ucon,
+		office=Boston,
+		practice=litigation,
+		seniority=57,
+		status=associate,
+		years_within_the_firm=3];
+	26 -> 56;
+	26 -> 25;
+	26 -> 28;
+	27 -> 2;
+	27 -> 3;
+	27 -> 4;
+	27 -> 5;
+	27 -> 6;
+	27 -> 11;
+	27 -> 12;
+	27 -> 13;
+	27 -> 14;
+	27 -> 15;
+	27 -> 16;
+	27 -> 17;
+	27 -> 18;
+	27 -> 23;
+	27 -> 24;
+	27 -> 25;
+	27 -> 28;
+	27 -> 29;
+	27 -> 30;
+	27 -> 31;
+	27 -> 33;
+	27 -> 34;
+	27 -> 44;
+	27 -> 45;
+	27 -> 49;
+	62	 [age=29,
+		gender=male,
+		law_scool=ucon,
+		office=Hartford,
+		practice=corporate,
+		seniority=63,
+		status=associate,
+		years_within_the_firm=2];
+	27 -> 62;
+	27 -> 69;
+	28 -> 0;
+	28 -> 1;
+	28 -> 3;
+	28 -> 33;
+	28 -> 8;
+	28 -> 11;
+	28 -> 14;
+	28 -> 15;
+	28 -> 16;
+	28 -> 18;
+	28 -> 19;
+	28 -> 25;
+	28 -> 27;
+	29 -> 0;
+	32	 [age=37,
+		gender=male,
+		law_scool=other,
+		office=Hartford,
+		practice=litigation,
+		seniority=33,
+		status=partner,
+		years_within_the_firm=8];
+	29 -> 32;
+	29 -> 2;
+	29 -> 35;
+	29 -> 5;
+	29 -> 38;
+	29 -> 34;
+	29 -> 13;
+	29 -> 16;
+	29 -> 19;
+	29 -> 21;
+	29 -> 24;
+	29 -> 25;
+	58	 [age=30,
+		gender=woman,
+		law_scool=ucon,
+		office=Hartford,
+		practice=litigation,
+		seniority=59,
+		status=associate,
+		years_within_the_firm=2];
+	29 -> 58;
+	29 -> 27;
+	29 -> 30;
+	29 -> 31;
+	30 -> 32;
+	30 -> 34;
+	30 -> 3;
+	30 -> 4;
+	30 -> 5;
+	30 -> 49;
+	30 -> 40;
+	30 -> 12;
+	30 -> 14;
+	30 -> 17;
+	30 -> 19;
+	30 -> 20;
+	30 -> 21;
+	30 -> 23;
+	30 -> 25;
+	30 -> 27;
+	30 -> 29;
+	30 -> 31;
+	31 -> 34;
+	31 -> 4;
+	31 -> 5;
+	31 -> 30;
+	31 -> 13;
+	31 -> 14;
+	31 -> 15;
+	31 -> 49;
+	31 -> 21;
+	31 -> 29;
+	31 -> 62;
+	32 -> 33;
+	32 -> 34;
+	32 -> 4;
+	32 -> 37;
+	32 -> 6;
+	32 -> 40;
+	32 -> 12;
+	32 -> 17;
+	32 -> 20;
+	32 -> 21;
+	32 -> 22;
+	32 -> 23;
+	32 -> 24;
+	32 -> 25;
+	32 -> 29;
+	32 -> 30;
+	32 -> 31;
+	33 -> 1;
+	33 -> 9;
+	33 -> 11;
+	33 -> 15;
+	33 -> 16;
+	33 -> 28;
+	34 -> 3;
+	34 -> 4;
+	34 -> 5;
+	34 -> 6;
+	34 -> 37;
+	34 -> 13;
+	34 -> 14;
+	34 -> 45;
+	34 -> 17;
+	34 -> 18;
+	34 -> 19;
+	34 -> 59;
+	34 -> 24;
+	34 -> 25;
+	34 -> 27;
+	34 -> 29;
+	34 -> 30;
+	34 -> 31;
+	35 -> 0;
+	35 -> 33;
+	35 -> 7;
+	35 -> 12;
+	35 -> 14;
+	35 -> 25;
+	35 -> 28;
+	36 -> 49;
+	36 -> 14;
+	46	 [age=38,
+		gender=male,
+		law_scool=other,
+		office=Providence,
+		practice=litigation,
+		seniority=47,
+		status=associate,
+		years_within_the_firm=3];
+	36 -> 46;
+	37 -> 35;
+	37 -> 39;
+	37 -> 40;
+	37 -> 12;
+	37 -> 23;
+	37 -> 25;
+	38 -> 0;
+	38 -> 4;
+	38 -> 39;
+	38 -> 40;
+	38 -> 41;
+	38 -> 10;
+	38 -> 12;
+	38 -> 47;
+	51	 [age=29,
+		gender=male,
+		law_scool=other,
+		office=Boston,
+		practice=litigation,
+		seniority=52,
+		status=associate,
+		years_within_the_firm=4];
+	38 -> 51;
+	38 -> 21;
+	54	 [age=34,
+		gender=male,
+		law_scool=other,
+		office=Boston,
+		practice=litigation,
+		seniority=55,
+		status=associate,
+		years_within_the_firm=3];
+	38 -> 54;
+	55	 [age=38,
+		gender=male,
+		law_scool=ucon,
+		office=Boston,
+		practice=litigation,
+		seniority=56,
+		status=associate,
+		years_within_the_firm=3];
+	38 -> 55;
+	38 -> 56;
+	38 -> 25;
+	39 -> 37;
+	39 -> 38;
+	39 -> 40;
+	39 -> 10;
+	39 -> 20;
+	39 -> 25;
+	39 -> 26;
+	39 -> 42;
+	40 -> 0;
+	40 -> 51;
+	40 -> 3;
+	40 -> 37;
+	40 -> 38;
+	40 -> 7;
+	40 -> 44;
+	40 -> 10;
+	40 -> 39;
+	40 -> 12;
+	48	 [age=36,
+		gender=male,
+		law_scool=ucon,
+		office=Boston,
+		practice=litigation,
+		seniority=49,
+		status=associate,
+		years_within_the_firm=4];
+	40 -> 48;
+	40 -> 49;
+	40 -> 35;
+	40 -> 20;
+	40 -> 21;
+	40 -> 22;
+	40 -> 23;
+	40 -> 56;
+	40 -> 25;
+	40 -> 28;
+	40 -> 42;
+	41 -> 1;
+	41 -> 3;
+	41 -> 8;
+	41 -> 11;
+	41 -> 12;
+	41 -> 13;
+	41 -> 15;
+	41 -> 16;
+	41 -> 18;
+	41 -> 19;
+	41 -> 23;
+	41 -> 25;
+	41 -> 26;
+	41 -> 27;
+	41 -> 28;
+	41 -> 29;
+	41 -> 33;
+	41 -> 36;
+	41 -> 37;
+	41 -> 38;
+	41 -> 39;
+	41 -> 40;
+	41 -> 47;
+	41 -> 49;
+	41 -> 51;
+	42 -> 0;
+	42 -> 1;
+	42 -> 35;
+	42 -> 7;
+	42 -> 40;
+	42 -> 10;
+	42 -> 39;
+	42 -> 12;
+	42 -> 19;
+	42 -> 20;
+	42 -> 54;
+	42 -> 23;
+	42 -> 25;
+	42 -> 26;
+	43	 [age=53,
+		gender=woman,
+		law_scool="harvard, yale",
+		office=Providence,
+		practice=corporate,
+		seniority=44,
+		status=associate,
+		years_within_the_firm=5];
+	43 -> 1;
+	43 -> 33;
+	43 -> 9;
+	43 -> 14;
+	43 -> 15;
+	43 -> 16;
+	44 -> 33;
+	44 -> 3;
+	44 -> 8;
+	44 -> 41;
+	44 -> 45;
+	44 -> 16;
+	44 -> 18;
+	44 -> 24;
+	44 -> 27;
+	44 -> 28;
+	45 -> 33;
+	45 -> 34;
+	45 -> 59;
+	45 -> 18;
+	45 -> 27;
+	45 -> 29;
+	45 -> 30;
+	46 -> 14;
+	46 -> 35;
+	46 -> 21;
+	46 -> 22;
+	46 -> 29;
+	47 -> 1;
+	47 -> 37;
+	47 -> 38;
+	47 -> 33;
+	47 -> 8;
+	47 -> 9;
+	47 -> 42;
+	47 -> 11;
+	47 -> 12;
+	47 -> 45;
+	47 -> 13;
+	47 -> 16;
+	47 -> 23;
+	47 -> 15;
+	47 -> 28;
+	47 -> 44;
+	47 -> 63;
+	48 -> 39;
+	48 -> 40;
+	48 -> 10;
+	48 -> 7;
+	48 -> 12;
+	48 -> 51;
+	48 -> 20;
+	48 -> 21;
+	48 -> 25;
+	49 -> 34;
+	49 -> 4;
+	49 -> 5;
+	49 -> 11;
+	49 -> 13;
+	49 -> 17;
+	49 -> 24;
+	49 -> 27;
+	49 -> 29;
+	49 -> 31;
+	50	 [age=29,
+		gender=woman,
+		law_scool=other,
+		office=Hartford,
+		practice=litigation,
+		seniority=51,
+		status=associate,
+		years_within_the_firm=4];
+	50 -> 4;
+	50 -> 12;
+	50 -> 17;
+	50 -> 21;
+	50 -> 29;
+	50 -> 30;
+	50 -> 31;
+	50 -> 32;
+	50 -> 34;
+	50 -> 37;
+	50 -> 38;
+	50 -> 39;
+	50 -> 40;
+	50 -> 42;
+	50 -> 48;
+	50 -> 49;
+	50 -> 51;
+	53	 [age=29,
+		gender=male,
+		law_scool=other,
+		office=Boston,
+		practice=litigation,
+		seniority=54,
+		status=associate,
+		years_within_the_firm=3];
+	50 -> 53;
+	50 -> 55;
+	50 -> 56;
+	57	 [age=33,
+		gender=male,
+		law_scool=other,
+		office=Hartford,
+		practice=litigation,
+		seniority=58,
+		status=associate,
+		years_within_the_firm=3];
+	50 -> 57;
+	50 -> 58;
+	50 -> 59;
+	51 -> 35;
+	51 -> 37;
+	51 -> 38;
+	51 -> 39;
+	51 -> 40;
+	51 -> 7;
+	51 -> 12;
+	51 -> 48;
+	51 -> 20;
+	51 -> 22;
+	51 -> 23;
+	51 -> 25;
+	51 -> 30;
+	52 -> 1;
+	52 -> 15;
+	52 -> 63;
+	52 -> 9;
+	53 -> 0;
+	53 -> 32;
+	53 -> 35;
+	53 -> 4;
+	53 -> 39;
+	53 -> 40;
+	64	 [age=28,
+		gender=male,
+		law_scool=other,
+		office=Boston,
+		practice=litigation,
+		seniority=65,
+		status=associate,
+		years_within_the_firm=2];
+	53 -> 64;
+	53 -> 10;
+	53 -> 12;
+	53 -> 51;
+	53 -> 25;
+	53 -> 21;
+	53 -> 55;
+	53 -> 57;
+	54 -> 9;
+	54 -> 12;
+	54 -> 15;
+	54 -> 19;
+	54 -> 20;
+	54 -> 21;
+	54 -> 22;
+	54 -> 23;
+	54 -> 25;
+	54 -> 26;
+	54 -> 30;
+	54 -> 35;
+	54 -> 37;
+	54 -> 38;
+	54 -> 39;
+	54 -> 40;
+	54 -> 42;
+	54 -> 48;
+	54 -> 51;
+	54 -> 53;
+	54 -> 55;
+	54 -> 56;
+	55 -> 64;
+	55 -> 33;
+	55 -> 37;
+	55 -> 38;
+	55 -> 39;
+	55 -> 40;
+	55 -> 63;
+	55 -> 10;
+	55 -> 12;
+	55 -> 19;
+	55 -> 20;
+	55 -> 21;
+	55 -> 22;
+	55 -> 23;
+	55 -> 56;
+	55 -> 25;
+	55 -> 26;
+	55 -> 54;
+	55 -> 53;
+	55 -> 51;
+	56 -> 37;
+	56 -> 38;
+	56 -> 39;
+	56 -> 40;
+	56 -> 42;
+	56 -> 23;
+	56 -> 12;
+	56 -> 51;
+	56 -> 20;
+	56 -> 54;
+	56 -> 55;
+	61	 [age=32,
+		gender=male,
+		law_scool=ucon,
+		office=Boston,
+		practice=corporate,
+		seniority=62,
+		status=associate,
+		years_within_the_firm=2];
+	56 -> 61;
+	57 -> 32;
+	57 -> 4;
+	57 -> 5;
+	57 -> 6;
+	57 -> 12;
+	57 -> 17;
+	57 -> 50;
+	57 -> 53;
+	57 -> 27;
+	57 -> 29;
+	57 -> 30;
+	57 -> 31;
+	58 -> 32;
+	58 -> 4;
+	58 -> 5;
+	58 -> 17;
+	58 -> 50;
+	58 -> 57;
+	58 -> 29;
+	58 -> 30;
+	58 -> 31;
+	59 -> 33;
+	59 -> 34;
+	59 -> 8;
+	59 -> 9;
+	59 -> 11;
+	59 -> 44;
+	59 -> 45;
+	59 -> 15;
+	59 -> 16;
+	59 -> 18;
+	59 -> 25;
+	60	 [age=34,
+		gender=woman,
+		law_scool=other,
+		office=Boston,
+		practice=corporate,
+		seniority=61,
+		status=associate,
+		years_within_the_firm=2];
+	59 -> 60;
+	60 -> 33;
+	60 -> 59;
+	60 -> 63;
+	61 -> 64;
+	61 -> 36;
+	61 -> 11;
+	61 -> 44;
+	61 -> 14;
+	61 -> 55;
+	61 -> 56;
+	61 -> 25;
+	61 -> 59;
+	61 -> 63;
+	62 -> 32;
+	62 -> 34;
+	62 -> 4;
+	62 -> 13;
+	62 -> 14;
+	62 -> 45;
+	62 -> 49;
+	62 -> 24;
+	62 -> 27;
+	62 -> 29;
+	62 -> 30;
+	62 -> 31;
+	63 -> 1;
+	63 -> 6;
+	63 -> 33;
+	63 -> 9;
+	63 -> 12;
+	63 -> 15;
+	63 -> 52;
+	63 -> 21;
+	64 -> 3;
+	64 -> 5;
+	64 -> 7;
+	64 -> 10;
+	64 -> 12;
+	64 -> 21;
+	64 -> 23;
+	64 -> 25;
+	64 -> 26;
+	64 -> 29;
+	64 -> 35;
+	64 -> 37;
+	64 -> 38;
+	64 -> 39;
+	64 -> 40;
+	64 -> 48;
+	64 -> 51;
+	64 -> 53;
+	64 -> 54;
+	64 -> 55;
+	64 -> 56;
+	64 -> 57;
+	64 -> 61;
+	64 -> 63;
+	67	 [age=26,
+		gender=male,
+		law_scool=other,
+		office=Boston,
+		practice=litigation,
+		seniority=68,
+		status=associate,
+		years_within_the_firm=1];
+	64 -> 67;
+	65	 [age=43,
+		gender=male,
+		law_scool=other,
+		office=Boston,
+		practice=litigation,
+		seniority=66,
+		status=associate,
+		years_within_the_firm=1];
+	65 -> 11;
+	65 -> 12;
+	65 -> 20;
+	65 -> 21;
+	65 -> 22;
+	65 -> 23;
+	65 -> 25;
+	65 -> 27;
+	65 -> 38;
+	65 -> 39;
+	65 -> 40;
+	65 -> 48;
+	65 -> 49;
+	65 -> 51;
+	65 -> 53;
+	65 -> 54;
+	65 -> 55;
+	65 -> 56;
+	65 -> 61;
+	65 -> 63;
+	65 -> 64;
+	66	 [age=35,
+		gender=woman,
+		law_scool=ucon,
+		office=Boston,
+		practice=litigation,
+		seniority=67,
+		status=associate,
+		years_within_the_firm=1];
+	65 -> 66;
+	65 -> 67;
+	68	 [age=38,
+		gender=woman,
+		law_scool=other,
+		office=Boston,
+		practice=litigation,
+		seniority=69,
+		status=associate,
+		years_within_the_firm=1];
+	65 -> 68;
+	65 -> 69;
+	70	 [age=26,
+		gender=woman,
+		law_scool=ucon,
+		office=Boston,
+		practice=litigation,
+		seniority=71,
+		status=associate,
+		years_within_the_firm=1];
+	65 -> 70;
+	66 -> 65;
+	66 -> 67;
+	66 -> 68;
+	66 -> 37;
+	66 -> 38;
+	66 -> 39;
+	66 -> 42;
+	66 -> 23;
+	66 -> 12;
+	66 -> 48;
+	66 -> 51;
+	66 -> 53;
+	66 -> 54;
+	66 -> 55;
+	66 -> 56;
+	66 -> 69;
+	67 -> 64;
+	67 -> 39;
+	67 -> 40;
+	67 -> 12;
+	67 -> 19;
+	67 -> 20;
+	67 -> 21;
+	67 -> 25;
+	67 -> 26;
+	67 -> 53;
+	68 -> 64;
+	68 -> 65;
+	68 -> 66;
+	68 -> 67;
+	68 -> 69;
+	68 -> 38;
+	68 -> 48;
+	68 -> 53;
+	68 -> 25;
+	68 -> 70;
+	68 -> 61;
+	68 -> 63;
+	69 -> 3;
+	69 -> 39;
+	69 -> 44;
+	69 -> 20;
+	69 -> 27;
+	69 -> 28;
+	69 -> 31;
+	70 -> 64;
+	70 -> 66;
+	70 -> 67;
+	70 -> 68;
+	70 -> 38;
+	70 -> 39;
+	70 -> 12;
+	70 -> 48;
+	70 -> 51;
+	70 -> 21;
+	70 -> 54;
+	70 -> 55;
+	70 -> 56;
+}

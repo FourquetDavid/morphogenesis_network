@@ -25,8 +25,8 @@ import GraphWithUpdate as gwu
 
 class Directed_WeightedGWU(gwu.GraphWithUpdate,nx.DiGraph):
     
-    def __init__(self):
-        nx.DiGraph.__init__()
+    def __init__(self,graph = None,**args):
+        nx.DiGraph.__init__(graph,args)
         self.shortest_path_dict = None
         self.max_distance = None
         self.max_in_strength = None

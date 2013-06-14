@@ -1,0 +1,113 @@
+number of generations = 10 
+evaluation_method = 2distributions 
+network_type = directed_unweighted 
+tree_type = with_constants 
+selector = Slot [Selector] (Count: 1)
+		Name: GRouletteWheel - Weight: 0.50
+		Doc:  The Roulette Wheel selector 
+ 
+multiprocessing = False 
+#####      Generation  0   ###########
+- Statistics
+	Minimum raw score                             = 58.00
+	Fitness average                               = 500.45
+	Minimum fitness                               = 422.42
+	Raw scores variance                           = 115791.62
+	Standard deviation of raw scores              = 340.28
+	Average of raw scores                         = 500.45
+	Maximum fitness                               = 600.54
+	Maximum raw score                             = 1068.00
+######### Arbre num 0 ###########
+58.0GTreeNodeBase [Childs=2] - [inv]
+  GTreeNodeBase [Childs=0] - [[0.5395656001311558, 'DirectDistance']]
+  GTreeNodeBase [Childs=0] - [[14.030172205060659, 'TargInDegree']]
+######### Arbre num 1 ###########
+64.0GTreeNodeBase [Childs=2] - [min]
+  GTreeNodeBase [Childs=0] - [[0.08051937339866826, 'TargId']]
+  GTreeNodeBase [Childs=2] - [inv]
+    GTreeNodeBase [Childs=0] - [[1.937435831586746, 'ReversedDistance']]
+    GTreeNodeBase [Childs=2] - [+]
+      GTreeNodeBase [Childs=0] - [[1.6971259189410137, 'OrigOutDegree']]
+      GTreeNodeBase [Childs=0] - [[5.580331708093755, 'TargInDegree']]
+######### Arbre num 2 ###########
+66.0GTreeNodeBase [Childs=2] - [inv]
+  GTreeNodeBase [Childs=2] - [+]
+    GTreeNodeBase [Childs=0] - [[3.9122838312346087, 'OrigInDegree']]
+    GTreeNodeBase [Childs=2] - [log]
+      GTreeNodeBase [Childs=0] - [[2.7599501764898307, 'ReversedDistance']]
+      GTreeNodeBase [Childs=0] - [[10.001161704854315, 'ReversedDistance']]
+  GTreeNodeBase [Childs=2] - [max]
+    GTreeNodeBase [Childs=2] - [-]
+      GTreeNodeBase [Childs=0] - [[6.966099696011047, 'TargOutDegree']]
+      GTreeNodeBase [Childs=0] - [[0.9365603118388005, 'TargInDegree']]
+    GTreeNodeBase [Childs=2] - [/]
+      GTreeNodeBase [Childs=0] - [[2.235591711377957, 'OrigInDegree']]
+      GTreeNodeBase [Childs=0] - [[0.6348749687173554, 'NumberOfEdges']]
+######### Arbre num 3 ###########
+82.0GTreeNodeBase [Childs=2] - [inv]
+  GTreeNodeBase [Childs=0] - [[3.6420305908634965, 'ReversedDistance']]
+  GTreeNodeBase [Childs=2] - [exp]
+    GTreeNodeBase [Childs=2] - [log]
+      GTreeNodeBase [Childs=0] - [[4.001193614465506, 'ReversedDistance']]
+      GTreeNodeBase [Childs=0] - [[8.935950478964799, 'TargInDegree']]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [[6.945573663022401, 'OrigInDegree']]
+      GTreeNodeBase [Childs=0] - [[0.15282514354727114, 'TargId']]
+######### Arbre num 4 ###########
+92.0GTreeNodeBase [Childs=2] - [inv]
+  GTreeNodeBase [Childs=0] - [[5.048675295674451, 'OrigInDegree']]
+  GTreeNodeBase [Childs=2] - [max]
+    GTreeNodeBase [Childs=0] - [[7.20409287342598, 'TargOutDegree']]
+    GTreeNodeBase [Childs=0] - [[3.189997293985498, 'NumberOfEdges']]
+#####      Generation  5   ###########
+- Statistics
+	Minimum raw score                             = 42.00
+	Fitness average                               = 386.99
+	Minimum fitness                               = 345.66
+	Raw scores variance                           = 80219.18
+	Standard deviation of raw scores              = 283.23
+	Average of raw scores                         = 386.99
+	Maximum fitness                               = 464.38
+	Maximum raw score                             = 1033.00
+######### Arbre num 0 ###########
+42.0GTreeNodeBase [Childs=2] - [inv]
+  GTreeNodeBase [Childs=2] - [min]
+    GTreeNodeBase [Childs=0] - [[5.319244671048107, 'DirectDistance']]
+    GTreeNodeBase [Childs=0] - [[1.4494903685358071, 'ReversedDistance']]
+  GTreeNodeBase [Childs=2] - [abs]
+    GTreeNodeBase [Childs=2] - [max]
+      GTreeNodeBase [Childs=0] - [[0.7375726093303203, 'ReversedDistance']]
+      GTreeNodeBase [Childs=0] - [[7.716737600895545, 'TargOutDegree']]
+    GTreeNodeBase [Childs=2] - [*]
+      GTreeNodeBase [Childs=0] - [[4.023677572743495, 'OrigId']]
+      GTreeNodeBase [Childs=0] - [[1.067568689148973, 'TargInDegree']]
+######### Arbre num 1 ###########
+74.0GTreeNodeBase [Childs=2] - [/]
+  GTreeNodeBase [Childs=0] - [[5.941279221692942, 'OrigId']]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=0] - [[3.492496360098585, 'ReversedDistance']]
+    GTreeNodeBase [Childs=2] - [+]
+      GTreeNodeBase [Childs=0] - [[3.492496360098585, 'ReversedDistance']]
+      GTreeNodeBase [Childs=0] - [[5.580331708093755, 'TargInDegree']]
+######### Arbre num 2 ###########
+79.0GTreeNodeBase [Childs=2] - [inv]
+  GTreeNodeBase [Childs=0] - [[7.716737600895545, 'TargOutDegree']]
+  GTreeNodeBase [Childs=2] - [*]
+    GTreeNodeBase [Childs=0] - [[0.6620290915208658, 'NumberOfEdges']]
+    GTreeNodeBase [Childs=0] - [[1.4425913986864523, 'TargInDegree']]
+######### Arbre num 3 ###########
+84.0GTreeNodeBase [Childs=2] - [-]
+  GTreeNodeBase [Childs=2] - [max]
+    GTreeNodeBase [Childs=2] - [-]
+      GTreeNodeBase [Childs=0] - [[5.431531279625984, 'TargId']]
+      GTreeNodeBase [Childs=0] - [[3.151096744551538, 'NumberOfEdges']]
+    GTreeNodeBase [Childs=2] - [abs]
+      GTreeNodeBase [Childs=0] - [[0.19731052200314214, 'TargId']]
+      GTreeNodeBase [Childs=0] - [[8.48037970932748, 'TargInDegree']]
+  GTreeNodeBase [Childs=0] - [[4.0218974019636775, 'OrigInDegree']]
+######### Arbre num 4 ###########
+85.0GTreeNodeBase [Childs=2] - [abs]
+  GTreeNodeBase [Childs=2] - [exp]
+    GTreeNodeBase [Childs=0] - [[1.651156969900374, 'TargInDegree']]
+    GTreeNodeBase [Childs=0] - [[1.9682186270830617, 'TargOutDegree']]
+  GTreeNodeBase [Childs=0] - [[3.7951636143425045, 'OrigOutDegree']]

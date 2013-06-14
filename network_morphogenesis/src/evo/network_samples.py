@@ -21,14 +21,14 @@ We produce networks thanks to knwown algorithms and our rules and we try to find
 '''
 #allele_gen ="MaxDistance"
 data_path = '../../results/temp/working_network.gml'
-evaluation_method ="weighted"
+evaluation_method ="communities_degrees_distances_clustering_importance"
 tree_type = "with_constants"
-network_type = "undirected"
-number_of_tries = 10
-number_of_nodes = 20
-number_of_edges = 20
-nb_generations =50
-freq_stats =1
+network_type = "undirected_unweighted"
+number_of_tries = 1
+number_of_nodes = 50
+number_of_edges = 150
+nb_generations =11
+freq_stats =5
 
 
 
@@ -39,10 +39,10 @@ def main() :
     global number_of_edges
     global allele_gen
     
-    list_of_rules = createListOfRules()
+    #list_of_rules = createListOfRules()
     #[py.GTree.GTreeNode([5,allele_gen])]
     #createListofRules()
-    
+    list_of_rules = [py.GTree.GTreeNode([5,'OrigDegree'])]
     
     for rule in list_of_rules :
         
@@ -68,12 +68,8 @@ def createListOfRules():
 def develop_network(rule,number):
     graph = nd.createGraph(network_type)
     variable = rule.getData()[1]
-    network = None
     global data_path
-    if network_type =="undirected" :
-        network = grow_undirected_weighted_network_with_constants(graph,rule,number_of_nodes, number_of_edges)
-    if network_type =="directed" :
-        network =  grow_directed_weighted_network_with_constants(graph,rule,number_of_nodes, number_of_edges)    
+    network = nd.grow_network_with_constants(graph,py.GTree.GTree(rule),number_of_nodes, number_of_edges)  
     nx.write_gml(network, data_path)
     nx.draw(network)
     plt.savefig("../../results/temp/drawings/{}_{}.png".format(variable,number))
@@ -96,10 +92,10 @@ def printResults(rule, rule_found_list) :
         file_stats.write(rule_found.getTraversalString())
         file_stats.write(str(rule_found.getRawScore())+"\n")
     file_stats.close()
-    
+'''   
 def grow_undirected_weighted_network_with_constants(graph,node,number_of_nodes, number_of_edges):
-    '''takes a tree of decision and returns the graph that grows according to those rules'''
-    ''' graph has weighted and directed edges'''
+    takes a tree of decision and returns the graph that grows according to those rules
+     graph has weighted and directed edges
     #begins with an empty graph with the number of nodes  of the real network
     for i in xrange(number_of_nodes) :
         graph.add_node(i)
@@ -119,8 +115,8 @@ def grow_undirected_weighted_network_with_constants(graph,node,number_of_nodes, 
     return graph
 
 def grow_directed_weighted_network_with_constants(graph,node,number_of_nodes, number_of_edges):
-    '''takes a tree of decision and returns the graph that grows according to those rules'''
-    ''' graph has weighted and directed edges'''
+    takes a tree of decision and returns the graph that grows according to those rules
+     graph has weighted and directed edges
     #begins with an empty graph with the number of nodes  of the real network
     for i in xrange(number_of_nodes) :
         graph.add_node(i)
@@ -138,7 +134,7 @@ def grow_directed_weighted_network_with_constants(graph,node,number_of_nodes, nu
         graph.add_edge(*edge,weight=weight_value)
         
     return graph
-  
+ ''' 
     
 def get_rule(rule_name):
     global evaluation_method
@@ -184,7 +180,8 @@ def evolve(genome,rule_name,**kwargs):
     algo.setMultiProcessing(multiprocessing)
     algo.selector.set(py.Selectors.GRouletteWheel)
     algo.setMinimax(py.Consts.minimaxType[goal]) 
-    stats_adapter = st.StatisticsQualityInTxt(rule_name,filename=filename_stats,frequency = freq_stats)
+    stats_adapter = st.StatisticsInTxt(rule_name,frequency = freq_stats)
+    #stats_adapter = st.StatisticsQualityInTxt(rule_name,filename=filename_stats,frequency = freq_stats)
     algo.setDBAdapter(stats_adapter)
     number_of_generations = int(kwargs.get("nb_generations","100"))
     algo.setGenerations(number_of_generations)

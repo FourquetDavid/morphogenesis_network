@@ -1,0 +1,1752 @@
+<gexf xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.gephi.org/gexf/1.1draft" xmlns:ns0="xsi" version="1.1" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.1draft.xsd">
+  <meta lastmodified="2013-06-05T03:11:03.639894">
+    <creator>CorText</creator>
+    <description>hn-victimization-wos1975_2013top150-ISIkeyword-ISIkeyword-distributionalcooc-1000000-oF0.4-5000-louTrue</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="hn-victimization-wos1975_2013top150-ISIkeyword-ISIkeyword-distributionalcooc-1000000-oF0.4-5000-louTrue">
+    <attributes class="node" mode="dynamic"/>
+    <attributes class="node" mode="static">
+      <attribute id="weight" title="weight" type="float">
+        <default></default>
+      </attribute>
+      <attribute id="color" title="color" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="period" title="period" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="community" title="community" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="shape" title="shape" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="size" title="size" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="category" title="category" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="label" title="label" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="in-degree" title="in-degree" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="betweeness" title="betweeness" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="community_orphan" title="community_orphan" type="integer">
+        <default></default>
+      </attribute>
+      <attribute id="cluster_universal_index" title="cluster_universal_index" type="integer">
+        <default></default>
+      </attribute>
+      <attribute id="cluster_label" title="cluster_label" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="a" title="a" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="b" title="b" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="g" title="g" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="level" title="level" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="cluster_index" title="cluster_index" type="integer">
+        <default></default>
+      </attribute>
+      <attribute id="r" title="r" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="out-degree" title="out-degree" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="y" title="y" type="float">
+        <default></default>
+      </attribute>
+      <attribute id="x" title="x" type="float">
+        <default></default>
+      </attribute>
+    </attributes>
+    <attributes class="edge" mode="dynamic"/>
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="level_edge" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="1" title="dest_edge" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="2" title="source_edge" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="3" title="weight_edge" type="float">
+        <default></default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1" label="recidivism">
+        <attvalues>
+          <attvalue for="weight" value="25.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.819529228729"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="20"/>
+          <attvalue for="cluster_universal_index" value="8"/>
+          <attvalue for="cluster_label" value="prisoners &amp; prison"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="1"/>
+          <attvalue for="out-degree" value="0.740735550661"/>
+        </attvalues>
+        <viz:color r="217" g="0" b="0" a="1.0"/>
+        <viz:position x="874.792018091" y="124.53787958" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.21621621622"/>
+      </node>
+      <node id="2" label="fear">
+        <attvalues>
+          <attvalue for="weight" value="58.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.858300267676"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="13"/>
+          <attvalue for="cluster_universal_index" value="13"/>
+          <attvalue for="cluster_label" value="multilevel analysis &amp; fear of crime"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="249" b="0" a="1.0"/>
+        <viz:position x="127.561726625" y="834.930437556" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="3.82162162162"/>
+      </node>
+      <node id="3" label="adolescence">
+        <attvalues>
+          <attvalue for="weight" value="52.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="14"/>
+          <attvalue for="cluster_universal_index" value="11"/>
+          <attvalue for="cluster_label" value="life course &amp; adolescence"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="3"/>
+          <attvalue for="out-degree" value="0.741948586949"/>
+        </attvalues>
+        <viz:color r="131" g="255" b="0" a="1.0"/>
+        <viz:position x="21.0300647394" y="653.702565543" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="3.52972972973"/>
+      </node>
+      <node id="4" label="multilevel analysis">
+        <attvalues>
+          <attvalue for="weight" value="14.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.7200136793"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="13"/>
+          <attvalue for="cluster_universal_index" value="13"/>
+          <attvalue for="cluster_label" value="multilevel analysis &amp; fear of crime"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="249" b="0" a="1.0"/>
+        <viz:position x="133.258796761" y="794.134084078" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.68108108108"/>
+      </node>
+      <node id="5" label="social control">
+        <attvalues>
+          <attvalue for="weight" value="14.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.693118732866"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="16"/>
+          <attvalue for="cluster_universal_index" value="1"/>
+          <attvalue for="cluster_label" value="crime rates &amp; social control"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="4"/>
+          <attvalue for="out-degree" value="0.785059747981"/>
+        </attvalues>
+        <viz:color r="247" g="217" b="0" a="1.0"/>
+        <viz:position x="890.06881702" y="753.91209943" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.68108108108"/>
+      </node>
+      <node id="6" label="sexual assault">
+        <attvalues>
+          <attvalue for="weight" value="102.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.998637603167"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="7"/>
+          <attvalue for="cluster_universal_index" value="19"/>
+          <attvalue for="cluster_label" value="sexual assault &amp; rape"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="5"/>
+          <attvalue for="out-degree" value="1.0"/>
+        </attvalues>
+        <viz:color r="0" g="159" b="203" a="1.0"/>
+        <viz:position x="683.602412284" y="45.9467827899" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="5.96216216216"/>
+      </node>
+      <node id="7" label="crime">
+        <attvalues>
+          <attvalue for="weight" value="185.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.679224330066"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="13"/>
+          <attvalue for="cluster_universal_index" value="13"/>
+          <attvalue for="cluster_label" value="multilevel analysis &amp; fear of crime"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="249" b="0" a="1.0"/>
+        <viz:position x="198.241332646" y="875.930242064" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="10.0"/>
+      </node>
+      <node id="8" label="crime rates">
+        <attvalues>
+          <attvalue for="weight" value="13.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.47775160096"/>
+          <attvalue for="betweeness" value="0.000256016385049"/>
+          <attvalue for="community_orphan" value="16"/>
+          <attvalue for="cluster_universal_index" value="1"/>
+          <attvalue for="cluster_label" value="crime rates &amp; social control"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="4"/>
+          <attvalue for="out-degree" value="0.693118732866"/>
+        </attvalues>
+        <viz:color r="247" g="217" b="0" a="1.0"/>
+        <viz:position x="932.970035532" y="733.33705746" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.63243243243"/>
+      </node>
+      <node id="9" label="prison">
+        <attvalues>
+          <attvalue for="weight" value="28.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="3.78916067786"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="20"/>
+          <attvalue for="cluster_universal_index" value="8"/>
+          <attvalue for="cluster_label" value="prisoners &amp; prison"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="1"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="217" g="0" b="0" a="1.0"/>
+        <viz:position x="902.512351867" y="206.378140433" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.36216216216"/>
+      </node>
+      <node id="10" label="female offenders">
+        <attvalues>
+          <attvalue for="weight" value="18.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.46806528209"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="10"/>
+          <attvalue for="cluster_universal_index" value="6"/>
+          <attvalue for="cluster_label" value="intimate partner violence &amp; domestic violence"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="6"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="156" b="0" a="1.0"/>
+        <viz:position x="420.340586069" y="829.833365865" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.87567567568"/>
+      </node>
+      <node id="11" label="fear of crime">
+        <attvalues>
+          <attvalue for="weight" value="114.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="13"/>
+          <attvalue for="cluster_universal_index" value="13"/>
+          <attvalue for="cluster_label" value="multilevel analysis &amp; fear of crime"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="4.80374690144"/>
+        </attvalues>
+        <viz:color r="0" g="249" b="0" a="1.0"/>
+        <viz:position x="168.791508803" y="855.299905813" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="6.54594594595"/>
+      </node>
+      <node id="12" label="internet">
+        <attvalues>
+          <attvalue for="weight" value="23.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.6812771938"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="18"/>
+          <attvalue for="cluster_universal_index" value="9"/>
+          <attvalue for="cluster_label" value="delinquency &amp; adolescents"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="10"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="255" g="93" b="0" a="1.0"/>
+        <viz:position x="808.682717002" y="860.247908352" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.11891891892"/>
+      </node>
+      <node id="13" label="burglary">
+        <attvalues>
+          <attvalue for="weight" value="18.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="16"/>
+          <attvalue for="cluster_universal_index" value="1"/>
+          <attvalue for="cluster_label" value="crime rates &amp; social control"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="4"/>
+          <attvalue for="out-degree" value="0.692691852984"/>
+        </attvalues>
+        <viz:color r="247" g="217" b="0" a="1.0"/>
+        <viz:position x="930.509314184" y="774.356757747" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.87567567568"/>
+      </node>
+      <node id="14" label="coping">
+        <attvalues>
+          <attvalue for="weight" value="14.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.719853119087"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="15"/>
+          <attvalue for="cluster_universal_index" value="5"/>
+          <attvalue for="cluster_label" value="coping &amp; social support"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="8"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="219" g="243" b="0" a="1.0"/>
+        <viz:position x="946.970658168" y="624.694272719" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.68108108108"/>
+      </node>
+      <node id="15" label="exposure to violence">
+        <attvalues>
+          <attvalue for="weight" value="14.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.718003497216"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="18"/>
+          <attvalue for="cluster_universal_index" value="9"/>
+          <attvalue for="cluster_label" value="delinquency &amp; adolescents"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="10"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="255" g="93" b="0" a="1.0"/>
+        <viz:position x="774.687164922" y="928.854288634" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.68108108108"/>
+      </node>
+      <node id="16" label="juvenile delinquency">
+        <attvalues>
+          <attvalue for="weight" value="16.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.738865898054"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="4"/>
+          <attvalue for="cluster_universal_index" value="2"/>
+          <attvalue for="cluster_label" value="victimisation &amp; juvenile delinquency"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="9"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="0" b="201" a="1.0"/>
+        <viz:position x="927.369025021" y="289.889717603" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.77837837838"/>
+      </node>
+      <node id="17" label="offenders">
+        <attvalues>
+          <attvalue for="weight" value="22.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="20"/>
+          <attvalue for="cluster_universal_index" value="8"/>
+          <attvalue for="cluster_label" value="prisoners &amp; prison"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="1"/>
+          <attvalue for="out-degree" value="0.74094050015"/>
+        </attvalues>
+        <viz:color r="217" g="0" b="0" a="1.0"/>
+        <viz:position x="918.259742166" y="145.571042894" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.07027027027"/>
+      </node>
+      <node id="18" label="disorder">
+        <attvalues>
+          <attvalue for="weight" value="20.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.93002308431"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="13"/>
+          <attvalue for="cluster_universal_index" value="13"/>
+          <attvalue for="cluster_label" value="multilevel analysis &amp; fear of crime"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="249" b="0" a="1.0"/>
+        <viz:position x="201.74767007" y="896.154157151" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.97297297297"/>
+      </node>
+      <node id="19" label="ptsd">
+        <attvalues>
+          <attvalue for="weight" value="33.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.709565166576"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="5"/>
+          <attvalue for="cluster_universal_index" value="7"/>
+          <attvalue for="cluster_label" value="mental health &amp; ptsd"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="11"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="65" b="221" a="1.0"/>
+        <viz:position x="104.082962329" y="244.10753443" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.60540540541"/>
+      </node>
+      <node id="20" label="neighborhood">
+        <attvalues>
+          <attvalue for="weight" value="12.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.703009683954"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="21"/>
+          <attvalue for="cluster_universal_index" value="15"/>
+          <attvalue for="cluster_label" value="community policing &amp; neighborhood"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="12"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="204" g="27" b="27" a="1.0"/>
+        <viz:position x="439.616225411" y="961.514142502" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.58378378378"/>
+      </node>
+      <node id="21" label="sexual offending">
+        <attvalues>
+          <attvalue for="weight" value="12.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.752703569484"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="9"/>
+          <attvalue for="cluster_universal_index" value="14"/>
+          <attvalue for="cluster_label" value="sexual offending &amp; sex offenders"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="13"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="167" b="114" a="1.0"/>
+        <viz:position x="175.080897035" y="159.70535329" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.58378378378"/>
+      </node>
+      <node id="22" label="trends">
+        <attvalues>
+          <attvalue for="weight" value="20.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.722697826801"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="6"/>
+          <attvalue for="cluster_universal_index" value="20"/>
+          <attvalue for="cluster_label" value="trends &amp; methodology"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="14"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="133" b="221" a="1.0"/>
+        <viz:position x="379.738633201" y="18.8506406408" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.97297297297"/>
+      </node>
+      <node id="23" label="criminal victimization">
+        <attvalues>
+          <attvalue for="weight" value="13.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="13"/>
+          <attvalue for="cluster_universal_index" value="13"/>
+          <attvalue for="cluster_label" value="multilevel analysis &amp; fear of crime"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="0.756029306664"/>
+        </attvalues>
+        <viz:color r="0" g="249" b="0" a="1.0"/>
+        <viz:position x="110.183830557" y="773.887544083" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.63243243243"/>
+      </node>
+      <node id="24" label="public policy">
+        <attvalues>
+          <attvalue for="weight" value="9.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.740121683676"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="8"/>
+          <attvalue for="cluster_universal_index" value="17"/>
+          <attvalue for="cluster_label" value="public policy &amp; violence against women"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="15"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="170" b="160" a="1.0"/>
+        <viz:position x="943.332785629" y="379.357188554" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.43783783784"/>
+      </node>
+      <node id="25" label="mental health">
+        <attvalues>
+          <attvalue for="weight" value="54.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="5"/>
+          <attvalue for="cluster_universal_index" value="7"/>
+          <attvalue for="cluster_label" value="mental health &amp; ptsd"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="11"/>
+          <attvalue for="out-degree" value="0.709565166576"/>
+        </attvalues>
+        <viz:color r="0" g="65" b="221" a="1.0"/>
+        <viz:position x="75.719718628" y="265.08292385" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="3.62702702703"/>
+      </node>
+      <node id="26" label="community policing">
+        <attvalues>
+          <attvalue for="weight" value="13.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="21"/>
+          <attvalue for="cluster_universal_index" value="15"/>
+          <attvalue for="cluster_label" value="community policing &amp; neighborhood"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="12"/>
+          <attvalue for="out-degree" value="0.703009683954"/>
+        </attvalues>
+        <viz:color r="204" g="27" b="27" a="1.0"/>
+        <viz:position x="445.175224843" y="994.403015148" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.63243243243"/>
+      </node>
+      <node id="27" label="violence against women">
+        <attvalues>
+          <attvalue for="weight" value="18.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="8"/>
+          <attvalue for="cluster_universal_index" value="17"/>
+          <attvalue for="cluster_label" value="public policy &amp; violence against women"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="15"/>
+          <attvalue for="out-degree" value="0.740121683676"/>
+        </attvalues>
+        <viz:color r="0" g="170" b="160" a="1.0"/>
+        <viz:position x="976.761725904" y="342.398480262" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.87567567568"/>
+      </node>
+      <node id="28" label="physical abuse">
+        <attvalues>
+          <attvalue for="weight" value="24.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.917418846455"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="11"/>
+          <attvalue for="cluster_universal_index" value="4"/>
+          <attvalue for="cluster_label" value="sexual abuse &amp; physical abuse"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="7"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="188" b="0" a="1.0"/>
+        <viz:position x="279.921255028" y="89.4964563577" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.16756756757"/>
+      </node>
+      <node id="29" label="routine activities theory">
+        <attvalues>
+          <attvalue for="weight" value="4.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.737250079664"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="3"/>
+          <attvalue for="cluster_universal_index" value="18"/>
+          <attvalue for="cluster_label" value="youth &amp; routine activities theory"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="16"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="45" g="0" b="164" a="1.0"/>
+        <viz:position x="530.662705251" y="27.7295145337" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.19459459459"/>
+      </node>
+      <node id="30" label="substance use">
+        <attvalues>
+          <attvalue for="weight" value="42.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.41419949268"/>
+          <attvalue for="betweeness" value="0.00102406554019"/>
+          <attvalue for="community_orphan" value="20"/>
+          <attvalue for="cluster_universal_index" value="8"/>
+          <attvalue for="cluster_label" value="prisoners &amp; prison"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="1"/>
+          <attvalue for="out-degree" value="1.40764756642"/>
+        </attvalues>
+        <viz:color r="217" g="0" b="0" a="1.0"/>
+        <viz:position x="888.203609318" y="267.334806471" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="3.04324324324"/>
+      </node>
+      <node id="31" label="delinquency">
+        <attvalues>
+          <attvalue for="weight" value="69.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.72571049415"/>
+          <attvalue for="betweeness" value="0.000512032770097"/>
+          <attvalue for="community_orphan" value="18"/>
+          <attvalue for="cluster_universal_index" value="9"/>
+          <attvalue for="cluster_label" value="delinquency &amp; adolescents"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="10"/>
+          <attvalue for="out-degree" value="2.19363145605"/>
+        </attvalues>
+        <viz:color r="255" g="93" b="0" a="1.0"/>
+        <viz:position x="753.096928844" y="907.498921384" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="4.35675675676"/>
+      </node>
+      <node id="32" label="adolescents">
+        <attvalues>
+          <attvalue for="weight" value="49.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.768493769893"/>
+          <attvalue for="betweeness" value="0.000256016385049"/>
+          <attvalue for="community_orphan" value="18"/>
+          <attvalue for="cluster_universal_index" value="9"/>
+          <attvalue for="cluster_label" value="delinquency &amp; adolescents"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="10"/>
+          <attvalue for="out-degree" value="1.40698768795"/>
+        </attvalues>
+        <viz:color r="255" g="93" b="0" a="1.0"/>
+        <viz:position x="776.374845545" y="881.402295689" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="3.38378378378"/>
+      </node>
+      <node id="33" label="prisoners">
+        <attvalues>
+          <attvalue for="weight" value="33.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.54673124332"/>
+          <attvalue for="betweeness" value="0.00204813108039"/>
+          <attvalue for="community_orphan" value="20"/>
+          <attvalue for="cluster_universal_index" value="8"/>
+          <attvalue for="cluster_label" value="prisoners &amp; prison"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="1"/>
+          <attvalue for="out-degree" value="2.09983862919"/>
+        </attvalues>
+        <viz:color r="217" g="0" b="0" a="1.0"/>
+        <viz:position x="845.032889474" y="227.206942441" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.60540540541"/>
+      </node>
+      <node id="34" label="family violence">
+        <attvalues>
+          <attvalue for="weight" value="26.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.77707594614"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="10"/>
+          <attvalue for="cluster_universal_index" value="6"/>
+          <attvalue for="cluster_label" value="intimate partner violence &amp; domestic violence"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="6"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="156" b="0" a="1.0"/>
+        <viz:position x="375.040938195" y="809.676047041" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.26486486486"/>
+      </node>
+      <node id="35" label="sexual offenders">
+        <attvalues>
+          <attvalue for="weight" value="10.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="10"/>
+          <attvalue for="cluster_universal_index" value="6"/>
+          <attvalue for="cluster_label" value="intimate partner violence &amp; domestic violence"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="6"/>
+          <attvalue for="out-degree" value="0.717067261017"/>
+        </attvalues>
+        <viz:color r="0" g="156" b="0" a="1.0"/>
+        <viz:position x="356.252164938" y="759.949447122" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.48648648649"/>
+      </node>
+      <node id="36" label="female">
+        <attvalues>
+          <attvalue for="weight" value="26.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.683539528408"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="20"/>
+          <attvalue for="cluster_universal_index" value="8"/>
+          <attvalue for="cluster_label" value="prisoners &amp; prison"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="1"/>
+          <attvalue for="out-degree" value="1.45192437856"/>
+        </attvalues>
+        <viz:color r="217" g="0" b="0" a="1.0"/>
+        <viz:position x="920.621468239" y="227.091211356" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.26486486486"/>
+      </node>
+      <node id="37" label="sexual abuse">
+        <attvalues>
+          <attvalue for="weight" value="90.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="11"/>
+          <attvalue for="cluster_universal_index" value="4"/>
+          <attvalue for="cluster_label" value="sexual abuse &amp; physical abuse"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="7"/>
+          <attvalue for="out-degree" value="0.917418846455"/>
+        </attvalues>
+        <viz:color r="0" g="188" b="0" a="1.0"/>
+        <viz:position x="278.951612305" y="55.8863160736" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="5.37837837838"/>
+      </node>
+      <node id="38" label="hate crimes">
+        <attvalues>
+          <attvalue for="weight" value="12.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.725056396225"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="19"/>
+          <attvalue for="cluster_universal_index" value="10"/>
+          <attvalue for="cluster_label" value="violent crime &amp; hate crimes"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="0"/>
+          <attvalue for="out-degree" value="0.796923317958"/>
+        </attvalues>
+        <viz:color r="243" g="0" b="0" a="1.0"/>
+        <viz:position x="39.5958108208" y="364.786594683" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.58378378378"/>
+      </node>
+      <node id="39" label="childhood sexual abuse">
+        <attvalues>
+          <attvalue for="weight" value="8.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.40195118668"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="10"/>
+          <attvalue for="cluster_universal_index" value="6"/>
+          <attvalue for="cluster_label" value="intimate partner violence &amp; domestic violence"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="6"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="156" b="0" a="1.0"/>
+        <viz:position x="381.00081033" y="738.595893846" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.38918918919"/>
+      </node>
+      <node id="40" label="sex offenders">
+        <attvalues>
+          <attvalue for="weight" value="21.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="9"/>
+          <attvalue for="cluster_universal_index" value="14"/>
+          <attvalue for="cluster_label" value="sexual offending &amp; sex offenders"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="13"/>
+          <attvalue for="out-degree" value="0.752703569484"/>
+        </attvalues>
+        <viz:color r="0" g="167" b="114" a="1.0"/>
+        <viz:position x="170.111129598" y="121.071271393" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.02162162162"/>
+      </node>
+      <node id="41" label="perceived risk">
+        <attvalues>
+          <attvalue for="weight" value="29.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.692434162164"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="13"/>
+          <attvalue for="cluster_universal_index" value="13"/>
+          <attvalue for="cluster_label" value="multilevel analysis &amp; fear of crime"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="249" b="0" a="1.0"/>
+        <viz:position x="160.61742031" y="814.551445997" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.41081081081"/>
+      </node>
+      <node id="42" label="injury">
+        <attvalues>
+          <attvalue for="weight" value="15.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.3968917004"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="10"/>
+          <attvalue for="cluster_universal_index" value="6"/>
+          <attvalue for="cluster_label" value="intimate partner violence &amp; domestic violence"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="6"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="156" b="0" a="1.0"/>
+        <viz:position x="427.371677749" y="718.31158249" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.72972972973"/>
+      </node>
+      <node id="43" label="life course">
+        <attvalues>
+          <attvalue for="weight" value="14.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.741948586949"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="14"/>
+          <attvalue for="cluster_universal_index" value="11"/>
+          <attvalue for="cluster_label" value="life course &amp; adolescence"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="3"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="131" g="255" b="0" a="1.0"/>
+        <viz:position x="10.1485657985" y="602.298152513" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.68108108108"/>
+      </node>
+      <node id="44" label="child abuse">
+        <attvalues>
+          <attvalue for="weight" value="57.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="10"/>
+          <attvalue for="cluster_universal_index" value="6"/>
+          <attvalue for="cluster_label" value="intimate partner violence &amp; domestic violence"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="6"/>
+          <attvalue for="out-degree" value="0.744988627076"/>
+        </attvalues>
+        <viz:color r="0" g="156" b="0" a="1.0"/>
+        <viz:position x="453.003166577" y="804.126230886" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="3.77297297297"/>
+      </node>
+      <node id="45" label="drugs">
+        <attvalues>
+          <attvalue for="weight" value="19.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.905891125834"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="1"/>
+          <attvalue for="cluster_universal_index" value="16"/>
+          <attvalue for="cluster_label" value="drugs &amp; alcohol"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="17"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="102" g="0" b="117" a="1.0"/>
+        <viz:position x="611.911925527" y="979.269745465" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.92432432432"/>
+      </node>
+      <node id="46" label="ncvs">
+        <attvalues>
+          <attvalue for="weight" value="19.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="2"/>
+          <attvalue for="cluster_universal_index" value="3"/>
+          <attvalue for="cluster_label" value="ncvs &amp; hate crime"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="18"/>
+          <attvalue for="out-degree" value="0.715621083012"/>
+        </attvalues>
+        <viz:color r="132" g="0" b="149" a="1.0"/>
+        <viz:position x="969.186859098" y="501.909895352" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.92432432432"/>
+      </node>
+      <node id="47" label="homeless youth">
+        <attvalues>
+          <attvalue for="weight" value="14.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="17"/>
+          <attvalue for="cluster_universal_index" value="0"/>
+          <attvalue for="cluster_label" value="homeless youth &amp; prostitution"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="19"/>
+          <attvalue for="out-degree" value="0.73869283335"/>
+        </attvalues>
+        <viz:color r="255" g="181" b="0" a="1.0"/>
+        <viz:position x="0.0" y="508.615583511" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.68108108108"/>
+      </node>
+      <node id="48" label="intimate partner violence">
+        <attvalues>
+          <attvalue for="weight" value="63.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.97940719834"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="10"/>
+          <attvalue for="cluster_universal_index" value="6"/>
+          <attvalue for="cluster_label" value="intimate partner violence &amp; domestic violence"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="6"/>
+          <attvalue for="out-degree" value="1.48723466584"/>
+        </attvalues>
+        <viz:color r="0" g="156" b="0" a="1.0"/>
+        <viz:position x="450.496406938" y="760.030252997" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="4.06486486486"/>
+      </node>
+      <node id="49" label="women">
+        <attvalues>
+          <attvalue for="weight" value="62.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.694396061508"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="20"/>
+          <attvalue for="cluster_universal_index" value="8"/>
+          <attvalue for="cluster_label" value="prisoners &amp; prison"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="1"/>
+          <attvalue for="out-degree" value="0.7830603366"/>
+        </attvalues>
+        <viz:color r="217" g="0" b="0" a="1.0"/>
+        <viz:position x="819.249805217" y="207.015339222" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="4.01621621622"/>
+      </node>
+      <node id="50" label="victimisation">
+        <attvalues>
+          <attvalue for="weight" value="25.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="4"/>
+          <attvalue for="cluster_universal_index" value="2"/>
+          <attvalue for="cluster_label" value="victimisation &amp; juvenile delinquency"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="9"/>
+          <attvalue for="out-degree" value="0.738865898054"/>
+        </attvalues>
+        <viz:color r="0" g="0" b="201" a="1.0"/>
+        <viz:position x="920.621468239" y="247.334806433" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.21621621622"/>
+      </node>
+      <node id="51" label="schizophrenia">
+        <attvalues>
+          <attvalue for="weight" value="25.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.812309032333"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="12"/>
+          <attvalue for="cluster_universal_index" value="12"/>
+          <attvalue for="cluster_label" value="schizophrenia &amp; psychosis"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="20"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="217" b="0" a="1.0"/>
+        <viz:position x="832.169125112" y="104.320729115" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.21621621622"/>
+      </node>
+      <node id="52" label="psychosis">
+        <attvalues>
+          <attvalue for="weight" value="25.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="12"/>
+          <attvalue for="cluster_universal_index" value="12"/>
+          <attvalue for="cluster_label" value="schizophrenia &amp; psychosis"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="20"/>
+          <attvalue for="out-degree" value="0.812309032333"/>
+        </attvalues>
+        <viz:color r="0" g="217" b="0" a="1.0"/>
+        <viz:position x="834.204469029" y="186.346629437" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.21621621622"/>
+      </node>
+      <node id="53" label="youth">
+        <attvalues>
+          <attvalue for="weight" value="25.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="3"/>
+          <attvalue for="cluster_universal_index" value="18"/>
+          <attvalue for="cluster_label" value="youth &amp; routine activities theory"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="16"/>
+          <attvalue for="out-degree" value="0.737250079664"/>
+        </attvalues>
+        <viz:color r="45" g="0" b="164" a="1.0"/>
+        <viz:position x="560.600659376" y="0.00100000000191" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.21621621622"/>
+      </node>
+      <node id="54" label="social support">
+        <attvalues>
+          <attvalue for="weight" value="23.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="15"/>
+          <attvalue for="cluster_universal_index" value="5"/>
+          <attvalue for="cluster_label" value="coping &amp; social support"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="8"/>
+          <attvalue for="out-degree" value="0.719853119087"/>
+        </attvalues>
+        <viz:color r="219" g="243" b="0" a="1.0"/>
+        <viz:position x="979.86538572" y="603.959120361" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.11891891892"/>
+      </node>
+      <node id="55" label="prostitution">
+        <attvalues>
+          <attvalue for="weight" value="10.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.73869283335"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="17"/>
+          <attvalue for="cluster_universal_index" value="0"/>
+          <attvalue for="cluster_label" value="homeless youth &amp; prostitution"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="19"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="255" g="181" b="0" a="1.0"/>
+        <viz:position x="9.04638475856" y="458.02622333" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.48648648649"/>
+      </node>
+      <node id="56" label="hate crime">
+        <attvalues>
+          <attvalue for="weight" value="13.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.715621083012"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="2"/>
+          <attvalue for="cluster_universal_index" value="3"/>
+          <attvalue for="cluster_label" value="ncvs &amp; hate crime"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="18"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="132" g="0" b="149" a="1.0"/>
+        <viz:position x="999.998998201" y="479.411461588" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.63243243243"/>
+      </node>
+      <node id="57" label="methodology">
+        <attvalues>
+          <attvalue for="weight" value="25.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="6"/>
+          <attvalue for="cluster_universal_index" value="20"/>
+          <attvalue for="cluster_label" value="trends &amp; methodology"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="14"/>
+          <attvalue for="out-degree" value="0.722697826801"/>
+        </attvalues>
+        <viz:color r="0" g="133" b="221" a="1.0"/>
+        <viz:position x="393.884030032" y="47.7133332473" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.21621621622"/>
+      </node>
+      <node id="58" label="rape">
+        <attvalues>
+          <attvalue for="weight" value="101.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="7"/>
+          <attvalue for="cluster_universal_index" value="19"/>
+          <attvalue for="cluster_label" value="sexual assault &amp; rape"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="5"/>
+          <attvalue for="out-degree" value="0.998637603167"/>
+        </attvalues>
+        <viz:color r="0" g="159" b="203" a="1.0"/>
+        <viz:position x="731.272124035" y="67.2502581136" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="5.91351351351"/>
+      </node>
+      <node id="59" label="domestic violence">
+        <attvalues>
+          <attvalue for="weight" value="72.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.803230330562"/>
+          <attvalue for="betweeness" value="0.000768049155146"/>
+          <attvalue for="community_orphan" value="10"/>
+          <attvalue for="cluster_universal_index" value="6"/>
+          <attvalue for="cluster_label" value="intimate partner violence &amp; domestic violence"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="6"/>
+          <attvalue for="out-degree" value="3.87733109028"/>
+        </attvalues>
+        <viz:color r="0" g="156" b="0" a="1.0"/>
+        <viz:position x="397.302197231" y="783.966728587" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="4.5027027027"/>
+      </node>
+      <node id="60" label="incarceration">
+        <attvalues>
+          <attvalue for="weight" value="25.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.704230850243"/>
+          <attvalue for="betweeness" value="0.000768049155146"/>
+          <attvalue for="community_orphan" value="20"/>
+          <attvalue for="cluster_universal_index" value="8"/>
+          <attvalue for="cluster_label" value="prisoners &amp; prison"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="1"/>
+          <attvalue for="out-degree" value="2.42764012117"/>
+        </attvalues>
+        <viz:color r="217" g="0" b="0" a="1.0"/>
+        <viz:position x="850.363829297" y="165.875397237" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.21621621622"/>
+      </node>
+      <node id="61" label="bullying">
+        <attvalues>
+          <attvalue for="weight" value="81.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.707134188936"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="18"/>
+          <attvalue for="cluster_universal_index" value="9"/>
+          <attvalue for="cluster_label" value="delinquency &amp; adolescents"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="10"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="255" g="93" b="0" a="1.0"/>
+        <viz:position x="742.56047867" y="948.972772494" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="4.94054054054"/>
+      </node>
+      <node id="62" label="violent crime">
+        <attvalues>
+          <attvalue for="weight" value="10.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.796923317958"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="19"/>
+          <attvalue for="cluster_universal_index" value="10"/>
+          <attvalue for="cluster_label" value="violent crime &amp; hate crimes"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="0"/>
+          <attvalue for="out-degree" value="0.725056396225"/>
+        </attvalues>
+        <viz:color r="243" g="0" b="0" a="1.0"/>
+        <viz:position x="22.0279741034" y="328.454612385" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.48648648649"/>
+      </node>
+      <node id="63" label="collective efficacy">
+        <attvalues>
+          <attvalue for="weight" value="18.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.679780684591"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="13"/>
+          <attvalue for="cluster_universal_index" value="13"/>
+          <attvalue for="cluster_label" value="multilevel analysis &amp; fear of crime"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="249" b="0" a="1.0"/>
+        <viz:position x="178.344145988" y="917.659096923" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.87567567568"/>
+      </node>
+      <node id="64" label="alcohol">
+        <attvalues>
+          <attvalue for="weight" value="49.0"/>
+          <attvalue for="period" value="1975_2013"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="1"/>
+          <attvalue for="cluster_universal_index" value="16"/>
+          <attvalue for="cluster_label" value="drugs &amp; alcohol"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="17"/>
+          <attvalue for="out-degree" value="0.905891125834"/>
+        </attvalues>
+        <viz:color r="102" g="0" b="117" a="1.0"/>
+        <viz:position x="565.177396343" y="1000.0" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="3.38378378378"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="1" target="60" id="1" weight="0.819529228729">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="60"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="0.819529228729"/>
+        </attvalues>
+      </edge>
+      <edge source="2" target="11" id="2" weight="0.858300267676">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="11"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="0.858300267676"/>
+        </attvalues>
+      </edge>
+      <edge source="4" target="11" id="3" weight="0.963984372631">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="11"/>
+          <attvalue for="2" value="4"/>
+          <attvalue for="3" value="0.963984372631"/>
+        </attvalues>
+      </edge>
+      <edge source="4" target="23" id="4" weight="0.756029306664">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="23"/>
+          <attvalue for="2" value="4"/>
+          <attvalue for="3" value="0.756029306664"/>
+        </attvalues>
+      </edge>
+      <edge source="5" target="8" id="5" weight="0.693118732866">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="8"/>
+          <attvalue for="2" value="5"/>
+          <attvalue for="3" value="0.693118732866"/>
+        </attvalues>
+      </edge>
+      <edge source="6" target="58" id="6" weight="0.998637603167">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="58"/>
+          <attvalue for="2" value="6"/>
+          <attvalue for="3" value="0.998637603167"/>
+        </attvalues>
+      </edge>
+      <edge source="7" target="11" id="7" weight="0.679224330066">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="11"/>
+          <attvalue for="2" value="7"/>
+          <attvalue for="3" value="0.679224330066"/>
+        </attvalues>
+      </edge>
+      <edge source="8" target="5" id="8" weight="0.785059747981">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="5"/>
+          <attvalue for="2" value="8"/>
+          <attvalue for="3" value="0.785059747981"/>
+        </attvalues>
+      </edge>
+      <edge source="8" target="13" id="9" weight="0.692691852984">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="13"/>
+          <attvalue for="2" value="8"/>
+          <attvalue for="3" value="0.692691852984"/>
+        </attvalues>
+      </edge>
+      <edge source="9" target="30" id="10" weight="0.724108038014">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="30"/>
+          <attvalue for="2" value="9"/>
+          <attvalue for="3" value="0.724108038014"/>
+        </attvalues>
+      </edge>
+      <edge source="9" target="17" id="11" weight="0.74094050015">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="17"/>
+          <attvalue for="2" value="9"/>
+          <attvalue for="3" value="0.74094050015"/>
+        </attvalues>
+      </edge>
+      <edge source="9" target="60" id="12" weight="0.844439985718">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="60"/>
+          <attvalue for="2" value="9"/>
+          <attvalue for="3" value="0.844439985718"/>
+        </attvalues>
+      </edge>
+      <edge source="9" target="36" id="13" weight="0.738936603317">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="36"/>
+          <attvalue for="2" value="9"/>
+          <attvalue for="3" value="0.738936603317"/>
+        </attvalues>
+      </edge>
+      <edge source="9" target="1" id="14" weight="0.740735550661">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="1"/>
+          <attvalue for="2" value="9"/>
+          <attvalue for="3" value="0.740735550661"/>
+        </attvalues>
+      </edge>
+      <edge source="10" target="44" id="15" weight="0.744988627076">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="44"/>
+          <attvalue for="2" value="10"/>
+          <attvalue for="3" value="0.744988627076"/>
+        </attvalues>
+      </edge>
+      <edge source="10" target="59" id="16" weight="0.723076655016">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="59"/>
+          <attvalue for="2" value="10"/>
+          <attvalue for="3" value="0.723076655016"/>
+        </attvalues>
+      </edge>
+      <edge source="12" target="32" id="17" weight="0.6812771938">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="32"/>
+          <attvalue for="2" value="12"/>
+          <attvalue for="3" value="0.6812771938"/>
+        </attvalues>
+      </edge>
+      <edge source="14" target="54" id="18" weight="0.719853119087">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="54"/>
+          <attvalue for="2" value="14"/>
+          <attvalue for="3" value="0.719853119087"/>
+        </attvalues>
+      </edge>
+      <edge source="15" target="31" id="19" weight="0.718003497216">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="31"/>
+          <attvalue for="2" value="15"/>
+          <attvalue for="3" value="0.718003497216"/>
+        </attvalues>
+      </edge>
+      <edge source="16" target="50" id="20" weight="0.738865898054">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="50"/>
+          <attvalue for="2" value="16"/>
+          <attvalue for="3" value="0.738865898054"/>
+        </attvalues>
+      </edge>
+      <edge source="18" target="11" id="21" weight="0.93002308431">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="11"/>
+          <attvalue for="2" value="18"/>
+          <attvalue for="3" value="0.93002308431"/>
+        </attvalues>
+      </edge>
+      <edge source="19" target="25" id="22" weight="0.709565166576">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="25"/>
+          <attvalue for="2" value="19"/>
+          <attvalue for="3" value="0.709565166576"/>
+        </attvalues>
+      </edge>
+      <edge source="20" target="26" id="23" weight="0.703009683954">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="26"/>
+          <attvalue for="2" value="20"/>
+          <attvalue for="3" value="0.703009683954"/>
+        </attvalues>
+      </edge>
+      <edge source="21" target="40" id="24" weight="0.752703569484">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="40"/>
+          <attvalue for="2" value="21"/>
+          <attvalue for="3" value="0.752703569484"/>
+        </attvalues>
+      </edge>
+      <edge source="22" target="57" id="25" weight="0.722697826801">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="57"/>
+          <attvalue for="2" value="22"/>
+          <attvalue for="3" value="0.722697826801"/>
+        </attvalues>
+      </edge>
+      <edge source="24" target="27" id="26" weight="0.740121683676">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="27"/>
+          <attvalue for="2" value="24"/>
+          <attvalue for="3" value="0.740121683676"/>
+        </attvalues>
+      </edge>
+      <edge source="28" target="37" id="27" weight="0.917418846455">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="37"/>
+          <attvalue for="2" value="28"/>
+          <attvalue for="3" value="0.917418846455"/>
+        </attvalues>
+      </edge>
+      <edge source="29" target="53" id="28" weight="0.737250079664">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="53"/>
+          <attvalue for="2" value="29"/>
+          <attvalue for="3" value="0.737250079664"/>
+        </attvalues>
+      </edge>
+      <edge source="30" target="33" id="29" weight="0.701211717438">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="33"/>
+          <attvalue for="2" value="30"/>
+          <attvalue for="3" value="0.701211717438"/>
+        </attvalues>
+      </edge>
+      <edge source="30" target="36" id="30" weight="0.71298777524">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="36"/>
+          <attvalue for="2" value="30"/>
+          <attvalue for="3" value="0.71298777524"/>
+        </attvalues>
+      </edge>
+      <edge source="31" target="32" id="31" weight="0.72571049415">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="32"/>
+          <attvalue for="2" value="31"/>
+          <attvalue for="3" value="0.72571049415"/>
+        </attvalues>
+      </edge>
+      <edge source="32" target="31" id="32" weight="0.768493769893">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="31"/>
+          <attvalue for="2" value="32"/>
+          <attvalue for="3" value="0.768493769893"/>
+        </attvalues>
+      </edge>
+      <edge source="33" target="60" id="33" weight="0.763670906721">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="60"/>
+          <attvalue for="2" value="33"/>
+          <attvalue for="3" value="0.763670906721"/>
+        </attvalues>
+      </edge>
+      <edge source="33" target="49" id="34" weight="0.7830603366">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="49"/>
+          <attvalue for="2" value="33"/>
+          <attvalue for="3" value="0.7830603366"/>
+        </attvalues>
+      </edge>
+      <edge source="34" target="59" id="35" weight="0.77707594614">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="59"/>
+          <attvalue for="2" value="34"/>
+          <attvalue for="3" value="0.77707594614"/>
+        </attvalues>
+      </edge>
+      <edge source="36" target="30" id="36" weight="0.683539528408">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="30"/>
+          <attvalue for="2" value="36"/>
+          <attvalue for="3" value="0.683539528408"/>
+        </attvalues>
+      </edge>
+      <edge source="38" target="62" id="37" weight="0.725056396225">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="62"/>
+          <attvalue for="2" value="38"/>
+          <attvalue for="3" value="0.725056396225"/>
+        </attvalues>
+      </edge>
+      <edge source="39" target="35" id="38" weight="0.717067261017">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="35"/>
+          <attvalue for="2" value="39"/>
+          <attvalue for="3" value="0.717067261017"/>
+        </attvalues>
+      </edge>
+      <edge source="39" target="59" id="39" weight="0.68488392566">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="59"/>
+          <attvalue for="2" value="39"/>
+          <attvalue for="3" value="0.68488392566"/>
+        </attvalues>
+      </edge>
+      <edge source="41" target="11" id="40" weight="0.692434162164">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="11"/>
+          <attvalue for="2" value="41"/>
+          <attvalue for="3" value="0.692434162164"/>
+        </attvalues>
+      </edge>
+      <edge source="42" target="48" id="41" weight="0.684004335275">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="48"/>
+          <attvalue for="2" value="42"/>
+          <attvalue for="3" value="0.684004335275"/>
+        </attvalues>
+      </edge>
+      <edge source="42" target="59" id="42" weight="0.712887365122">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="59"/>
+          <attvalue for="2" value="42"/>
+          <attvalue for="3" value="0.712887365122"/>
+        </attvalues>
+      </edge>
+      <edge source="43" target="3" id="43" weight="0.741948586949">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="3"/>
+          <attvalue for="2" value="43"/>
+          <attvalue for="3" value="0.741948586949"/>
+        </attvalues>
+      </edge>
+      <edge source="45" target="64" id="44" weight="0.905891125834">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="64"/>
+          <attvalue for="2" value="45"/>
+          <attvalue for="3" value="0.905891125834"/>
+        </attvalues>
+      </edge>
+      <edge source="48" target="59" id="45" weight="0.97940719834">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="59"/>
+          <attvalue for="2" value="48"/>
+          <attvalue for="3" value="0.97940719834"/>
+        </attvalues>
+      </edge>
+      <edge source="49" target="33" id="46" weight="0.694396061508">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="33"/>
+          <attvalue for="2" value="49"/>
+          <attvalue for="3" value="0.694396061508"/>
+        </attvalues>
+      </edge>
+      <edge source="51" target="52" id="47" weight="0.812309032333">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="52"/>
+          <attvalue for="2" value="51"/>
+          <attvalue for="3" value="0.812309032333"/>
+        </attvalues>
+      </edge>
+      <edge source="55" target="47" id="48" weight="0.73869283335">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="47"/>
+          <attvalue for="2" value="55"/>
+          <attvalue for="3" value="0.73869283335"/>
+        </attvalues>
+      </edge>
+      <edge source="56" target="46" id="49" weight="0.715621083012">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="46"/>
+          <attvalue for="2" value="56"/>
+          <attvalue for="3" value="0.715621083012"/>
+        </attvalues>
+      </edge>
+      <edge source="58" target="6" id="50" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="6"/>
+          <attvalue for="2" value="58"/>
+          <attvalue for="3" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge source="59" target="48" id="51" weight="0.803230330562">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="48"/>
+          <attvalue for="2" value="59"/>
+          <attvalue for="3" value="0.803230330562"/>
+        </attvalues>
+      </edge>
+      <edge source="60" target="33" id="52" weight="0.704230850243">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="33"/>
+          <attvalue for="2" value="60"/>
+          <attvalue for="3" value="0.704230850243"/>
+        </attvalues>
+      </edge>
+      <edge source="61" target="31" id="53" weight="0.707134188936">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="31"/>
+          <attvalue for="2" value="61"/>
+          <attvalue for="3" value="0.707134188936"/>
+        </attvalues>
+      </edge>
+      <edge source="62" target="38" id="54" weight="0.796923317958">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="38"/>
+          <attvalue for="2" value="62"/>
+          <attvalue for="3" value="0.796923317958"/>
+        </attvalues>
+      </edge>
+      <edge source="63" target="11" id="55" weight="0.679780684591">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="11"/>
+          <attvalue for="2" value="63"/>
+          <attvalue for="3" value="0.679780684591"/>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

@@ -1,0 +1,8 @@
+################rule studied###############
+GTreeNodeBase [Childs=0] - [[5, 'OrigDegree']]####################rules found#####################
+GTreeNodeBase [Childs=2] - [max]
+  GTreeNodeBase [Childs=2] - [abs]
+    GTreeNodeBase [Childs=0] - [[0.7351497492948655, 'NormalizedTargId']]
+    GTreeNodeBase [Childs=0] - [[9.493875055299384, 'NormalizedTargDegree']]
+  GTreeNodeBase [Childs=0] - [[10.317859147010068, 'TargDegree']]
+0.810592334058

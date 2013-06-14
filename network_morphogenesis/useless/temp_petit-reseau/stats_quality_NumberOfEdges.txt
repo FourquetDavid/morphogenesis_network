@@ -1,0 +1,30 @@
+
+### Sorted by Quality ####
+variable : NormalizedOrigId number of apparitions = 1366 quality = 12.3812927589 
+variable : AverageStrength number of apparitions = 4132 quality = 12.6897689735 
+variable : Constant number of apparitions = 2599 quality = 13.473647798 
+variable : TotalDistance number of apparitions = 2327 quality = 13.5158183264 
+variable : MaxWeight number of apparitions = 6329 quality = 13.8224716313 
+variable : AverageWeight number of apparitions = 4276 quality = 13.8419694631 
+variable : NormalizedTargStrength number of apparitions = 4375 quality = 13.8967668438 
+variable : NumberOfNodes number of apparitions = 4441 quality = 13.986283259 
+
+#####Sorted by Quantity*Quality#########
+variable : AverageStrength number of apparitions = 4132 quality = 12.6897689735 
+variable : AverageDistance number of apparitions = 4511 quality = 11.869365026 
+variable : OrigStrength number of apparitions = 4629 quality = 12.0728103953 
+variable : TotalWeight number of apparitions = 5436 quality = 10.6227253427 
+variable : AverageWeight number of apparitions = 4276 quality = 13.8419694631 
+variable : NormalizedTargStrength number of apparitions = 4375 quality = 13.8967668438 
+variable : NumberOfNodes number of apparitions = 4441 quality = 13.986283259 
+variable : MaxWeight number of apparitions = 6329 quality = 13.8224716313 
+
+######Sorted by Rate######
+variable : AverageStrength number of apparitions = 4132 quality = 12.6897689735 
+variable : AverageDistance number of apparitions = 4511 quality = 11.869365026 
+variable : AverageWeight number of apparitions = 4276 quality = 13.8419694631 
+variable : OrigStrength number of apparitions = 4629 quality = 12.0728103953 
+variable : NormalizedTargStrength number of apparitions = 4375 quality = 13.8967668438 
+variable : NumberOfNodes number of apparitions = 4441 quality = 13.986283259 
+variable : TotalWeight number of apparitions = 5436 quality = 10.6227253427 
+variable : MaxWeight number of apparitions = 6329 quality = 13.8224716313 

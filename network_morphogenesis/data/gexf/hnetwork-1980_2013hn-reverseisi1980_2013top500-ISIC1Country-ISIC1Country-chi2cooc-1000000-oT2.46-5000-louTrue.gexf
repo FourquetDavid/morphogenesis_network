@@ -1,0 +1,2481 @@
+<gexf xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.gephi.org/gexf/1.1draft" xmlns:ns0="xsi" version="1.1" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.1draft.xsd">
+  <meta lastmodified="2013-06-05T02:59:48.459353">
+    <creator>CorText</creator>
+    <description>hn-reverseisi1980_2013top500-ISIC1Country-ISIC1Country-chi2cooc-1000000-oT2.46-5000-louTrue</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="hn-reverseisi1980_2013top500-ISIC1Country-ISIC1Country-chi2cooc-1000000-oT2.46-5000-louTrue">
+    <attributes class="node" mode="dynamic"/>
+    <attributes class="node" mode="static">
+      <attribute id="weight" title="weight" type="float">
+        <default></default>
+      </attribute>
+      <attribute id="color" title="color" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="period" title="period" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="community" title="community" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="shape" title="shape" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="size" title="size" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="category" title="category" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="label" title="label" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="in-degree" title="in-degree" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="betweeness" title="betweeness" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="community_orphan" title="community_orphan" type="integer">
+        <default></default>
+      </attribute>
+      <attribute id="cluster_universal_index" title="cluster_universal_index" type="integer">
+        <default></default>
+      </attribute>
+      <attribute id="cluster_label" title="cluster_label" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="a" title="a" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="b" title="b" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="g" title="g" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="level" title="level" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="cluster_index" title="cluster_index" type="integer">
+        <default></default>
+      </attribute>
+      <attribute id="r" title="r" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="out-degree" title="out-degree" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="y" title="y" type="float">
+        <default></default>
+      </attribute>
+      <attribute id="x" title="x" type="float">
+        <default></default>
+      </attribute>
+    </attributes>
+    <attributes class="edge" mode="dynamic"/>
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="level_edge" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="1" title="dest_edge" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="2" title="source_edge" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="3" title="weight_edge" type="float">
+        <default></default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1" label="pakistan">
+        <attvalues>
+          <attvalue for="weight" value="5.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="1.3282567545"/>
+          <attvalue for="betweeness" value="0.027465214761"/>
+          <attvalue for="community_orphan" value="1"/>
+          <attvalue for="cluster_universal_index" value="1"/>
+          <attvalue for="cluster_label" value="switzerland &amp; france"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="0"/>
+          <attvalue for="out-degree" value="1.3282567545"/>
+        </attvalues>
+        <viz:color r="135" g="0" b="152" a="1.0"/>
+        <viz:position x="922.005501583" y="565.072884328" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.09018036072"/>
+      </node>
+      <node id="2" label="romania">
+        <attvalues>
+          <attvalue for="weight" value="5.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="0.690928210446"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="2"/>
+          <attvalue for="cluster_universal_index" value="0"/>
+          <attvalue for="cluster_label" value="slovenia &amp; serbia"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="1"/>
+          <attvalue for="out-degree" value="0.690928210446"/>
+        </attvalues>
+        <viz:color r="0" g="0" b="221" a="1.0"/>
+        <viz:position x="648.58881069" y="35.9178824358" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.09018036072"/>
+      </node>
+      <node id="3" label="czech republic">
+        <attvalues>
+          <attvalue for="weight" value="6.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="0.941733132623"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="5"/>
+          <attvalue for="cluster_universal_index" value="6"/>
+          <attvalue for="cluster_label" value="czech republic &amp; estonia"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="4"/>
+          <attvalue for="out-degree" value="0.941733132623"/>
+        </attvalues>
+        <viz:color r="0" g="188" b="0" a="1.0"/>
+        <viz:position x="0.0" y="634.04877023" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.10821643287"/>
+      </node>
+      <node id="4" label="estonia">
+        <attvalues>
+          <attvalue for="weight" value="6.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="1.23317738241"/>
+          <attvalue for="betweeness" value="0.0344827586207"/>
+          <attvalue for="community_orphan" value="5"/>
+          <attvalue for="cluster_universal_index" value="6"/>
+          <attvalue for="cluster_label" value="czech republic &amp; estonia"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="4"/>
+          <attvalue for="out-degree" value="1.23317738241"/>
+        </attvalues>
+        <viz:color r="0" g="188" b="0" a="1.0"/>
+        <viz:position x="51.6530152475" y="667.834812078" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.10821643287"/>
+      </node>
+      <node id="5" label="mexico">
+        <attvalues>
+          <attvalue for="weight" value="11.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="1.69301960843"/>
+          <attvalue for="betweeness" value="0.00241984271022"/>
+          <attvalue for="community_orphan" value="1"/>
+          <attvalue for="cluster_universal_index" value="1"/>
+          <attvalue for="cluster_label" value="switzerland &amp; france"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="0"/>
+          <attvalue for="out-degree" value="1.69301960843"/>
+        </attvalues>
+        <viz:color r="135" g="0" b="152" a="1.0"/>
+        <viz:position x="965.516761427" y="540.765862167" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.19839679359"/>
+      </node>
+      <node id="6" label="greece">
+        <attvalues>
+          <attvalue for="weight" value="18.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="0.620512650292"/>
+          <attvalue for="betweeness" value="0.0273240572696"/>
+          <attvalue for="community_orphan" value="7"/>
+          <attvalue for="cluster_universal_index" value="3"/>
+          <attvalue for="cluster_label" value="belgium &amp; india"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="0.620512650292"/>
+        </attvalues>
+        <viz:color r="238" g="236" b="0" a="1.0"/>
+        <viz:position x="441.672815691" y="850.576832031" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.3246492986"/>
+      </node>
+      <node id="7" label="india">
+        <attvalues>
+          <attvalue for="weight" value="19.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="1.53271354527"/>
+          <attvalue for="betweeness" value="0.0778886872353"/>
+          <attvalue for="community_orphan" value="7"/>
+          <attvalue for="cluster_universal_index" value="3"/>
+          <attvalue for="cluster_label" value="belgium &amp; india"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="1.53271354527"/>
+        </attvalues>
+        <viz:color r="238" g="236" b="0" a="1.0"/>
+        <viz:position x="468.049091829" y="910.937281003" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.34268537074"/>
+      </node>
+      <node id="8" label="austria">
+        <attvalues>
+          <attvalue for="weight" value="25.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="0.863193207822"/>
+          <attvalue for="betweeness" value="0.0159709618875"/>
+          <attvalue for="community_orphan" value="9"/>
+          <attvalue for="cluster_universal_index" value="5"/>
+          <attvalue for="cluster_label" value="sweden &amp; italy"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="5"/>
+          <attvalue for="out-degree" value="0.863193207822"/>
+        </attvalues>
+        <viz:color r="220" g="0" b="0" a="1.0"/>
+        <viz:position x="207.818951662" y="212.706686749" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.45090180361"/>
+      </node>
+      <node id="9" label="colombia">
+        <attvalues>
+          <attvalue for="weight" value="1.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="0.314730543613"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="3"/>
+          <attvalue for="cluster_universal_index" value="8"/>
+          <attvalue for="cluster_label" value="canada &amp; egypt"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="6"/>
+          <attvalue for="out-degree" value="0.314730543613"/>
+        </attvalues>
+        <viz:color r="0" g="151" b="221" a="1.0"/>
+        <viz:position x="211.521267145" y="915.588451258" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.01803607214"/>
+      </node>
+      <node id="10" label="japan">
+        <attvalues>
+          <attvalue for="weight" value="28.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="1.31182387738"/>
+          <attvalue for="betweeness" value="0.115373203123"/>
+          <attvalue for="community_orphan" value="6"/>
+          <attvalue for="cluster_universal_index" value="2"/>
+          <attvalue for="cluster_label" value="japan &amp; germany"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="3"/>
+          <attvalue for="out-degree" value="1.31182387738"/>
+        </attvalues>
+        <viz:color r="0" g="255" b="0" a="1.0"/>
+        <viz:position x="452.144304758" y="215.729672536" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.50501002004"/>
+      </node>
+      <node id="11" label="hungary">
+        <attvalues>
+          <attvalue for="weight" value="7.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="0.36607993535"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="2"/>
+          <attvalue for="cluster_universal_index" value="0"/>
+          <attvalue for="cluster_label" value="slovenia &amp; serbia"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="1"/>
+          <attvalue for="out-degree" value="0.36607993535"/>
+        </attvalues>
+        <viz:color r="0" g="0" b="221" a="1.0"/>
+        <viz:position x="544.080003865" y="20.9975342185" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.12625250501"/>
+      </node>
+      <node id="12" label="taiwan">
+        <attvalues>
+          <attvalue for="weight" value="36.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="0.776439059395"/>
+          <attvalue for="betweeness" value="0.121285973555"/>
+          <attvalue for="community_orphan" value="7"/>
+          <attvalue for="cluster_universal_index" value="3"/>
+          <attvalue for="cluster_label" value="belgium &amp; india"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="0.776439059395"/>
+        </attvalues>
+        <viz:color r="238" g="236" b="0" a="1.0"/>
+        <viz:position x="473.977631558" y="802.096884902" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.64929859719"/>
+      </node>
+      <node id="13" label="cyprus">
+        <attvalues>
+          <attvalue for="weight" value="6.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="1.05428719312"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="1"/>
+          <attvalue for="cluster_universal_index" value="1"/>
+          <attvalue for="cluster_label" value="switzerland &amp; france"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="0"/>
+          <attvalue for="out-degree" value="1.05428719312"/>
+        </attvalues>
+        <viz:color r="135" g="0" b="152" a="1.0"/>
+        <viz:position x="985.072928047" y="498.009322513" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.10821643287"/>
+      </node>
+      <node id="14" label="new zealand">
+        <attvalues>
+          <attvalue for="weight" value="12.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="0.379844417871"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="2"/>
+          <attvalue for="cluster_universal_index" value="0"/>
+          <attvalue for="cluster_label" value="slovenia &amp; serbia"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="1"/>
+          <attvalue for="out-degree" value="0.379844417871"/>
+        </attvalues>
+        <viz:color r="0" g="0" b="221" a="1.0"/>
+        <viz:position x="581.210950991" y="0.000992851560113" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.21643286573"/>
+      </node>
+      <node id="15" label="brazil">
+        <attvalues>
+          <attvalue for="weight" value="15.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="0.651684961873"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="8"/>
+          <attvalue for="cluster_universal_index" value="7"/>
+          <attvalue for="cluster_label" value="brazil &amp; portugal"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="7"/>
+          <attvalue for="out-degree" value="0.651684961873"/>
+        </attvalues>
+        <viz:color r="255" g="153" b="0" a="1.0"/>
+        <viz:position x="89.0208363047" y="549.187023156" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.27054108216"/>
+      </node>
+      <node id="16" label="u arab emirates">
+        <attvalues>
+          <attvalue for="weight" value="12.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="0.402786163056"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="1"/>
+          <attvalue for="cluster_universal_index" value="1"/>
+          <attvalue for="cluster_label" value="switzerland &amp; france"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="0"/>
+          <attvalue for="out-degree" value="0.402786163056"/>
+        </attvalues>
+        <viz:color r="135" g="0" b="152" a="1.0"/>
+        <viz:position x="999.999" y="563.15465084" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.21643286573"/>
+      </node>
+      <node id="17" label="italy">
+        <attvalues>
+          <attvalue for="weight" value="118.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="1.7179384009"/>
+          <attvalue for="betweeness" value="0.0980540431539"/>
+          <attvalue for="community_orphan" value="9"/>
+          <attvalue for="cluster_universal_index" value="5"/>
+          <attvalue for="cluster_label" value="sweden &amp; italy"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="5"/>
+          <attvalue for="out-degree" value="1.7179384009"/>
+        </attvalues>
+        <viz:color r="220" g="0" b="0" a="1.0"/>
+        <viz:position x="235.188473095" y="236.699803777" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="3.12825651303"/>
+      </node>
+      <node id="18" label="portugal">
+        <attvalues>
+          <attvalue for="weight" value="19.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="0.807705286122"/>
+          <attvalue for="betweeness" value="0.0344827586207"/>
+          <attvalue for="community_orphan" value="8"/>
+          <attvalue for="cluster_universal_index" value="7"/>
+          <attvalue for="cluster_label" value="brazil &amp; portugal"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="7"/>
+          <attvalue for="out-degree" value="0.807705286122"/>
+        </attvalues>
+        <viz:color r="255" g="153" b="0" a="1.0"/>
+        <viz:position x="190.616589376" y="594.729899723" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.34268537074"/>
+      </node>
+      <node id="19" label="usa">
+        <attvalues>
+          <attvalue for="weight" value="499.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="2.19740514892"/>
+          <attvalue for="betweeness" value="0.495086855069"/>
+          <attvalue for="community_orphan" value="4"/>
+          <attvalue for="cluster_universal_index" value="4"/>
+          <attvalue for="cluster_label" value="usa &amp; singapore"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="8"/>
+          <attvalue for="out-degree" value="2.19740514892"/>
+        </attvalues>
+        <viz:color r="0" g="170" b="135" a="1.0"/>
+        <viz:position x="532.894562922" y="663.775657362" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="10.0"/>
+      </node>
+      <node id="20" label="kuwait">
+        <attvalues>
+          <attvalue for="weight" value="1.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="0.314730543613"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="3"/>
+          <attvalue for="cluster_universal_index" value="8"/>
+          <attvalue for="cluster_label" value="canada &amp; egypt"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="6"/>
+          <attvalue for="out-degree" value="0.314730543613"/>
+        </attvalues>
+        <viz:color r="0" g="151" b="221" a="1.0"/>
+        <viz:position x="126.416869649" y="814.959743062" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.01803607214"/>
+      </node>
+      <node id="21" label="france">
+        <attvalues>
+          <attvalue for="weight" value="133.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="2.10827937897"/>
+          <attvalue for="betweeness" value="0.146208913087"/>
+          <attvalue for="community_orphan" value="1"/>
+          <attvalue for="cluster_universal_index" value="1"/>
+          <attvalue for="cluster_label" value="switzerland &amp; france"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="0"/>
+          <attvalue for="out-degree" value="2.10827937897"/>
+        </attvalues>
+        <viz:color r="135" g="0" b="152" a="1.0"/>
+        <viz:position x="898.389891717" y="518.872021762" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="3.39879759519"/>
+      </node>
+      <node id="22" label="egypt">
+        <attvalues>
+          <attvalue for="weight" value="1.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="0.314730543613"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="3"/>
+          <attvalue for="cluster_universal_index" value="8"/>
+          <attvalue for="cluster_label" value="canada &amp; egypt"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="6"/>
+          <attvalue for="out-degree" value="0.314730543613"/>
+        </attvalues>
+        <viz:color r="0" g="151" b="221" a="1.0"/>
+        <viz:position x="139.427236555" y="844.828533386" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.01803607214"/>
+      </node>
+      <node id="23" label="iceland">
+        <attvalues>
+          <attvalue for="weight" value="3.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="0.167574715899"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="3"/>
+          <attvalue for="cluster_universal_index" value="8"/>
+          <attvalue for="cluster_label" value="canada &amp; egypt"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="6"/>
+          <attvalue for="out-degree" value="0.167574715899"/>
+        </attvalues>
+        <viz:color r="0" g="151" b="221" a="1.0"/>
+        <viz:position x="163.612653181" y="914.16709001" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.05410821643"/>
+      </node>
+      <node id="24" label="argentina">
+        <attvalues>
+          <attvalue for="weight" value="11.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="0.926299815192"/>
+          <attvalue for="betweeness" value="0.0388139889955"/>
+          <attvalue for="community_orphan" value="1"/>
+          <attvalue for="cluster_universal_index" value="1"/>
+          <attvalue for="cluster_label" value="switzerland &amp; france"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="0"/>
+          <attvalue for="out-degree" value="0.926299815192"/>
+        </attvalues>
+        <viz:color r="135" g="0" b="152" a="1.0"/>
+        <viz:position x="917.958229329" y="418.343683463" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.19839679359"/>
+      </node>
+      <node id="25" label="bolivia">
+        <attvalues>
+          <attvalue for="weight" value="2.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="0.609155067382"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="1"/>
+          <attvalue for="cluster_universal_index" value="1"/>
+          <attvalue for="cluster_label" value="switzerland &amp; france"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="0"/>
+          <attvalue for="out-degree" value="0.609155067382"/>
+        </attvalues>
+        <viz:color r="135" g="0" b="152" a="1.0"/>
+        <viz:position x="982.254216717" y="404.394680241" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.03607214429"/>
+      </node>
+      <node id="26" label="norway">
+        <attvalues>
+          <attvalue for="weight" value="6.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="1.29144424979"/>
+          <attvalue for="betweeness" value="0.00998185117967"/>
+          <attvalue for="community_orphan" value="9"/>
+          <attvalue for="cluster_universal_index" value="5"/>
+          <attvalue for="cluster_label" value="sweden &amp; italy"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="5"/>
+          <attvalue for="out-degree" value="1.29144424979"/>
+        </attvalues>
+        <viz:color r="220" g="0" b="0" a="1.0"/>
+        <viz:position x="170.644409637" y="432.235222497" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.10821643287"/>
+      </node>
+      <node id="27" label="uganda">
+        <attvalues>
+          <attvalue for="weight" value="14.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="0.784503693642"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="9"/>
+          <attvalue for="cluster_universal_index" value="5"/>
+          <attvalue for="cluster_label" value="sweden &amp; italy"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="5"/>
+          <attvalue for="out-degree" value="0.784503693642"/>
+        </attvalues>
+        <viz:color r="220" g="0" b="0" a="1.0"/>
+        <viz:position x="142.042601683" y="224.243220166" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.25250501002"/>
+      </node>
+      <node id="28" label="turkey">
+        <attvalues>
+          <attvalue for="weight" value="4.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="0.341651081382"/>
+          <attvalue for="betweeness" value="0.059791720681"/>
+          <attvalue for="community_orphan" value="2"/>
+          <attvalue for="cluster_universal_index" value="0"/>
+          <attvalue for="cluster_label" value="slovenia &amp; serbia"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="1"/>
+          <attvalue for="out-degree" value="0.341651081382"/>
+        </attvalues>
+        <viz:color r="0" g="0" b="221" a="1.0"/>
+        <viz:position x="687.260226494" y="162.182007592" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.07214428858"/>
+      </node>
+      <node id="29" label="israel">
+        <attvalues>
+          <attvalue for="weight" value="39.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="0.479338978754"/>
+          <attvalue for="betweeness" value="0.137931034483"/>
+          <attvalue for="community_orphan" value="7"/>
+          <attvalue for="cluster_universal_index" value="3"/>
+          <attvalue for="cluster_label" value="belgium &amp; india"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="0.479338978754"/>
+        </attvalues>
+        <viz:color r="238" g="236" b="0" a="1.0"/>
+        <viz:position x="396.202609912" y="785.229045963" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.70340681363"/>
+      </node>
+      <node id="30" label="australia">
+        <attvalues>
+          <attvalue for="weight" value="25.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="1.25280170501"/>
+          <attvalue for="betweeness" value="0.179866332498"/>
+          <attvalue for="community_orphan" value="7"/>
+          <attvalue for="cluster_universal_index" value="3"/>
+          <attvalue for="cluster_label" value="belgium &amp; india"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="1.25280170501"/>
+        </attvalues>
+        <viz:color r="238" g="236" b="0" a="1.0"/>
+        <viz:position x="460.912608099" y="710.689455157" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.45090180361"/>
+      </node>
+      <node id="31" label="iran">
+        <attvalues>
+          <attvalue for="weight" value="1.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="0.473510928099"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="4"/>
+          <attvalue for="cluster_universal_index" value="4"/>
+          <attvalue for="cluster_label" value="usa &amp; singapore"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="8"/>
+          <attvalue for="out-degree" value="0.473510928099"/>
+        </attvalues>
+        <viz:color r="0" g="170" b="135" a="1.0"/>
+        <viz:position x="712.956790714" y="732.586191736" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.01803607214"/>
+      </node>
+      <node id="32" label="peru">
+        <attvalues>
+          <attvalue for="weight" value="4.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="0.192475759578"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="4"/>
+          <attvalue for="cluster_universal_index" value="4"/>
+          <attvalue for="cluster_label" value="usa &amp; singapore"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="8"/>
+          <attvalue for="out-degree" value="0.192475759578"/>
+        </attvalues>
+        <viz:color r="0" g="170" b="135" a="1.0"/>
+        <viz:position x="650.405019537" y="731.464819761" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.07214428858"/>
+      </node>
+      <node id="33" label="algeria">
+        <attvalues>
+          <attvalue for="weight" value="10.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="0.818910278356"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="1"/>
+          <attvalue for="cluster_universal_index" value="1"/>
+          <attvalue for="cluster_label" value="switzerland &amp; france"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="0"/>
+          <attvalue for="out-degree" value="0.818910278356"/>
+        </attvalues>
+        <viz:color r="135" g="0" b="152" a="1.0"/>
+        <viz:position x="967.118082855" y="586.131632251" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.18036072144"/>
+      </node>
+      <node id="34" label="singapore">
+        <attvalues>
+          <attvalue for="weight" value="35.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="1.5764910653"/>
+          <attvalue for="betweeness" value="0.115279578256"/>
+          <attvalue for="community_orphan" value="4"/>
+          <attvalue for="cluster_universal_index" value="4"/>
+          <attvalue for="cluster_label" value="usa &amp; singapore"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="8"/>
+          <attvalue for="out-degree" value="1.5764910653"/>
+        </attvalues>
+        <viz:color r="0" g="170" b="135" a="1.0"/>
+        <viz:position x="722.097722602" y="655.699407658" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.63126252505"/>
+      </node>
+      <node id="35" label="serbia">
+        <attvalues>
+          <attvalue for="weight" value="15.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="2.1564132301"/>
+          <attvalue for="betweeness" value="0.0660199348947"/>
+          <attvalue for="community_orphan" value="2"/>
+          <attvalue for="cluster_universal_index" value="0"/>
+          <attvalue for="cluster_label" value="slovenia &amp; serbia"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="1"/>
+          <attvalue for="out-degree" value="2.1564132301"/>
+        </attvalues>
+        <viz:color r="0" g="0" b="221" a="1.0"/>
+        <viz:position x="604.609296701" y="123.304024879" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.27054108216"/>
+      </node>
+      <node id="36" label="slovenia">
+        <attvalues>
+          <attvalue for="weight" value="11.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="2.43779877307"/>
+          <attvalue for="betweeness" value="0.0424192665572"/>
+          <attvalue for="community_orphan" value="2"/>
+          <attvalue for="cluster_universal_index" value="0"/>
+          <attvalue for="cluster_label" value="slovenia &amp; serbia"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="1"/>
+          <attvalue for="out-degree" value="2.43779877307"/>
+        </attvalues>
+        <viz:color r="0" g="0" b="221" a="1.0"/>
+        <viz:position x="655.219409107" y="94.0471353467" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.19839679359"/>
+      </node>
+      <node id="37" label="mongol peo rep">
+        <attvalues>
+          <attvalue for="weight" value="3.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="0.388489729929"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="4"/>
+          <attvalue for="cluster_universal_index" value="4"/>
+          <attvalue for="cluster_label" value="usa &amp; singapore"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="8"/>
+          <attvalue for="out-degree" value="0.388489729929"/>
+        </attvalues>
+        <viz:color r="0" g="170" b="135" a="1.0"/>
+        <viz:position x="704.352066385" y="602.0115651" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.05410821643"/>
+      </node>
+      <node id="38" label="germany">
+        <attvalues>
+          <attvalue for="weight" value="121.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="1.19184303828"/>
+          <attvalue for="betweeness" value="0.0550370178319"/>
+          <attvalue for="community_orphan" value="6"/>
+          <attvalue for="cluster_universal_index" value="2"/>
+          <attvalue for="cluster_label" value="japan &amp; germany"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="3"/>
+          <attvalue for="out-degree" value="1.19184303828"/>
+        </attvalues>
+        <viz:color r="0" g="255" b="0" a="1.0"/>
+        <viz:position x="365.868530872" y="98.0424589684" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="3.18236472946"/>
+      </node>
+      <node id="39" label="belgium">
+        <attvalues>
+          <attvalue for="weight" value="80.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="1.37441497118"/>
+          <attvalue for="betweeness" value="0.106876386368"/>
+          <attvalue for="community_orphan" value="7"/>
+          <attvalue for="cluster_universal_index" value="3"/>
+          <attvalue for="cluster_label" value="belgium &amp; india"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="1.37441497118"/>
+        </attvalues>
+        <viz:color r="238" g="236" b="0" a="1.0"/>
+        <viz:position x="338.549615614" y="878.159322479" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.44288577154"/>
+      </node>
+      <node id="40" label="thailand">
+        <attvalues>
+          <attvalue for="weight" value="11.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="1.16588155805"/>
+          <attvalue for="betweeness" value="0.0295422464206"/>
+          <attvalue for="community_orphan" value="7"/>
+          <attvalue for="cluster_universal_index" value="3"/>
+          <attvalue for="cluster_label" value="belgium &amp; india"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="1.16588155805"/>
+        </attvalues>
+        <viz:color r="238" g="236" b="0" a="1.0"/>
+        <viz:position x="377.252374277" y="955.436990175" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.19839679359"/>
+      </node>
+      <node id="41" label="canada">
+        <attvalues>
+          <attvalue for="weight" value="76.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="1.37989518386"/>
+          <attvalue for="betweeness" value="0.134301270417"/>
+          <attvalue for="community_orphan" value="3"/>
+          <attvalue for="cluster_universal_index" value="8"/>
+          <attvalue for="cluster_label" value="canada &amp; egypt"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="6"/>
+          <attvalue for="out-degree" value="1.37989518386"/>
+        </attvalues>
+        <viz:color r="0" g="151" b="221" a="1.0"/>
+        <viz:position x="249.300907078" y="822.637790246" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.37074148297"/>
+      </node>
+      <node id="42" label="myanmar">
+        <attvalues>
+          <attvalue for="weight" value="1.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="0.473510928099"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="4"/>
+          <attvalue for="cluster_universal_index" value="4"/>
+          <attvalue for="cluster_label" value="usa &amp; singapore"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="8"/>
+          <attvalue for="out-degree" value="0.473510928099"/>
+        </attvalues>
+        <viz:color r="0" g="170" b="135" a="1.0"/>
+        <viz:position x="741.389764315" y="704.462901838" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.01803607214"/>
+      </node>
+      <node id="43" label="south korea">
+        <attvalues>
+          <attvalue for="weight" value="23.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="0.415340556668"/>
+          <attvalue for="betweeness" value="0.061131276467"/>
+          <attvalue for="community_orphan" value="4"/>
+          <attvalue for="cluster_universal_index" value="4"/>
+          <attvalue for="cluster_label" value="usa &amp; singapore"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="8"/>
+          <attvalue for="out-degree" value="0.415340556668"/>
+        </attvalues>
+        <viz:color r="0" g="170" b="135" a="1.0"/>
+        <viz:position x="539.898375436" y="561.038203493" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.41482965932"/>
+      </node>
+      <node id="44" label="spain">
+        <attvalues>
+          <attvalue for="weight" value="62.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="0.498685200167"/>
+          <attvalue for="betweeness" value="0.100777806585"/>
+          <attvalue for="community_orphan" value="1"/>
+          <attvalue for="cluster_universal_index" value="1"/>
+          <attvalue for="cluster_label" value="switzerland &amp; france"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="0"/>
+          <attvalue for="out-degree" value="0.498685200167"/>
+        </attvalues>
+        <viz:color r="135" g="0" b="152" a="1.0"/>
+        <viz:position x="818.9296155" y="447.813238669" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.11823647295"/>
+      </node>
+      <node id="45" label="bangladesh">
+        <attvalues>
+          <attvalue for="weight" value="1.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="0.531258860121"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="6"/>
+          <attvalue for="cluster_universal_index" value="2"/>
+          <attvalue for="cluster_label" value="japan &amp; germany"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="3"/>
+          <attvalue for="out-degree" value="0.531258860121"/>
+        </attvalues>
+        <viz:color r="0" g="255" b="0" a="1.0"/>
+        <viz:position x="369.324790371" y="147.825821791" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.01803607214"/>
+      </node>
+      <node id="46" label="netherlands">
+        <attvalues>
+          <attvalue for="weight" value="54.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="1.41986310022"/>
+          <attvalue for="betweeness" value="0.204022988506"/>
+          <attvalue for="community_orphan" value="7"/>
+          <attvalue for="cluster_universal_index" value="3"/>
+          <attvalue for="cluster_label" value="belgium &amp; india"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="1.41986310022"/>
+        </attvalues>
+        <viz:color r="238" g="236" b="0" a="1.0"/>
+        <viz:position x="281.296428069" y="712.075702314" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.97394789579"/>
+      </node>
+      <node id="47" label="serbia monteneg">
+        <attvalues>
+          <attvalue for="weight" value="1.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="0.854793291261"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="2"/>
+          <attvalue for="cluster_universal_index" value="0"/>
+          <attvalue for="cluster_label" value="slovenia &amp; serbia"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="1"/>
+          <attvalue for="out-degree" value="0.854793291261"/>
+        </attvalues>
+        <viz:color r="0" g="0" b="221" a="1.0"/>
+        <viz:position x="694.853054684" y="58.9083901131" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.01803607214"/>
+      </node>
+      <node id="48" label="poland">
+        <attvalues>
+          <attvalue for="weight" value="3.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="0.482664842133"/>
+          <attvalue for="betweeness" value="0.046783625731"/>
+          <attvalue for="community_orphan" value="9"/>
+          <attvalue for="cluster_universal_index" value="5"/>
+          <attvalue for="cluster_label" value="sweden &amp; italy"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="5"/>
+          <attvalue for="out-degree" value="0.482664842133"/>
+        </attvalues>
+        <viz:color r="220" g="0" b="0" a="1.0"/>
+        <viz:position x="208.497583992" y="404.202367856" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.05410821643"/>
+      </node>
+      <node id="49" label="finland">
+        <attvalues>
+          <attvalue for="weight" value="8.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="0.907504234304"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="7"/>
+          <attvalue for="cluster_universal_index" value="3"/>
+          <attvalue for="cluster_label" value="belgium &amp; india"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="0.907504234304"/>
+        </attvalues>
+        <viz:color r="238" g="236" b="0" a="1.0"/>
+        <viz:position x="477.612310129" y="957.930688968" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.14428857715"/>
+      </node>
+      <node id="50" label="sweden">
+        <attvalues>
+          <attvalue for="weight" value="21.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="1.3730544379"/>
+          <attvalue for="betweeness" value="0.00887275660415"/>
+          <attvalue for="community_orphan" value="9"/>
+          <attvalue for="cluster_universal_index" value="5"/>
+          <attvalue for="cluster_label" value="sweden &amp; italy"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="5"/>
+          <attvalue for="out-degree" value="1.3730544379"/>
+        </attvalues>
+        <viz:color r="220" g="0" b="0" a="1.0"/>
+        <viz:position x="137.952754458" y="347.676134221" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.37875751503"/>
+      </node>
+      <node id="51" label="vietnam">
+        <attvalues>
+          <attvalue for="weight" value="5.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="0.76713323227"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="7"/>
+          <attvalue for="cluster_universal_index" value="3"/>
+          <attvalue for="cluster_label" value="belgium &amp; india"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="0.76713323227"/>
+        </attvalues>
+        <viz:color r="238" g="236" b="0" a="1.0"/>
+        <viz:position x="404.474793462" y="1000.0" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.09018036072"/>
+      </node>
+      <node id="52" label="croatia">
+        <attvalues>
+          <attvalue for="weight" value="6.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="1.46663276374"/>
+          <attvalue for="betweeness" value="0.113412842451"/>
+          <attvalue for="community_orphan" value="2"/>
+          <attvalue for="cluster_universal_index" value="0"/>
+          <attvalue for="cluster_label" value="slovenia &amp; serbia"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="1"/>
+          <attvalue for="out-degree" value="1.46663276374"/>
+        </attvalues>
+        <viz:color r="0" g="0" b="221" a="1.0"/>
+        <viz:position x="566.365489922" y="237.319544094" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.10821643287"/>
+      </node>
+      <node id="53" label="uk">
+        <attvalues>
+          <attvalue for="weight" value="169.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="1.65387979506"/>
+          <attvalue for="betweeness" value="0.151539768963"/>
+          <attvalue for="community_orphan" value="2"/>
+          <attvalue for="cluster_universal_index" value="0"/>
+          <attvalue for="cluster_label" value="slovenia &amp; serbia"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="1"/>
+          <attvalue for="out-degree" value="1.65387979506"/>
+        </attvalues>
+        <viz:color r="0" g="0" b="221" a="1.0"/>
+        <viz:position x="518.657763832" y="82.4289975518" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="4.04809619238"/>
+      </node>
+      <node id="54" label="denmark">
+        <attvalues>
+          <attvalue for="weight" value="10.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="1.07877811106"/>
+          <attvalue for="betweeness" value="0.0664750957854"/>
+          <attvalue for="community_orphan" value="9"/>
+          <attvalue for="cluster_universal_index" value="5"/>
+          <attvalue for="cluster_label" value="sweden &amp; italy"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="5"/>
+          <attvalue for="out-degree" value="1.07877811106"/>
+        </attvalues>
+        <viz:color r="220" g="0" b="0" a="1.0"/>
+        <viz:position x="260.401778762" y="339.059311796" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.18036072144"/>
+      </node>
+      <node id="55" label="switzerland">
+        <attvalues>
+          <attvalue for="weight" value="42.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="1.7589325634"/>
+          <attvalue for="betweeness" value="0.0380174574367"/>
+          <attvalue for="community_orphan" value="1"/>
+          <attvalue for="cluster_universal_index" value="1"/>
+          <attvalue for="cluster_label" value="switzerland &amp; france"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="0"/>
+          <attvalue for="out-degree" value="1.7589325634"/>
+        </attvalues>
+        <viz:color r="135" g="0" b="152" a="1.0"/>
+        <viz:position x="955.840141788" y="447.51028237" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.75751503006"/>
+      </node>
+      <node id="56" label="china">
+        <attvalues>
+          <attvalue for="weight" value="140.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="1.35899514458"/>
+          <attvalue for="betweeness" value="0.232372598162"/>
+          <attvalue for="community_orphan" value="4"/>
+          <attvalue for="cluster_universal_index" value="4"/>
+          <attvalue for="cluster_label" value="usa &amp; singapore"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="8"/>
+          <attvalue for="out-degree" value="1.35899514458"/>
+        </attvalues>
+        <viz:color r="0" g="170" b="135" a="1.0"/>
+        <viz:position x="652.833397393" y="534.722161768" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="3.5250501002"/>
+      </node>
+      <node id="57" label="hong kong">
+        <attvalues>
+          <attvalue for="weight" value="2.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="0.207588238574"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="7"/>
+          <attvalue for="cluster_universal_index" value="3"/>
+          <attvalue for="cluster_label" value="belgium &amp; india"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="0.207588238574"/>
+        </attvalues>
+        <viz:color r="238" g="236" b="0" a="1.0"/>
+        <viz:position x="341.723938205" y="975.467543071" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.03607214429"/>
+      </node>
+      <node id="58" label="russia">
+        <attvalues>
+          <attvalue for="weight" value="12.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="1.07942280847"/>
+          <attvalue for="betweeness" value="0.0484386252989"/>
+          <attvalue for="community_orphan" value="6"/>
+          <attvalue for="cluster_universal_index" value="2"/>
+          <attvalue for="cluster_label" value="japan &amp; germany"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="3"/>
+          <attvalue for="out-degree" value="1.07942280847"/>
+        </attvalues>
+        <viz:color r="0" g="255" b="0" a="1.0"/>
+        <viz:position x="451.520596607" y="115.250695111" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.21643286573"/>
+      </node>
+      <node id="59" label="bulgaria">
+        <attvalues>
+          <attvalue for="weight" value="10.0"/>
+          <attvalue for="period" value="1980_2013"/>
+          <attvalue for="category" value="ISIC1Country &amp; ISIC1Country"/>
+          <attvalue for="in-degree" value="1.04447904158"/>
+          <attvalue for="betweeness" value="0.0254587618471"/>
+          <attvalue for="community_orphan" value="7"/>
+          <attvalue for="cluster_universal_index" value="3"/>
+          <attvalue for="cluster_label" value="belgium &amp; india"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="1.04447904158"/>
+        </attvalues>
+        <viz:color r="238" g="236" b="0" a="1.0"/>
+        <viz:position x="436.422897947" y="978.055189033" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.18036072144"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="1" target="55" id="1" weight="0.373054437901">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="55"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="0.373054437901"/>
+        </attvalues>
+      </edge>
+      <edge source="1" target="5" id="2" weight="0.758302179635">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="5"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="0.758302179635"/>
+        </attvalues>
+      </edge>
+      <edge source="1" target="34" id="3" weight="0.196900136968">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="34"/>
+          <attvalue for="2" value="1"/>
+          <attvalue for="3" value="0.196900136968"/>
+        </attvalues>
+      </edge>
+      <edge source="2" target="36" id="4" weight="0.373944270856">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="36"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="0.373944270856"/>
+        </attvalues>
+      </edge>
+      <edge source="2" target="35" id="5" weight="0.316983939589">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="35"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="0.316983939589"/>
+        </attvalues>
+      </edge>
+      <edge source="3" target="4" id="6" weight="0.941733132623">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="4"/>
+          <attvalue for="2" value="3"/>
+          <attvalue for="3" value="0.941733132623"/>
+        </attvalues>
+      </edge>
+      <edge source="4" target="46" id="7" weight="0.291444249791">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="46"/>
+          <attvalue for="2" value="4"/>
+          <attvalue for="3" value="0.291444249791"/>
+        </attvalues>
+      </edge>
+      <edge source="4" target="3" id="8" weight="0.941733132623">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="3"/>
+          <attvalue for="2" value="4"/>
+          <attvalue for="3" value="0.941733132623"/>
+        </attvalues>
+      </edge>
+      <edge source="5" target="1" id="9" weight="0.758302179635">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="1"/>
+          <attvalue for="2" value="5"/>
+          <attvalue for="3" value="0.758302179635"/>
+        </attvalues>
+      </edge>
+      <edge source="5" target="13" id="10" weight="0.690330753854">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="13"/>
+          <attvalue for="2" value="5"/>
+          <attvalue for="3" value="0.690330753854"/>
+        </attvalues>
+      </edge>
+      <edge source="5" target="21" id="11" weight="0.244386674937">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="21"/>
+          <attvalue for="2" value="5"/>
+          <attvalue for="3" value="0.244386674937"/>
+        </attvalues>
+      </edge>
+      <edge source="6" target="39" id="12" weight="0.247181717232">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="39"/>
+          <attvalue for="2" value="6"/>
+          <attvalue for="3" value="0.247181717232"/>
+        </attvalues>
+      </edge>
+      <edge source="6" target="30" id="13" weight="0.37333093306">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="30"/>
+          <attvalue for="2" value="6"/>
+          <attvalue for="3" value="0.37333093306"/>
+        </attvalues>
+      </edge>
+      <edge source="7" target="30" id="14" weight="0.230974206521">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="30"/>
+          <attvalue for="2" value="7"/>
+          <attvalue for="3" value="0.230974206521"/>
+        </attvalues>
+      </edge>
+      <edge source="7" target="49" id="15" weight="0.907504234304">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="49"/>
+          <attvalue for="2" value="7"/>
+          <attvalue for="3" value="0.907504234304"/>
+        </attvalues>
+      </edge>
+      <edge source="7" target="59" id="16" weight="0.394235104447">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="59"/>
+          <attvalue for="2" value="7"/>
+          <attvalue for="3" value="0.394235104447"/>
+        </attvalues>
+      </edge>
+      <edge source="8" target="54" id="17" weight="0.3383577279">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="54"/>
+          <attvalue for="2" value="8"/>
+          <attvalue for="3" value="0.3383577279"/>
+        </attvalues>
+      </edge>
+      <edge source="8" target="17" id="18" weight="0.291104226646">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="17"/>
+          <attvalue for="2" value="8"/>
+          <attvalue for="3" value="0.291104226646"/>
+        </attvalues>
+      </edge>
+      <edge source="8" target="38" id="19" weight="0.233731253276">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="38"/>
+          <attvalue for="2" value="8"/>
+          <attvalue for="3" value="0.233731253276"/>
+        </attvalues>
+      </edge>
+      <edge source="9" target="41" id="20" weight="0.314730543613">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="41"/>
+          <attvalue for="2" value="9"/>
+          <attvalue for="3" value="0.314730543613"/>
+        </attvalues>
+      </edge>
+      <edge source="10" target="38" id="21" weight="0.310041725106">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="38"/>
+          <attvalue for="2" value="10"/>
+          <attvalue for="3" value="0.310041725106"/>
+        </attvalues>
+      </edge>
+      <edge source="10" target="56" id="22" weight="0.185249968347">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="56"/>
+          <attvalue for="2" value="10"/>
+          <attvalue for="3" value="0.185249968347"/>
+        </attvalues>
+      </edge>
+      <edge source="10" target="58" id="23" weight="0.285273323809">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="58"/>
+          <attvalue for="2" value="10"/>
+          <attvalue for="3" value="0.285273323809"/>
+        </attvalues>
+      </edge>
+      <edge source="10" target="45" id="24" weight="0.531258860121">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="45"/>
+          <attvalue for="2" value="10"/>
+          <attvalue for="3" value="0.531258860121"/>
+        </attvalues>
+      </edge>
+      <edge source="11" target="53" id="25" weight="0.36607993535">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="53"/>
+          <attvalue for="2" value="11"/>
+          <attvalue for="3" value="0.36607993535"/>
+        </attvalues>
+      </edge>
+      <edge source="12" target="30" id="26" weight="0.432953850734">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="30"/>
+          <attvalue for="2" value="12"/>
+          <attvalue for="3" value="0.432953850734"/>
+        </attvalues>
+      </edge>
+      <edge source="12" target="19" id="27" weight="0.343485208661">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="19"/>
+          <attvalue for="2" value="12"/>
+          <attvalue for="3" value="0.343485208661"/>
+        </attvalues>
+      </edge>
+      <edge source="13" target="21" id="28" weight="0.363956439271">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="21"/>
+          <attvalue for="2" value="13"/>
+          <attvalue for="3" value="0.363956439271"/>
+        </attvalues>
+      </edge>
+      <edge source="13" target="5" id="29" weight="0.690330753854">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="5"/>
+          <attvalue for="2" value="13"/>
+          <attvalue for="3" value="0.690330753854"/>
+        </attvalues>
+      </edge>
+      <edge source="14" target="53" id="30" weight="0.379844417871">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="53"/>
+          <attvalue for="2" value="14"/>
+          <attvalue for="3" value="0.379844417871"/>
+        </attvalues>
+      </edge>
+      <edge source="15" target="18" id="31" weight="0.651684961873">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="18"/>
+          <attvalue for="2" value="15"/>
+          <attvalue for="3" value="0.651684961873"/>
+        </attvalues>
+      </edge>
+      <edge source="16" target="33" id="32" weight="0.244829571716">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="33"/>
+          <attvalue for="2" value="16"/>
+          <attvalue for="3" value="0.244829571716"/>
+        </attvalues>
+      </edge>
+      <edge source="16" target="21" id="33" weight="0.15795659134">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="21"/>
+          <attvalue for="2" value="16"/>
+          <attvalue for="3" value="0.15795659134"/>
+        </attvalues>
+      </edge>
+      <edge source="17" target="54" id="34" weight="0.200706582956">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="54"/>
+          <attvalue for="2" value="17"/>
+          <attvalue for="3" value="0.200706582956"/>
+        </attvalues>
+      </edge>
+      <edge source="17" target="8" id="35" weight="0.291104226646">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="8"/>
+          <attvalue for="2" value="17"/>
+          <attvalue for="3" value="0.291104226646"/>
+        </attvalues>
+      </edge>
+      <edge source="17" target="48" id="36" weight="0.276582636768">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="48"/>
+          <attvalue for="2" value="17"/>
+          <attvalue for="3" value="0.276582636768"/>
+        </attvalues>
+      </edge>
+      <edge source="17" target="27" id="37" weight="0.784503693642">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="27"/>
+          <attvalue for="2" value="17"/>
+          <attvalue for="3" value="0.784503693642"/>
+        </attvalues>
+      </edge>
+      <edge source="17" target="53" id="38" weight="0.165041260892">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="53"/>
+          <attvalue for="2" value="17"/>
+          <attvalue for="3" value="0.165041260892"/>
+        </attvalues>
+      </edge>
+      <edge source="18" target="15" id="39" weight="0.651684961873">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="15"/>
+          <attvalue for="2" value="18"/>
+          <attvalue for="3" value="0.651684961873"/>
+        </attvalues>
+      </edge>
+      <edge source="18" target="19" id="40" weight="0.15602032425">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="19"/>
+          <attvalue for="2" value="18"/>
+          <attvalue for="3" value="0.15602032425"/>
+        </attvalues>
+      </edge>
+      <edge source="19" target="41" id="41" weight="0.268128837118">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="41"/>
+          <attvalue for="2" value="19"/>
+          <attvalue for="3" value="0.268128837118"/>
+        </attvalues>
+      </edge>
+      <edge source="19" target="29" id="42" weight="0.233209287377">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="29"/>
+          <attvalue for="2" value="19"/>
+          <attvalue for="3" value="0.233209287377"/>
+        </attvalues>
+      </edge>
+      <edge source="19" target="18" id="43" weight="0.15602032425">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="18"/>
+          <attvalue for="2" value="19"/>
+          <attvalue for="3" value="0.15602032425"/>
+        </attvalues>
+      </edge>
+      <edge source="19" target="34" id="44" weight="0.245813843545">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="34"/>
+          <attvalue for="2" value="19"/>
+          <attvalue for="3" value="0.245813843545"/>
+        </attvalues>
+      </edge>
+      <edge source="19" target="56" id="45" weight="0.351428263464">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="56"/>
+          <attvalue for="2" value="19"/>
+          <attvalue for="3" value="0.351428263464"/>
+        </attvalues>
+      </edge>
+      <edge source="19" target="32" id="46" weight="0.192475759578">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="32"/>
+          <attvalue for="2" value="19"/>
+          <attvalue for="3" value="0.192475759578"/>
+        </attvalues>
+      </edge>
+      <edge source="19" target="12" id="47" weight="0.343485208661">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="12"/>
+          <attvalue for="2" value="19"/>
+          <attvalue for="3" value="0.343485208661"/>
+        </attvalues>
+      </edge>
+      <edge source="19" target="43" id="48" weight="0.248681194365">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="43"/>
+          <attvalue for="2" value="19"/>
+          <attvalue for="3" value="0.248681194365"/>
+        </attvalues>
+      </edge>
+      <edge source="19" target="44" id="49" weight="0.158162430564">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="44"/>
+          <attvalue for="2" value="19"/>
+          <attvalue for="3" value="0.158162430564"/>
+        </attvalues>
+      </edge>
+      <edge source="20" target="41" id="50" weight="0.314730543613">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="41"/>
+          <attvalue for="2" value="20"/>
+          <attvalue for="3" value="0.314730543613"/>
+        </attvalues>
+      </edge>
+      <edge source="21" target="16" id="51" weight="0.15795659134">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="16"/>
+          <attvalue for="2" value="21"/>
+          <attvalue for="3" value="0.15795659134"/>
+        </attvalues>
+      </edge>
+      <edge source="21" target="33" id="52" weight="0.57408070664">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="33"/>
+          <attvalue for="2" value="21"/>
+          <attvalue for="3" value="0.57408070664"/>
+        </attvalues>
+      </edge>
+      <edge source="21" target="5" id="53" weight="0.244386674937">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="5"/>
+          <attvalue for="2" value="21"/>
+          <attvalue for="3" value="0.244386674937"/>
+        </attvalues>
+      </edge>
+      <edge source="21" target="56" id="54" weight="0.247071954257">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="56"/>
+          <attvalue for="2" value="21"/>
+          <attvalue for="3" value="0.247071954257"/>
+        </attvalues>
+      </edge>
+      <edge source="21" target="55" id="55" weight="0.27644033759">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="55"/>
+          <attvalue for="2" value="21"/>
+          <attvalue for="3" value="0.27644033759"/>
+        </attvalues>
+      </edge>
+      <edge source="21" target="24" id="56" weight="0.244386674937">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="24"/>
+          <attvalue for="2" value="21"/>
+          <attvalue for="3" value="0.244386674937"/>
+        </attvalues>
+      </edge>
+      <edge source="21" target="13" id="57" weight="0.363956439271">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="13"/>
+          <attvalue for="2" value="21"/>
+          <attvalue for="3" value="0.363956439271"/>
+        </attvalues>
+      </edge>
+      <edge source="22" target="41" id="58" weight="0.314730543613">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="41"/>
+          <attvalue for="2" value="22"/>
+          <attvalue for="3" value="0.314730543613"/>
+        </attvalues>
+      </edge>
+      <edge source="23" target="41" id="59" weight="0.167574715899">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="41"/>
+          <attvalue for="2" value="23"/>
+          <attvalue for="3" value="0.167574715899"/>
+        </attvalues>
+      </edge>
+      <edge source="24" target="55" id="60" weight="0.500282720531">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="55"/>
+          <attvalue for="2" value="24"/>
+          <attvalue for="3" value="0.500282720531"/>
+        </attvalues>
+      </edge>
+      <edge source="24" target="44" id="61" weight="0.181630419724">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="44"/>
+          <attvalue for="2" value="24"/>
+          <attvalue for="3" value="0.181630419724"/>
+        </attvalues>
+      </edge>
+      <edge source="24" target="21" id="62" weight="0.244386674937">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="21"/>
+          <attvalue for="2" value="24"/>
+          <attvalue for="3" value="0.244386674937"/>
+        </attvalues>
+      </edge>
+      <edge source="25" target="55" id="63" weight="0.609155067382">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="55"/>
+          <attvalue for="2" value="25"/>
+          <attvalue for="3" value="0.609155067382"/>
+        </attvalues>
+      </edge>
+      <edge source="26" target="50" id="64" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="50"/>
+          <attvalue for="2" value="26"/>
+          <attvalue for="3" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge source="26" target="46" id="65" weight="0.291444249791">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="46"/>
+          <attvalue for="2" value="26"/>
+          <attvalue for="3" value="0.291444249791"/>
+        </attvalues>
+      </edge>
+      <edge source="27" target="17" id="66" weight="0.784503693642">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="17"/>
+          <attvalue for="2" value="27"/>
+          <attvalue for="3" value="0.784503693642"/>
+        </attvalues>
+      </edge>
+      <edge source="28" target="53" id="67" weight="0.182758731503">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="53"/>
+          <attvalue for="2" value="28"/>
+          <attvalue for="3" value="0.182758731503"/>
+        </attvalues>
+      </edge>
+      <edge source="28" target="44" id="68" weight="0.158892349879">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="44"/>
+          <attvalue for="2" value="28"/>
+          <attvalue for="3" value="0.158892349879"/>
+        </attvalues>
+      </edge>
+      <edge source="29" target="46" id="69" weight="0.246129691377">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="46"/>
+          <attvalue for="2" value="29"/>
+          <attvalue for="3" value="0.246129691377"/>
+        </attvalues>
+      </edge>
+      <edge source="29" target="19" id="70" weight="0.233209287377">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="19"/>
+          <attvalue for="2" value="29"/>
+          <attvalue for="3" value="0.233209287377"/>
+        </attvalues>
+      </edge>
+      <edge source="30" target="52" id="71" weight="0.215542714699">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="52"/>
+          <attvalue for="2" value="30"/>
+          <attvalue for="3" value="0.215542714699"/>
+        </attvalues>
+      </edge>
+      <edge source="30" target="12" id="72" weight="0.432953850734">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="12"/>
+          <attvalue for="2" value="30"/>
+          <attvalue for="3" value="0.432953850734"/>
+        </attvalues>
+      </edge>
+      <edge source="30" target="7" id="73" weight="0.230974206521">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="7"/>
+          <attvalue for="2" value="30"/>
+          <attvalue for="3" value="0.230974206521"/>
+        </attvalues>
+      </edge>
+      <edge source="30" target="6" id="74" weight="0.37333093306">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="6"/>
+          <attvalue for="2" value="30"/>
+          <attvalue for="3" value="0.37333093306"/>
+        </attvalues>
+      </edge>
+      <edge source="31" target="34" id="75" weight="0.473510928099">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="34"/>
+          <attvalue for="2" value="31"/>
+          <attvalue for="3" value="0.473510928099"/>
+        </attvalues>
+      </edge>
+      <edge source="32" target="19" id="76" weight="0.192475759578">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="19"/>
+          <attvalue for="2" value="32"/>
+          <attvalue for="3" value="0.192475759578"/>
+        </attvalues>
+      </edge>
+      <edge source="33" target="16" id="77" weight="0.244829571716">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="16"/>
+          <attvalue for="2" value="33"/>
+          <attvalue for="3" value="0.244829571716"/>
+        </attvalues>
+      </edge>
+      <edge source="33" target="21" id="78" weight="0.57408070664">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="21"/>
+          <attvalue for="2" value="33"/>
+          <attvalue for="3" value="0.57408070664"/>
+        </attvalues>
+      </edge>
+      <edge source="34" target="1" id="79" weight="0.196900136968">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="1"/>
+          <attvalue for="2" value="34"/>
+          <attvalue for="3" value="0.196900136968"/>
+        </attvalues>
+      </edge>
+      <edge source="34" target="56" id="80" weight="0.186755228587">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="56"/>
+          <attvalue for="2" value="34"/>
+          <attvalue for="3" value="0.186755228587"/>
+        </attvalues>
+      </edge>
+      <edge source="34" target="42" id="81" weight="0.473510928099">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="42"/>
+          <attvalue for="2" value="34"/>
+          <attvalue for="3" value="0.473510928099"/>
+        </attvalues>
+      </edge>
+      <edge source="34" target="19" id="82" weight="0.245813843545">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="19"/>
+          <attvalue for="2" value="34"/>
+          <attvalue for="3" value="0.245813843545"/>
+        </attvalues>
+      </edge>
+      <edge source="34" target="31" id="83" weight="0.473510928099">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="31"/>
+          <attvalue for="2" value="34"/>
+          <attvalue for="3" value="0.473510928099"/>
+        </attvalues>
+      </edge>
+      <edge source="35" target="36" id="84" weight="0.869599618421">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="36"/>
+          <attvalue for="2" value="35"/>
+          <attvalue for="3" value="0.869599618421"/>
+        </attvalues>
+      </edge>
+      <edge source="35" target="2" id="85" weight="0.316983939589">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="2"/>
+          <attvalue for="2" value="35"/>
+          <attvalue for="3" value="0.316983939589"/>
+        </attvalues>
+      </edge>
+      <edge source="35" target="52" id="86" weight="0.587611627193">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="52"/>
+          <attvalue for="2" value="35"/>
+          <attvalue for="3" value="0.587611627193"/>
+        </attvalues>
+      </edge>
+      <edge source="35" target="53" id="87" weight="0.382218044892">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="53"/>
+          <attvalue for="2" value="35"/>
+          <attvalue for="3" value="0.382218044892"/>
+        </attvalues>
+      </edge>
+      <edge source="36" target="35" id="88" weight="0.869599618421">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="35"/>
+          <attvalue for="2" value="36"/>
+          <attvalue for="3" value="0.869599618421"/>
+        </attvalues>
+      </edge>
+      <edge source="36" target="2" id="89" weight="0.373944270856">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="2"/>
+          <attvalue for="2" value="36"/>
+          <attvalue for="3" value="0.373944270856"/>
+        </attvalues>
+      </edge>
+      <edge source="36" target="52" id="90" weight="0.339461592531">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="52"/>
+          <attvalue for="2" value="36"/>
+          <attvalue for="3" value="0.339461592531"/>
+        </attvalues>
+      </edge>
+      <edge source="36" target="47" id="91" weight="0.854793291261">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="47"/>
+          <attvalue for="2" value="36"/>
+          <attvalue for="3" value="0.854793291261"/>
+        </attvalues>
+      </edge>
+      <edge source="37" target="56" id="92" weight="0.388489729929">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="56"/>
+          <attvalue for="2" value="37"/>
+          <attvalue for="3" value="0.388489729929"/>
+        </attvalues>
+      </edge>
+      <edge source="38" target="10" id="93" weight="0.310041725106">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="10"/>
+          <attvalue for="2" value="38"/>
+          <attvalue for="3" value="0.310041725106"/>
+        </attvalues>
+      </edge>
+      <edge source="38" target="8" id="94" weight="0.233731253276">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="8"/>
+          <attvalue for="2" value="38"/>
+          <attvalue for="3" value="0.233731253276"/>
+        </attvalues>
+      </edge>
+      <edge source="38" target="58" id="95" weight="0.470132655345">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="58"/>
+          <attvalue for="2" value="38"/>
+          <attvalue for="3" value="0.470132655345"/>
+        </attvalues>
+      </edge>
+      <edge source="38" target="53" id="96" weight="0.177937404554">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="53"/>
+          <attvalue for="2" value="38"/>
+          <attvalue for="3" value="0.177937404554"/>
+        </attvalues>
+      </edge>
+      <edge source="39" target="40" id="97" weight="0.534882311478">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="40"/>
+          <attvalue for="2" value="39"/>
+          <attvalue for="3" value="0.534882311478"/>
+        </attvalues>
+      </edge>
+      <edge source="39" target="46" id="98" weight="0.384762703892">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="46"/>
+          <attvalue for="2" value="39"/>
+          <attvalue for="3" value="0.384762703892"/>
+        </attvalues>
+      </edge>
+      <edge source="39" target="57" id="99" weight="0.207588238574">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="57"/>
+          <attvalue for="2" value="39"/>
+          <attvalue for="3" value="0.207588238574"/>
+        </attvalues>
+      </edge>
+      <edge source="39" target="6" id="100" weight="0.247181717232">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="6"/>
+          <attvalue for="2" value="39"/>
+          <attvalue for="3" value="0.247181717232"/>
+        </attvalues>
+      </edge>
+      <edge source="40" target="39" id="101" weight="0.534882311478">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="39"/>
+          <attvalue for="2" value="40"/>
+          <attvalue for="3" value="0.534882311478"/>
+        </attvalues>
+      </edge>
+      <edge source="40" target="51" id="102" weight="0.373944270856">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="51"/>
+          <attvalue for="2" value="40"/>
+          <attvalue for="3" value="0.373944270856"/>
+        </attvalues>
+      </edge>
+      <edge source="40" target="59" id="103" weight="0.257054975716">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="59"/>
+          <attvalue for="2" value="40"/>
+          <attvalue for="3" value="0.257054975716"/>
+        </attvalues>
+      </edge>
+      <edge source="41" target="22" id="104" weight="0.314730543613">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="22"/>
+          <attvalue for="2" value="41"/>
+          <attvalue for="3" value="0.314730543613"/>
+        </attvalues>
+      </edge>
+      <edge source="41" target="20" id="105" weight="0.314730543613">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="20"/>
+          <attvalue for="2" value="41"/>
+          <attvalue for="3" value="0.314730543613"/>
+        </attvalues>
+      </edge>
+      <edge source="41" target="9" id="106" weight="0.314730543613">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="9"/>
+          <attvalue for="2" value="41"/>
+          <attvalue for="3" value="0.314730543613"/>
+        </attvalues>
+      </edge>
+      <edge source="41" target="19" id="107" weight="0.268128837118">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="19"/>
+          <attvalue for="2" value="41"/>
+          <attvalue for="3" value="0.268128837118"/>
+        </attvalues>
+      </edge>
+      <edge source="41" target="23" id="108" weight="0.167574715899">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="23"/>
+          <attvalue for="2" value="41"/>
+          <attvalue for="3" value="0.167574715899"/>
+        </attvalues>
+      </edge>
+      <edge source="42" target="34" id="109" weight="0.473510928099">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="34"/>
+          <attvalue for="2" value="42"/>
+          <attvalue for="3" value="0.473510928099"/>
+        </attvalues>
+      </edge>
+      <edge source="43" target="54" id="110" weight="0.166659362303">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="54"/>
+          <attvalue for="2" value="43"/>
+          <attvalue for="3" value="0.166659362303"/>
+        </attvalues>
+      </edge>
+      <edge source="43" target="19" id="111" weight="0.248681194365">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="19"/>
+          <attvalue for="2" value="43"/>
+          <attvalue for="3" value="0.248681194365"/>
+        </attvalues>
+      </edge>
+      <edge source="44" target="28" id="112" weight="0.158892349879">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="28"/>
+          <attvalue for="2" value="44"/>
+          <attvalue for="3" value="0.158892349879"/>
+        </attvalues>
+      </edge>
+      <edge source="44" target="24" id="113" weight="0.181630419724">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="24"/>
+          <attvalue for="2" value="44"/>
+          <attvalue for="3" value="0.181630419724"/>
+        </attvalues>
+      </edge>
+      <edge source="44" target="19" id="114" weight="0.158162430564">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="19"/>
+          <attvalue for="2" value="44"/>
+          <attvalue for="3" value="0.158162430564"/>
+        </attvalues>
+      </edge>
+      <edge source="45" target="10" id="115" weight="0.531258860121">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="10"/>
+          <attvalue for="2" value="45"/>
+          <attvalue for="3" value="0.531258860121"/>
+        </attvalues>
+      </edge>
+      <edge source="46" target="39" id="116" weight="0.384762703892">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="39"/>
+          <attvalue for="2" value="46"/>
+          <attvalue for="3" value="0.384762703892"/>
+        </attvalues>
+      </edge>
+      <edge source="46" target="48" id="117" weight="0.206082205365">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="48"/>
+          <attvalue for="2" value="46"/>
+          <attvalue for="3" value="0.206082205365"/>
+        </attvalues>
+      </edge>
+      <edge source="46" target="26" id="118" weight="0.291444249791">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="26"/>
+          <attvalue for="2" value="46"/>
+          <attvalue for="3" value="0.291444249791"/>
+        </attvalues>
+      </edge>
+      <edge source="46" target="29" id="119" weight="0.246129691377">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="29"/>
+          <attvalue for="2" value="46"/>
+          <attvalue for="3" value="0.246129691377"/>
+        </attvalues>
+      </edge>
+      <edge source="46" target="4" id="120" weight="0.291444249791">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="4"/>
+          <attvalue for="2" value="46"/>
+          <attvalue for="3" value="0.291444249791"/>
+        </attvalues>
+      </edge>
+      <edge source="47" target="36" id="121" weight="0.854793291261">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="36"/>
+          <attvalue for="2" value="47"/>
+          <attvalue for="3" value="0.854793291261"/>
+        </attvalues>
+      </edge>
+      <edge source="48" target="46" id="122" weight="0.206082205365">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="46"/>
+          <attvalue for="2" value="48"/>
+          <attvalue for="3" value="0.206082205365"/>
+        </attvalues>
+      </edge>
+      <edge source="48" target="17" id="123" weight="0.276582636768">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="17"/>
+          <attvalue for="2" value="48"/>
+          <attvalue for="3" value="0.276582636768"/>
+        </attvalues>
+      </edge>
+      <edge source="49" target="7" id="124" weight="0.907504234304">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="7"/>
+          <attvalue for="2" value="49"/>
+          <attvalue for="3" value="0.907504234304"/>
+        </attvalues>
+      </edge>
+      <edge source="50" target="54" id="125" weight="0.373054437901">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="54"/>
+          <attvalue for="2" value="50"/>
+          <attvalue for="3" value="0.373054437901"/>
+        </attvalues>
+      </edge>
+      <edge source="50" target="26" id="126" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="26"/>
+          <attvalue for="2" value="50"/>
+          <attvalue for="3" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge source="51" target="40" id="127" weight="0.373944270856">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="40"/>
+          <attvalue for="2" value="51"/>
+          <attvalue for="3" value="0.373944270856"/>
+        </attvalues>
+      </edge>
+      <edge source="51" target="59" id="128" weight="0.393188961414">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="59"/>
+          <attvalue for="2" value="51"/>
+          <attvalue for="3" value="0.393188961414"/>
+        </attvalues>
+      </edge>
+      <edge source="52" target="36" id="129" weight="0.339461592531">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="36"/>
+          <attvalue for="2" value="52"/>
+          <attvalue for="3" value="0.339461592531"/>
+        </attvalues>
+      </edge>
+      <edge source="52" target="30" id="130" weight="0.215542714699">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="30"/>
+          <attvalue for="2" value="52"/>
+          <attvalue for="3" value="0.215542714699"/>
+        </attvalues>
+      </edge>
+      <edge source="52" target="35" id="131" weight="0.587611627193">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="35"/>
+          <attvalue for="2" value="52"/>
+          <attvalue for="3" value="0.587611627193"/>
+        </attvalues>
+      </edge>
+      <edge source="52" target="58" id="132" weight="0.324016829314">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="58"/>
+          <attvalue for="2" value="52"/>
+          <attvalue for="3" value="0.324016829314"/>
+        </attvalues>
+      </edge>
+      <edge source="53" target="28" id="133" weight="0.182758731503">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="28"/>
+          <attvalue for="2" value="53"/>
+          <attvalue for="3" value="0.182758731503"/>
+        </attvalues>
+      </edge>
+      <edge source="53" target="17" id="134" weight="0.165041260892">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="17"/>
+          <attvalue for="2" value="53"/>
+          <attvalue for="3" value="0.165041260892"/>
+        </attvalues>
+      </edge>
+      <edge source="53" target="35" id="135" weight="0.382218044892">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="35"/>
+          <attvalue for="2" value="53"/>
+          <attvalue for="3" value="0.382218044892"/>
+        </attvalues>
+      </edge>
+      <edge source="53" target="38" id="136" weight="0.177937404554">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="38"/>
+          <attvalue for="2" value="53"/>
+          <attvalue for="3" value="0.177937404554"/>
+        </attvalues>
+      </edge>
+      <edge source="53" target="11" id="137" weight="0.36607993535">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="11"/>
+          <attvalue for="2" value="53"/>
+          <attvalue for="3" value="0.36607993535"/>
+        </attvalues>
+      </edge>
+      <edge source="53" target="14" id="138" weight="0.379844417871">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="14"/>
+          <attvalue for="2" value="53"/>
+          <attvalue for="3" value="0.379844417871"/>
+        </attvalues>
+      </edge>
+      <edge source="54" target="50" id="139" weight="0.373054437901">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="50"/>
+          <attvalue for="2" value="54"/>
+          <attvalue for="3" value="0.373054437901"/>
+        </attvalues>
+      </edge>
+      <edge source="54" target="43" id="140" weight="0.166659362303">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="43"/>
+          <attvalue for="2" value="54"/>
+          <attvalue for="3" value="0.166659362303"/>
+        </attvalues>
+      </edge>
+      <edge source="54" target="17" id="141" weight="0.200706582956">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="17"/>
+          <attvalue for="2" value="54"/>
+          <attvalue for="3" value="0.200706582956"/>
+        </attvalues>
+      </edge>
+      <edge source="54" target="8" id="142" weight="0.3383577279">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="8"/>
+          <attvalue for="2" value="54"/>
+          <attvalue for="3" value="0.3383577279"/>
+        </attvalues>
+      </edge>
+      <edge source="55" target="1" id="143" weight="0.373054437901">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="1"/>
+          <attvalue for="2" value="55"/>
+          <attvalue for="3" value="0.373054437901"/>
+        </attvalues>
+      </edge>
+      <edge source="55" target="24" id="144" weight="0.500282720531">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="24"/>
+          <attvalue for="2" value="55"/>
+          <attvalue for="3" value="0.500282720531"/>
+        </attvalues>
+      </edge>
+      <edge source="55" target="25" id="145" weight="0.609155067382">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="25"/>
+          <attvalue for="2" value="55"/>
+          <attvalue for="3" value="0.609155067382"/>
+        </attvalues>
+      </edge>
+      <edge source="55" target="21" id="146" weight="0.27644033759">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="21"/>
+          <attvalue for="2" value="55"/>
+          <attvalue for="3" value="0.27644033759"/>
+        </attvalues>
+      </edge>
+      <edge source="56" target="21" id="147" weight="0.247071954257">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="21"/>
+          <attvalue for="2" value="56"/>
+          <attvalue for="3" value="0.247071954257"/>
+        </attvalues>
+      </edge>
+      <edge source="56" target="10" id="148" weight="0.185249968347">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="10"/>
+          <attvalue for="2" value="56"/>
+          <attvalue for="3" value="0.185249968347"/>
+        </attvalues>
+      </edge>
+      <edge source="56" target="37" id="149" weight="0.388489729929">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="37"/>
+          <attvalue for="2" value="56"/>
+          <attvalue for="3" value="0.388489729929"/>
+        </attvalues>
+      </edge>
+      <edge source="56" target="19" id="150" weight="0.351428263464">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="19"/>
+          <attvalue for="2" value="56"/>
+          <attvalue for="3" value="0.351428263464"/>
+        </attvalues>
+      </edge>
+      <edge source="56" target="34" id="151" weight="0.186755228587">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="34"/>
+          <attvalue for="2" value="56"/>
+          <attvalue for="3" value="0.186755228587"/>
+        </attvalues>
+      </edge>
+      <edge source="57" target="39" id="152" weight="0.207588238574">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="39"/>
+          <attvalue for="2" value="57"/>
+          <attvalue for="3" value="0.207588238574"/>
+        </attvalues>
+      </edge>
+      <edge source="58" target="52" id="153" weight="0.324016829314">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="52"/>
+          <attvalue for="2" value="58"/>
+          <attvalue for="3" value="0.324016829314"/>
+        </attvalues>
+      </edge>
+      <edge source="58" target="38" id="154" weight="0.470132655345">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="38"/>
+          <attvalue for="2" value="58"/>
+          <attvalue for="3" value="0.470132655345"/>
+        </attvalues>
+      </edge>
+      <edge source="58" target="10" id="155" weight="0.285273323809">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="10"/>
+          <attvalue for="2" value="58"/>
+          <attvalue for="3" value="0.285273323809"/>
+        </attvalues>
+      </edge>
+      <edge source="59" target="40" id="156" weight="0.257054975716">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="40"/>
+          <attvalue for="2" value="59"/>
+          <attvalue for="3" value="0.257054975716"/>
+        </attvalues>
+      </edge>
+      <edge source="59" target="51" id="157" weight="0.393188961414">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="51"/>
+          <attvalue for="2" value="59"/>
+          <attvalue for="3" value="0.393188961414"/>
+        </attvalues>
+      </edge>
+      <edge source="59" target="7" id="158" weight="0.394235104447">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="7"/>
+          <attvalue for="2" value="59"/>
+          <attvalue for="3" value="0.394235104447"/>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

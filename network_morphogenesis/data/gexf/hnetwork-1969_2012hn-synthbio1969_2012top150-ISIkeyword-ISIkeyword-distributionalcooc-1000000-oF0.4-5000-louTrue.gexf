@@ -1,0 +1,3544 @@
+<gexf xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.gephi.org/gexf/1.1draft" xmlns:ns0="xsi" version="1.1" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.1draft.xsd">
+  <meta lastmodified="2013-06-05T03:04:46.320075">
+    <creator>CorText</creator>
+    <description>hn-synthbio1969_2012top150-ISIkeyword-ISIkeyword-distributionalcooc-1000000-oF0.4-5000-louTrue</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="hn-synthbio1969_2012top150-ISIkeyword-ISIkeyword-distributionalcooc-1000000-oF0.4-5000-louTrue">
+    <attributes class="node" mode="dynamic"/>
+    <attributes class="node" mode="static">
+      <attribute id="weight" title="weight" type="float">
+        <default></default>
+      </attribute>
+      <attribute id="color" title="color" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="period" title="period" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="community" title="community" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="shape" title="shape" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="size" title="size" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="category" title="category" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="label" title="label" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="in-degree" title="in-degree" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="betweeness" title="betweeness" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="community_orphan" title="community_orphan" type="integer">
+        <default></default>
+      </attribute>
+      <attribute id="cluster_universal_index" title="cluster_universal_index" type="integer">
+        <default></default>
+      </attribute>
+      <attribute id="cluster_label" title="cluster_label" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="a" title="a" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="b" title="b" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="g" title="g" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="level" title="level" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="cluster_index" title="cluster_index" type="integer">
+        <default></default>
+      </attribute>
+      <attribute id="r" title="r" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="out-degree" title="out-degree" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="y" title="y" type="float">
+        <default></default>
+      </attribute>
+      <attribute id="x" title="x" type="float">
+        <default></default>
+      </attribute>
+    </attributes>
+    <attributes class="edge" mode="dynamic"/>
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="level_edge" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="1" title="dest_edge" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="2" title="source_edge" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="3" title="weight_edge" type="float">
+        <default></default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1" label="genetic regulatory network">
+        <attvalues>
+          <attvalue for="weight" value="5.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="9"/>
+          <attvalue for="cluster_universal_index" value="3"/>
+          <attvalue for="cluster_label" value="genetic regulatory network &amp; model checking"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="0"/>
+          <attvalue for="out-degree" value="0.739831191895"/>
+        </attvalues>
+        <viz:color r="0" g="160" b="61" a="1.0"/>
+        <viz:position x="728.113233687" y="76.8853142198" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.52325581395"/>
+      </node>
+      <node id="2" label="RNA interference">
+        <attvalues>
+          <attvalue for="weight" value="10.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.844520611489"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="20"/>
+          <attvalue for="cluster_universal_index" value="1"/>
+          <attvalue for="cluster_label" value="aptamers &amp; synthetic gene networks"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="1"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="204" g="12" b="12" a="1.0"/>
+        <viz:position x="976.992995407" y="387.69997292" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.04651162791"/>
+      </node>
+      <node id="3" label="gene circuits">
+        <attvalues>
+          <attvalue for="weight" value="8.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.66841151856"/>
+          <attvalue for="betweeness" value="8.19000819001e-05"/>
+          <attvalue for="community_orphan" value="1"/>
+          <attvalue for="cluster_universal_index" value="7"/>
+          <attvalue for="cluster_label" value="gene circuits &amp; bioinformatics"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="0.448521878401"/>
+        </attvalues>
+        <viz:color r="112" g="0" b="127" a="1.0"/>
+        <viz:position x="45.1647346662" y="647.134319431" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.83720930233"/>
+      </node>
+      <node id="4" label="Synthetic biology">
+        <attvalues>
+          <attvalue for="weight" value="86.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="5"/>
+          <attvalue for="cluster_universal_index" value="5"/>
+          <attvalue for="cluster_label" value="Synthetic biology &amp; Metabolic engineering"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="3"/>
+          <attvalue for="out-degree" value="10.129003988"/>
+        </attvalues>
+        <viz:color r="0" g="84" b="221" a="1.0"/>
+        <viz:position x="698.748875198" y="866.911527524" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="10.0"/>
+      </node>
+      <node id="5" label="evolvability">
+        <attvalues>
+          <attvalue for="weight" value="9.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="7"/>
+          <attvalue for="cluster_universal_index" value="15"/>
+          <attvalue for="cluster_label" value="engineering &amp; modularity"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="4"/>
+          <attvalue for="out-degree" value="1.10772225107"/>
+        </attvalues>
+        <viz:color r="0" g="164" b="187" a="1.0"/>
+        <viz:position x="825.135392315" y="152.213909577" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.94186046512"/>
+      </node>
+      <node id="6" label="aptamers">
+        <attvalues>
+          <attvalue for="weight" value="7.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.47363739751"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="20"/>
+          <attvalue for="cluster_universal_index" value="1"/>
+          <attvalue for="cluster_label" value="aptamers &amp; synthetic gene networks"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="1"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="204" g="12" b="12" a="1.0"/>
+        <viz:position x="950.148516939" y="371.381754508" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.73255813953"/>
+      </node>
+      <node id="7" label="DNA structures">
+        <attvalues>
+          <attvalue for="weight" value="7.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="17"/>
+          <attvalue for="cluster_universal_index" value="13"/>
+          <attvalue for="cluster_label" value="nucleic acids &amp; NMR spectroscopy"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="5"/>
+          <attvalue for="out-degree" value="0.482271378995"/>
+        </attvalues>
+        <viz:color r="255" g="117" b="0" a="1.0"/>
+        <viz:position x="0.0" y="492.049747137" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.73255813953"/>
+      </node>
+      <node id="8" label="biofuels">
+        <attvalues>
+          <attvalue for="weight" value="11.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.405079339368"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="18"/>
+          <attvalue for="cluster_universal_index" value="19"/>
+          <attvalue for="cluster_label" value="artificial photosynthesis &amp; in vitro synthetic biology"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="6"/>
+          <attvalue for="out-degree" value="2.04518676024"/>
+        </attvalues>
+        <viz:color r="249" g="0" b="0" a="1.0"/>
+        <viz:position x="877.074617435" y="749.766476377" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.1511627907"/>
+      </node>
+      <node id="9" label="molecular recognition">
+        <attvalues>
+          <attvalue for="weight" value="7.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.482724888312"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="19"/>
+          <attvalue for="cluster_universal_index" value="14"/>
+          <attvalue for="cluster_label" value="peptides &amp; self-assembly"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="19"/>
+          <attvalue for="out-degree" value="0.541958820353"/>
+        </attvalues>
+        <viz:color r="219" g="0" b="0" a="1.0"/>
+        <viz:position x="569.075491147" y="178.522213877" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.73255813953"/>
+      </node>
+      <node id="10" label="Yeast">
+        <attvalues>
+          <attvalue for="weight" value="7.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="3.01612636129"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="5"/>
+          <attvalue for="cluster_universal_index" value="5"/>
+          <attvalue for="cluster_label" value="Synthetic biology &amp; Metabolic engineering"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="3"/>
+          <attvalue for="out-degree" value="1.51351176484"/>
+        </attvalues>
+        <viz:color r="0" g="84" b="221" a="1.0"/>
+        <viz:position x="727.892517165" y="795.602387422" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.73255813953"/>
+      </node>
+      <node id="11" label="artificial cells">
+        <attvalues>
+          <attvalue for="weight" value="19.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="11"/>
+          <attvalue for="cluster_universal_index" value="8"/>
+          <attvalue for="cluster_label" value="genomics &amp; drug delivery"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="8"/>
+          <attvalue for="out-degree" value="1.39761428347"/>
+        </attvalues>
+        <viz:color r="0" g="204" b="0" a="1.0"/>
+        <viz:position x="535.260713685" y="515.163706261" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.98837209302"/>
+      </node>
+      <node id="12" label="synthetic gene networks">
+        <attvalues>
+          <attvalue for="weight" value="16.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.561533592066"/>
+          <attvalue for="betweeness" value="0.0004914004914"/>
+          <attvalue for="community_orphan" value="20"/>
+          <attvalue for="cluster_universal_index" value="1"/>
+          <attvalue for="cluster_label" value="aptamers &amp; synthetic gene networks"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="1"/>
+          <attvalue for="out-degree" value="2.84723908458"/>
+        </attvalues>
+        <viz:color r="204" g="12" b="12" a="1.0"/>
+        <viz:position x="950.319536329" y="418.314875141" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.67441860465"/>
+      </node>
+      <node id="13" label="Biosynthesis">
+        <attvalues>
+          <attvalue for="weight" value="3.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.80716309307"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="5"/>
+          <attvalue for="cluster_universal_index" value="5"/>
+          <attvalue for="cluster_label" value="Synthetic biology &amp; Metabolic engineering"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="3"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="84" b="221" a="1.0"/>
+        <viz:position x="651.729993794" y="917.184529676" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.31395348837"/>
+      </node>
+      <node id="14" label="Synthetic Biology">
+        <attvalues>
+          <attvalue for="weight" value="10.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="2"/>
+          <attvalue for="cluster_universal_index" value="6"/>
+          <attvalue for="cluster_label" value="Metabolic Engineering &amp; Artemisinin"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="9"/>
+          <attvalue for="out-degree" value="0.510255939872"/>
+        </attvalues>
+        <viz:color r="133" g="0" b="150" a="1.0"/>
+        <viz:position x="438.377830316" y="889.944524394" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.04651162791"/>
+      </node>
+      <node id="15" label="cell-free protein synthesis">
+        <attvalues>
+          <attvalue for="weight" value="7.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.29797758962"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="8"/>
+          <attvalue for="cluster_universal_index" value="11"/>
+          <attvalue for="cluster_label" value="liposomes &amp; minimal cell"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="10"/>
+          <attvalue for="out-degree" value="0.911203003787"/>
+        </attvalues>
+        <viz:color r="0" g="170" b="149" a="1.0"/>
+        <viz:position x="242.072067917" y="211.35323358" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.73255813953"/>
+      </node>
+      <node id="16" label="Emergence">
+        <attvalues>
+          <attvalue for="weight" value="5.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.418859217026"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="1"/>
+          <attvalue for="cluster_universal_index" value="7"/>
+          <attvalue for="cluster_label" value="gene circuits &amp; bioinformatics"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="112" g="0" b="127" a="1.0"/>
+        <viz:position x="93.0226342446" y="754.328841564" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.52325581395"/>
+      </node>
+      <node id="17" label="in vitro synthetic biology">
+        <attvalues>
+          <attvalue for="weight" value="4.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="2.63732770601"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="18"/>
+          <attvalue for="cluster_universal_index" value="19"/>
+          <attvalue for="cluster_label" value="artificial photosynthesis &amp; in vitro synthetic biology"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="6"/>
+          <attvalue for="out-degree" value="1.67597181278"/>
+        </attvalues>
+        <viz:color r="249" g="0" b="0" a="1.0"/>
+        <viz:position x="907.745706906" y="734.160584203" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.41860465116"/>
+      </node>
+      <node id="18" label="gene technology">
+        <attvalues>
+          <attvalue for="weight" value="9.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="16"/>
+          <attvalue for="cluster_universal_index" value="9"/>
+          <attvalue for="cluster_label" value="biosynthesis &amp; gene technology"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="11"/>
+          <attvalue for="out-degree" value="1.28921782577"/>
+        </attvalues>
+        <viz:color r="255" g="189" b="0" a="1.0"/>
+        <viz:position x="393.598774638" y="52.4171314052" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.94186046512"/>
+      </node>
+      <node id="19" label="systems biology">
+        <attvalues>
+          <attvalue for="weight" value="76.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="6"/>
+          <attvalue for="cluster_universal_index" value="17"/>
+          <attvalue for="cluster_label" value="signal integration &amp; cancer"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="7"/>
+          <attvalue for="out-degree" value="0.407743292832"/>
+        </attvalues>
+        <viz:color r="0" g="143" b="221" a="1.0"/>
+        <viz:position x="518.712281797" y="0.000932302317096" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="8.95348837209"/>
+      </node>
+      <node id="20" label="computational modeling">
+        <attvalues>
+          <attvalue for="weight" value="5.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.880254934658"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="7"/>
+          <attvalue for="cluster_universal_index" value="15"/>
+          <attvalue for="cluster_label" value="engineering &amp; modularity"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="4"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="164" b="187" a="1.0"/>
+        <viz:position x="814.422287186" y="245.908447398" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.52325581395"/>
+      </node>
+      <node id="21" label="nanotechnology">
+        <attvalues>
+          <attvalue for="weight" value="16.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.453707610279"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="11"/>
+          <attvalue for="cluster_universal_index" value="8"/>
+          <attvalue for="cluster_label" value="genomics &amp; drug delivery"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="8"/>
+          <attvalue for="out-degree" value="0.54616000708"/>
+        </attvalues>
+        <viz:color r="0" g="204" b="0" a="1.0"/>
+        <viz:position x="506.477918162" y="540.279474032" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.67441860465"/>
+      </node>
+      <node id="22" label="minimal cell">
+        <attvalues>
+          <attvalue for="weight" value="18.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.30167541911"/>
+          <attvalue for="betweeness" value="0.000532350532351"/>
+          <attvalue for="community_orphan" value="8"/>
+          <attvalue for="cluster_universal_index" value="11"/>
+          <attvalue for="cluster_label" value="liposomes &amp; minimal cell"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="10"/>
+          <attvalue for="out-degree" value="2.80910516153"/>
+        </attvalues>
+        <viz:color r="0" g="170" b="149" a="1.0"/>
+        <viz:position x="196.075657618" y="180.933625893" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.88372093023"/>
+      </node>
+      <node id="23" label="Metabolic engineering">
+        <attvalues>
+          <attvalue for="weight" value="38.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.780796408836"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="5"/>
+          <attvalue for="cluster_universal_index" value="5"/>
+          <attvalue for="cluster_label" value="Synthetic biology &amp; Metabolic engineering"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="3"/>
+          <attvalue for="out-degree" value="6.29956992433"/>
+        </attvalues>
+        <viz:color r="0" g="84" b="221" a="1.0"/>
+        <viz:position x="719.081478486" y="882.623249839" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="4.97674418605"/>
+      </node>
+      <node id="24" label="signal transduction">
+        <attvalues>
+          <attvalue for="weight" value="12.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.547045072196"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="7"/>
+          <attvalue for="cluster_universal_index" value="15"/>
+          <attvalue for="cluster_label" value="engineering &amp; modularity"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="4"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="164" b="187" a="1.0"/>
+        <viz:position x="875.885958497" y="230.625583748" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.25581395349"/>
+      </node>
+      <node id="25" label="proteins">
+        <attvalues>
+          <attvalue for="weight" value="9.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="12"/>
+          <attvalue for="cluster_universal_index" value="0"/>
+          <attvalue for="cluster_label" value="design &amp; proteins"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="12"/>
+          <attvalue for="out-degree" value="0.527257797577"/>
+        </attvalues>
+        <viz:color r="0" g="236" b="0" a="1.0"/>
+        <viz:position x="20.2856962749" y="338.673000083" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.94186046512"/>
+      </node>
+      <node id="26" label="Cyanobacteria">
+        <attvalues>
+          <attvalue for="weight" value="6.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.80632626058"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="5"/>
+          <attvalue for="cluster_universal_index" value="5"/>
+          <attvalue for="cluster_label" value="Synthetic biology &amp; Metabolic engineering"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="3"/>
+          <attvalue for="out-degree" value="1.0"/>
+        </attvalues>
+        <viz:color r="0" g="84" b="221" a="1.0"/>
+        <viz:position x="770.3718178" y="856.278360029" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.62790697674"/>
+      </node>
+      <node id="27" label="E. coli">
+        <attvalues>
+          <attvalue for="weight" value="3.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="2.01198670804"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="5"/>
+          <attvalue for="cluster_universal_index" value="5"/>
+          <attvalue for="cluster_label" value="Synthetic biology &amp; Metabolic engineering"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="3"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="84" b="221" a="1.0"/>
+        <viz:position x="763.29770591" y="911.549182432" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.31395348837"/>
+      </node>
+      <node id="28" label="liposomes">
+        <attvalues>
+          <attvalue for="weight" value="27.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="2.49258426503"/>
+          <attvalue for="betweeness" value="0.00233415233415"/>
+          <attvalue for="community_orphan" value="8"/>
+          <attvalue for="cluster_universal_index" value="11"/>
+          <attvalue for="cluster_label" value="liposomes &amp; minimal cell"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="10"/>
+          <attvalue for="out-degree" value="4.30166553228"/>
+        </attvalues>
+        <viz:color r="0" g="170" b="149" a="1.0"/>
+        <viz:position x="223.502354132" y="150.023159125" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="3.82558139535"/>
+      </node>
+      <node id="29" label="erythromycin">
+        <attvalues>
+          <attvalue for="weight" value="11.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.470668039972"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="20"/>
+          <attvalue for="cluster_universal_index" value="1"/>
+          <attvalue for="cluster_label" value="aptamers &amp; synthetic gene networks"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="1"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="204" g="12" b="12" a="1.0"/>
+        <viz:position x="947.906143646" y="403.016991186" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.1511627907"/>
+      </node>
+      <node id="30" label="gene network">
+        <attvalues>
+          <attvalue for="weight" value="7.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="7"/>
+          <attvalue for="cluster_universal_index" value="15"/>
+          <attvalue for="cluster_label" value="engineering &amp; modularity"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="4"/>
+          <attvalue for="out-degree" value="0.798407986089"/>
+        </attvalues>
+        <viz:color r="0" g="164" b="187" a="1.0"/>
+        <viz:position x="861.774378147" y="167.579890886" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.73255813953"/>
+      </node>
+      <node id="31" label="Saccharomyces cerevisiae">
+        <attvalues>
+          <attvalue for="weight" value="8.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="2.29260278532"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="5"/>
+          <attvalue for="cluster_universal_index" value="5"/>
+          <attvalue for="cluster_label" value="Synthetic biology &amp; Metabolic engineering"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="3"/>
+          <attvalue for="out-degree" value="1.47417401975"/>
+        </attvalues>
+        <viz:color r="0" g="84" b="221" a="1.0"/>
+        <viz:position x="688.043561026" y="851.804169816" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.83720930233"/>
+      </node>
+      <node id="32" label="Biofuels">
+        <attvalues>
+          <attvalue for="weight" value="9.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.39107558387"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="5"/>
+          <attvalue for="cluster_universal_index" value="5"/>
+          <attvalue for="cluster_label" value="Synthetic biology &amp; Metabolic engineering"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="3"/>
+          <attvalue for="out-degree" value="0.766678711217"/>
+        </attvalues>
+        <viz:color r="0" g="84" b="221" a="1.0"/>
+        <viz:position x="752.419695036" y="898.581359823" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.94186046512"/>
+      </node>
+      <node id="33" label="minimal genome">
+        <attvalues>
+          <attvalue for="weight" value="21.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.10931207398"/>
+          <attvalue for="betweeness" value="0.0004914004914"/>
+          <attvalue for="community_orphan" value="8"/>
+          <attvalue for="cluster_universal_index" value="11"/>
+          <attvalue for="cluster_label" value="liposomes &amp; minimal cell"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="10"/>
+          <attvalue for="out-degree" value="2.21913505946"/>
+        </attvalues>
+        <viz:color r="0" g="170" b="149" a="1.0"/>
+        <viz:position x="190.777146181" y="196.112644765" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="3.1976744186"/>
+      </node>
+      <node id="34" label="positive feedback">
+        <attvalues>
+          <attvalue for="weight" value="7.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.01167424757"/>
+          <attvalue for="betweeness" value="0.0002457002457"/>
+          <attvalue for="community_orphan" value="20"/>
+          <attvalue for="cluster_universal_index" value="1"/>
+          <attvalue for="cluster_label" value="aptamers &amp; synthetic gene networks"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="1"/>
+          <attvalue for="out-degree" value="0.422505578598"/>
+        </attvalues>
+        <viz:color r="204" g="12" b="12" a="1.0"/>
+        <viz:position x="995.003817793" y="433.342121558" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.73255813953"/>
+      </node>
+      <node id="35" label="Biofuel">
+        <attvalues>
+          <attvalue for="weight" value="3.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="2.30136950751"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="5"/>
+          <attvalue for="cluster_universal_index" value="5"/>
+          <attvalue for="cluster_label" value="Synthetic biology &amp; Metabolic engineering"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="3"/>
+          <attvalue for="out-degree" value="0.57292696615"/>
+        </attvalues>
+        <viz:color r="0" g="84" b="221" a="1.0"/>
+        <viz:position x="753.649914109" y="826.085095369" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.31395348837"/>
+      </node>
+      <node id="36" label="genome reduction">
+        <attvalues>
+          <attvalue for="weight" value="5.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.14847440466"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="8"/>
+          <attvalue for="cluster_universal_index" value="11"/>
+          <attvalue for="cluster_label" value="liposomes &amp; minimal cell"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="10"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="170" b="149" a="1.0"/>
+        <viz:position x="219.438669132" y="88.7322737333" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.52325581395"/>
+      </node>
+      <node id="37" label="Metabolic Engineering">
+        <attvalues>
+          <attvalue for="weight" value="4.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.36195714064"/>
+          <attvalue for="betweeness" value="0.0001638001638"/>
+          <attvalue for="community_orphan" value="2"/>
+          <attvalue for="cluster_universal_index" value="6"/>
+          <attvalue for="cluster_label" value="Metabolic Engineering &amp; Artemisinin"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="9"/>
+          <attvalue for="out-degree" value="0.41086552104"/>
+        </attvalues>
+        <viz:color r="133" g="0" b="150" a="1.0"/>
+        <viz:position x="464.999573845" y="873.805884759" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.41860465116"/>
+      </node>
+      <node id="38" label="mathematical modeling">
+        <attvalues>
+          <attvalue for="weight" value="15.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="1"/>
+          <attvalue for="cluster_universal_index" value="7"/>
+          <attvalue for="cluster_label" value="gene circuits &amp; bioinformatics"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="0.627470746568"/>
+        </attvalues>
+        <viz:color r="112" g="0" b="127" a="1.0"/>
+        <viz:position x="70.8202218067" y="723.590946919" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.56976744186"/>
+      </node>
+      <node id="39" label="protein engineering">
+        <attvalues>
+          <attvalue for="weight" value="15.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.175469506"/>
+          <attvalue for="betweeness" value="0.0001638001638"/>
+          <attvalue for="community_orphan" value="10"/>
+          <attvalue for="cluster_universal_index" value="18"/>
+          <attvalue for="cluster_label" value="biosensors &amp; protein engineering"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="13"/>
+          <attvalue for="out-degree" value="1.15052382334"/>
+        </attvalues>
+        <viz:color r="0" g="169" b="0" a="1.0"/>
+        <viz:position x="92.2975829977" y="559.436747036" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.56976744186"/>
+      </node>
+      <node id="40" label="design">
+        <attvalues>
+          <attvalue for="weight" value="2.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.527257797577"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="12"/>
+          <attvalue for="cluster_universal_index" value="0"/>
+          <attvalue for="cluster_label" value="design &amp; proteins"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="12"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="236" b="0" a="1.0"/>
+        <viz:position x="26.4980836665" y="356.859338903" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.20930232558"/>
+      </node>
+      <node id="41" label="dynamics">
+        <attvalues>
+          <attvalue for="weight" value="9.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.422505578598"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="20"/>
+          <attvalue for="cluster_universal_index" value="1"/>
+          <attvalue for="cluster_label" value="aptamers &amp; synthetic gene networks"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="1"/>
+          <attvalue for="out-degree" value="0.567392575316"/>
+        </attvalues>
+        <viz:color r="204" g="12" b="12" a="1.0"/>
+        <viz:position x="999.999" y="463.970181031" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.94186046512"/>
+      </node>
+      <node id="42" label="chemical reaction networks">
+        <attvalues>
+          <attvalue for="weight" value="2.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.25629923321"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="13"/>
+          <attvalue for="cluster_universal_index" value="10"/>
+          <attvalue for="cluster_label" value="chemical reaction networks &amp; oscillations"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="17"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="73" g="255" b="0" a="1.0"/>
+        <viz:position x="71.1242983596" y="264.803688894" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.20930232558"/>
+      </node>
+      <node id="43" label="genetics">
+        <attvalues>
+          <attvalue for="weight" value="8.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.902497957905"/>
+          <attvalue for="betweeness" value="0.0001638001638"/>
+          <attvalue for="community_orphan" value="6"/>
+          <attvalue for="cluster_universal_index" value="17"/>
+          <attvalue for="cluster_label" value="signal integration &amp; cancer"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="7"/>
+          <attvalue for="out-degree" value="0.42231659016"/>
+        </attvalues>
+        <viz:color r="0" g="143" b="221" a="1.0"/>
+        <viz:position x="518.64450351" y="46.6860645416" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.83720930233"/>
+      </node>
+      <node id="44" label="nucleic acids">
+        <attvalues>
+          <attvalue for="weight" value="7.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.99063469386"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="17"/>
+          <attvalue for="cluster_universal_index" value="13"/>
+          <attvalue for="cluster_label" value="nucleic acids &amp; NMR spectroscopy"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="5"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="255" g="117" b="0" a="1.0"/>
+        <viz:position x="14.5577045827" y="474.501195609" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.73255813953"/>
+      </node>
+      <node id="45" label="genetic engineering">
+        <attvalues>
+          <attvalue for="weight" value="10.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="1"/>
+          <attvalue for="cluster_universal_index" value="7"/>
+          <attvalue for="cluster_label" value="gene circuits &amp; bioinformatics"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="1.00902859422"/>
+        </attvalues>
+        <viz:color r="112" g="0" b="127" a="1.0"/>
+        <viz:position x="31.0687381111" y="662.374624018" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.04651162791"/>
+      </node>
+      <node id="46" label="networks">
+        <attvalues>
+          <attvalue for="weight" value="8.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="7"/>
+          <attvalue for="cluster_universal_index" value="15"/>
+          <attvalue for="cluster_label" value="engineering &amp; modularity"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="4"/>
+          <attvalue for="out-degree" value="1.17436354471"/>
+        </attvalues>
+        <viz:color r="0" g="164" b="187" a="1.0"/>
+        <viz:position x="798.699953641" y="230.342367818" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.83720930233"/>
+      </node>
+      <node id="47" label="Riboswitch">
+        <attvalues>
+          <attvalue for="weight" value="4.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.433878847312"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="3"/>
+          <attvalue for="cluster_universal_index" value="2"/>
+          <attvalue for="cluster_label" value="Riboswitch &amp; Biosensor"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="15"/>
+          <attvalue for="out-degree" value="0.890990593791"/>
+        </attvalues>
+        <viz:color r="23" g="0" b="167" a="1.0"/>
+        <viz:position x="555.273012379" y="947.273640741" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.41860465116"/>
+      </node>
+      <node id="48" label="innovation">
+        <attvalues>
+          <attvalue for="weight" value="2.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.44968007823"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="7"/>
+          <attvalue for="cluster_universal_index" value="15"/>
+          <attvalue for="cluster_label" value="engineering &amp; modularity"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="4"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="164" b="187" a="1.0"/>
+        <viz:position x="789.136145648" y="198.574854474" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.20930232558"/>
+      </node>
+      <node id="49" label="gene expression">
+        <attvalues>
+          <attvalue for="weight" value="19.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="15"/>
+          <attvalue for="cluster_universal_index" value="12"/>
+          <attvalue for="cluster_label" value="ribozyme &amp; aptamer"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="16"/>
+          <attvalue for="out-degree" value="0.439537109993"/>
+        </attvalues>
+        <viz:color r="242" g="228" b="0" a="1.0"/>
+        <viz:position x="974.911952319" y="571.74592449" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.98837209302"/>
+      </node>
+      <node id="50" label="signal integration">
+        <attvalues>
+          <attvalue for="weight" value="7.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.02916451176"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="6"/>
+          <attvalue for="cluster_universal_index" value="17"/>
+          <attvalue for="cluster_label" value="signal integration &amp; cancer"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="7"/>
+          <attvalue for="out-degree" value="0.413850720616"/>
+        </attvalues>
+        <viz:color r="0" g="143" b="221" a="1.0"/>
+        <viz:position x="579.801794847" y="31.1495487901" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.73255813953"/>
+      </node>
+      <node id="51" label="origin of life">
+        <attvalues>
+          <attvalue for="weight" value="16.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.633048654997"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="8"/>
+          <attvalue for="cluster_universal_index" value="11"/>
+          <attvalue for="cluster_label" value="liposomes &amp; minimal cell"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="10"/>
+          <attvalue for="out-degree" value="1.36082114361"/>
+        </attvalues>
+        <viz:color r="0" g="170" b="149" a="1.0"/>
+        <viz:position x="263.798008442" y="103.984253813" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.67441860465"/>
+      </node>
+      <node id="52" label="Minimal cell">
+        <attvalues>
+          <attvalue for="weight" value="4.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.75259691866"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="4"/>
+          <attvalue for="cluster_universal_index" value="4"/>
+          <attvalue for="cluster_label" value="Systems biology &amp; Minimal cell"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="14"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="0" b="209" a="1.0"/>
+        <viz:position x="535.400001585" y="840.714644926" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.41860465116"/>
+      </node>
+      <node id="53" label="biosynthesis">
+        <attvalues>
+          <attvalue for="weight" value="8.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.955402066671"/>
+          <attvalue for="betweeness" value="8.19000819001e-05"/>
+          <attvalue for="community_orphan" value="16"/>
+          <attvalue for="cluster_universal_index" value="9"/>
+          <attvalue for="cluster_label" value="biosynthesis &amp; gene technology"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="11"/>
+          <attvalue for="out-degree" value="0.400900159481"/>
+        </attvalues>
+        <viz:color r="255" g="189" b="0" a="1.0"/>
+        <viz:position x="341.652686664" y="67.6772145261" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.83720930233"/>
+      </node>
+      <node id="54" label="Artemisinin">
+        <attvalues>
+          <attvalue for="weight" value="6.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.41086552104"/>
+          <attvalue for="betweeness" value="0.0001638001638"/>
+          <attvalue for="community_orphan" value="2"/>
+          <attvalue for="cluster_universal_index" value="6"/>
+          <attvalue for="cluster_label" value="Metabolic Engineering &amp; Artemisinin"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="9"/>
+          <attvalue for="out-degree" value="1.5572825143"/>
+        </attvalues>
+        <viz:color r="133" g="0" b="150" a="1.0"/>
+        <viz:position x="533.800337103" y="904.841668869" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.62790697674"/>
+      </node>
+      <node id="55" label="RNA">
+        <attvalues>
+          <attvalue for="weight" value="21.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="15"/>
+          <attvalue for="cluster_universal_index" value="12"/>
+          <attvalue for="cluster_label" value="ribozyme &amp; aptamer"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="16"/>
+          <attvalue for="out-degree" value="2.07623203507"/>
+        </attvalues>
+        <viz:color r="242" g="228" b="0" a="1.0"/>
+        <viz:position x="979.775425091" y="627.118191372" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="3.1976744186"/>
+      </node>
+      <node id="56" label="bistability">
+        <attvalues>
+          <attvalue for="weight" value="11.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="13"/>
+          <attvalue for="cluster_universal_index" value="10"/>
+          <attvalue for="cluster_label" value="chemical reaction networks &amp; oscillations"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="17"/>
+          <attvalue for="out-degree" value="0.62143103398"/>
+        </attvalues>
+        <viz:color r="73" g="255" b="0" a="1.0"/>
+        <viz:position x="72.7438238865" y="285.382148746" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.1511627907"/>
+      </node>
+      <node id="57" label="modularity">
+        <attvalues>
+          <attvalue for="weight" value="9.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.916673901524"/>
+          <attvalue for="betweeness" value="0.0003276003276"/>
+          <attvalue for="community_orphan" value="7"/>
+          <attvalue for="cluster_universal_index" value="15"/>
+          <attvalue for="cluster_label" value="engineering &amp; modularity"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="4"/>
+          <attvalue for="out-degree" value="0.965315994145"/>
+        </attvalues>
+        <viz:color r="0" g="164" b="187" a="1.0"/>
+        <viz:position x="827.151286215" y="183.242470034" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.94186046512"/>
+      </node>
+      <node id="58" label="Biofilm">
+        <attvalues>
+          <attvalue for="weight" value="6.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.8116069233"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="5"/>
+          <attvalue for="cluster_universal_index" value="5"/>
+          <attvalue for="cluster_label" value="Synthetic biology &amp; Metabolic engineering"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="3"/>
+          <attvalue for="out-degree" value="0.583300796638"/>
+        </attvalues>
+        <viz:color r="0" g="84" b="221" a="1.0"/>
+        <viz:position x="689.198921257" y="970.149249784" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.62790697674"/>
+      </node>
+      <node id="59" label="Industrial biotechnology">
+        <attvalues>
+          <attvalue for="weight" value="8.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="3.00196117098"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="5"/>
+          <attvalue for="cluster_universal_index" value="5"/>
+          <attvalue for="cluster_label" value="Synthetic biology &amp; Metabolic engineering"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="3"/>
+          <attvalue for="out-degree" value="1.51945364993"/>
+        </attvalues>
+        <viz:color r="0" g="84" b="221" a="1.0"/>
+        <viz:position x="707.160212704" y="811.201977576" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.83720930233"/>
+      </node>
+      <node id="60" label="biological circuit">
+        <attvalues>
+          <attvalue for="weight" value="7.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.459492885248"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="14"/>
+          <attvalue for="cluster_universal_index" value="16"/>
+          <attvalue for="cluster_label" value="biological circuit &amp; gene switch"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="18"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="203" g="249" b="0" a="1.0"/>
+        <viz:position x="792.357843853" y="871.941899867" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.73255813953"/>
+      </node>
+      <node id="61" label="cancer">
+        <attvalues>
+          <attvalue for="weight" value="9.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.64894618523"/>
+          <attvalue for="betweeness" value="0.0004914004914"/>
+          <attvalue for="community_orphan" value="6"/>
+          <attvalue for="cluster_universal_index" value="17"/>
+          <attvalue for="cluster_label" value="signal integration &amp; cancer"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="7"/>
+          <attvalue for="out-degree" value="1.0226907538"/>
+        </attvalues>
+        <viz:color r="0" g="143" b="221" a="1.0"/>
+        <viz:position x="560.431641273" y="15.8984517358" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.94186046512"/>
+      </node>
+      <node id="62" label="metabolic engineering">
+        <attvalues>
+          <attvalue for="weight" value="46.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="1"/>
+          <attvalue for="cluster_universal_index" value="7"/>
+          <attvalue for="cluster_label" value="gene circuits &amp; bioinformatics"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="1.35462485582"/>
+        </attvalues>
+        <viz:color r="112" g="0" b="127" a="1.0"/>
+        <viz:position x="51.1530605175" y="677.569358235" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="5.81395348837"/>
+      </node>
+      <node id="63" label="artificial photosynthesis">
+        <attvalues>
+          <attvalue for="weight" value="3.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="2.64559742051"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="18"/>
+          <attvalue for="cluster_universal_index" value="19"/>
+          <attvalue for="cluster_label" value="artificial photosynthesis &amp; in vitro synthetic biology"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="6"/>
+          <attvalue for="out-degree" value="1.65787694424"/>
+        </attvalues>
+        <viz:color r="249" g="0" b="0" a="1.0"/>
+        <viz:position x="907.662392048" y="765.604958195" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.31395348837"/>
+      </node>
+      <node id="64" label="Systems Biology">
+        <attvalues>
+          <attvalue for="weight" value="9.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="1"/>
+          <attvalue for="cluster_universal_index" value="7"/>
+          <attvalue for="cluster_label" value="gene circuits &amp; bioinformatics"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="1.1108441071"/>
+        </attvalues>
+        <viz:color r="112" g="0" b="127" a="1.0"/>
+        <viz:position x="85.2127616528" y="739.264049469" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.94186046512"/>
+      </node>
+      <node id="65" label="genomics">
+        <attvalues>
+          <attvalue for="weight" value="18.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.881811839001"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="11"/>
+          <attvalue for="cluster_universal_index" value="8"/>
+          <attvalue for="cluster_label" value="genomics &amp; drug delivery"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="8"/>
+          <attvalue for="out-degree" value="0.723455165883"/>
+        </attvalues>
+        <viz:color r="0" g="204" b="0" a="1.0"/>
+        <viz:position x="525.179949178" y="478.15703291" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.88372093023"/>
+      </node>
+      <node id="66" label="Quorum sensing">
+        <attvalues>
+          <attvalue for="weight" value="7.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.42985858184"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="5"/>
+          <attvalue for="cluster_universal_index" value="5"/>
+          <attvalue for="cluster_label" value="Synthetic biology &amp; Metabolic engineering"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="3"/>
+          <attvalue for="out-degree" value="0.719614795894"/>
+        </attvalues>
+        <viz:color r="0" g="84" b="221" a="1.0"/>
+        <viz:position x="725.429676386" y="954.41905767" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.73255813953"/>
+      </node>
+      <node id="67" label="Systems biology">
+        <attvalues>
+          <attvalue for="weight" value="12.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="4"/>
+          <attvalue for="cluster_universal_index" value="4"/>
+          <attvalue for="cluster_label" value="Systems biology &amp; Minimal cell"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="14"/>
+          <attvalue for="out-degree" value="1.19097145016"/>
+        </attvalues>
+        <viz:color r="0" g="0" b="209" a="1.0"/>
+        <viz:position x="483.190759689" y="804.554260758" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.25581395349"/>
+      </node>
+      <node id="68" label="Biosensor">
+        <attvalues>
+          <attvalue for="weight" value="3.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.35995600452"/>
+          <attvalue for="betweeness" value="8.19000819001e-05"/>
+          <attvalue for="community_orphan" value="3"/>
+          <attvalue for="cluster_universal_index" value="2"/>
+          <attvalue for="cluster_label" value="Riboswitch &amp; Biosensor"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="15"/>
+          <attvalue for="out-degree" value="0.433878847312"/>
+        </attvalues>
+        <viz:color r="23" g="0" b="167" a="1.0"/>
+        <viz:position x="604.231054865" y="932.253861694" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.31395348837"/>
+      </node>
+      <node id="69" label="Escherichia coli">
+        <attvalues>
+          <attvalue for="weight" value="21.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.44080925705"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="5"/>
+          <attvalue for="cluster_universal_index" value="5"/>
+          <attvalue for="cluster_label" value="Synthetic biology &amp; Metabolic engineering"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="3"/>
+          <attvalue for="out-degree" value="0.649932252806"/>
+        </attvalues>
+        <viz:color r="0" g="84" b="221" a="1.0"/>
+        <viz:position x="792.357843853" y="884.773980507" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="3.1976744186"/>
+      </node>
+      <node id="70" label="gene regulation">
+        <attvalues>
+          <attvalue for="weight" value="28.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.426088254467"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="20"/>
+          <attvalue for="cluster_universal_index" value="1"/>
+          <attvalue for="cluster_label" value="aptamers &amp; synthetic gene networks"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="1"/>
+          <attvalue for="out-degree" value="0.988485615804"/>
+        </attvalues>
+        <viz:color r="204" g="12" b="12" a="1.0"/>
+        <viz:position x="964.629947262" y="355.721210948" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="3.93023255814"/>
+      </node>
+      <node id="71" label="natural products">
+        <attvalues>
+          <attvalue for="weight" value="10.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.400900159481"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="16"/>
+          <attvalue for="cluster_universal_index" value="9"/>
+          <attvalue for="cluster_label" value="biosynthesis &amp; gene technology"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="11"/>
+          <attvalue for="out-degree" value="0.483911392828"/>
+        </attvalues>
+        <viz:color r="255" g="189" b="0" a="1.0"/>
+        <viz:position x="352.873212308" y="36.7969983212" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.04651162791"/>
+      </node>
+      <node id="72" label="DNA">
+        <attvalues>
+          <attvalue for="weight" value="15.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="19"/>
+          <attvalue for="cluster_universal_index" value="14"/>
+          <attvalue for="cluster_label" value="peptides &amp; self-assembly"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="19"/>
+          <attvalue for="out-degree" value="0.411836371791"/>
+        </attvalues>
+        <viz:color r="219" g="0" b="0" a="1.0"/>
+        <viz:position x="579.473261063" y="113.378369042" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.56976744186"/>
+      </node>
+      <node id="73" label="polymerase chain reaction">
+        <attvalues>
+          <attvalue for="weight" value="6.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.817727151931"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="16"/>
+          <attvalue for="cluster_universal_index" value="9"/>
+          <attvalue for="cluster_label" value="biosynthesis &amp; gene technology"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="11"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="255" g="189" b="0" a="1.0"/>
+        <viz:position x="413.253369802" y="68.1222166401" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.62790697674"/>
+      </node>
+      <node id="74" label="robustness">
+        <attvalues>
+          <attvalue for="weight" value="3.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.45032418002"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="7"/>
+          <attvalue for="cluster_universal_index" value="15"/>
+          <attvalue for="cluster_label" value="engineering &amp; modularity"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="4"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="164" b="187" a="1.0"/>
+        <viz:position x="867.89368449" y="198.728160878" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.31395348837"/>
+      </node>
+      <node id="75" label="metabolism">
+        <attvalues>
+          <attvalue for="weight" value="7.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.445428556633"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="17"/>
+          <attvalue for="cluster_universal_index" value="13"/>
+          <attvalue for="cluster_label" value="nucleic acids &amp; NMR spectroscopy"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="5"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="255" g="117" b="0" a="1.0"/>
+        <viz:position x="11.231919722" y="416.921793584" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.73255813953"/>
+      </node>
+      <node id="76" label="reverse engineering">
+        <attvalues>
+          <attvalue for="weight" value="4.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.460029753532"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="4"/>
+          <attvalue for="cluster_universal_index" value="4"/>
+          <attvalue for="cluster_label" value="Systems biology &amp; Minimal cell"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="14"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="0" b="209" a="1.0"/>
+        <viz:position x="436.359480425" y="788.684964395" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.41860465116"/>
+      </node>
+      <node id="77" label="model checking">
+        <attvalues>
+          <attvalue for="weight" value="4.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.739831191895"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="9"/>
+          <attvalue for="cluster_universal_index" value="3"/>
+          <attvalue for="cluster_label" value="genetic regulatory network &amp; model checking"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="0"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="160" b="61" a="1.0"/>
+        <viz:position x="719.151425805" y="59.3694522723" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.41860465116"/>
+      </node>
+      <node id="78" label="BioBricks">
+        <attvalues>
+          <attvalue for="weight" value="5.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.419108065896"/>
+          <attvalue for="betweeness" value="8.19000819001e-05"/>
+          <attvalue for="community_orphan" value="5"/>
+          <attvalue for="cluster_universal_index" value="5"/>
+          <attvalue for="cluster_label" value="Synthetic biology &amp; Metabolic engineering"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="3"/>
+          <attvalue for="out-degree" value="0.543786794317"/>
+        </attvalues>
+        <viz:color r="0" g="84" b="221" a="1.0"/>
+        <viz:position x="767.508787138" y="940.144247156" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.52325581395"/>
+      </node>
+      <node id="79" label="protein synthesis">
+        <attvalues>
+          <attvalue for="weight" value="9.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="2.02804753285"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="8"/>
+          <attvalue for="cluster_universal_index" value="11"/>
+          <attvalue for="cluster_label" value="liposomes &amp; minimal cell"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="10"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="170" b="149" a="1.0"/>
+        <viz:position x="239.141466853" y="119.663361428" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.94186046512"/>
+      </node>
+      <node id="80" label="protein design">
+        <attvalues>
+          <attvalue for="weight" value="5.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.07838658253"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="7"/>
+          <attvalue for="cluster_universal_index" value="15"/>
+          <attvalue for="cluster_label" value="engineering &amp; modularity"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="4"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="164" b="187" a="1.0"/>
+        <viz:position x="830.728514566" y="277.100929335" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.52325581395"/>
+      </node>
+      <node id="81" label="biosensors">
+        <attvalues>
+          <attvalue for="weight" value="16.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.584271819012"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="10"/>
+          <attvalue for="cluster_universal_index" value="18"/>
+          <attvalue for="cluster_label" value="biosensors &amp; protein engineering"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="13"/>
+          <attvalue for="out-degree" value="0.768520942984"/>
+        </attvalues>
+        <viz:color r="0" g="169" b="0" a="1.0"/>
+        <viz:position x="81.4258963185" y="586.969631928" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.67441860465"/>
+      </node>
+      <node id="82" label="gene therapy">
+        <attvalues>
+          <attvalue for="weight" value="9.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="6"/>
+          <attvalue for="cluster_universal_index" value="17"/>
+          <attvalue for="cluster_label" value="signal integration &amp; cancer"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="7"/>
+          <attvalue for="out-degree" value="0.905721850864"/>
+        </attvalues>
+        <viz:color r="0" g="143" b="221" a="1.0"/>
+        <viz:position x="595.353574862" y="46.6001266286" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.94186046512"/>
+      </node>
+      <node id="83" label="oscillations">
+        <attvalues>
+          <attvalue for="weight" value="10.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="13"/>
+          <attvalue for="cluster_universal_index" value="10"/>
+          <attvalue for="cluster_label" value="chemical reaction networks &amp; oscillations"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="17"/>
+          <attvalue for="out-degree" value="0.634868199235"/>
+        </attvalues>
+        <viz:color r="73" g="255" b="0" a="1.0"/>
+        <viz:position x="91.7719621829" y="229.317736883" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.04651162791"/>
+      </node>
+      <node id="84" label="engineering">
+        <attvalues>
+          <attvalue for="weight" value="7.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.41827092195"/>
+          <attvalue for="betweeness" value="0.0001638001638"/>
+          <attvalue for="community_orphan" value="7"/>
+          <attvalue for="cluster_universal_index" value="15"/>
+          <attvalue for="cluster_label" value="engineering &amp; modularity"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="4"/>
+          <attvalue for="out-degree" value="1.19580468682"/>
+        </attvalues>
+        <viz:color r="0" g="164" b="187" a="1.0"/>
+        <viz:position x="827.777993088" y="213.760138764" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.73255813953"/>
+      </node>
+      <node id="85" label="genetic circuits">
+        <attvalues>
+          <attvalue for="weight" value="14.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="7"/>
+          <attvalue for="cluster_universal_index" value="15"/>
+          <attvalue for="cluster_label" value="engineering &amp; modularity"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="4"/>
+          <attvalue for="out-degree" value="1.0325214261"/>
+        </attvalues>
+        <viz:color r="0" g="164" b="187" a="1.0"/>
+        <viz:position x="826.51570823" y="261.404141583" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.46511627907"/>
+      </node>
+      <node id="86" label="hydrogen">
+        <attvalues>
+          <attvalue for="weight" value="5.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.98832572177"/>
+          <attvalue for="betweeness" value="0.0001638001638"/>
+          <attvalue for="community_orphan" value="18"/>
+          <attvalue for="cluster_universal_index" value="19"/>
+          <attvalue for="cluster_label" value="artificial photosynthesis &amp; in vitro synthetic biology"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="6"/>
+          <attvalue for="out-degree" value="2.2972946704"/>
+        </attvalues>
+        <viz:color r="249" g="0" b="0" a="1.0"/>
+        <viz:position x="879.11427975" y="782.057828295" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.52325581395"/>
+      </node>
+      <node id="87" label="Gene regulation">
+        <attvalues>
+          <attvalue for="weight" value="4.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.23393764877"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="5"/>
+          <attvalue for="cluster_universal_index" value="5"/>
+          <attvalue for="cluster_label" value="Synthetic biology &amp; Metabolic engineering"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="3"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="84" b="221" a="1.0"/>
+        <viz:position x="784.403447559" y="925.84037618" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.41860465116"/>
+      </node>
+      <node id="88" label="Biotechnology">
+        <attvalues>
+          <attvalue for="weight" value="9.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.400049542465"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="5"/>
+          <attvalue for="cluster_universal_index" value="5"/>
+          <attvalue for="cluster_label" value="Synthetic biology &amp; Metabolic engineering"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="3"/>
+          <attvalue for="out-degree" value="0.941296015935"/>
+        </attvalues>
+        <viz:color r="0" g="84" b="221" a="1.0"/>
+        <viz:position x="706.881577568" y="984.45458019" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.94186046512"/>
+      </node>
+      <node id="89" label="gene switch">
+        <attvalues>
+          <attvalue for="weight" value="8.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="14"/>
+          <attvalue for="cluster_universal_index" value="16"/>
+          <attvalue for="cluster_label" value="biological circuit &amp; gene switch"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="18"/>
+          <attvalue for="out-degree" value="0.459492885248"/>
+        </attvalues>
+        <viz:color r="203" g="249" b="0" a="1.0"/>
+        <viz:position x="812.585590961" y="841.894438172" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.83720930233"/>
+      </node>
+      <node id="90" label="Origin of life">
+        <attvalues>
+          <attvalue for="weight" value="8.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="4"/>
+          <attvalue for="cluster_universal_index" value="4"/>
+          <attvalue for="cluster_label" value="Systems biology &amp; Minimal cell"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="14"/>
+          <attvalue for="out-degree" value="0.502468717118"/>
+        </attvalues>
+        <viz:color r="0" g="0" b="209" a="1.0"/>
+        <viz:position x="446.118085096" y="832.847974451" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.83720930233"/>
+      </node>
+      <node id="91" label="minimal cells">
+        <attvalues>
+          <attvalue for="weight" value="13.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="2.28910293348"/>
+          <attvalue for="betweeness" value="0.00036855036855"/>
+          <attvalue for="community_orphan" value="8"/>
+          <attvalue for="cluster_universal_index" value="11"/>
+          <attvalue for="cluster_label" value="liposomes &amp; minimal cell"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="10"/>
+          <attvalue for="out-degree" value="1.40270259605"/>
+        </attvalues>
+        <viz:color r="0" g="170" b="149" a="1.0"/>
+        <viz:position x="252.235798047" y="165.41623189" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.36046511628"/>
+      </node>
+      <node id="92" label="genome">
+        <attvalues>
+          <attvalue for="weight" value="9.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="6"/>
+          <attvalue for="cluster_universal_index" value="17"/>
+          <attvalue for="cluster_label" value="signal integration &amp; cancer"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="7"/>
+          <attvalue for="out-degree" value="0.408285446627"/>
+        </attvalues>
+        <viz:color r="0" g="143" b="221" a="1.0"/>
+        <viz:position x="494.727161554" y="25.7656712076" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.94186046512"/>
+      </node>
+      <node id="93" label="self-assembly">
+        <attvalues>
+          <attvalue for="weight" value="12.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.411836371791"/>
+          <attvalue for="betweeness" value="0.0001638001638"/>
+          <attvalue for="community_orphan" value="19"/>
+          <attvalue for="cluster_universal_index" value="14"/>
+          <attvalue for="cluster_label" value="peptides &amp; self-assembly"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="19"/>
+          <attvalue for="out-degree" value="0.722677496974"/>
+        </attvalues>
+        <viz:color r="219" g="0" b="0" a="1.0"/>
+        <viz:position x="617.043230018" y="130.222250303" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.25581395349"/>
+      </node>
+      <node id="94" label="NMR spectroscopy">
+        <attvalues>
+          <attvalue for="weight" value="8.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="17"/>
+          <attvalue for="cluster_universal_index" value="13"/>
+          <attvalue for="cluster_label" value="nucleic acids &amp; NMR spectroscopy"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="5"/>
+          <attvalue for="out-degree" value="0.953791871498"/>
+        </attvalues>
+        <viz:color r="255" g="117" b="0" a="1.0"/>
+        <viz:position x="13.2055879699" y="436.963200454" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.83720930233"/>
+      </node>
+      <node id="95" label="computational biology">
+        <attvalues>
+          <attvalue for="weight" value="16.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.85751858955"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="1"/>
+          <attvalue for="cluster_universal_index" value="7"/>
+          <attvalue for="cluster_label" value="gene circuits &amp; bioinformatics"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="0.624957634079"/>
+        </attvalues>
+        <viz:color r="112" g="0" b="127" a="1.0"/>
+        <viz:position x="25.3682046633" y="631.933922086" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.67441860465"/>
+      </node>
+      <node id="96" label="Mycoplasma genitalium">
+        <attvalues>
+          <attvalue for="weight" value="8.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.428223778633"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="8"/>
+          <attvalue for="cluster_universal_index" value="11"/>
+          <attvalue for="cluster_label" value="liposomes &amp; minimal cell"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="10"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="170" b="149" a="1.0"/>
+        <viz:position x="169.511526621" y="242.637771093" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.83720930233"/>
+      </node>
+      <node id="97" label="hysteresis">
+        <attvalues>
+          <attvalue for="weight" value="11.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.422360438915"/>
+          <attvalue for="betweeness" value="0.0003276003276"/>
+          <attvalue for="community_orphan" value="20"/>
+          <attvalue for="cluster_universal_index" value="1"/>
+          <attvalue for="cluster_label" value="aptamers &amp; synthetic gene networks"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="1"/>
+          <attvalue for="out-degree" value="0.861464598939"/>
+        </attvalues>
+        <viz:color r="204" g="12" b="12" a="1.0"/>
+        <viz:position x="982.035240685" y="448.538947191" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.1511627907"/>
+      </node>
+      <node id="98" label="tetracycline">
+        <attvalues>
+          <attvalue for="weight" value="9.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.502876316812"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="20"/>
+          <attvalue for="cluster_universal_index" value="1"/>
+          <attvalue for="cluster_label" value="aptamers &amp; synthetic gene networks"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="1"/>
+          <attvalue for="out-degree" value="0.448777024164"/>
+        </attvalues>
+        <viz:color r="204" g="12" b="12" a="1.0"/>
+        <viz:position x="959.887529574" y="340.304105017" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.94186046512"/>
+      </node>
+      <node id="99" label="Protein engineering">
+        <attvalues>
+          <attvalue for="weight" value="3.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.74211438454"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="5"/>
+          <attvalue for="cluster_universal_index" value="5"/>
+          <attvalue for="cluster_label" value="Synthetic biology &amp; Metabolic engineering"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="3"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="84" b="221" a="1.0"/>
+        <viz:position x="683.25056406" y="901.95004934" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.31395348837"/>
+      </node>
+      <node id="100" label="bioinformatics">
+        <attvalues>
+          <attvalue for="weight" value="5.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.72830907058"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="1"/>
+          <attvalue for="cluster_universal_index" value="7"/>
+          <attvalue for="cluster_label" value="gene circuits &amp; bioinformatics"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="112" g="0" b="127" a="1.0"/>
+        <viz:position x="70.2401499113" y="708.024420693" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.52325581395"/>
+      </node>
+      <node id="101" label="genetic code">
+        <attvalues>
+          <attvalue for="weight" value="17.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="11"/>
+          <attvalue for="cluster_universal_index" value="8"/>
+          <attvalue for="cluster_label" value="genomics &amp; drug delivery"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="8"/>
+          <attvalue for="out-degree" value="0.585534054461"/>
+        </attvalues>
+        <viz:color r="0" g="204" b="0" a="1.0"/>
+        <viz:position x="461.626647368" y="509.768352414" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.77906976744"/>
+      </node>
+      <node id="102" label="DNA synthesis">
+        <attvalues>
+          <attvalue for="weight" value="12.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="7"/>
+          <attvalue for="cluster_universal_index" value="15"/>
+          <attvalue for="cluster_label" value="engineering &amp; modularity"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="4"/>
+          <attvalue for="out-degree" value="0.466499782173"/>
+        </attvalues>
+        <viz:color r="0" g="164" b="187" a="1.0"/>
+        <viz:position x="834.209503004" y="292.516674005" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.25581395349"/>
+      </node>
+      <node id="103" label="ribozyme">
+        <attvalues>
+          <attvalue for="weight" value="6.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.71788648453"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="15"/>
+          <attvalue for="cluster_universal_index" value="12"/>
+          <attvalue for="cluster_label" value="ribozyme &amp; aptamer"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="16"/>
+          <attvalue for="out-degree" value="0.637479607695"/>
+        </attvalues>
+        <viz:color r="242" g="228" b="0" a="1.0"/>
+        <viz:position x="971.789081361" y="643.359992455" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.62790697674"/>
+      </node>
+      <node id="104" label="enzymes">
+        <attvalues>
+          <attvalue for="weight" value="9.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.566252004324"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="10"/>
+          <attvalue for="cluster_universal_index" value="18"/>
+          <attvalue for="cluster_label" value="biosensors &amp; protein engineering"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="13"/>
+          <attvalue for="out-degree" value="0.406948563017"/>
+        </attvalues>
+        <viz:color r="0" g="169" b="0" a="1.0"/>
+        <viz:position x="85.1303437062" y="528.287179994" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.94186046512"/>
+      </node>
+      <node id="105" label="Biosensors">
+        <attvalues>
+          <attvalue for="weight" value="3.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.543786794317"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="5"/>
+          <attvalue for="cluster_universal_index" value="5"/>
+          <attvalue for="cluster_label" value="Synthetic biology &amp; Metabolic engineering"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="3"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="84" b="221" a="1.0"/>
+        <viz:position x="756.849944413" y="1000.0" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.31395348837"/>
+      </node>
+      <node id="106" label="drug delivery">
+        <attvalues>
+          <attvalue for="weight" value="8.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="2.35158324021"/>
+          <attvalue for="betweeness" value="0.0001638001638"/>
+          <attvalue for="community_orphan" value="11"/>
+          <attvalue for="cluster_universal_index" value="8"/>
+          <attvalue for="cluster_label" value="genomics &amp; drug delivery"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="8"/>
+          <attvalue for="out-degree" value="0.434339178596"/>
+        </attvalues>
+        <viz:color r="0" g="204" b="0" a="1.0"/>
+        <viz:position x="493.160323882" y="493.792650326" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.83720930233"/>
+      </node>
+      <node id="107" label="peptides">
+        <attvalues>
+          <attvalue for="weight" value="7.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.26463631733"/>
+          <attvalue for="betweeness" value="0.0001638001638"/>
+          <attvalue for="community_orphan" value="19"/>
+          <attvalue for="cluster_universal_index" value="14"/>
+          <attvalue for="cluster_label" value="peptides &amp; self-assembly"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="19"/>
+          <attvalue for="out-degree" value="0.482724888312"/>
+        </attvalues>
+        <viz:color r="219" g="0" b="0" a="1.0"/>
+        <viz:position x="608.794445589" y="163.008118091" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.73255813953"/>
+      </node>
+      <node id="108" label="self-reproduction">
+        <attvalues>
+          <attvalue for="weight" value="6.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="2.15432336094"/>
+          <attvalue for="betweeness" value="0.00036855036855"/>
+          <attvalue for="community_orphan" value="8"/>
+          <attvalue for="cluster_universal_index" value="11"/>
+          <attvalue for="cluster_label" value="liposomes &amp; minimal cell"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="10"/>
+          <attvalue for="out-degree" value="1.44725358608"/>
+        </attvalues>
+        <viz:color r="0" g="170" b="149" a="1.0"/>
+        <viz:position x="213.467520324" y="227.21729593" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.62790697674"/>
+      </node>
+      <node id="109" label="biotechnology">
+        <attvalues>
+          <attvalue for="weight" value="4.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.502349420474"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="1"/>
+          <attvalue for="cluster_universal_index" value="7"/>
+          <attvalue for="cluster_label" value="gene circuits &amp; bioinformatics"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="112" g="0" b="127" a="1.0"/>
+        <viz:position x="47.7523898491" y="692.893009637" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.41860465116"/>
+      </node>
+      <node id="110" label="comparative genomics">
+        <attvalues>
+          <attvalue for="weight" value="6.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="8"/>
+          <attvalue for="cluster_universal_index" value="11"/>
+          <attvalue for="cluster_label" value="liposomes &amp; minimal cell"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="10"/>
+          <attvalue for="out-degree" value="0.430883930505"/>
+        </attvalues>
+        <viz:color r="0" g="170" b="149" a="1.0"/>
+        <viz:position x="187.484109968" y="134.828103905" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.62790697674"/>
+      </node>
+      <node id="111" label="aptamer">
+        <attvalues>
+          <attvalue for="weight" value="7.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.47859158081"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="15"/>
+          <attvalue for="cluster_universal_index" value="12"/>
+          <attvalue for="cluster_label" value="ribozyme &amp; aptamer"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="16"/>
+          <attvalue for="out-degree" value="0.926828758711"/>
+        </attvalues>
+        <viz:color r="242" g="228" b="0" a="1.0"/>
+        <viz:position x="965.22892621" y="659.064204405" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.73255813953"/>
+      </node>
+      <node id="112" label="riboswitches">
+        <attvalues>
+          <attvalue for="weight" value="8.0"/>
+          <attvalue for="period" value="1969_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.883599446125"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="15"/>
+          <attvalue for="cluster_universal_index" value="12"/>
+          <attvalue for="cluster_label" value="ribozyme &amp; aptamer"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="16"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="242" g="228" b="0" a="1.0"/>
+        <viz:position x="980.923429856" y="589.818918366" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.83720930233"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="2" target="12" id="1" weight="0.427337684807">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="12"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="0.427337684807"/>
+        </attvalues>
+      </edge>
+      <edge source="2" target="97" id="2" weight="0.417182926683">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="97"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="0.417182926683"/>
+        </attvalues>
+      </edge>
+      <edge source="3" target="62" id="3" weight="0.536774710737">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="62"/>
+          <attvalue for="2" value="3"/>
+          <attvalue for="3" value="0.536774710737"/>
+        </attvalues>
+      </edge>
+      <edge source="3" target="45" id="4" weight="0.506679173747">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="45"/>
+          <attvalue for="2" value="3"/>
+          <attvalue for="3" value="0.506679173747"/>
+        </attvalues>
+      </edge>
+      <edge source="3" target="95" id="5" weight="0.624957634079">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="95"/>
+          <attvalue for="2" value="3"/>
+          <attvalue for="3" value="0.624957634079"/>
+        </attvalues>
+      </edge>
+      <edge source="6" target="98" id="6" weight="0.448777024164">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="98"/>
+          <attvalue for="2" value="6"/>
+          <attvalue for="3" value="0.448777024164"/>
+        </attvalues>
+      </edge>
+      <edge source="6" target="70" id="7" weight="0.426952023738">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="70"/>
+          <attvalue for="2" value="6"/>
+          <attvalue for="3" value="0.426952023738"/>
+        </attvalues>
+      </edge>
+      <edge source="6" target="12" id="8" weight="0.59790834961">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="12"/>
+          <attvalue for="2" value="6"/>
+          <attvalue for="3" value="0.59790834961"/>
+        </attvalues>
+      </edge>
+      <edge source="8" target="86" id="9" weight="0.405079339368">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="86"/>
+          <attvalue for="2" value="8"/>
+          <attvalue for="3" value="0.405079339368"/>
+        </attvalues>
+      </edge>
+      <edge source="9" target="107" id="10" weight="0.482724888312">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="107"/>
+          <attvalue for="2" value="9"/>
+          <attvalue for="3" value="0.482724888312"/>
+        </attvalues>
+      </edge>
+      <edge source="10" target="4" id="11" weight="0.563038817224">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="4"/>
+          <attvalue for="2" value="10"/>
+          <attvalue for="3" value="0.563038817224"/>
+        </attvalues>
+      </edge>
+      <edge source="10" target="23" id="12" weight="0.750144947014">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="23"/>
+          <attvalue for="2" value="10"/>
+          <attvalue for="3" value="0.750144947014"/>
+        </attvalues>
+      </edge>
+      <edge source="10" target="31" id="13" weight="0.735199426909">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="31"/>
+          <attvalue for="2" value="10"/>
+          <attvalue for="3" value="0.735199426909"/>
+        </attvalues>
+      </edge>
+      <edge source="10" target="59" id="14" weight="0.967743170141">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="59"/>
+          <attvalue for="2" value="10"/>
+          <attvalue for="3" value="0.967743170141"/>
+        </attvalues>
+      </edge>
+      <edge source="12" target="70" id="15" weight="0.561533592066">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="70"/>
+          <attvalue for="2" value="12"/>
+          <attvalue for="3" value="0.561533592066"/>
+        </attvalues>
+      </edge>
+      <edge source="13" target="4" id="16" weight="0.488950680376">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="4"/>
+          <attvalue for="2" value="13"/>
+          <attvalue for="3" value="0.488950680376"/>
+        </attvalues>
+      </edge>
+      <edge source="13" target="23" id="17" weight="0.612631099165">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="23"/>
+          <attvalue for="2" value="13"/>
+          <attvalue for="3" value="0.612631099165"/>
+        </attvalues>
+      </edge>
+      <edge source="13" target="54" id="18" weight="0.705581313531">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="54"/>
+          <attvalue for="2" value="13"/>
+          <attvalue for="3" value="0.705581313531"/>
+        </attvalues>
+      </edge>
+      <edge source="15" target="108" id="19" weight="0.432504982334">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="108"/>
+          <attvalue for="2" value="15"/>
+          <attvalue for="3" value="0.432504982334"/>
+        </attvalues>
+      </edge>
+      <edge source="15" target="28" id="20" weight="0.446940528863">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="28"/>
+          <attvalue for="2" value="15"/>
+          <attvalue for="3" value="0.446940528863"/>
+        </attvalues>
+      </edge>
+      <edge source="15" target="91" id="21" weight="0.418532078419">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="91"/>
+          <attvalue for="2" value="15"/>
+          <attvalue for="3" value="0.418532078419"/>
+        </attvalues>
+      </edge>
+      <edge source="16" target="64" id="22" weight="0.418859217026">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="64"/>
+          <attvalue for="2" value="16"/>
+          <attvalue for="3" value="0.418859217026"/>
+        </attvalues>
+      </edge>
+      <edge source="17" target="86" id="23" weight="0.948870965028">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="86"/>
+          <attvalue for="2" value="17"/>
+          <attvalue for="3" value="0.948870965028"/>
+        </attvalues>
+      </edge>
+      <edge source="17" target="8" id="24" weight="0.733958560357">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="8"/>
+          <attvalue for="2" value="17"/>
+          <attvalue for="3" value="0.733958560357"/>
+        </attvalues>
+      </edge>
+      <edge source="17" target="63" id="25" weight="0.954498180625">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="63"/>
+          <attvalue for="2" value="17"/>
+          <attvalue for="3" value="0.954498180625"/>
+        </attvalues>
+      </edge>
+      <edge source="20" target="46" id="26" weight="0.459620308916">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="46"/>
+          <attvalue for="2" value="20"/>
+          <attvalue for="3" value="0.459620308916"/>
+        </attvalues>
+      </edge>
+      <edge source="20" target="85" id="27" weight="0.420634625742">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="85"/>
+          <attvalue for="2" value="20"/>
+          <attvalue for="3" value="0.420634625742"/>
+        </attvalues>
+      </edge>
+      <edge source="21" target="11" id="28" weight="0.453707610279">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="11"/>
+          <attvalue for="2" value="21"/>
+          <attvalue for="3" value="0.453707610279"/>
+        </attvalues>
+      </edge>
+      <edge source="22" target="28" id="29" weight="0.515198226431">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="28"/>
+          <attvalue for="2" value="22"/>
+          <attvalue for="3" value="0.515198226431"/>
+        </attvalues>
+      </edge>
+      <edge source="22" target="33" id="30" weight="0.786477192681">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="33"/>
+          <attvalue for="2" value="22"/>
+          <attvalue for="3" value="0.786477192681"/>
+        </attvalues>
+      </edge>
+      <edge source="23" target="4" id="31" weight="0.780796408836">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="4"/>
+          <attvalue for="2" value="23"/>
+          <attvalue for="3" value="0.780796408836"/>
+        </attvalues>
+      </edge>
+      <edge source="24" target="57" id="32" weight="0.547045072196">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="57"/>
+          <attvalue for="2" value="24"/>
+          <attvalue for="3" value="0.547045072196"/>
+        </attvalues>
+      </edge>
+      <edge source="26" target="4" id="33" weight="0.600206290501">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="4"/>
+          <attvalue for="2" value="26"/>
+          <attvalue for="3" value="0.600206290501"/>
+        </attvalues>
+      </edge>
+      <edge source="26" target="23" id="34" weight="0.633193003925">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="23"/>
+          <attvalue for="2" value="26"/>
+          <attvalue for="3" value="0.633193003925"/>
+        </attvalues>
+      </edge>
+      <edge source="26" target="35" id="35" weight="0.57292696615">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="35"/>
+          <attvalue for="2" value="26"/>
+          <attvalue for="3" value="0.57292696615"/>
+        </attvalues>
+      </edge>
+      <edge source="27" target="4" id="36" weight="0.65822024272">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="4"/>
+          <attvalue for="2" value="27"/>
+          <attvalue for="3" value="0.65822024272"/>
+        </attvalues>
+      </edge>
+      <edge source="27" target="23" id="37" weight="0.587087754102">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="23"/>
+          <attvalue for="2" value="27"/>
+          <attvalue for="3" value="0.587087754102"/>
+        </attvalues>
+      </edge>
+      <edge source="27" target="32" id="38" weight="0.766678711217">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="32"/>
+          <attvalue for="2" value="27"/>
+          <attvalue for="3" value="0.766678711217"/>
+        </attvalues>
+      </edge>
+      <edge source="28" target="108" id="39" weight="0.484278109888">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="108"/>
+          <attvalue for="2" value="28"/>
+          <attvalue for="3" value="0.484278109888"/>
+        </attvalues>
+      </edge>
+      <edge source="28" target="22" id="40" weight="0.513875383807">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="22"/>
+          <attvalue for="2" value="28"/>
+          <attvalue for="3" value="0.513875383807"/>
+        </attvalues>
+      </edge>
+      <edge source="28" target="51" id="41" weight="0.500686809761">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="51"/>
+          <attvalue for="2" value="28"/>
+          <attvalue for="3" value="0.500686809761"/>
+        </attvalues>
+      </edge>
+      <edge source="28" target="33" id="42" weight="0.50308960019">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="33"/>
+          <attvalue for="2" value="28"/>
+          <attvalue for="3" value="0.50308960019"/>
+        </attvalues>
+      </edge>
+      <edge source="28" target="91" id="43" weight="0.490654361388">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="91"/>
+          <attvalue for="2" value="28"/>
+          <attvalue for="3" value="0.490654361388"/>
+        </attvalues>
+      </edge>
+      <edge source="29" target="12" id="44" weight="0.470668039972">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="12"/>
+          <attvalue for="2" value="29"/>
+          <attvalue for="3" value="0.470668039972"/>
+        </attvalues>
+      </edge>
+      <edge source="31" target="4" id="45" weight="0.57396863484">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="4"/>
+          <attvalue for="2" value="31"/>
+          <attvalue for="3" value="0.57396863484"/>
+        </attvalues>
+      </edge>
+      <edge source="31" target="23" id="46" weight="0.620586059435">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="23"/>
+          <attvalue for="2" value="31"/>
+          <attvalue for="3" value="0.620586059435"/>
+        </attvalues>
+      </edge>
+      <edge source="31" target="59" id="47" weight="0.551710479786">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="59"/>
+          <attvalue for="2" value="31"/>
+          <attvalue for="3" value="0.551710479786"/>
+        </attvalues>
+      </edge>
+      <edge source="31" target="10" id="48" weight="0.546337611256">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="10"/>
+          <attvalue for="2" value="31"/>
+          <attvalue for="3" value="0.546337611256"/>
+        </attvalues>
+      </edge>
+      <edge source="32" target="4" id="49" weight="0.631560549846">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="4"/>
+          <attvalue for="2" value="32"/>
+          <attvalue for="3" value="0.631560549846"/>
+        </attvalues>
+      </edge>
+      <edge source="32" target="23" id="50" weight="0.759515034022">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="23"/>
+          <attvalue for="2" value="32"/>
+          <attvalue for="3" value="0.759515034022"/>
+        </attvalues>
+      </edge>
+      <edge source="33" target="28" id="51" weight="0.434145359648">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="28"/>
+          <attvalue for="2" value="33"/>
+          <attvalue for="3" value="0.434145359648"/>
+        </attvalues>
+      </edge>
+      <edge source="33" target="22" id="52" weight="0.675166714328">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="22"/>
+          <attvalue for="2" value="33"/>
+          <attvalue for="3" value="0.675166714328"/>
+        </attvalues>
+      </edge>
+      <edge source="34" target="41" id="53" weight="0.567392575316">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="41"/>
+          <attvalue for="2" value="34"/>
+          <attvalue for="3" value="0.567392575316"/>
+        </attvalues>
+      </edge>
+      <edge source="34" target="97" id="54" weight="0.444281672256">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="97"/>
+          <attvalue for="2" value="34"/>
+          <attvalue for="3" value="0.444281672256"/>
+        </attvalues>
+      </edge>
+      <edge source="35" target="26" id="55" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="26"/>
+          <attvalue for="2" value="35"/>
+          <attvalue for="3" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge source="35" target="4" id="56" weight="0.582985582568">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="4"/>
+          <attvalue for="2" value="35"/>
+          <attvalue for="3" value="0.582985582568"/>
+        </attvalues>
+      </edge>
+      <edge source="35" target="23" id="57" weight="0.718383924947">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="23"/>
+          <attvalue for="2" value="35"/>
+          <attvalue for="3" value="0.718383924947"/>
+        </attvalues>
+      </edge>
+      <edge source="36" target="110" id="58" weight="0.430883930505">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="110"/>
+          <attvalue for="2" value="36"/>
+          <attvalue for="3" value="0.430883930505"/>
+        </attvalues>
+      </edge>
+      <edge source="36" target="22" id="59" weight="0.717590474159">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="22"/>
+          <attvalue for="2" value="36"/>
+          <attvalue for="3" value="0.717590474159"/>
+        </attvalues>
+      </edge>
+      <edge source="37" target="14" id="60" weight="0.510255939872">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="14"/>
+          <attvalue for="2" value="37"/>
+          <attvalue for="3" value="0.510255939872"/>
+        </attvalues>
+      </edge>
+      <edge source="37" target="54" id="61" weight="0.851701200765">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="54"/>
+          <attvalue for="2" value="37"/>
+          <attvalue for="3" value="0.851701200765"/>
+        </attvalues>
+      </edge>
+      <edge source="39" target="104" id="62" weight="0.406948563017">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="104"/>
+          <attvalue for="2" value="39"/>
+          <attvalue for="3" value="0.406948563017"/>
+        </attvalues>
+      </edge>
+      <edge source="39" target="81" id="63" weight="0.768520942984">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="81"/>
+          <attvalue for="2" value="39"/>
+          <attvalue for="3" value="0.768520942984"/>
+        </attvalues>
+      </edge>
+      <edge source="40" target="25" id="64" weight="0.527257797577">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="25"/>
+          <attvalue for="2" value="40"/>
+          <attvalue for="3" value="0.527257797577"/>
+        </attvalues>
+      </edge>
+      <edge source="41" target="34" id="65" weight="0.422505578598">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="34"/>
+          <attvalue for="2" value="41"/>
+          <attvalue for="3" value="0.422505578598"/>
+        </attvalues>
+      </edge>
+      <edge source="42" target="83" id="66" weight="0.634868199235">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="83"/>
+          <attvalue for="2" value="42"/>
+          <attvalue for="3" value="0.634868199235"/>
+        </attvalues>
+      </edge>
+      <edge source="42" target="56" id="67" weight="0.62143103398">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="56"/>
+          <attvalue for="2" value="42"/>
+          <attvalue for="3" value="0.62143103398"/>
+        </attvalues>
+      </edge>
+      <edge source="43" target="92" id="68" weight="0.408285446627">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="92"/>
+          <attvalue for="2" value="43"/>
+          <attvalue for="3" value="0.408285446627"/>
+        </attvalues>
+      </edge>
+      <edge source="43" target="61" id="69" weight="0.494212511277">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="61"/>
+          <attvalue for="2" value="43"/>
+          <attvalue for="3" value="0.494212511277"/>
+        </attvalues>
+      </edge>
+      <edge source="44" target="7" id="70" weight="0.482271378995">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="7"/>
+          <attvalue for="2" value="44"/>
+          <attvalue for="3" value="0.482271378995"/>
+        </attvalues>
+      </edge>
+      <edge source="44" target="94" id="71" weight="0.508363314864">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="94"/>
+          <attvalue for="2" value="44"/>
+          <attvalue for="3" value="0.508363314864"/>
+        </attvalues>
+      </edge>
+      <edge source="47" target="68" id="72" weight="0.433878847312">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="68"/>
+          <attvalue for="2" value="47"/>
+          <attvalue for="3" value="0.433878847312"/>
+        </attvalues>
+      </edge>
+      <edge source="48" target="84" id="73" weight="0.734936842438">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="84"/>
+          <attvalue for="2" value="48"/>
+          <attvalue for="3" value="0.734936842438"/>
+        </attvalues>
+      </edge>
+      <edge source="48" target="46" id="74" weight="0.714743235793">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="46"/>
+          <attvalue for="2" value="48"/>
+          <attvalue for="3" value="0.714743235793"/>
+        </attvalues>
+      </edge>
+      <edge source="50" target="82" id="75" weight="0.500686269236">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="82"/>
+          <attvalue for="2" value="50"/>
+          <attvalue for="3" value="0.500686269236"/>
+        </attvalues>
+      </edge>
+      <edge source="50" target="61" id="76" weight="0.528478242525">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="61"/>
+          <attvalue for="2" value="50"/>
+          <attvalue for="3" value="0.528478242525"/>
+        </attvalues>
+      </edge>
+      <edge source="51" target="28" id="77" weight="0.633048654997">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="28"/>
+          <attvalue for="2" value="51"/>
+          <attvalue for="3" value="0.633048654997"/>
+        </attvalues>
+      </edge>
+      <edge source="52" target="67" id="78" weight="0.730941696628">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="67"/>
+          <attvalue for="2" value="52"/>
+          <attvalue for="3" value="0.730941696628"/>
+        </attvalues>
+      </edge>
+      <edge source="52" target="4" id="79" weight="0.519186504916">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="4"/>
+          <attvalue for="2" value="52"/>
+          <attvalue for="3" value="0.519186504916"/>
+        </attvalues>
+      </edge>
+      <edge source="52" target="90" id="80" weight="0.502468717118">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="90"/>
+          <attvalue for="2" value="52"/>
+          <attvalue for="3" value="0.502468717118"/>
+        </attvalues>
+      </edge>
+      <edge source="53" target="18" id="81" weight="0.471490673843">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="18"/>
+          <attvalue for="2" value="53"/>
+          <attvalue for="3" value="0.471490673843"/>
+        </attvalues>
+      </edge>
+      <edge source="53" target="71" id="82" weight="0.483911392828">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="71"/>
+          <attvalue for="2" value="53"/>
+          <attvalue for="3" value="0.483911392828"/>
+        </attvalues>
+      </edge>
+      <edge source="54" target="37" id="83" weight="0.41086552104">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="37"/>
+          <attvalue for="2" value="54"/>
+          <attvalue for="3" value="0.41086552104"/>
+        </attvalues>
+      </edge>
+      <edge source="57" target="84" id="84" weight="0.460867844386">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="84"/>
+          <attvalue for="2" value="57"/>
+          <attvalue for="3" value="0.460867844386"/>
+        </attvalues>
+      </edge>
+      <edge source="57" target="5" id="85" weight="0.455806057139">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="5"/>
+          <attvalue for="2" value="57"/>
+          <attvalue for="3" value="0.455806057139"/>
+        </attvalues>
+      </edge>
+      <edge source="58" target="4" id="86" weight="0.578305771071">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="4"/>
+          <attvalue for="2" value="58"/>
+          <attvalue for="3" value="0.578305771071"/>
+        </attvalues>
+      </edge>
+      <edge source="58" target="66" id="87" weight="0.719614795894">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="66"/>
+          <attvalue for="2" value="58"/>
+          <attvalue for="3" value="0.719614795894"/>
+        </attvalues>
+      </edge>
+      <edge source="58" target="88" id="88" weight="0.513686356336">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="88"/>
+          <attvalue for="2" value="58"/>
+          <attvalue for="3" value="0.513686356336"/>
+        </attvalues>
+      </edge>
+      <edge source="59" target="4" id="89" weight="0.568774916621">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="4"/>
+          <attvalue for="2" value="59"/>
+          <attvalue for="3" value="0.568774916621"/>
+        </attvalues>
+      </edge>
+      <edge source="59" target="23" id="90" weight="0.72703750793">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="23"/>
+          <attvalue for="2" value="59"/>
+          <attvalue for="3" value="0.72703750793"/>
+        </attvalues>
+      </edge>
+      <edge source="59" target="31" id="91" weight="0.738974592837">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="31"/>
+          <attvalue for="2" value="59"/>
+          <attvalue for="3" value="0.738974592837"/>
+        </attvalues>
+      </edge>
+      <edge source="59" target="10" id="92" weight="0.967174153588">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="10"/>
+          <attvalue for="2" value="59"/>
+          <attvalue for="3" value="0.967174153588"/>
+        </attvalues>
+      </edge>
+      <edge source="60" target="89" id="93" weight="0.459492885248">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="89"/>
+          <attvalue for="2" value="60"/>
+          <attvalue for="3" value="0.459492885248"/>
+        </attvalues>
+      </edge>
+      <edge source="61" target="50" id="94" weight="0.413850720616">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="50"/>
+          <attvalue for="2" value="61"/>
+          <attvalue for="3" value="0.413850720616"/>
+        </attvalues>
+      </edge>
+      <edge source="61" target="19" id="95" weight="0.407743292832">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="19"/>
+          <attvalue for="2" value="61"/>
+          <attvalue for="3" value="0.407743292832"/>
+        </attvalues>
+      </edge>
+      <edge source="61" target="43" id="96" weight="0.42231659016">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="43"/>
+          <attvalue for="2" value="61"/>
+          <attvalue for="3" value="0.42231659016"/>
+        </attvalues>
+      </edge>
+      <edge source="61" target="82" id="97" weight="0.405035581627">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="82"/>
+          <attvalue for="2" value="61"/>
+          <attvalue for="3" value="0.405035581627"/>
+        </attvalues>
+      </edge>
+      <edge source="63" target="86" id="98" weight="0.943344366">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="86"/>
+          <attvalue for="2" value="63"/>
+          <attvalue for="3" value="0.943344366"/>
+        </attvalues>
+      </edge>
+      <edge source="63" target="8" id="99" weight="0.734969548051">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="8"/>
+          <attvalue for="2" value="63"/>
+          <attvalue for="3" value="0.734969548051"/>
+        </attvalues>
+      </edge>
+      <edge source="63" target="17" id="100" weight="0.967283506461">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="17"/>
+          <attvalue for="2" value="63"/>
+          <attvalue for="3" value="0.967283506461"/>
+        </attvalues>
+      </edge>
+      <edge source="65" target="11" id="101" weight="0.447472660405">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="11"/>
+          <attvalue for="2" value="65"/>
+          <attvalue for="3" value="0.447472660405"/>
+        </attvalues>
+      </edge>
+      <edge source="65" target="106" id="102" weight="0.434339178596">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="106"/>
+          <attvalue for="2" value="65"/>
+          <attvalue for="3" value="0.434339178596"/>
+        </attvalues>
+      </edge>
+      <edge source="66" target="4" id="103" weight="0.418948125598">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="4"/>
+          <attvalue for="2" value="66"/>
+          <attvalue for="3" value="0.418948125598"/>
+        </attvalues>
+      </edge>
+      <edge source="66" target="58" id="104" weight="0.583300796638">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="58"/>
+          <attvalue for="2" value="66"/>
+          <attvalue for="3" value="0.583300796638"/>
+        </attvalues>
+      </edge>
+      <edge source="66" target="88" id="105" weight="0.427609659599">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="88"/>
+          <attvalue for="2" value="66"/>
+          <attvalue for="3" value="0.427609659599"/>
+        </attvalues>
+      </edge>
+      <edge source="68" target="47" id="106" weight="0.890990593791">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="47"/>
+          <attvalue for="2" value="68"/>
+          <attvalue for="3" value="0.890990593791"/>
+        </attvalues>
+      </edge>
+      <edge source="68" target="4" id="107" weight="0.46896541073">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="4"/>
+          <attvalue for="2" value="68"/>
+          <attvalue for="3" value="0.46896541073"/>
+        </attvalues>
+      </edge>
+      <edge source="69" target="4" id="108" weight="0.44080925705">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="4"/>
+          <attvalue for="2" value="69"/>
+          <attvalue for="3" value="0.44080925705"/>
+        </attvalues>
+      </edge>
+      <edge source="70" target="12" id="109" weight="0.426088254467">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="12"/>
+          <attvalue for="2" value="70"/>
+          <attvalue for="3" value="0.426088254467"/>
+        </attvalues>
+      </edge>
+      <edge source="71" target="53" id="110" weight="0.400900159481">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="53"/>
+          <attvalue for="2" value="71"/>
+          <attvalue for="3" value="0.400900159481"/>
+        </attvalues>
+      </edge>
+      <edge source="73" target="18" id="111" weight="0.817727151931">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="18"/>
+          <attvalue for="2" value="73"/>
+          <attvalue for="3" value="0.817727151931"/>
+        </attvalues>
+      </edge>
+      <edge source="74" target="30" id="112" weight="0.798407986089">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="30"/>
+          <attvalue for="2" value="74"/>
+          <attvalue for="3" value="0.798407986089"/>
+        </attvalues>
+      </edge>
+      <edge source="74" target="5" id="113" weight="0.651916193927">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="5"/>
+          <attvalue for="2" value="74"/>
+          <attvalue for="3" value="0.651916193927"/>
+        </attvalues>
+      </edge>
+      <edge source="75" target="94" id="114" weight="0.445428556633">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="94"/>
+          <attvalue for="2" value="75"/>
+          <attvalue for="3" value="0.445428556633"/>
+        </attvalues>
+      </edge>
+      <edge source="76" target="67" id="115" weight="0.460029753532">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="67"/>
+          <attvalue for="2" value="76"/>
+          <attvalue for="3" value="0.460029753532"/>
+        </attvalues>
+      </edge>
+      <edge source="77" target="1" id="116" weight="0.739831191895">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="1"/>
+          <attvalue for="2" value="77"/>
+          <attvalue for="3" value="0.739831191895"/>
+        </attvalues>
+      </edge>
+      <edge source="78" target="4" id="117" weight="0.419108065896">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="4"/>
+          <attvalue for="2" value="78"/>
+          <attvalue for="3" value="0.419108065896"/>
+        </attvalues>
+      </edge>
+      <edge source="79" target="51" id="118" weight="0.455585185786">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="51"/>
+          <attvalue for="2" value="79"/>
+          <attvalue for="3" value="0.455585185786"/>
+        </attvalues>
+      </edge>
+      <edge source="79" target="28" id="119" weight="0.569096200218">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="28"/>
+          <attvalue for="2" value="79"/>
+          <attvalue for="3" value="0.569096200218"/>
+        </attvalues>
+      </edge>
+      <edge source="79" target="33" id="120" weight="0.501344487956">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="33"/>
+          <attvalue for="2" value="79"/>
+          <attvalue for="3" value="0.501344487956"/>
+        </attvalues>
+      </edge>
+      <edge source="79" target="22" id="121" weight="0.502021658889">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="22"/>
+          <attvalue for="2" value="79"/>
+          <attvalue for="3" value="0.502021658889"/>
+        </attvalues>
+      </edge>
+      <edge source="80" target="102" id="122" weight="0.466499782173">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="102"/>
+          <attvalue for="2" value="80"/>
+          <attvalue for="3" value="0.466499782173"/>
+        </attvalues>
+      </edge>
+      <edge source="80" target="85" id="123" weight="0.61188680036">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="85"/>
+          <attvalue for="2" value="80"/>
+          <attvalue for="3" value="0.61188680036"/>
+        </attvalues>
+      </edge>
+      <edge source="81" target="39" id="124" weight="0.584271819012">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="39"/>
+          <attvalue for="2" value="81"/>
+          <attvalue for="3" value="0.584271819012"/>
+        </attvalues>
+      </edge>
+      <edge source="84" target="57" id="125" weight="0.41827092195">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="57"/>
+          <attvalue for="2" value="84"/>
+          <attvalue for="3" value="0.41827092195"/>
+        </attvalues>
+      </edge>
+      <edge source="86" target="17" id="126" weight="0.70868830632">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="17"/>
+          <attvalue for="2" value="86"/>
+          <attvalue for="3" value="0.70868830632"/>
+        </attvalues>
+      </edge>
+      <edge source="86" target="8" id="127" weight="0.576258651834">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="8"/>
+          <attvalue for="2" value="86"/>
+          <attvalue for="3" value="0.576258651834"/>
+        </attvalues>
+      </edge>
+      <edge source="86" target="63" id="128" weight="0.703378763614">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="63"/>
+          <attvalue for="2" value="86"/>
+          <attvalue for="3" value="0.703378763614"/>
+        </attvalues>
+      </edge>
+      <edge source="87" target="4" id="129" weight="0.584005395966">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="4"/>
+          <attvalue for="2" value="87"/>
+          <attvalue for="3" value="0.584005395966"/>
+        </attvalues>
+      </edge>
+      <edge source="87" target="69" id="130" weight="0.649932252806">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="69"/>
+          <attvalue for="2" value="87"/>
+          <attvalue for="3" value="0.649932252806"/>
+        </attvalues>
+      </edge>
+      <edge source="88" target="4" id="131" weight="0.400049542465">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="4"/>
+          <attvalue for="2" value="88"/>
+          <attvalue for="3" value="0.400049542465"/>
+        </attvalues>
+      </edge>
+      <edge source="91" target="108" id="132" weight="0.530470493855">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="108"/>
+          <attvalue for="2" value="91"/>
+          <attvalue for="3" value="0.530470493855"/>
+        </attvalues>
+      </edge>
+      <edge source="91" target="15" id="133" weight="0.46389154384">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="15"/>
+          <attvalue for="2" value="91"/>
+          <attvalue for="3" value="0.46389154384"/>
+        </attvalues>
+      </edge>
+      <edge source="91" target="28" id="134" weight="0.890191747718">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="28"/>
+          <attvalue for="2" value="91"/>
+          <attvalue for="3" value="0.890191747718"/>
+        </attvalues>
+      </edge>
+      <edge source="91" target="51" id="135" weight="0.404549148065">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="51"/>
+          <attvalue for="2" value="91"/>
+          <attvalue for="3" value="0.404549148065"/>
+        </attvalues>
+      </edge>
+      <edge source="93" target="72" id="136" weight="0.411836371791">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="72"/>
+          <attvalue for="2" value="93"/>
+          <attvalue for="3" value="0.411836371791"/>
+        </attvalues>
+      </edge>
+      <edge source="95" target="3" id="137" weight="0.448521878401">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="3"/>
+          <attvalue for="2" value="95"/>
+          <attvalue for="3" value="0.448521878401"/>
+        </attvalues>
+      </edge>
+      <edge source="95" target="62" id="138" weight="0.408996711149">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="62"/>
+          <attvalue for="2" value="95"/>
+          <attvalue for="3" value="0.408996711149"/>
+        </attvalues>
+      </edge>
+      <edge source="96" target="33" id="139" weight="0.428223778633">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="33"/>
+          <attvalue for="2" value="96"/>
+          <attvalue for="3" value="0.428223778633"/>
+        </attvalues>
+      </edge>
+      <edge source="97" target="12" id="140" weight="0.422360438915">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="12"/>
+          <attvalue for="2" value="97"/>
+          <attvalue for="3" value="0.422360438915"/>
+        </attvalues>
+      </edge>
+      <edge source="98" target="12" id="141" weight="0.502876316812">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="12"/>
+          <attvalue for="2" value="98"/>
+          <attvalue for="3" value="0.502876316812"/>
+        </attvalues>
+      </edge>
+      <edge source="99" target="4" id="142" weight="0.851123790744">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="4"/>
+          <attvalue for="2" value="99"/>
+          <attvalue for="3" value="0.851123790744"/>
+        </attvalues>
+      </edge>
+      <edge source="99" target="23" id="143" weight="0.890990593791">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="23"/>
+          <attvalue for="2" value="99"/>
+          <attvalue for="3" value="0.890990593791"/>
+        </attvalues>
+      </edge>
+      <edge source="100" target="64" id="144" weight="0.691984890076">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="64"/>
+          <attvalue for="2" value="100"/>
+          <attvalue for="3" value="0.691984890076"/>
+        </attvalues>
+      </edge>
+      <edge source="100" target="38" id="145" weight="0.627470746568">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="38"/>
+          <attvalue for="2" value="100"/>
+          <attvalue for="3" value="0.627470746568"/>
+        </attvalues>
+      </edge>
+      <edge source="100" target="62" id="146" weight="0.408853433938">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="62"/>
+          <attvalue for="2" value="100"/>
+          <attvalue for="3" value="0.408853433938"/>
+        </attvalues>
+      </edge>
+      <edge source="103" target="55" id="147" weight="0.791057725816">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="55"/>
+          <attvalue for="2" value="103"/>
+          <attvalue for="3" value="0.791057725816"/>
+        </attvalues>
+      </edge>
+      <edge source="103" target="111" id="148" weight="0.926828758711">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="111"/>
+          <attvalue for="2" value="103"/>
+          <attvalue for="3" value="0.926828758711"/>
+        </attvalues>
+      </edge>
+      <edge source="104" target="39" id="149" weight="0.566252004324">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="39"/>
+          <attvalue for="2" value="104"/>
+          <attvalue for="3" value="0.566252004324"/>
+        </attvalues>
+      </edge>
+      <edge source="105" target="78" id="150" weight="0.543786794317">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="78"/>
+          <attvalue for="2" value="105"/>
+          <attvalue for="3" value="0.543786794317"/>
+        </attvalues>
+      </edge>
+      <edge source="106" target="101" id="151" weight="0.585534054461">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="101"/>
+          <attvalue for="2" value="106"/>
+          <attvalue for="3" value="0.585534054461"/>
+        </attvalues>
+      </edge>
+      <edge source="106" target="65" id="152" weight="0.723455165883">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="65"/>
+          <attvalue for="2" value="106"/>
+          <attvalue for="3" value="0.723455165883"/>
+        </attvalues>
+      </edge>
+      <edge source="106" target="21" id="153" weight="0.54616000708">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="21"/>
+          <attvalue for="2" value="106"/>
+          <attvalue for="3" value="0.54616000708"/>
+        </attvalues>
+      </edge>
+      <edge source="106" target="11" id="154" weight="0.496434012781">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="11"/>
+          <attvalue for="2" value="106"/>
+          <attvalue for="3" value="0.496434012781"/>
+        </attvalues>
+      </edge>
+      <edge source="107" target="93" id="155" weight="0.722677496974">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="93"/>
+          <attvalue for="2" value="107"/>
+          <attvalue for="3" value="0.722677496974"/>
+        </attvalues>
+      </edge>
+      <edge source="107" target="9" id="156" weight="0.541958820353">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="9"/>
+          <attvalue for="2" value="107"/>
+          <attvalue for="3" value="0.541958820353"/>
+        </attvalues>
+      </edge>
+      <edge source="108" target="15" id="157" weight="0.447311459947">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="15"/>
+          <attvalue for="2" value="108"/>
+          <attvalue for="3" value="0.447311459947"/>
+        </attvalues>
+      </edge>
+      <edge source="108" target="28" id="158" weight="0.813044814403">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="28"/>
+          <attvalue for="2" value="108"/>
+          <attvalue for="3" value="0.813044814403"/>
+        </attvalues>
+      </edge>
+      <edge source="108" target="22" id="159" weight="0.400450930344">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="22"/>
+          <attvalue for="2" value="108"/>
+          <attvalue for="3" value="0.400450930344"/>
+        </attvalues>
+      </edge>
+      <edge source="108" target="91" id="160" weight="0.493516156247">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="91"/>
+          <attvalue for="2" value="108"/>
+          <attvalue for="3" value="0.493516156247"/>
+        </attvalues>
+      </edge>
+      <edge source="109" target="45" id="161" weight="0.502349420474">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="45"/>
+          <attvalue for="2" value="109"/>
+          <attvalue for="3" value="0.502349420474"/>
+        </attvalues>
+      </edge>
+      <edge source="111" target="55" id="162" weight="0.84111197312">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="55"/>
+          <attvalue for="2" value="111"/>
+          <attvalue for="3" value="0.84111197312"/>
+        </attvalues>
+      </edge>
+      <edge source="111" target="103" id="163" weight="0.637479607695">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="103"/>
+          <attvalue for="2" value="111"/>
+          <attvalue for="3" value="0.637479607695"/>
+        </attvalues>
+      </edge>
+      <edge source="112" target="55" id="164" weight="0.444062336133">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="55"/>
+          <attvalue for="2" value="112"/>
+          <attvalue for="3" value="0.444062336133"/>
+        </attvalues>
+      </edge>
+      <edge source="112" target="49" id="165" weight="0.439537109993">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="49"/>
+          <attvalue for="2" value="112"/>
+          <attvalue for="3" value="0.439537109993"/>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

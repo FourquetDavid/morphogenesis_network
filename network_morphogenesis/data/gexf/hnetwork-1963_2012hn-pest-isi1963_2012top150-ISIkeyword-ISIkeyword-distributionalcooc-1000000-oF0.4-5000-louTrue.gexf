@@ -1,0 +1,2963 @@
+<?xml version="1.1draft" encoding="utf-8"?><gexf xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.gephi.org/gexf/1.1draft" xmlns:ns0="xsi" version="1.1" ns0:schemaLocation="http://www.gephi.org/gexf/1.1draft http://gephi.org/gexf/1.1draft.xsd">
+  <meta lastmodified="2013-06-05T03:21:23.838770">
+    <creator>CorText</creator>
+    <description>hn-pest-isi1963_2012top150-ISIkeyword-ISIkeyword-distributionalcooc-1000000-oF0.4-5000-louTrue</description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" label="hn-pest-isi1963_2012top150-ISIkeyword-ISIkeyword-distributionalcooc-1000000-oF0.4-5000-louTrue">
+    <attributes class="node" mode="dynamic"/>
+    <attributes class="node" mode="static">
+      <attribute id="weight" title="weight" type="float">
+        <default></default>
+      </attribute>
+      <attribute id="color" title="color" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="period" title="period" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="community" title="community" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="shape" title="shape" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="size" title="size" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="category" title="category" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="label" title="label" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="in-degree" title="in-degree" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="betweeness" title="betweeness" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="community_orphan" title="community_orphan" type="integer">
+        <default></default>
+      </attribute>
+      <attribute id="cluster_universal_index" title="cluster_universal_index" type="integer">
+        <default></default>
+      </attribute>
+      <attribute id="cluster_label" title="cluster_label" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="a" title="a" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="b" title="b" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="g" title="g" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="level" title="level" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="cluster_index" title="cluster_index" type="integer">
+        <default></default>
+      </attribute>
+      <attribute id="r" title="r" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="out-degree" title="out-degree" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="y" title="y" type="float">
+        <default></default>
+      </attribute>
+      <attribute id="x" title="x" type="float">
+        <default></default>
+      </attribute>
+    </attributes>
+    <attributes class="edge" mode="dynamic"/>
+    <attributes class="edge" mode="static">
+      <attribute id="0" title="level_edge" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="1" title="dest_edge" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="2" title="source_edge" type="string">
+        <default></default>
+      </attribute>
+      <attribute id="3" title="weight_edge" type="float">
+        <default></default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="1" label="urine">
+        <attvalues>
+          <attvalue for="weight" value="37.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="4"/>
+          <attvalue for="cluster_universal_index" value="1"/>
+          <attvalue for="cluster_label" value="pyrethroids &amp; urine"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="0"/>
+          <attvalue for="out-degree" value="0.506039054155"/>
+        </attvalues>
+        <viz:color r="0" g="46" b="221" a="1.0"/>
+        <viz:position x="733.113477881" y="60.2121788186" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.29159369527"/>
+      </node>
+      <node id="2" label="epidemiologic methods">
+        <attvalues>
+          <attvalue for="weight" value="21.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.43283178081"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="5"/>
+          <attvalue for="cluster_universal_index" value="0"/>
+          <attvalue for="cluster_label" value="case-control studies &amp; child"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="1"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="138" b="221" a="1.0"/>
+        <viz:position x="933.676204773" y="794.97124392" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.16549912434"/>
+      </node>
+      <node id="3" label="occupation">
+        <attvalues>
+          <attvalue for="weight" value="129.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.08090060207"/>
+          <attvalue for="betweeness" value="0.00235109717868"/>
+          <attvalue for="community_orphan" value="12"/>
+          <attvalue for="cluster_universal_index" value="16"/>
+          <attvalue for="cluster_label" value="risk factors &amp; occupation"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="2.54913400947"/>
+        </attvalues>
+        <viz:color r="203" g="249" b="0" a="1.0"/>
+        <viz:position x="417.794857033" y="886.034078209" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.01663747811"/>
+      </node>
+      <node id="4" label="rural health">
+        <attvalues>
+          <attvalue for="weight" value="22.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.469751423359"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="1"/>
+          <attvalue for="cluster_universal_index" value="14"/>
+          <attvalue for="cluster_label" value="minority health &amp; health disparities"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="3"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="120" g="0" b="137" a="1.0"/>
+        <viz:position x="691.520992803" y="838.965298228" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.17338003503"/>
+      </node>
+      <node id="5" label="suicide">
+        <attvalues>
+          <attvalue for="weight" value="19.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.996355852586"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="6"/>
+          <attvalue for="cluster_universal_index" value="12"/>
+          <attvalue for="cluster_label" value="pesticide poisoning &amp; surveillance"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="4"/>
+          <attvalue for="out-degree" value="0.589004435188"/>
+        </attvalues>
+        <viz:color r="0" g="164" b="187" a="1.0"/>
+        <viz:position x="512.861023005" y="35.1254160702" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.14973730298"/>
+      </node>
+      <node id="6" label="cancer">
+        <attvalues>
+          <attvalue for="weight" value="203.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.577556845626"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="14"/>
+          <attvalue for="cluster_universal_index" value="2"/>
+          <attvalue for="cluster_label" value="pesticide &amp; cancer"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="15"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="255" g="173" b="0" a="1.0"/>
+        <viz:position x="7.22630627635" y="570.323708311" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.59982486865"/>
+      </node>
+      <node id="7" label="chlorpyrifos">
+        <attvalues>
+          <attvalue for="weight" value="50.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="9"/>
+          <attvalue for="cluster_universal_index" value="7"/>
+          <attvalue for="cluster_label" value="carbaryl &amp; chlorpyrifos"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="6"/>
+          <attvalue for="out-degree" value="0.554048446909"/>
+        </attvalues>
+        <viz:color r="0" g="188" b="0" a="1.0"/>
+        <viz:position x="361.162074156" y="982.231161471" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.39404553415"/>
+      </node>
+      <node id="8" label="insecticides">
+        <attvalues>
+          <attvalue for="weight" value="170.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.493008329091"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="15"/>
+          <attvalue for="cluster_universal_index" value="5"/>
+          <attvalue for="cluster_label" value="herbicides &amp; insecticides"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="7"/>
+          <attvalue for="out-degree" value="0.617151140613"/>
+        </attvalues>
+        <viz:color r="255" g="44" b="0" a="1.0"/>
+        <viz:position x="854.018090372" y="212.671780864" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.33975481611"/>
+      </node>
+      <node id="9" label="surveillance">
+        <attvalues>
+          <attvalue for="weight" value="35.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.61398140349"/>
+          <attvalue for="betweeness" value="0.000130616509927"/>
+          <attvalue for="community_orphan" value="6"/>
+          <attvalue for="cluster_universal_index" value="12"/>
+          <attvalue for="cluster_label" value="pesticide poisoning &amp; surveillance"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="4"/>
+          <attvalue for="out-degree" value="0.523107360723"/>
+        </attvalues>
+        <viz:color r="0" g="164" b="187" a="1.0"/>
+        <viz:position x="498.755090066" y="74.8405687835" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.27583187391"/>
+      </node>
+      <node id="10" label="environment">
+        <attvalues>
+          <attvalue for="weight" value="101.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="16"/>
+          <attvalue for="cluster_universal_index" value="15"/>
+          <attvalue for="cluster_label" value="sustainable agriculture &amp; health"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="8"/>
+          <attvalue for="out-degree" value="0.481114062972"/>
+        </attvalues>
+        <viz:color r="227" g="0" b="0" a="1.0"/>
+        <viz:position x="161.406148522" y="203.75418079" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.79597197898"/>
+      </node>
+      <node id="11" label="herbicide">
+        <attvalues>
+          <attvalue for="weight" value="27.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.622693611079"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="2"/>
+          <attvalue for="cluster_universal_index" value="13"/>
+          <attvalue for="cluster_label" value="herbicide &amp; insecticide"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="9"/>
+          <attvalue for="out-degree" value="0.490896497982"/>
+        </attvalues>
+        <viz:color r="109" g="0" b="156" a="1.0"/>
+        <viz:position x="803.989409061" y="890.608791222" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.21278458844"/>
+      </node>
+      <node id="12" label="risk factors">
+        <attvalues>
+          <attvalue for="weight" value="73.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.526531005532"/>
+          <attvalue for="betweeness" value="0.00208986415883"/>
+          <attvalue for="community_orphan" value="12"/>
+          <attvalue for="cluster_universal_index" value="16"/>
+          <attvalue for="cluster_label" value="risk factors &amp; occupation"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="3.13713477739"/>
+        </attvalues>
+        <viz:color r="203" g="249" b="0" a="1.0"/>
+        <viz:position x="452.703068503" y="867.72708347" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.57530647986"/>
+      </node>
+      <node id="13" label="multiple myeloma">
+        <attvalues>
+          <attvalue for="weight" value="43.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.562774426094"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="13"/>
+          <attvalue for="cluster_universal_index" value="11"/>
+          <attvalue for="cluster_label" value="lymphoma &amp; leukemia"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="10"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="245" g="223" b="0" a="1.0"/>
+        <viz:position x="232.225214708" y="975.963085712" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.33887915937"/>
+      </node>
+      <node id="14" label="lymphoma">
+        <attvalues>
+          <attvalue for="weight" value="44.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.682378883284"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="13"/>
+          <attvalue for="cluster_universal_index" value="11"/>
+          <attvalue for="cluster_label" value="lymphoma &amp; leukemia"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="10"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="245" g="223" b="0" a="1.0"/>
+        <viz:position x="256.486176017" y="914.876862391" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.34676007005"/>
+      </node>
+      <node id="15" label="case-control study">
+        <attvalues>
+          <attvalue for="weight" value="60.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.02510223311"/>
+          <attvalue for="betweeness" value="0.00156739811912"/>
+          <attvalue for="community_orphan" value="12"/>
+          <attvalue for="cluster_universal_index" value="16"/>
+          <attvalue for="cluster_label" value="risk factors &amp; occupation"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="0.472042037478"/>
+        </attvalues>
+        <viz:color r="203" g="249" b="0" a="1.0"/>
+        <viz:position x="387.242066224" y="904.051931412" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.47285464098"/>
+      </node>
+      <node id="16" label="micronuclei">
+        <attvalues>
+          <attvalue for="weight" value="26.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.05640272376"/>
+          <attvalue for="betweeness" value="4.35388366423e-05"/>
+          <attvalue for="community_orphan" value="11"/>
+          <attvalue for="cluster_universal_index" value="8"/>
+          <attvalue for="cluster_label" value="comet assay &amp; chromosomal aberrations"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="11"/>
+          <attvalue for="out-degree" value="2.42274789782"/>
+        </attvalues>
+        <viz:color r="43" g="255" b="0" a="1.0"/>
+        <viz:position x="178.867419142" y="770.714446711" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.20490367776"/>
+      </node>
+      <node id="17" label="chromosomal aberrations">
+        <attvalues>
+          <attvalue for="weight" value="28.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="4.7704503353"/>
+          <attvalue for="betweeness" value="0.00370080111459"/>
+          <attvalue for="community_orphan" value="11"/>
+          <attvalue for="cluster_universal_index" value="8"/>
+          <attvalue for="cluster_label" value="comet assay &amp; chromosomal aberrations"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="11"/>
+          <attvalue for="out-degree" value="1.8240810632"/>
+        </attvalues>
+        <viz:color r="43" g="255" b="0" a="1.0"/>
+        <viz:position x="181.666687845" y="843.148905536" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.22066549912"/>
+      </node>
+      <node id="18" label="gender">
+        <attvalues>
+          <attvalue for="weight" value="23.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.547649829953"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="6"/>
+          <attvalue for="cluster_universal_index" value="12"/>
+          <attvalue for="cluster_label" value="pesticide poisoning &amp; surveillance"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="4"/>
+          <attvalue for="out-degree" value="1.06295089539"/>
+        </attvalues>
+        <viz:color r="0" g="164" b="187" a="1.0"/>
+        <viz:position x="587.025709032" y="70.9837945063" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.18126094571"/>
+      </node>
+      <node id="19" label="fertility">
+        <attvalues>
+          <attvalue for="weight" value="29.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.999545251009"/>
+          <attvalue for="betweeness" value="0.000522466039707"/>
+          <attvalue for="community_orphan" value="8"/>
+          <attvalue for="cluster_universal_index" value="6"/>
+          <attvalue for="cluster_label" value="pregnancy &amp; fertility"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="12"/>
+          <attvalue for="out-degree" value="1.54069494922"/>
+        </attvalues>
+        <viz:color r="0" g="155" b="18" a="1.0"/>
+        <viz:position x="992.032423376" y="367.83054487" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.22854640981"/>
+      </node>
+      <node id="20" label="organochlorine pesticides">
+        <attvalues>
+          <attvalue for="weight" value="27.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.0776185677"/>
+          <attvalue for="betweeness" value="0.000130616509927"/>
+          <attvalue for="community_orphan" value="7"/>
+          <attvalue for="cluster_universal_index" value="10"/>
+          <attvalue for="cluster_label" value="polychlorinated biphenyls &amp; ddt"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="5"/>
+          <attvalue for="out-degree" value="1.06854885991"/>
+        </attvalues>
+        <viz:color r="0" g="170" b="143" a="1.0"/>
+        <viz:position x="927.342985643" y="459.662820462" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.21278458844"/>
+      </node>
+      <node id="21" label="environmental health">
+        <attvalues>
+          <attvalue for="weight" value="29.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="2.19868581806"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="1"/>
+          <attvalue for="cluster_universal_index" value="14"/>
+          <attvalue for="cluster_label" value="minority health &amp; health disparities"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="3"/>
+          <attvalue for="out-degree" value="1.86854636225"/>
+        </attvalues>
+        <viz:color r="120" g="0" b="137" a="1.0"/>
+        <viz:position x="609.523359619" y="803.343547153" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.22854640981"/>
+      </node>
+      <node id="22" label="agriculture">
+        <attvalues>
+          <attvalue for="weight" value="455.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.564880371799"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="17"/>
+          <attvalue for="cluster_universal_index" value="4"/>
+          <attvalue for="cluster_label" value="pesticides &amp; agriculture"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="13"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="205" g="0" b="0" a="1.0"/>
+        <viz:position x="552.959539689" y="999.650021814" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="4.58581436077"/>
+      </node>
+      <node id="23" label="canada">
+        <attvalues>
+          <attvalue for="weight" value="12.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.48729023906"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="12"/>
+          <attvalue for="cluster_universal_index" value="16"/>
+          <attvalue for="cluster_label" value="risk factors &amp; occupation"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="203" g="249" b="0" a="1.0"/>
+        <viz:position x="418.972406065" y="921.854016832" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.0945709282"/>
+      </node>
+      <node id="24" label="review">
+        <attvalues>
+          <attvalue for="weight" value="48.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.489394294878"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="12"/>
+          <attvalue for="cluster_universal_index" value="16"/>
+          <attvalue for="cluster_label" value="risk factors &amp; occupation"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="203" g="249" b="0" a="1.0"/>
+        <viz:position x="418.808969044" y="848.556826939" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.37828371278"/>
+      </node>
+      <node id="25" label="ddt">
+        <attvalues>
+          <attvalue for="weight" value="50.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.08416939333"/>
+          <attvalue for="betweeness" value="0.000696621386277"/>
+          <attvalue for="community_orphan" value="7"/>
+          <attvalue for="cluster_universal_index" value="10"/>
+          <attvalue for="cluster_label" value="polychlorinated biphenyls &amp; ddt"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="5"/>
+          <attvalue for="out-degree" value="3.81310010425"/>
+        </attvalues>
+        <viz:color r="0" g="170" b="143" a="1.0"/>
+        <viz:position x="937.30670741" y="479.632032836" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.39404553415"/>
+      </node>
+      <node id="26" label="health">
+        <attvalues>
+          <attvalue for="weight" value="37.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.498363868247"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="16"/>
+          <attvalue for="cluster_universal_index" value="15"/>
+          <attvalue for="cluster_label" value="sustainable agriculture &amp; health"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="8"/>
+          <attvalue for="out-degree" value="1.90506861058"/>
+        </attvalues>
+        <viz:color r="227" g="0" b="0" a="1.0"/>
+        <viz:position x="186.173983138" y="168.159271223" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.29159369527"/>
+      </node>
+      <node id="27" label="dde">
+        <attvalues>
+          <attvalue for="weight" value="19.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="2.1548599524"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="7"/>
+          <attvalue for="cluster_universal_index" value="10"/>
+          <attvalue for="cluster_label" value="polychlorinated biphenyls &amp; ddt"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="5"/>
+          <attvalue for="out-degree" value="0.636098538608"/>
+        </attvalues>
+        <viz:color r="0" g="170" b="143" a="1.0"/>
+        <viz:position x="939.496934106" y="533.452928489" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.14973730298"/>
+      </node>
+      <node id="28" label="herbicides">
+        <attvalues>
+          <attvalue for="weight" value="120.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.14087023579"/>
+          <attvalue for="betweeness" value="0.000261233019854"/>
+          <attvalue for="community_orphan" value="15"/>
+          <attvalue for="cluster_universal_index" value="5"/>
+          <attvalue for="cluster_label" value="herbicides &amp; insecticides"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="7"/>
+          <attvalue for="out-degree" value="1.07020621067"/>
+        </attvalues>
+        <viz:color r="255" g="44" b="0" a="1.0"/>
+        <viz:position x="849.260136431" y="164.963820641" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.94570928196"/>
+      </node>
+      <node id="29" label="diazinon">
+        <attvalues>
+          <attvalue for="weight" value="35.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.566083271165"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="10"/>
+          <attvalue for="cluster_universal_index" value="3"/>
+          <attvalue for="cluster_label" value="diazinon &amp; malathion"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="14"/>
+          <attvalue for="out-degree" value="0.627875187244"/>
+        </attvalues>
+        <viz:color r="0" g="225" b="0" a="1.0"/>
+        <viz:position x="68.5922420386" y="695.467805136" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.27583187391"/>
+      </node>
+      <node id="30" label="minority health">
+        <attvalues>
+          <attvalue for="weight" value="25.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="4.03816442572"/>
+          <attvalue for="betweeness" value="0.000130616509927"/>
+          <attvalue for="community_orphan" value="1"/>
+          <attvalue for="cluster_universal_index" value="14"/>
+          <attvalue for="cluster_label" value="minority health &amp; health disparities"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="3"/>
+          <attvalue for="out-degree" value="1.78015642358"/>
+        </attvalues>
+        <viz:color r="120" g="0" b="137" a="1.0"/>
+        <viz:position x="655.166730912" y="821.168643963" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.19702276708"/>
+      </node>
+      <node id="31" label="epidemiology">
+        <attvalues>
+          <attvalue for="weight" value="194.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.10057724866"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="12"/>
+          <attvalue for="cluster_universal_index" value="16"/>
+          <attvalue for="cluster_label" value="risk factors &amp; occupation"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="0.506256985444"/>
+        </attvalues>
+        <viz:color r="203" g="249" b="0" a="1.0"/>
+        <viz:position x="452.257407514" y="831.089881524" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.5288966725"/>
+      </node>
+      <node id="32" label="farmworkers">
+        <attvalues>
+          <attvalue for="weight" value="48.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.774411661824"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="1"/>
+          <attvalue for="cluster_universal_index" value="14"/>
+          <attvalue for="cluster_label" value="minority health &amp; health disparities"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="3"/>
+          <attvalue for="out-degree" value="1.1612377361"/>
+        </attvalues>
+        <viz:color r="120" g="0" b="137" a="1.0"/>
+        <viz:position x="648.318210457" y="893.229443548" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.37828371278"/>
+      </node>
+      <node id="33" label="asthma">
+        <attvalues>
+          <attvalue for="weight" value="36.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.472738935422"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="2"/>
+          <attvalue for="cluster_universal_index" value="13"/>
+          <attvalue for="cluster_label" value="herbicide &amp; insecticide"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="9"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="109" g="0" b="156" a="1.0"/>
+        <viz:position x="755.860909716" y="940.88459452" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.28371278459"/>
+      </node>
+      <node id="34" label="pesticide exposure">
+        <attvalues>
+          <attvalue for="weight" value="93.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="11"/>
+          <attvalue for="cluster_universal_index" value="8"/>
+          <attvalue for="cluster_label" value="comet assay &amp; chromosomal aberrations"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="11"/>
+          <attvalue for="out-degree" value="2.19178747372"/>
+        </attvalues>
+        <viz:color r="43" g="255" b="0" a="1.0"/>
+        <viz:position x="155.733018333" y="825.11704557" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.73292469352"/>
+      </node>
+      <node id="35" label="genotoxicity">
+        <attvalues>
+          <attvalue for="weight" value="38.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.22293264153"/>
+          <attvalue for="betweeness" value="0.00313479623824"/>
+          <attvalue for="community_orphan" value="11"/>
+          <attvalue for="cluster_universal_index" value="8"/>
+          <attvalue for="cluster_label" value="comet assay &amp; chromosomal aberrations"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="11"/>
+          <attvalue for="out-degree" value="2.40188979692"/>
+        </attvalues>
+        <viz:color r="43" g="255" b="0" a="1.0"/>
+        <viz:position x="153.380789844" y="753.230690855" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.29947460595"/>
+      </node>
+      <node id="36" label="organic farming">
+        <attvalues>
+          <attvalue for="weight" value="9.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.0268134955"/>
+          <attvalue for="betweeness" value="0.000522466039707"/>
+          <attvalue for="community_orphan" value="16"/>
+          <attvalue for="cluster_universal_index" value="15"/>
+          <attvalue for="cluster_label" value="sustainable agriculture &amp; health"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="8"/>
+          <attvalue for="out-degree" value="0.508411933739"/>
+        </attvalues>
+        <viz:color r="227" g="0" b="0" a="1.0"/>
+        <viz:position x="250.617878019" y="115.162508055" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.07092819615"/>
+      </node>
+      <node id="37" label="food safety">
+        <attvalues>
+          <attvalue for="weight" value="13.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.508411933739"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="16"/>
+          <attvalue for="cluster_universal_index" value="15"/>
+          <attvalue for="cluster_label" value="sustainable agriculture &amp; health"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="8"/>
+          <attvalue for="out-degree" value="0.553681994254"/>
+        </attvalues>
+        <viz:color r="227" g="0" b="0" a="1.0"/>
+        <viz:position x="269.981338174" y="132.640712733" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.10245183888"/>
+      </node>
+      <node id="38" label="case-control">
+        <attvalues>
+          <attvalue for="weight" value="22.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.497506492645"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="12"/>
+          <attvalue for="cluster_universal_index" value="16"/>
+          <attvalue for="cluster_label" value="risk factors &amp; occupation"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="0.560725199873"/>
+        </attvalues>
+        <viz:color r="203" g="249" b="0" a="1.0"/>
+        <viz:position x="478.797116047" y="964.238303158" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.17338003503"/>
+      </node>
+      <node id="39" label="fungicides">
+        <attvalues>
+          <attvalue for="weight" value="51.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.577197881575"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="15"/>
+          <attvalue for="cluster_universal_index" value="5"/>
+          <attvalue for="cluster_label" value="herbicides &amp; insecticides"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="7"/>
+          <attvalue for="out-degree" value="0.523719095177"/>
+        </attvalues>
+        <viz:color r="255" g="44" b="0" a="1.0"/>
+        <viz:position x="870.742665507" y="183.249038232" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.40192644483"/>
+      </node>
+      <node id="40" label="farmworker">
+        <attvalues>
+          <attvalue for="weight" value="59.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.990996739473"/>
+          <attvalue for="betweeness" value="0.000522466039707"/>
+          <attvalue for="community_orphan" value="1"/>
+          <attvalue for="cluster_universal_index" value="14"/>
+          <attvalue for="cluster_label" value="minority health &amp; health disparities"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="3"/>
+          <attvalue for="out-degree" value="0.512360065858"/>
+        </attvalues>
+        <viz:color r="120" g="0" b="137" a="1.0"/>
+        <viz:position x="573.258084647" y="893.072962427" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.4649737303"/>
+      </node>
+      <node id="41" label="pcbs">
+        <attvalues>
+          <attvalue for="weight" value="25.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.50276356485"/>
+          <attvalue for="betweeness" value="0.00019592476489"/>
+          <attvalue for="community_orphan" value="7"/>
+          <attvalue for="cluster_universal_index" value="10"/>
+          <attvalue for="cluster_label" value="polychlorinated biphenyls &amp; ddt"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="5"/>
+          <attvalue for="out-degree" value="0.955742549749"/>
+        </attvalues>
+        <viz:color r="0" g="170" b="143" a="1.0"/>
+        <viz:position x="950.539742887" y="442.08733786" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.19702276708"/>
+      </node>
+      <node id="42" label="occupations">
+        <attvalues>
+          <attvalue for="weight" value="17.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.471875818117"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="12"/>
+          <attvalue for="cluster_universal_index" value="16"/>
+          <attvalue for="cluster_label" value="risk factors &amp; occupation"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="0.624437332855"/>
+        </attvalues>
+        <viz:color r="203" g="249" b="0" a="1.0"/>
+        <viz:position x="522.487101377" y="946.471458469" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.13397548161"/>
+      </node>
+      <node id="43" label="neoplasms">
+        <attvalues>
+          <attvalue for="weight" value="81.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.47386150913"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="13"/>
+          <attvalue for="cluster_universal_index" value="11"/>
+          <attvalue for="cluster_label" value="lymphoma &amp; leukemia"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="10"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="245" g="223" b="0" a="1.0"/>
+        <viz:position x="236.880812334" y="932.683805205" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.63835376532"/>
+      </node>
+      <node id="44" label="insecticide">
+        <attvalues>
+          <attvalue for="weight" value="28.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.490896497982"/>
+          <attvalue for="betweeness" value="0.000130616509927"/>
+          <attvalue for="community_orphan" value="2"/>
+          <attvalue for="cluster_universal_index" value="13"/>
+          <attvalue for="cluster_label" value="herbicide &amp; insecticide"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="9"/>
+          <attvalue for="out-degree" value="1.0954325465"/>
+        </attvalues>
+        <viz:color r="109" g="0" b="156" a="1.0"/>
+        <viz:position x="757.703491422" y="917.931042657" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.22066549912"/>
+      </node>
+      <node id="45" label="pregnancy">
+        <attvalues>
+          <attvalue for="weight" value="27.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.526355963687"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="8"/>
+          <attvalue for="cluster_universal_index" value="6"/>
+          <attvalue for="cluster_label" value="pregnancy &amp; fertility"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="12"/>
+          <attvalue for="out-degree" value="0.513584901151"/>
+        </attvalues>
+        <viz:color r="0" g="155" b="18" a="1.0"/>
+        <viz:position x="999.999" y="350.138288257" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.21278458844"/>
+      </node>
+      <node id="46" label="carbaryl">
+        <attvalues>
+          <attvalue for="weight" value="17.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.554048446909"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="9"/>
+          <attvalue for="cluster_universal_index" value="7"/>
+          <attvalue for="cluster_label" value="carbaryl &amp; chlorpyrifos"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="6"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="188" b="0" a="1.0"/>
+        <viz:position x="414.058463441" y="1000.0" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.13397548161"/>
+      </node>
+      <node id="47" label="organochlorines">
+        <attvalues>
+          <attvalue for="weight" value="31.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.22959329697"/>
+          <attvalue for="betweeness" value="0.000130616509927"/>
+          <attvalue for="community_orphan" value="7"/>
+          <attvalue for="cluster_universal_index" value="10"/>
+          <attvalue for="cluster_label" value="polychlorinated biphenyls &amp; ddt"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="5"/>
+          <attvalue for="out-degree" value="1.73801840668"/>
+        </attvalues>
+        <viz:color r="0" g="170" b="143" a="1.0"/>
+        <viz:position x="966.081027209" y="516.040919574" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.24430823117"/>
+      </node>
+      <node id="48" label="organophosphorus pesticides">
+        <attvalues>
+          <attvalue for="weight" value="13.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="1"/>
+          <attvalue for="cluster_universal_index" value="14"/>
+          <attvalue for="cluster_label" value="minority health &amp; health disparities"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="3"/>
+          <attvalue for="out-degree" value="0.473315055071"/>
+        </attvalues>
+        <viz:color r="120" g="0" b="137" a="1.0"/>
+        <viz:position x="592.528832753" y="911.345469521" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.10245183888"/>
+      </node>
+      <node id="49" label="organophosphates">
+        <attvalues>
+          <attvalue for="weight" value="91.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="6"/>
+          <attvalue for="cluster_universal_index" value="12"/>
+          <attvalue for="cluster_label" value="pesticide poisoning &amp; surveillance"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="4"/>
+          <attvalue for="out-degree" value="0.489169297024"/>
+        </attvalues>
+        <viz:color r="0" g="164" b="187" a="1.0"/>
+        <viz:position x="550.221729973" y="0.000965250965123" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.71716287215"/>
+      </node>
+      <node id="50" label="farming">
+        <attvalues>
+          <attvalue for="weight" value="66.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.487351113672"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="14"/>
+          <attvalue for="cluster_universal_index" value="2"/>
+          <attvalue for="cluster_label" value="pesticide &amp; cancer"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="15"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="255" g="173" b="0" a="1.0"/>
+        <viz:position x="7.57780463669" y="494.61153812" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.52014010508"/>
+      </node>
+      <node id="51" label="breast cancer">
+        <attvalues>
+          <attvalue for="weight" value="38.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="3"/>
+          <attvalue for="cluster_universal_index" value="9"/>
+          <attvalue for="cluster_label" value="solvents &amp; breast cancer"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="16"/>
+          <attvalue for="out-degree" value="0.572795671463"/>
+        </attvalues>
+        <viz:color r="0" g="0" b="185" a="1.0"/>
+        <viz:position x="939.036846963" y="704.533657665" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.29947460595"/>
+      </node>
+      <node id="52" label="pesticide">
+        <attvalues>
+          <attvalue for="weight" value="144.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="14"/>
+          <attvalue for="cluster_universal_index" value="2"/>
+          <attvalue for="cluster_label" value="pesticide &amp; cancer"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="15"/>
+          <attvalue for="out-degree" value="1.0649079593"/>
+        </attvalues>
+        <viz:color r="255" g="173" b="0" a="1.0"/>
+        <viz:position x="0.0" y="546.192496919" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="2.13485113835"/>
+      </node>
+      <node id="53" label="sustainable agriculture">
+        <attvalues>
+          <attvalue for="weight" value="13.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.13437383091"/>
+          <attvalue for="betweeness" value="0.00130616509927"/>
+          <attvalue for="community_orphan" value="16"/>
+          <attvalue for="cluster_universal_index" value="15"/>
+          <attvalue for="cluster_label" value="sustainable agriculture &amp; health"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="8"/>
+          <attvalue for="out-degree" value="2.01695186849"/>
+        </attvalues>
+        <viz:color r="227" g="0" b="0" a="1.0"/>
+        <viz:position x="220.511591902" y="150.438808965" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.10245183888"/>
+      </node>
+      <node id="54" label="liver">
+        <attvalues>
+          <attvalue for="weight" value="7.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.511452416162"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="10"/>
+          <attvalue for="cluster_universal_index" value="3"/>
+          <attvalue for="cluster_label" value="diazinon &amp; malathion"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="14"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="225" b="0" a="1.0"/>
+        <viz:position x="67.473739217" y="641.761982808" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.05516637478"/>
+      </node>
+      <node id="55" label="child">
+        <attvalues>
+          <attvalue for="weight" value="46.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.547098956952"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="5"/>
+          <attvalue for="cluster_universal_index" value="0"/>
+          <attvalue for="cluster_label" value="case-control studies &amp; child"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="1"/>
+          <attvalue for="out-degree" value="1.13105417685"/>
+        </attvalues>
+        <viz:color r="0" g="138" b="221" a="1.0"/>
+        <viz:position x="911.380954901" y="842.003251851" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.36252189142"/>
+      </node>
+      <node id="56" label="smoking">
+        <attvalues>
+          <attvalue for="weight" value="44.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.06833714881"/>
+          <attvalue for="betweeness" value="0.000783699059561"/>
+          <attvalue for="community_orphan" value="12"/>
+          <attvalue for="cluster_universal_index" value="16"/>
+          <attvalue for="cluster_label" value="risk factors &amp; occupation"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="0.995152895622"/>
+        </attvalues>
+        <viz:color r="203" g="249" b="0" a="1.0"/>
+        <viz:position x="494.717050576" y="848.994879932" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.34676007005"/>
+      </node>
+      <node id="57" label="electromagnetic fields">
+        <attvalues>
+          <attvalue for="weight" value="23.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.486282987731"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="3"/>
+          <attvalue for="cluster_universal_index" value="9"/>
+          <attvalue for="cluster_label" value="solvents &amp; breast cancer"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="16"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="0" b="185" a="1.0"/>
+        <viz:position x="980.902069509" y="674.632666456" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.18126094571"/>
+      </node>
+      <node id="58" label="cholinesterase">
+        <attvalues>
+          <attvalue for="weight" value="25.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.990580109555"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="6"/>
+          <attvalue for="cluster_universal_index" value="12"/>
+          <attvalue for="cluster_label" value="pesticide poisoning &amp; surveillance"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="4"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="164" b="187" a="1.0"/>
+        <viz:position x="583.355010016" y="35.2368602826" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.19702276708"/>
+      </node>
+      <node id="59" label="integrated pest management">
+        <attvalues>
+          <attvalue for="weight" value="29.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="6"/>
+          <attvalue for="cluster_universal_index" value="12"/>
+          <attvalue for="cluster_label" value="pesticide poisoning &amp; surveillance"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="4"/>
+          <attvalue for="out-degree" value="0.561278173705"/>
+        </attvalues>
+        <viz:color r="0" g="164" b="187" a="1.0"/>
+        <viz:position x="576.656618616" y="124.661607082" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.22854640981"/>
+      </node>
+      <node id="60" label="solvents">
+        <attvalues>
+          <attvalue for="weight" value="33.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.572795671463"/>
+          <attvalue for="betweeness" value="0.000130616509927"/>
+          <attvalue for="community_orphan" value="3"/>
+          <attvalue for="cluster_universal_index" value="9"/>
+          <attvalue for="cluster_label" value="solvents &amp; breast cancer"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="16"/>
+          <attvalue for="out-degree" value="0.486282987731"/>
+        </attvalues>
+        <viz:color r="0" g="0" b="185" a="1.0"/>
+        <viz:position x="970.059502935" y="657.153570983" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.26007005254"/>
+      </node>
+      <node id="61" label="developing countries">
+        <attvalues>
+          <attvalue for="weight" value="29.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="6"/>
+          <attvalue for="cluster_universal_index" value="12"/>
+          <attvalue for="cluster_label" value="pesticide poisoning &amp; surveillance"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="4"/>
+          <attvalue for="out-degree" value="0.500795238686"/>
+        </attvalues>
+        <viz:color r="0" g="164" b="187" a="1.0"/>
+        <viz:position x="484.804838117" y="17.6016434165" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.22854640981"/>
+      </node>
+      <node id="62" label="agricultural workers">
+        <attvalues>
+          <attvalue for="weight" value="42.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="11"/>
+          <attvalue for="cluster_universal_index" value="8"/>
+          <attvalue for="cluster_label" value="comet assay &amp; chromosomal aberrations"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="11"/>
+          <attvalue for="out-degree" value="0.495894031399"/>
+        </attvalues>
+        <viz:color r="43" g="255" b="0" a="1.0"/>
+        <viz:position x="223.081145011" y="896.800592819" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.33099824869"/>
+      </node>
+      <node id="63" label="india">
+        <attvalues>
+          <attvalue for="weight" value="20.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="6"/>
+          <attvalue for="cluster_universal_index" value="12"/>
+          <attvalue for="cluster_label" value="pesticide poisoning &amp; surveillance"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="4"/>
+          <attvalue for="out-degree" value="0.539049901162"/>
+        </attvalues>
+        <viz:color r="0" g="164" b="187" a="1.0"/>
+        <viz:position x="622.17420577" y="106.998049045" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.15761821366"/>
+      </node>
+      <node id="64" label="malathion">
+        <attvalues>
+          <attvalue for="weight" value="24.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.13748221984"/>
+          <attvalue for="betweeness" value="0.00248171368861"/>
+          <attvalue for="community_orphan" value="10"/>
+          <attvalue for="cluster_universal_index" value="3"/>
+          <attvalue for="cluster_label" value="diazinon &amp; malathion"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="14"/>
+          <attvalue for="out-degree" value="1.07753568733"/>
+        </attvalues>
+        <viz:color r="0" g="225" b="0" a="1.0"/>
+        <viz:position x="90.3645303804" y="712.880313884" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.18914185639"/>
+      </node>
+      <node id="65" label="breast milk">
+        <attvalues>
+          <attvalue for="weight" value="12.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="2.44651841096"/>
+          <attvalue for="betweeness" value="4.35388366423e-05"/>
+          <attvalue for="community_orphan" value="7"/>
+          <attvalue for="cluster_universal_index" value="10"/>
+          <attvalue for="cluster_label" value="polychlorinated biphenyls &amp; ddt"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="5"/>
+          <attvalue for="out-degree" value="0.716295084683"/>
+        </attvalues>
+        <viz:color r="0" g="170" b="143" a="1.0"/>
+        <viz:position x="956.928732487" y="551.354875932" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.0945709282"/>
+      </node>
+      <node id="66" label="parkinson's disease">
+        <attvalues>
+          <attvalue for="weight" value="41.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.4734106061"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="12"/>
+          <attvalue for="cluster_universal_index" value="16"/>
+          <attvalue for="cluster_label" value="risk factors &amp; occupation"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="203" g="249" b="0" a="1.0"/>
+        <viz:position x="519.281705831" y="831.293774354" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.323117338"/>
+      </node>
+      <node id="67" label="semen quality">
+        <attvalues>
+          <attvalue for="weight" value="18.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.492888438552"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="8"/>
+          <attvalue for="cluster_universal_index" value="6"/>
+          <attvalue for="cluster_label" value="pregnancy &amp; fertility"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="12"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="155" b="18" a="1.0"/>
+        <viz:position x="966.373799454" y="298.104382197" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.14185639229"/>
+      </node>
+      <node id="68" label="cotton">
+        <attvalues>
+          <attvalue for="weight" value="21.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="2.05718463244"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="6"/>
+          <attvalue for="cluster_universal_index" value="12"/>
+          <attvalue for="cluster_label" value="pesticide poisoning &amp; surveillance"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="4"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="164" b="187" a="1.0"/>
+        <viz:position x="601.334623252" y="88.5877555405" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.16549912434"/>
+      </node>
+      <node id="69" label="cohort">
+        <attvalues>
+          <attvalue for="weight" value="21.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.16070694926"/>
+          <attvalue for="betweeness" value="0.00117554858934"/>
+          <attvalue for="community_orphan" value="12"/>
+          <attvalue for="cluster_universal_index" value="16"/>
+          <attvalue for="cluster_label" value="risk factors &amp; occupation"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="1.0564057458"/>
+        </attvalues>
+        <viz:color r="203" g="249" b="0" a="1.0"/>
+        <viz:position x="455.8344243" y="946.800114965" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.16549912434"/>
+      </node>
+      <node id="70" label="human biomonitoring">
+        <attvalues>
+          <attvalue for="weight" value="24.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.485581545379"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="11"/>
+          <attvalue for="cluster_universal_index" value="8"/>
+          <attvalue for="cluster_label" value="comet assay &amp; chromosomal aberrations"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="11"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="43" g="255" b="0" a="1.0"/>
+        <viz:position x="250.099384124" y="849.075135563" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.18914185639"/>
+      </node>
+      <node id="71" label="pesticides">
+        <attvalues>
+          <attvalue for="weight" value="1142.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="17"/>
+          <attvalue for="cluster_universal_index" value="4"/>
+          <attvalue for="cluster_label" value="pesticides &amp; agriculture"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="13"/>
+          <attvalue for="out-degree" value="0.564880371799"/>
+        </attvalues>
+        <viz:color r="205" g="0" b="0" a="1.0"/>
+        <viz:position x="529.392302507" y="982.140691889" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="10.0"/>
+      </node>
+      <node id="72" label="occupational health">
+        <attvalues>
+          <attvalue for="weight" value="123.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.0"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="1"/>
+          <attvalue for="cluster_universal_index" value="14"/>
+          <attvalue for="cluster_label" value="minority health &amp; health disparities"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="3"/>
+          <attvalue for="out-degree" value="4.14876856677"/>
+        </attvalues>
+        <viz:color r="120" g="0" b="137" a="1.0"/>
+        <viz:position x="658.524426391" y="856.957117675" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.96935201401"/>
+      </node>
+      <node id="73" label="biomonitoring">
+        <attvalues>
+          <attvalue for="weight" value="76.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.5039646795"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="11"/>
+          <attvalue for="cluster_universal_index" value="8"/>
+          <attvalue for="cluster_label" value="comet assay &amp; chromosomal aberrations"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="11"/>
+          <attvalue for="out-degree" value="0.532128259115"/>
+        </attvalues>
+        <viz:color r="43" g="255" b="0" a="1.0"/>
+        <viz:position x="168.724313628" y="860.898821247" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.59894921191"/>
+      </node>
+      <node id="74" label="dna damage">
+        <attvalues>
+          <attvalue for="weight" value="26.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.00772961809"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="11"/>
+          <attvalue for="cluster_universal_index" value="8"/>
+          <attvalue for="cluster_label" value="comet assay &amp; chromosomal aberrations"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="11"/>
+          <attvalue for="out-degree" value="0.568997656302"/>
+        </attvalues>
+        <viz:color r="43" g="255" b="0" a="1.0"/>
+        <viz:position x="229.18925575" y="878.865593125" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.20490367776"/>
+      </node>
+      <node id="75" label="pesticide poisoning">
+        <attvalues>
+          <attvalue for="weight" value="34.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.586829955729"/>
+          <attvalue for="betweeness" value="0.000391849529781"/>
+          <attvalue for="community_orphan" value="6"/>
+          <attvalue for="cluster_universal_index" value="12"/>
+          <attvalue for="cluster_label" value="pesticide poisoning &amp; surveillance"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="4"/>
+          <attvalue for="out-degree" value="2.52722648187"/>
+        </attvalues>
+        <viz:color r="0" g="164" b="187" a="1.0"/>
+        <viz:position x="540.501234033" y="53.2713295625" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.26795096322"/>
+      </node>
+      <node id="76" label="endocrine disruptors">
+        <attvalues>
+          <attvalue for="weight" value="30.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.521450546984"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="8"/>
+          <attvalue for="cluster_universal_index" value="6"/>
+          <attvalue for="cluster_label" value="pregnancy &amp; fertility"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="12"/>
+          <attvalue for="out-degree" value="0.485960349857"/>
+        </attvalues>
+        <viz:color r="0" g="155" b="18" a="1.0"/>
+        <viz:position x="968.923196777" y="331.972579741" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.23642732049"/>
+      </node>
+      <node id="77" label="comet assay">
+        <attvalues>
+          <attvalue for="weight" value="53.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="2.89456480299"/>
+          <attvalue for="betweeness" value="0.00526819923372"/>
+          <attvalue for="community_orphan" value="11"/>
+          <attvalue for="cluster_universal_index" value="8"/>
+          <attvalue for="cluster_label" value="comet assay &amp; chromosomal aberrations"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="11"/>
+          <attvalue for="out-degree" value="3.83363307644"/>
+        </attvalues>
+        <viz:color r="43" g="255" b="0" a="1.0"/>
+        <viz:position x="197.375445942" y="807.452358615" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.4176882662"/>
+      </node>
+      <node id="78" label="leukemia">
+        <attvalues>
+          <attvalue for="weight" value="79.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.472042037478"/>
+          <attvalue for="betweeness" value="0.00156739811912"/>
+          <attvalue for="community_orphan" value="13"/>
+          <attvalue for="cluster_universal_index" value="11"/>
+          <attvalue for="cluster_label" value="lymphoma &amp; leukemia"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="10"/>
+          <attvalue for="out-degree" value="1.71901481851"/>
+        </attvalues>
+        <viz:color r="245" g="223" b="0" a="1.0"/>
+        <viz:position x="267.829288015" y="950.638064324" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.62259194396"/>
+      </node>
+      <node id="79" label="diet">
+        <attvalues>
+          <attvalue for="weight" value="32.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.476497647118"/>
+          <attvalue for="betweeness" value="0.000653082549634"/>
+          <attvalue for="community_orphan" value="12"/>
+          <attvalue for="cluster_universal_index" value="16"/>
+          <attvalue for="cluster_label" value="risk factors &amp; occupation"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="2.05882883191"/>
+        </attvalues>
+        <viz:color r="203" g="249" b="0" a="1.0"/>
+        <viz:position x="529.392302507" y="867.048264742" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.25218914186"/>
+      </node>
+      <node id="80" label="sustainability">
+        <attvalues>
+          <attvalue for="weight" value="13.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.55424997266"/>
+          <attvalue for="betweeness" value="0.000653082549634"/>
+          <attvalue for="community_orphan" value="16"/>
+          <attvalue for="cluster_universal_index" value="15"/>
+          <attvalue for="cluster_label" value="sustainable agriculture &amp; health"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="8"/>
+          <attvalue for="out-degree" value="0.554191760361"/>
+        </attvalues>
+        <viz:color r="227" g="0" b="0" a="1.0"/>
+        <viz:position x="176.972152273" y="186.338990018" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.10245183888"/>
+      </node>
+      <node id="81" label="agricultural health">
+        <attvalues>
+          <attvalue for="weight" value="31.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="2.51754919001"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="1"/>
+          <attvalue for="cluster_universal_index" value="14"/>
+          <attvalue for="cluster_label" value="minority health &amp; health disparities"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="3"/>
+          <attvalue for="out-degree" value="2.1594719593"/>
+        </attvalues>
+        <viz:color r="120" g="0" b="137" a="1.0"/>
+        <viz:position x="634.94530069" y="785.348410062" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.24430823117"/>
+      </node>
+      <node id="82" label="pyrethroids">
+        <attvalues>
+          <attvalue for="weight" value="16.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.506039054155"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="4"/>
+          <attvalue for="cluster_universal_index" value="1"/>
+          <attvalue for="cluster_label" value="pyrethroids &amp; urine"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="0"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="0" g="46" b="221" a="1.0"/>
+        <viz:position x="782.603651605" y="81.6422025897" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.12609457093"/>
+      </node>
+      <node id="83" label="human lymphocytes">
+        <attvalues>
+          <attvalue for="weight" value="25.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="2.91843369364"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="11"/>
+          <attvalue for="cluster_universal_index" value="8"/>
+          <attvalue for="cluster_label" value="comet assay &amp; chromosomal aberrations"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="11"/>
+          <attvalue for="out-degree" value="1.09850781788"/>
+        </attvalues>
+        <viz:color r="43" g="255" b="0" a="1.0"/>
+        <viz:position x="154.827062271" y="788.738258105" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.19702276708"/>
+      </node>
+      <node id="84" label="case-control studies">
+        <attvalues>
+          <attvalue for="weight" value="59.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="0.522681032091"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="5"/>
+          <attvalue for="cluster_universal_index" value="0"/>
+          <attvalue for="cluster_label" value="case-control studies &amp; child"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="1"/>
+          <attvalue for="out-degree" value="1.37155759301"/>
+        </attvalues>
+        <viz:color r="0" g="138" b="221" a="1.0"/>
+        <viz:position x="904.193105345" y="823.750817046" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.4649737303"/>
+      </node>
+      <node id="85" label="cohort studies">
+        <attvalues>
+          <attvalue for="weight" value="29.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="2.05067345933"/>
+          <attvalue for="betweeness" value="0.00104493207941"/>
+          <attvalue for="community_orphan" value="12"/>
+          <attvalue for="cluster_universal_index" value="16"/>
+          <attvalue for="cluster_label" value="risk factors &amp; occupation"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="0.471875818117"/>
+        </attvalues>
+        <viz:color r="203" g="249" b="0" a="1.0"/>
+        <viz:position x="521.238651717" y="910.975846359" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.22854640981"/>
+      </node>
+      <node id="86" label="polychlorinated biphenyls">
+        <attvalues>
+          <attvalue for="weight" value="31.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.68104353698"/>
+          <attvalue for="betweeness" value="0.000500696621386"/>
+          <attvalue for="community_orphan" value="7"/>
+          <attvalue for="cluster_universal_index" value="10"/>
+          <attvalue for="cluster_label" value="polychlorinated biphenyls &amp; ddt"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="5"/>
+          <attvalue for="out-degree" value="2.24876317931"/>
+        </attvalues>
+        <viz:color r="0" g="170" b="143" a="1.0"/>
+        <viz:position x="965.195350474" y="497.186281799" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.24430823117"/>
+      </node>
+      <node id="87" label="health disparities">
+        <attvalues>
+          <attvalue for="weight" value="42.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="3.97717794189"/>
+          <attvalue for="betweeness" value="0.00156739811912"/>
+          <attvalue for="community_orphan" value="1"/>
+          <attvalue for="cluster_universal_index" value="14"/>
+          <attvalue for="cluster_label" value="minority health &amp; health disparities"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="3"/>
+          <attvalue for="out-degree" value="2.86288103143"/>
+        </attvalues>
+        <viz:color r="120" g="0" b="137" a="1.0"/>
+        <viz:position x="609.961911162" y="875.570308778" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.33099824869"/>
+      </node>
+      <node id="88" label="biotechnology">
+        <attvalues>
+          <attvalue for="weight" value="10.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="1.29720712934"/>
+          <attvalue for="betweeness" value="0.0"/>
+          <attvalue for="community_orphan" value="16"/>
+          <attvalue for="cluster_universal_index" value="15"/>
+          <attvalue for="cluster_label" value="sustainable agriculture &amp; health"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="8"/>
+          <attvalue for="out-degree" value="0.0"/>
+        </attvalues>
+        <viz:color r="227" g="0" b="0" a="1.0"/>
+        <viz:position x="222.787028906" y="97.2137155612" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.07880910683"/>
+      </node>
+      <node id="89" label="lung cancer">
+        <attvalues>
+          <attvalue for="weight" value="24.0"/>
+          <attvalue for="period" value="1963_2012"/>
+          <attvalue for="category" value="ISIkeyword &amp; ISIkeyword"/>
+          <attvalue for="in-degree" value="2.12223367242"/>
+          <attvalue for="betweeness" value="0.0019592476489"/>
+          <attvalue for="community_orphan" value="12"/>
+          <attvalue for="cluster_universal_index" value="16"/>
+          <attvalue for="cluster_label" value="risk factors &amp; occupation"/>
+          <attvalue for="level" value="low"/>
+          <attvalue for="cluster_index" value="2"/>
+          <attvalue for="out-degree" value="1.07108582062"/>
+        </attvalues>
+        <viz:color r="203" g="249" b="0" a="1.0"/>
+        <viz:position x="495.127323501" y="928.985781503" z="0.0"/>
+        <viz:shape value="v"/>
+        <viz:size value="1.18914185639"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="2" target="84" id="1" weight="0.824458636053">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="84"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="0.824458636053"/>
+        </attvalues>
+      </edge>
+      <edge source="2" target="55" id="2" weight="0.608373144755">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="55"/>
+          <attvalue for="2" value="2"/>
+          <attvalue for="3" value="0.608373144755"/>
+        </attvalues>
+      </edge>
+      <edge source="3" target="31" id="3" weight="0.506256985444">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="31"/>
+          <attvalue for="2" value="3"/>
+          <attvalue for="3" value="0.506256985444"/>
+        </attvalues>
+      </edge>
+      <edge source="3" target="12" id="4" weight="0.574643616627">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="12"/>
+          <attvalue for="2" value="3"/>
+          <attvalue for="3" value="0.574643616627"/>
+        </attvalues>
+      </edge>
+      <edge source="4" target="72" id="5" weight="0.469751423359">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="72"/>
+          <attvalue for="2" value="4"/>
+          <attvalue for="3" value="0.469751423359"/>
+        </attvalues>
+      </edge>
+      <edge source="5" target="75" id="6" weight="0.473248491862">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="75"/>
+          <attvalue for="2" value="5"/>
+          <attvalue for="3" value="0.473248491862"/>
+        </attvalues>
+      </edge>
+      <edge source="5" target="9" id="7" weight="0.523107360723">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="9"/>
+          <attvalue for="2" value="5"/>
+          <attvalue for="3" value="0.523107360723"/>
+        </attvalues>
+      </edge>
+      <edge source="6" target="52" id="8" weight="0.577556845626">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="52"/>
+          <attvalue for="2" value="6"/>
+          <attvalue for="3" value="0.577556845626"/>
+        </attvalues>
+      </edge>
+      <edge source="8" target="28" id="9" weight="0.493008329091">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="28"/>
+          <attvalue for="2" value="8"/>
+          <attvalue for="3" value="0.493008329091"/>
+        </attvalues>
+      </edge>
+      <edge source="9" target="5" id="10" weight="0.589004435188">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="5"/>
+          <attvalue for="2" value="9"/>
+          <attvalue for="3" value="0.589004435188"/>
+        </attvalues>
+      </edge>
+      <edge source="9" target="61" id="11" weight="0.500795238686">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="61"/>
+          <attvalue for="2" value="9"/>
+          <attvalue for="3" value="0.500795238686"/>
+        </attvalues>
+      </edge>
+      <edge source="9" target="75" id="12" weight="0.524181729612">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="75"/>
+          <attvalue for="2" value="9"/>
+          <attvalue for="3" value="0.524181729612"/>
+        </attvalues>
+      </edge>
+      <edge source="11" target="44" id="13" weight="0.622693611079">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="44"/>
+          <attvalue for="2" value="11"/>
+          <attvalue for="3" value="0.622693611079"/>
+        </attvalues>
+      </edge>
+      <edge source="12" target="3" id="14" weight="0.526531005532">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="3"/>
+          <attvalue for="2" value="12"/>
+          <attvalue for="3" value="0.526531005532"/>
+        </attvalues>
+      </edge>
+      <edge source="13" target="78" id="15" weight="0.562774426094">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="78"/>
+          <attvalue for="2" value="13"/>
+          <attvalue for="3" value="0.562774426094"/>
+        </attvalues>
+      </edge>
+      <edge source="14" target="78" id="16" weight="0.682378883284">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="78"/>
+          <attvalue for="2" value="14"/>
+          <attvalue for="3" value="0.682378883284"/>
+        </attvalues>
+      </edge>
+      <edge source="15" target="12" id="17" weight="0.537541242165">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="12"/>
+          <attvalue for="2" value="15"/>
+          <attvalue for="3" value="0.537541242165"/>
+        </attvalues>
+      </edge>
+      <edge source="15" target="3" id="18" weight="0.487560990943">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="3"/>
+          <attvalue for="2" value="15"/>
+          <attvalue for="3" value="0.487560990943"/>
+        </attvalues>
+      </edge>
+      <edge source="16" target="35" id="19" weight="0.563116796114">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="35"/>
+          <attvalue for="2" value="16"/>
+          <attvalue for="3" value="0.563116796114"/>
+        </attvalues>
+      </edge>
+      <edge source="16" target="77" id="20" weight="0.493285927648">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="77"/>
+          <attvalue for="2" value="16"/>
+          <attvalue for="3" value="0.493285927648"/>
+        </attvalues>
+      </edge>
+      <edge source="17" target="74" id="21" weight="0.568997656302">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="74"/>
+          <attvalue for="2" value="17"/>
+          <attvalue for="3" value="0.568997656302"/>
+        </attvalues>
+      </edge>
+      <edge source="17" target="83" id="22" weight="0.573941517268">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="83"/>
+          <attvalue for="2" value="17"/>
+          <attvalue for="3" value="0.573941517268"/>
+        </attvalues>
+      </edge>
+      <edge source="17" target="77" id="23" weight="0.735582345133">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="77"/>
+          <attvalue for="2" value="17"/>
+          <attvalue for="3" value="0.735582345133"/>
+        </attvalues>
+      </edge>
+      <edge source="17" target="62" id="24" weight="0.495894031399">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="62"/>
+          <attvalue for="2" value="17"/>
+          <attvalue for="3" value="0.495894031399"/>
+        </attvalues>
+      </edge>
+      <edge source="17" target="35" id="25" weight="0.596454760143">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="35"/>
+          <attvalue for="2" value="17"/>
+          <attvalue for="3" value="0.596454760143"/>
+        </attvalues>
+      </edge>
+      <edge source="17" target="16" id="26" weight="0.711286068134">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="16"/>
+          <attvalue for="2" value="17"/>
+          <attvalue for="3" value="0.711286068134"/>
+        </attvalues>
+      </edge>
+      <edge source="17" target="73" id="27" weight="0.532128259115">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="73"/>
+          <attvalue for="2" value="17"/>
+          <attvalue for="3" value="0.532128259115"/>
+        </attvalues>
+      </edge>
+      <edge source="17" target="34" id="28" weight="0.556165697809">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="34"/>
+          <attvalue for="2" value="17"/>
+          <attvalue for="3" value="0.556165697809"/>
+        </attvalues>
+      </edge>
+      <edge source="18" target="75" id="29" weight="0.547649829953">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="75"/>
+          <attvalue for="2" value="18"/>
+          <attvalue for="3" value="0.547649829953"/>
+        </attvalues>
+      </edge>
+      <edge source="19" target="45" id="30" weight="0.513584901151">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="45"/>
+          <attvalue for="2" value="19"/>
+          <attvalue for="3" value="0.513584901151"/>
+        </attvalues>
+      </edge>
+      <edge source="19" target="76" id="31" weight="0.485960349857">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="76"/>
+          <attvalue for="2" value="19"/>
+          <attvalue for="3" value="0.485960349857"/>
+        </attvalues>
+      </edge>
+      <edge source="20" target="41" id="32" weight="0.471704498904">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="41"/>
+          <attvalue for="2" value="20"/>
+          <attvalue for="3" value="0.471704498904"/>
+        </attvalues>
+      </edge>
+      <edge source="20" target="25" id="33" weight="0.605914068797">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="25"/>
+          <attvalue for="2" value="20"/>
+          <attvalue for="3" value="0.605914068797"/>
+        </attvalues>
+      </edge>
+      <edge source="21" target="30" id="34" weight="0.511799812749">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="30"/>
+          <attvalue for="2" value="21"/>
+          <attvalue for="3" value="0.511799812749"/>
+        </attvalues>
+      </edge>
+      <edge source="21" target="87" id="35" weight="0.537315171013">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="87"/>
+          <attvalue for="2" value="21"/>
+          <attvalue for="3" value="0.537315171013"/>
+        </attvalues>
+      </edge>
+      <edge source="21" target="81" id="36" weight="0.503713878246">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="81"/>
+          <attvalue for="2" value="21"/>
+          <attvalue for="3" value="0.503713878246"/>
+        </attvalues>
+      </edge>
+      <edge source="21" target="72" id="37" weight="0.645856956056">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="72"/>
+          <attvalue for="2" value="21"/>
+          <attvalue for="3" value="0.645856956056"/>
+        </attvalues>
+      </edge>
+      <edge source="22" target="71" id="38" weight="0.564880371799">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="71"/>
+          <attvalue for="2" value="22"/>
+          <attvalue for="3" value="0.564880371799"/>
+        </attvalues>
+      </edge>
+      <edge source="23" target="3" id="39" weight="0.48729023906">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="3"/>
+          <attvalue for="2" value="23"/>
+          <attvalue for="3" value="0.48729023906"/>
+        </attvalues>
+      </edge>
+      <edge source="24" target="3" id="40" weight="0.489394294878">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="3"/>
+          <attvalue for="2" value="24"/>
+          <attvalue for="3" value="0.489394294878"/>
+        </attvalues>
+      </edge>
+      <edge source="25" target="47" id="41" weight="0.525728499335">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="47"/>
+          <attvalue for="2" value="25"/>
+          <attvalue for="3" value="0.525728499335"/>
+        </attvalues>
+      </edge>
+      <edge source="25" target="20" id="42" weight="0.558440893993">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="20"/>
+          <attvalue for="2" value="25"/>
+          <attvalue for="3" value="0.558440893993"/>
+        </attvalues>
+      </edge>
+      <edge source="26" target="53" id="43" weight="0.498363868247">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="53"/>
+          <attvalue for="2" value="26"/>
+          <attvalue for="3" value="0.498363868247"/>
+        </attvalues>
+      </edge>
+      <edge source="27" target="86" id="44" weight="0.572248177184">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="86"/>
+          <attvalue for="2" value="27"/>
+          <attvalue for="3" value="0.572248177184"/>
+        </attvalues>
+      </edge>
+      <edge source="27" target="65" id="45" weight="0.716295084683">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="65"/>
+          <attvalue for="2" value="27"/>
+          <attvalue for="3" value="0.716295084683"/>
+        </attvalues>
+      </edge>
+      <edge source="27" target="25" id="46" weight="0.866316690534">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="25"/>
+          <attvalue for="2" value="27"/>
+          <attvalue for="3" value="0.866316690534"/>
+        </attvalues>
+      </edge>
+      <edge source="28" target="39" id="47" weight="0.523719095177">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="39"/>
+          <attvalue for="2" value="28"/>
+          <attvalue for="3" value="0.523719095177"/>
+        </attvalues>
+      </edge>
+      <edge source="28" target="8" id="48" weight="0.617151140613">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="8"/>
+          <attvalue for="2" value="28"/>
+          <attvalue for="3" value="0.617151140613"/>
+        </attvalues>
+      </edge>
+      <edge source="29" target="64" id="49" weight="0.566083271165">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="64"/>
+          <attvalue for="2" value="29"/>
+          <attvalue for="3" value="0.566083271165"/>
+        </attvalues>
+      </edge>
+      <edge source="30" target="21" id="50" weight="0.770516994139">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="21"/>
+          <attvalue for="2" value="30"/>
+          <attvalue for="3" value="0.770516994139"/>
+        </attvalues>
+      </edge>
+      <edge source="30" target="72" id="51" weight="0.794520935631">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="72"/>
+          <attvalue for="2" value="30"/>
+          <attvalue for="3" value="0.794520935631"/>
+        </attvalues>
+      </edge>
+      <edge source="30" target="32" id="52" weight="0.645406734185">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="32"/>
+          <attvalue for="2" value="30"/>
+          <attvalue for="3" value="0.645406734185"/>
+        </attvalues>
+      </edge>
+      <edge source="30" target="81" id="53" weight="0.827719761767">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="81"/>
+          <attvalue for="2" value="30"/>
+          <attvalue for="3" value="0.827719761767"/>
+        </attvalues>
+      </edge>
+      <edge source="30" target="87" id="54" weight="1.0">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="87"/>
+          <attvalue for="2" value="30"/>
+          <attvalue for="3" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge source="31" target="12" id="55" weight="0.542219769597">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="12"/>
+          <attvalue for="2" value="31"/>
+          <attvalue for="3" value="0.542219769597"/>
+        </attvalues>
+      </edge>
+      <edge source="31" target="3" id="56" weight="0.558357479061">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="3"/>
+          <attvalue for="2" value="31"/>
+          <attvalue for="3" value="0.558357479061"/>
+        </attvalues>
+      </edge>
+      <edge source="32" target="72" id="57" weight="0.774411661824">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="72"/>
+          <attvalue for="2" value="32"/>
+          <attvalue for="3" value="0.774411661824"/>
+        </attvalues>
+      </edge>
+      <edge source="33" target="44" id="58" weight="0.472738935422">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="44"/>
+          <attvalue for="2" value="33"/>
+          <attvalue for="3" value="0.472738935422"/>
+        </attvalues>
+      </edge>
+      <edge source="35" target="16" id="59" weight="0.582620851155">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="16"/>
+          <attvalue for="2" value="35"/>
+          <attvalue for="3" value="0.582620851155"/>
+        </attvalues>
+      </edge>
+      <edge source="35" target="77" id="60" weight="0.640311790379">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="77"/>
+          <attvalue for="2" value="35"/>
+          <attvalue for="3" value="0.640311790379"/>
+        </attvalues>
+      </edge>
+      <edge source="36" target="53" id="61" weight="0.473131501246">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="53"/>
+          <attvalue for="2" value="36"/>
+          <attvalue for="3" value="0.473131501246"/>
+        </attvalues>
+      </edge>
+      <edge source="36" target="37" id="62" weight="0.553681994254">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="37"/>
+          <attvalue for="2" value="36"/>
+          <attvalue for="3" value="0.553681994254"/>
+        </attvalues>
+      </edge>
+      <edge source="37" target="36" id="63" weight="0.508411933739">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="36"/>
+          <attvalue for="2" value="37"/>
+          <attvalue for="3" value="0.508411933739"/>
+        </attvalues>
+      </edge>
+      <edge source="38" target="69" id="64" weight="0.497506492645">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="69"/>
+          <attvalue for="2" value="38"/>
+          <attvalue for="3" value="0.497506492645"/>
+        </attvalues>
+      </edge>
+      <edge source="39" target="28" id="65" weight="0.577197881575">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="28"/>
+          <attvalue for="2" value="39"/>
+          <attvalue for="3" value="0.577197881575"/>
+        </attvalues>
+      </edge>
+      <edge source="40" target="48" id="66" weight="0.473315055071">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="48"/>
+          <attvalue for="2" value="40"/>
+          <attvalue for="3" value="0.473315055071"/>
+        </attvalues>
+      </edge>
+      <edge source="40" target="87" id="67" weight="0.517681684402">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="87"/>
+          <attvalue for="2" value="40"/>
+          <attvalue for="3" value="0.517681684402"/>
+        </attvalues>
+      </edge>
+      <edge source="41" target="86" id="68" weight="0.486236988669">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="86"/>
+          <attvalue for="2" value="41"/>
+          <attvalue for="3" value="0.486236988669"/>
+        </attvalues>
+      </edge>
+      <edge source="41" target="20" id="69" weight="0.510107965915">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="20"/>
+          <attvalue for="2" value="41"/>
+          <attvalue for="3" value="0.510107965915"/>
+        </attvalues>
+      </edge>
+      <edge source="41" target="25" id="70" weight="0.506418610268">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="25"/>
+          <attvalue for="2" value="41"/>
+          <attvalue for="3" value="0.506418610268"/>
+        </attvalues>
+      </edge>
+      <edge source="42" target="85" id="71" weight="0.471875818117">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="85"/>
+          <attvalue for="2" value="42"/>
+          <attvalue for="3" value="0.471875818117"/>
+        </attvalues>
+      </edge>
+      <edge source="43" target="78" id="72" weight="0.47386150913">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="78"/>
+          <attvalue for="2" value="43"/>
+          <attvalue for="3" value="0.47386150913"/>
+        </attvalues>
+      </edge>
+      <edge source="44" target="11" id="73" weight="0.490896497982">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="11"/>
+          <attvalue for="2" value="44"/>
+          <attvalue for="3" value="0.490896497982"/>
+        </attvalues>
+      </edge>
+      <edge source="45" target="19" id="74" weight="0.526355963687">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="19"/>
+          <attvalue for="2" value="45"/>
+          <attvalue for="3" value="0.526355963687"/>
+        </attvalues>
+      </edge>
+      <edge source="46" target="7" id="75" weight="0.554048446909">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="7"/>
+          <attvalue for="2" value="46"/>
+          <attvalue for="3" value="0.554048446909"/>
+        </attvalues>
+      </edge>
+      <edge source="47" target="86" id="76" weight="0.636958634129">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="86"/>
+          <attvalue for="2" value="47"/>
+          <attvalue for="3" value="0.636958634129"/>
+        </attvalues>
+      </edge>
+      <edge source="47" target="25" id="77" weight="0.592634662846">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="25"/>
+          <attvalue for="2" value="47"/>
+          <attvalue for="3" value="0.592634662846"/>
+        </attvalues>
+      </edge>
+      <edge source="50" target="52" id="78" weight="0.487351113672">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="52"/>
+          <attvalue for="2" value="50"/>
+          <attvalue for="3" value="0.487351113672"/>
+        </attvalues>
+      </edge>
+      <edge source="53" target="80" id="79" weight="0.554191760361">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="80"/>
+          <attvalue for="2" value="53"/>
+          <attvalue for="3" value="0.554191760361"/>
+        </attvalues>
+      </edge>
+      <edge source="53" target="26" id="80" weight="0.580182070545">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="26"/>
+          <attvalue for="2" value="53"/>
+          <attvalue for="3" value="0.580182070545"/>
+        </attvalues>
+      </edge>
+      <edge source="54" target="64" id="81" weight="0.511452416162">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="64"/>
+          <attvalue for="2" value="54"/>
+          <attvalue for="3" value="0.511452416162"/>
+        </attvalues>
+      </edge>
+      <edge source="55" target="84" id="82" weight="0.547098956952">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="84"/>
+          <attvalue for="2" value="55"/>
+          <attvalue for="3" value="0.547098956952"/>
+        </attvalues>
+      </edge>
+      <edge source="56" target="12" id="83" weight="0.508343047059">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="12"/>
+          <attvalue for="2" value="56"/>
+          <attvalue for="3" value="0.508343047059"/>
+        </attvalues>
+      </edge>
+      <edge source="56" target="79" id="84" weight="0.559994101753">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="79"/>
+          <attvalue for="2" value="56"/>
+          <attvalue for="3" value="0.559994101753"/>
+        </attvalues>
+      </edge>
+      <edge source="57" target="60" id="85" weight="0.486282987731">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="60"/>
+          <attvalue for="2" value="57"/>
+          <attvalue for="3" value="0.486282987731"/>
+        </attvalues>
+      </edge>
+      <edge source="58" target="75" id="86" weight="0.501410812531">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="75"/>
+          <attvalue for="2" value="58"/>
+          <attvalue for="3" value="0.501410812531"/>
+        </attvalues>
+      </edge>
+      <edge source="58" target="49" id="87" weight="0.489169297024">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="49"/>
+          <attvalue for="2" value="58"/>
+          <attvalue for="3" value="0.489169297024"/>
+        </attvalues>
+      </edge>
+      <edge source="60" target="51" id="88" weight="0.572795671463">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="51"/>
+          <attvalue for="2" value="60"/>
+          <attvalue for="3" value="0.572795671463"/>
+        </attvalues>
+      </edge>
+      <edge source="64" target="35" id="89" weight="0.509607032598">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="35"/>
+          <attvalue for="2" value="64"/>
+          <attvalue for="3" value="0.509607032598"/>
+        </attvalues>
+      </edge>
+      <edge source="64" target="29" id="90" weight="0.627875187244">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="29"/>
+          <attvalue for="2" value="64"/>
+          <attvalue for="3" value="0.627875187244"/>
+        </attvalues>
+      </edge>
+      <edge source="65" target="47" id="91" weight="0.553319379329">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="47"/>
+          <attvalue for="2" value="65"/>
+          <attvalue for="3" value="0.553319379329"/>
+        </attvalues>
+      </edge>
+      <edge source="65" target="86" id="92" weight="0.553319379329">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="86"/>
+          <attvalue for="2" value="65"/>
+          <attvalue for="3" value="0.553319379329"/>
+        </attvalues>
+      </edge>
+      <edge source="65" target="27" id="93" weight="0.636098538608">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="27"/>
+          <attvalue for="2" value="65"/>
+          <attvalue for="3" value="0.636098538608"/>
+        </attvalues>
+      </edge>
+      <edge source="65" target="25" id="94" weight="0.703781113691">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="25"/>
+          <attvalue for="2" value="65"/>
+          <attvalue for="3" value="0.703781113691"/>
+        </attvalues>
+      </edge>
+      <edge source="66" target="79" id="95" weight="0.4734106061">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="79"/>
+          <attvalue for="2" value="66"/>
+          <attvalue for="3" value="0.4734106061"/>
+        </attvalues>
+      </edge>
+      <edge source="67" target="19" id="96" weight="0.492888438552">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="19"/>
+          <attvalue for="2" value="67"/>
+          <attvalue for="3" value="0.492888438552"/>
+        </attvalues>
+      </edge>
+      <edge source="68" target="59" id="97" weight="0.561278173705">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="59"/>
+          <attvalue for="2" value="68"/>
+          <attvalue for="3" value="0.561278173705"/>
+        </attvalues>
+      </edge>
+      <edge source="68" target="18" id="98" weight="0.476120939662">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="18"/>
+          <attvalue for="2" value="68"/>
+          <attvalue for="3" value="0.476120939662"/>
+        </attvalues>
+      </edge>
+      <edge source="68" target="75" id="99" weight="0.480735617913">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="75"/>
+          <attvalue for="2" value="68"/>
+          <attvalue for="3" value="0.480735617913"/>
+        </attvalues>
+      </edge>
+      <edge source="68" target="63" id="100" weight="0.539049901162">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="63"/>
+          <attvalue for="2" value="68"/>
+          <attvalue for="3" value="0.539049901162"/>
+        </attvalues>
+      </edge>
+      <edge source="69" target="38" id="101" weight="0.560725199873">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="38"/>
+          <attvalue for="2" value="69"/>
+          <attvalue for="3" value="0.560725199873"/>
+        </attvalues>
+      </edge>
+      <edge source="69" target="89" id="102" weight="0.599981749384">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="89"/>
+          <attvalue for="2" value="69"/>
+          <attvalue for="3" value="0.599981749384"/>
+        </attvalues>
+      </edge>
+      <edge source="70" target="77" id="103" weight="0.485581545379">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="77"/>
+          <attvalue for="2" value="70"/>
+          <attvalue for="3" value="0.485581545379"/>
+        </attvalues>
+      </edge>
+      <edge source="73" target="34" id="104" weight="0.5039646795">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="34"/>
+          <attvalue for="2" value="73"/>
+          <attvalue for="3" value="0.5039646795"/>
+        </attvalues>
+      </edge>
+      <edge source="74" target="77" id="105" weight="0.51629628566">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="77"/>
+          <attvalue for="2" value="74"/>
+          <attvalue for="3" value="0.51629628566"/>
+        </attvalues>
+      </edge>
+      <edge source="74" target="17" id="106" weight="0.49143333243">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="17"/>
+          <attvalue for="2" value="74"/>
+          <attvalue for="3" value="0.49143333243"/>
+        </attvalues>
+      </edge>
+      <edge source="75" target="18" id="107" weight="0.586829955729">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="18"/>
+          <attvalue for="2" value="75"/>
+          <attvalue for="3" value="0.586829955729"/>
+        </attvalues>
+      </edge>
+      <edge source="76" target="19" id="108" weight="0.521450546984">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="19"/>
+          <attvalue for="2" value="76"/>
+          <attvalue for="3" value="0.521450546984"/>
+        </attvalues>
+      </edge>
+      <edge source="77" target="35" id="109" weight="0.73271120807">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="35"/>
+          <attvalue for="2" value="77"/>
+          <attvalue for="3" value="0.73271120807"/>
+        </attvalues>
+      </edge>
+      <edge source="77" target="16" id="110" weight="0.582617076426">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="16"/>
+          <attvalue for="2" value="77"/>
+          <attvalue for="3" value="0.582617076426"/>
+        </attvalues>
+      </edge>
+      <edge source="77" target="17" id="111" weight="0.548690317777">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="17"/>
+          <attvalue for="2" value="77"/>
+          <attvalue for="3" value="0.548690317777"/>
+        </attvalues>
+      </edge>
+      <edge source="77" target="34" id="112" weight="0.505979900106">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="34"/>
+          <attvalue for="2" value="77"/>
+          <attvalue for="3" value="0.505979900106"/>
+        </attvalues>
+      </edge>
+      <edge source="77" target="83" id="113" weight="0.524566300612">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="83"/>
+          <attvalue for="2" value="77"/>
+          <attvalue for="3" value="0.524566300612"/>
+        </attvalues>
+      </edge>
+      <edge source="78" target="15" id="114" weight="0.472042037478">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="15"/>
+          <attvalue for="2" value="78"/>
+          <attvalue for="3" value="0.472042037478"/>
+        </attvalues>
+      </edge>
+      <edge source="79" target="56" id="115" weight="0.476497647118">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="56"/>
+          <attvalue for="2" value="79"/>
+          <attvalue for="3" value="0.476497647118"/>
+        </attvalues>
+      </edge>
+      <edge source="80" target="10" id="116" weight="0.481114062972">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="10"/>
+          <attvalue for="2" value="80"/>
+          <attvalue for="3" value="0.481114062972"/>
+        </attvalues>
+      </edge>
+      <edge source="80" target="53" id="117" weight="0.572321639984">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="53"/>
+          <attvalue for="2" value="80"/>
+          <attvalue for="3" value="0.572321639984"/>
+        </attvalues>
+      </edge>
+      <edge source="80" target="26" id="118" weight="0.500814269704">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="26"/>
+          <attvalue for="2" value="80"/>
+          <attvalue for="3" value="0.500814269704"/>
+        </attvalues>
+      </edge>
+      <edge source="81" target="21" id="119" weight="0.524863345378">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="21"/>
+          <attvalue for="2" value="81"/>
+          <attvalue for="3" value="0.524863345378"/>
+        </attvalues>
+      </edge>
+      <edge source="81" target="87" id="120" weight="0.807884176012">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="87"/>
+          <attvalue for="2" value="81"/>
+          <attvalue for="3" value="0.807884176012"/>
+        </attvalues>
+      </edge>
+      <edge source="81" target="30" id="121" weight="0.565997220847">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="30"/>
+          <attvalue for="2" value="81"/>
+          <attvalue for="3" value="0.565997220847"/>
+        </attvalues>
+      </edge>
+      <edge source="81" target="72" id="122" weight="0.618804447778">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="72"/>
+          <attvalue for="2" value="81"/>
+          <attvalue for="3" value="0.618804447778"/>
+        </attvalues>
+      </edge>
+      <edge source="82" target="1" id="123" weight="0.506039054155">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="1"/>
+          <attvalue for="2" value="82"/>
+          <attvalue for="3" value="0.506039054155"/>
+        </attvalues>
+      </edge>
+      <edge source="83" target="16" id="124" weight="0.546223902101">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="16"/>
+          <attvalue for="2" value="83"/>
+          <attvalue for="3" value="0.546223902101"/>
+        </attvalues>
+      </edge>
+      <edge source="83" target="34" id="125" weight="0.625677196303">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="34"/>
+          <attvalue for="2" value="83"/>
+          <attvalue for="3" value="0.625677196303"/>
+        </attvalues>
+      </edge>
+      <edge source="83" target="77" id="126" weight="0.962575182245">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="77"/>
+          <attvalue for="2" value="83"/>
+          <attvalue for="3" value="0.962575182245"/>
+        </attvalues>
+      </edge>
+      <edge source="83" target="17" id="127" weight="0.783957412989">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="17"/>
+          <attvalue for="2" value="83"/>
+          <attvalue for="3" value="0.783957412989"/>
+        </attvalues>
+      </edge>
+      <edge source="84" target="55" id="128" weight="0.522681032091">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="55"/>
+          <attvalue for="2" value="84"/>
+          <attvalue for="3" value="0.522681032091"/>
+        </attvalues>
+      </edge>
+      <edge source="85" target="89" id="129" weight="0.471104071235">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="89"/>
+          <attvalue for="2" value="85"/>
+          <attvalue for="3" value="0.471104071235"/>
+        </attvalues>
+      </edge>
+      <edge source="85" target="12" id="130" weight="0.479729764771">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="12"/>
+          <attvalue for="2" value="85"/>
+          <attvalue for="3" value="0.479729764771"/>
+        </attvalues>
+      </edge>
+      <edge source="85" target="79" id="131" weight="0.475402290464">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="79"/>
+          <attvalue for="2" value="85"/>
+          <attvalue for="3" value="0.475402290464"/>
+        </attvalues>
+      </edge>
+      <edge source="85" target="42" id="132" weight="0.624437332855">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="42"/>
+          <attvalue for="2" value="85"/>
+          <attvalue for="3" value="0.624437332855"/>
+        </attvalues>
+      </edge>
+      <edge source="86" target="47" id="133" weight="0.65897052802">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="47"/>
+          <attvalue for="2" value="86"/>
+          <attvalue for="3" value="0.65897052802"/>
+        </attvalues>
+      </edge>
+      <edge source="86" target="41" id="134" weight="0.484038050846">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="41"/>
+          <attvalue for="2" value="86"/>
+          <attvalue for="3" value="0.484038050846"/>
+        </attvalues>
+      </edge>
+      <edge source="86" target="25" id="135" weight="0.538034958116">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="25"/>
+          <attvalue for="2" value="86"/>
+          <attvalue for="3" value="0.538034958116"/>
+        </attvalues>
+      </edge>
+      <edge source="87" target="40" id="136" weight="0.512360065858">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="40"/>
+          <attvalue for="2" value="87"/>
+          <attvalue for="3" value="0.512360065858"/>
+        </attvalues>
+      </edge>
+      <edge source="87" target="30" id="137" weight="0.702359389983">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="30"/>
+          <attvalue for="2" value="87"/>
+          <attvalue for="3" value="0.702359389983"/>
+        </attvalues>
+      </edge>
+      <edge source="87" target="32" id="138" weight="0.515831001919">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="32"/>
+          <attvalue for="2" value="87"/>
+          <attvalue for="3" value="0.515831001919"/>
+        </attvalues>
+      </edge>
+      <edge source="87" target="21" id="139" weight="0.573166022731">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="21"/>
+          <attvalue for="2" value="87"/>
+          <attvalue for="3" value="0.573166022731"/>
+        </attvalues>
+      </edge>
+      <edge source="87" target="81" id="140" weight="0.828038319284">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="81"/>
+          <attvalue for="2" value="87"/>
+          <attvalue for="3" value="0.828038319284"/>
+        </attvalues>
+      </edge>
+      <edge source="87" target="72" id="141" weight="0.845423142117">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="72"/>
+          <attvalue for="2" value="87"/>
+          <attvalue for="3" value="0.845423142117"/>
+        </attvalues>
+      </edge>
+      <edge source="88" target="53" id="142" weight="0.473134859009">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="53"/>
+          <attvalue for="2" value="88"/>
+          <attvalue for="3" value="0.473134859009"/>
+        </attvalues>
+      </edge>
+      <edge source="88" target="26" id="143" weight="0.824072270335">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="26"/>
+          <attvalue for="2" value="88"/>
+          <attvalue for="3" value="0.824072270335"/>
+        </attvalues>
+      </edge>
+      <edge source="89" target="56" id="144" weight="0.518655248504">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="56"/>
+          <attvalue for="2" value="89"/>
+          <attvalue for="3" value="0.518655248504"/>
+        </attvalues>
+      </edge>
+      <edge source="89" target="12" id="145" weight="0.494657337167">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="12"/>
+          <attvalue for="2" value="89"/>
+          <attvalue for="3" value="0.494657337167"/>
+        </attvalues>
+      </edge>
+      <edge source="89" target="79" id="146" weight="0.550021833593">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="79"/>
+          <attvalue for="2" value="89"/>
+          <attvalue for="3" value="0.550021833593"/>
+        </attvalues>
+      </edge>
+      <edge source="89" target="69" id="147" weight="0.558899253152">
+        <attvalues>
+          <attvalue for="0" value="low"/>
+          <attvalue for="1" value="69"/>
+          <attvalue for="2" value="89"/>
+          <attvalue for="3" value="0.558899253152"/>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

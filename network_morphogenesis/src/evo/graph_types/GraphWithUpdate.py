@@ -13,8 +13,7 @@ four subclasses : (Un)directed(Un)weightedGraphWithUpdate
 """
 
 class GraphWithUpdate():
-    
-        
+       
     def add_edge(self,u,v,**args):
         raise NotImplementedError( "Should have implemented add_edge" ) 
     def isDirected(self):

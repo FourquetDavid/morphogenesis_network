@@ -13,7 +13,7 @@ import math
 import graph_types.Directed_WeightedGWU as dwgwu
 import graph_types.Undirected_WeightedGWU as uwgwu
 import graph_types.Directed_UnweightedGWU as dugwu
-import graph_types.Undirected_UnweightedGWU as uugwu 
+import graph_types.Undirected_UnweightedGWU as uugwu
 
 """ 
 contains one main function :
@@ -37,21 +37,18 @@ contains one main function :
 
 """
 
-def grow_network(decision_tree):
+def grow_network(decision_tree,number_of_nodes,number_of_steps,graph=None):
     '''takes a tree of decision and returns the graph that grows according to those rules'''
     ''' graph has directed edges'''
     '''depending on the method used, this graph can have weighted or unweighted edges'''
     
     tree_type = decision_tree.getParam("tree_type")
-    number_of_nodes = int(decision_tree.getParam("nb_nodes"))
-    number_of_edges = int(decision_tree.getParam("nb_edges"))
-    network_type = decision_tree.getParam("network_type")
-    
-    graph = createGraph(network_type)
+    '''
     if tree_type == "simple" :
         return grow_simple_network(graph,decision_tree,number_of_nodes, number_of_edges)
+        '''
     if tree_type == "with_constants" :
-        return grow_network_with_constants(graph,decision_tree,number_of_nodes, number_of_edges)
+        return grow_network_with_constants(decision_tree,number_of_nodes, number_of_steps,graph)
             
     raise Exception("no tree_type given")    
 
@@ -59,20 +56,22 @@ def grow_network(decision_tree):
 '''
 Functions that grow a network according to the method of evaluation used
 '''       
-def createGraph(network_type) :
+#getattr ?
+def createGraph(network_type,initial_network = None) :
     if network_type =="directed_weighted" :
-        return dwgwu.Directed_WeightedGWU()
+        return dwgwu.Directed_WeightedGWU(initial_network)
     if network_type == "undirected_weighted" :
-        return uwgwu.Undirected_WeightedGWU()
+        return uwgwu.Undirected_WeightedGWU(initial_network)
     if network_type =="directed_unweighted" :
-        return dugwu.Directed_UnweightedGWU()
+        return dugwu.Directed_UnweightedGWU(initial_network)
     if network_type == "undirected_unweighted" :
-        return uugwu.Undirected_UnweightedGWU()
+        return uugwu.Undirected_UnweightedGWU(initial_network)
     raise Exception("network_type not given")
     
+    '''
 def grow_simple_network(graph,decision_tree,number_of_nodes, number_of_edges):
-    '''takes a tree of decision and returns the graph that grows according to those rules'''
-    '''graph can be (un)directed/(un)weighted'''
+    takes a tree of decision and returns the graph that grows according to those rules
+    graph can be (un)directed/(un)weighted
 
     #begins with an empty graph with the number of nodes  of the real network
     for i in xrange(number_of_nodes) :
@@ -89,16 +88,20 @@ def grow_simple_network(graph,decision_tree,number_of_nodes, number_of_edges):
         graph.add_edge(*edge)
         
     return graph
-    
-#@profile
-def grow_network_with_constants(graph,decision_tree,number_of_nodes, number_of_edges):
+'''    
+
+def grow_network_with_constants(decision_tree,number_of_nodes, number_of_steps,graph= None):
     '''takes a tree of decision and returns the graph that grows according to those rules'''
     '''graph can be (un)directed/(un)weighted'''
-    #begins with an empty graph with the number of nodes  of the real network
-    for i in xrange(number_of_nodes) :
-        graph.add_node(i)
+    network_type = decision_tree.getParam('network_type') 
+    if graph is None :
+        graph = createGraph(network_type)
+        
+    number_of_nodes_init = graph.number_of_nodes()
+    for i in range(number_of_nodes) :
+        graph.add_node(i+number_of_nodes_init)
     #adds one edge according to its probability
-    for i in xrange(number_of_edges) :
+    for _ in xrange(number_of_steps) :
         #each edge has a probability that is the result of the tree
         probas = calc_with_constants(decision_tree.getRoot(),graph)
         #we remove unnecessary edges : self loops, negative proba
@@ -120,7 +123,7 @@ Functions that let us choose a random element in the matrix of probabilities
 '''
 
 
-    
+   
 def choose_edge(probas,network):
     ''' takes a matrix of probabilities and a network, 
     returns an edge (no self loop, not already present in the network) according to probabilities and its weight for the network'''
@@ -143,7 +146,6 @@ def choose_edge(probas,network):
     
     #probas can contain a number + infinity, -inifinity, nan
     liste_probas = np.ndenumerate(probas)
-    
     #we list possible edge : no self loops, no existing edges, no negative probabilities
     possible_edges = filter(lambda x : x[1] > float('-inf'), liste_probas)    
     #if there is no possible edge, we stop the building of the network 
@@ -178,8 +180,7 @@ def choose_edge(probas,network):
     #we can have this possibility
     return random.choice(possible_edges) 
             
-      
-   
+
 
 
 '''
@@ -247,6 +248,8 @@ def compute_leaf(graph,variable) :
     '''returns the computation of value0 data value1 
     data is an operation between two numbers
     '''
+    return getattr(graph,variable)()
+'''
     return {
                        #local variables
                        "OrigId" : graph.OrigId,
@@ -322,6 +325,7 @@ def compute_leaf(graph,variable) :
                        
                        
                        }[variable]()
+                       '''
                           
 def div(a,b):
     'divides by 1+b to avoid dividing by 0 in most cases'
