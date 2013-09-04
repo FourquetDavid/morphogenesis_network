@@ -9,14 +9,15 @@ import networkx as nx
 import community
 import numpy as np
 import itertools as it 
-from lxml import etree as xml
+import lxml.etree as xml
 import mdp
 import matplotlib.pyplot as plt
-from scipy import stats
+#from scipy import stats
+#from scipy import linalg
 import math
 
 already_computed = {}
-
+ 
 
 def to_undirected(f):
     def wrapper(net):
@@ -68,27 +69,38 @@ def eccentricity_list(net):
     
     
 def distri(values, name): 
+    
+    import powerlaw
+    data = values 
+    results = powerlaw.Fit(data)
+    coef = results.power_law.alpha
+    if coef == float("inf") :coef = 0   #means that distribution is constant
     mean = np.mean(values)
     std = np.std(values)
-    return (mean,'average_'+name),(std,'std_'+name)
+    return (mean,'average_'+name),(std,'std_'+name),(coef,'exponent_'+name)
 
 def distriMax(values,name): 
-    m,s = distri(values, name)
-    return m,s,(np.max(values),'max_'+name)  
+    m,s,e = distri(values, name)
+    return m,s,e,(np.max(values),'max_'+name)  
 
 def distriCentra(values,values_th,name):    
     centralization = np.sum(max(values)-np.array(values))
     centralization_max = np.sum(max(values_th)-np.array(values_th))
     score = float(centralization)/centralization_max
-    m,s =distri(values,name+'_centrality')
-    return m,s,(score,'centralization_'+name)
+    m,s,e =distri(values,name+'_centrality')
+    return m,s,e,(score,'centralization_'+name)
  
 def setSize(ensemble,number_of_nodes,name): 
     return (len(ensemble),'size_'+name),(float(len(ensemble))/number_of_nodes,'proportion_'+name)       
 
 def dirige(network):
-    return ((network.is_directed(),'directed'),)
-@println           
+    if network.is_directed() :
+        value =1
+    else :
+        value =0
+    return ((value,'directed'),)
+
+#@println           
 def nodes(network):
     return ((network.number_of_nodes(),'number_of_nodes'),)
 
@@ -111,7 +123,7 @@ def communities(net):
     values = np.square(hist)
     repartition = 1 / (sum(values))
     return (number_of_communities,'number_of_communities'),(repartition,'equivalent_number_of_communities'),(modu,'modularity_Louvain_partition')
-@println
+#@println
 def degrees(network): 
     if network.is_directed() :
         d1 = distriMax(network.in_degree().values(), 'indegree')
@@ -122,7 +134,7 @@ def degrees(network):
     d0 = distriMax(network.degree().values(), 'degree')
     return d0+d1+d2
 
-@println
+#@println
 def ball(net):
     netsize = float(net.number_of_nodes())
     #here we take the full network to find neighbors, not only the giant component part.
@@ -411,19 +423,30 @@ def assort(net):
 
 @to_undirected
 def commun(net):
-    dist = nx.communicability_exp(net).values()
+    nodelist = net.nodes()
+    A = nx.to_numpy_matrix(net,nodelist)
+    A[A!=0.0] = 1
+    expA = linalg.expm(A)
+    '''
+    mapping = dict(zip(nodelist,range(len(nodelist))))
+    sc = {}
+    for u in net:
+        sc[u]={}
+        for v in net:
+            sc[u][v] = float(expA[mapping[u],mapping[v]])
+    dist = sc.values()
     communicability = list(it.chain.from_iterable([dict_of_length.values() for dict_of_length in dist]))
+    '''
+    communicability = expA.flat()
     return distri(communicability,'communicability')
 
 @to_undirected
 def bipart(net):
-        import scipy.linalg
-        nodelist = net.nodes() # ordering of nodes in matrix
-        A = nx.to_numpy_matrix(net,nodelist)
-        # convert to 0-1 matrix
+         
+        A = nx.to_numpy_matrix(net)
         A[A!=0.0] = 1
-        expA = scipy.linalg.expm(A)
-        chA = scipy.linalg.coshm(A)
+        expA = linalg.expm(A)
+        chA = linalg.coshm(A)
         return ((np.trace(chA)/np.trace(expA),'bipartitivity'),)
     
     
@@ -432,7 +455,7 @@ def overwriteXML(path, nameglobal,net):
 
 #@profile   
 def writeXML(path, nameglobal,net,override = False):
-    filename = path.replace(path.split(".")[-1],"xml")
+    filename = path
     
     try :
         parser = xml.XMLParser(remove_blank_text=True)
@@ -456,7 +479,10 @@ def writeXML(path, nameglobal,net,override = False):
     add_sub(dirige)
     add_sub(edge_reciprocity)
     add_sub(prop_edges)
+    print 1
+    '''
     add_sub(comp)
+    print 1
     add_sub(circuit)
     #add_sub(circ)
     add_sub(communities)
@@ -467,14 +493,20 @@ def writeXML(path, nameglobal,net,override = False):
     add_sub(harary)
     add_sub(wiener)
     add_sub(effi)
+    
+    print 2
     add_sub(radiality)
     add_sub(core)
+    print 2.4
     add_sub(clustering)
     add_sub(neighdeg)
-    add_sub(hits)
+    print 2.5
+    #add_sub(hits)
     add_sub(eigen)
+    print 2.6
     add_sub(pagerank)
     add_sub(close_center)
+    print 3
     add_sub(between_center)
     #add_sub(flow_center)
     #add_sub(flow_between)
@@ -486,6 +518,7 @@ def writeXML(path, nameglobal,net,override = False):
     add_sub(peri)
     add_sub(eccc)
     add_sub(rad)
+    print 4
     #add_sub(vit)
     add_sub(diam)
     add_sub(lapl_spect)
@@ -493,14 +526,15 @@ def writeXML(path, nameglobal,net,override = False):
     add_sub(ramsey)
     add_sub(domi)
     add_sub(matching)
+    print 5
     add_sub(vertex_cov)
     add_sub(assort)
     add_sub(edgebet)
     #add_sub(edgeflow)
     #add_sub(edgeload)
-    add_sub(commun)
-    add_sub(bipart)
-    
+    #add_sub(commun)
+    #add_sub(bipart)
+    '''
     file1 = open(filename, 'w')
     xml.ElementTree(netfile).write(file1, pretty_print=True)
     file1.close()
@@ -631,13 +665,19 @@ def correlation_edge_centrality(name):
         current_path = "../../data" 
         network = nx.read_gml(current_path + "/" + name+"/"+name+".gml")
         edge_centrality(network)
-          
+
+def override_XML(directory,directory_xml,name): 
+    if not os.path.exists(directory_xml):
+                network = nx.read_gexf(directory+name+".gexf")
+                os.makedirs(directory_xml)
+                writeXML(directory_xml+name+".xml",name, network,override = True) 
+           
 if __name__ == '__main__':
     #["dolphins","Consulting", "Freemans","karate","lesmis","Manufacturing","polbooks","southern_club"]
     
     #correlation_edge_centrality("karate")
     
-    current_path = "../../data/gexf/" 
+    current_path = "../../gexf/" 
     #name ="politicsuk-twitter-follows"
     #name ="karate"
     #network = nx.read_gml(current_path + "/" + name+"/"+name+".gml")
@@ -649,6 +689,7 @@ if __name__ == '__main__':
     
     import os
     for f in os.listdir(current_path) :
+        """
         import StringIO
         l = StringIO.StringIO('''<xs:schema elementFormDefault="qualified" targetNamespace="http://www.gexf.net/1.1draft"><xs:include schemaLocation="data.xsd"/><xs:include schemaLocation="dynamics.xsd"/><xs:include schemaLocation="hierarchy.xsd"/><xs:include schemaLocation="phylogenics.xsd"/><xs:import schemaLocation="viz.xsd"/><xs:element name="gexf" type="ns1:gexf-content"/><xs:complexType name="gexf-content"><xs:annotation><xs:documentation>Tree</xs:documentation></xs:annotation><xs:choice minOccurs="0" maxOccurs="unbounded"><xs:element ref="ns1:meta"/><xs:element ref="ns1:graph"/></xs:choice><xs:attribute name="version" use="required"><xs:simpleType><xs:restriction base="xs:string"><xs:enumeration value="1.1"/></xs:restriction></xs:simpleType></xs:attribute><xs:attribute name="variant" type="xs:string"/></xs:complexType><xs:element name="meta" type="ns1:meta-content"/><xs:element name="graph" type="ns1:graph-content"/><xs:complexType name="meta-content"><xs:choice minOccurs="0" maxOccurs="unbounded"><xs:element ref="ns1:creator"/><xs:element ref="ns1:keywords"/><xs:element ref="ns1:description"/></xs:choice><xs:attribute name="lastmodifieddate" type="xs:date"/></xs:complexType><xs:element name="creator" type="xs:string"/><xs:element name="keywords" type="xs:string"/><xs:element name="description" type="xs:string"/><xs:complexType name="nodes-content"><xs:sequence><xs:element minOccurs="0" maxOccurs="unbounded" ref="ns1:node"/></xs:sequence><xs:attribute name="count" type="xs:nonNegativeInteger"/></xs:complexType><xs:element name="node" type="ns1:node-content"/><xs:complexType name="edges-content"><xs:sequence><xs:element minOccurs="0" maxOccurs="unbounded" ref="ns1:edge"/></xs:sequence><xs:attribute name="count" type="xs:nonNegativeInteger"/></xs:complexType><xs:element name="edge" type="ns1:edge-content"/><xs:simpleType name="defaultedgetype-type"><xs:annotation><xs:documentation>Datatypes</xs:documentation></xs:annotation><xs:restriction base="xs:string"><xs:enumeration value="directed"/><xs:enumeration value="undirected"/><xs:enumeration value="mutual"/></xs:restriction></xs:simpleType><xs:simpleType name="edgetype-type"><xs:restriction base="xs:string"><xs:enumeration value="directed"/><xs:enumeration value="undirected"/><xs:enumeration value="mutual"/></xs:restriction></xs:simpleType><xs:simpleType name="id-type"><xs:union memberTypes="xs:string xs:integer"/></xs:simpleType><xs:simpleType name="idtype-type"><xs:restriction base="xs:string"><xs:enumeration value="integer"/><xs:enumeration value="string"/></xs:restriction></xs:simpleType><xs:simpleType name="mode-type"><xs:restriction base="xs:string"><xs:enumeration value="static"/><xs:enumeration value="dynamic"/></xs:restriction></xs:simpleType><xs:simpleType name="weight-type"><xs:restriction base="xs:float"/></xs:simpleType></xs:schema>
         ''')
@@ -656,10 +697,25 @@ if __name__ == '__main__':
         xmlschema = xml.XMLSchema(xmlschema_doc)
         doc = xml.parse(current_path + f)
         xmlschema.assertValid(doc)
+        """
+        name = "-".join(f.split("-")[1:])
+        directory = current_path +f+"/"
         
-        network = nx.read_gexf(current_path + f)
-        name = f.split("-")[2:5]
-        writeXML(current_path +f,name, network)
+        try :
+            print name
+            directory_xml = directory.replace("gexf","xml")
+            override_XML(directory,directory_xml,name)
+        except :
+            for g in os.listdir(directory) :
+                print g
+                if ".gexf" in g :
+                    name = g.replace(".gexf","")
+                    directory_xml = (current_path+name+"/").replace("gexf","xml")
+                    override_XML(directory, directory_xml, name)
+                else :
+                    sub_directory = directory +g+"/"
+                    directory_xml = (current_path+g+"/").replace("gexf","xml")
+                    override_XML(sub_directory, directory_xml, g)
     '''    
             n=0
             network=None
