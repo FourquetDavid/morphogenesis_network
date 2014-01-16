@@ -22,6 +22,7 @@ def get_goal (evaluation_method) :
         return "minimize"
     if evaluation_method == "2distributions" :
         return "minimize"
+    
     return "maximize"
     #raise Exception("no evaluation_method")
     
@@ -56,17 +57,20 @@ def get_alleles (evaluation_method,network_type):
             
     else :
         if network_type == "directed_weighted" or network_type == "undirected_weighted" :
-            return [["+","-","*","/","min","max","exp","log","abs","inv","opp"],
+            return [["+","-","*","/","min","max","exp","log","abs","inv","opp","H","T","N",">","<","="],
                         ["NormalizedTargId","TargId","OrigId","NormalizedOrigId","OrigInStrength","TargInStrength","OrigOutStrength","TargOutStrength","DirectDistance","ReversedDistance",
                          "NormalizedOrigInStrength","NormalizedTargInStrength","NormalizedOrigOutStrength","NormalizedTargOutStrength","NormalizedDirectDistance","NormalizedReversedDistance",
                          "AverageInStrength","AverageOutStrength","AverageWeight" ,"AverageDistance" ,"NumberOfNodes" ,"NumberOfEdges","MaxInStrength","MaxOutStrength","MaxWeight","MaxDistance",
                        "TotalDistance","TotalWeight","Constant","Random"
                         ]]
         if network_type == "directed_unweighted" or network_type == "undirected_unweighted" :
-            return [["+","-","*","/","min","max","exp","log","abs","inv","opp"],
+            return [["+","-","*","/","min","max","exp","log","abs","inv","opp","H","T","N",">","<","="],
                         ["NormalizedTargId","TargId","OrigId","NormalizedOrigId",
                          "OrigDegree","TargDegree","NormalizedOrigDegree","NormalizedTargDegree",
+                         "OrigPagerank","TargPagerank", "OrigCloseness","TargCloseness","OrigBetweenness","TargBetweenness",
+                         "OrigClustering","TargClustering","OrigCoreN","TargCoreN",#"OrigEccentricity","TargEccentricity",
                          "Distance","NormalizedDistance" ,
+                         "SameCommunity",
                         "NumberOfEdges","Constant","Random"
                         ]]
             

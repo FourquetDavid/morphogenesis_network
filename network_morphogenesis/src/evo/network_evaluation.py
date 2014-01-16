@@ -12,6 +12,7 @@ import community
 import matplotlib.pyplot as plt
 from lxml import etree as xml
 import os
+import powerlaw
 """ 
 contains two main function :
 
@@ -23,6 +24,7 @@ contains two main function :
 """
 
 number_of_elements_by_array  = 10.
+extension = ".gexf"
 '''           
 def get_datas_from_real_network (data_path,results_path,**kwargs):
     takes a relative path to network-type file and store relevant infos for future studies
@@ -55,25 +57,30 @@ def get_datas_from_real_network (data_path,results_path,**kwargs):
     '''
     
     name = kwargs.get('name')
-    extension = kwargs.get('extension')
+    #extension = kwargs.get('extension')
     dynamic = kwargs.get('dynamic')
     
     f = open(results_path, 'w')
     dynamic_network = xml.Element(name)
     
-    if dynamic :      
+    if dynamic : 
+        #number_of_networks = 0    
+        #for each time step, we store data about the network at this time
         for network_file in os.listdir(data_path)  :
             if extension in network_file :
-                #the function used to read the network is dependant on the type of network used
+                #number_of_networks+=1
+                #only read gexf files
                 graph = read_typed_file(data_path+network_file)
-                
                 nx.draw(graph)
                 plt.savefig(data_path+name+".png")
                 plt.close()
                 
-                static_network = xml.SubElement(dynamic_network,name+network_file.replace(extension,""))
+                static_network = xml.SubElement(dynamic_network,network_file.replace(extension,""))
                 set_evaluation_datas(graph,static_network,evaluation_method=kwargs.get("evaluation_method",""))    
-            
+        #we write the number of steps in the dynamic of the network
+        #sub = xml.SubElement(dynamic_network,"number_of_timestamps")
+        #sub.attrib['value'] = str(number_of_networks)    
+        
         xml.ElementTree(dynamic_network).write(f, pretty_print=True)
     
     else :
@@ -142,6 +149,14 @@ def eval_network(network,results_path,number="",**kwargs):
     if 'importance' in eval_methods :
         proximity_importance = eval_proximity_importance(network,static_network)
         dict_proximity['proximity_importance']= proximity_importance
+        
+    if 'heterogeneity' in eval_methods :
+        proximity_heterogeneity = eval_proximity_heterogeneity(network,static_network)
+        dict_proximity['proximity_heterogeneity']= proximity_heterogeneity
+    
+    if 'community_structure' in eval_methods :
+        proximity_community_structure = eval_proximity_community_structure(network,static_network)
+        dict_proximity['proximity_community_structure']= proximity_community_structure
 
     dict_proximity['proximity_aggregated']= min(dict_proximity.values())
     return dict_proximity
@@ -217,6 +232,24 @@ def eval_proximity_clustering(network,graph_xml):
     clustering_goal = eval(graph_xml.find('clustering').get('value'))
     
     proximity = proximity_distributions_different_size(clustering_goal,clustering_test)
+    return proximity
+
+def eval_proximity_community_structure(network,graph_xml):
+    '''returns the proximity of clustering coefficient distributions between synthetic network(test) and real network (goal)'''
+    clustering_test = np.mean(nx.clustering(network).values())
+    clustering_goal = np.mean(eval(graph_xml.find('clustering').get('value')))
+    
+    proximity = proximity_numbers(clustering_goal,clustering_test)
+    return proximity
+
+def eval_proximity_heterogeneity(network,graph_xml):
+    '''returns the proximity of clustering coefficient distributions between synthetic network(test) and real network (goal)'''
+    
+    coef_test = powerlaw.Fit(nx.degree(network).values()).power_law.alpha
+    coef_goal = powerlaw.Fit(eval(graph_xml.find('degree').get('value'))).power_law.alpha
+    
+    
+    proximity = proximity_distributions_different_size(coef_goal,coef_test)
     return proximity
 
 def eval_proximity_importance(network,graph_xml):
@@ -405,12 +438,12 @@ Function that help reading file and storing datas
     
 def read_typed_file(path) :
     #3 types of network can be read
-    if ".gml" in path :
-        return nx.read_gml(path)
+    #if ".gml" in path :
+        #return nx.read_gml(path)
     if ".gexf" in path :
         return nx.read_gexf(path)
-    if ".net" in path :
-        return nx.read_pajek(path)
+    #if ".net" in path :
+        #return nx.read_pajek(path)
     raise Exception("network_format not recognized")
 '''
 def get_evaluation_datas(graph, **kwargs) :
@@ -434,7 +467,7 @@ def get_evaluation_datas(graph, **kwargs) :
     raise Exception("no evaluation_method or network_type given")
     '''
 def set_evaluation_datas(graph,graph_xml,**kwargs) :
-    '''if no precise evaluation method is given, we compute every possible measure'''
+    '''if no precise evaluation method is given, we compute every possible measure (wrong !!)'''
     
     evaluation_method = kwargs.get('evaluation_method','')
     
@@ -460,14 +493,18 @@ def set_evaluation_datas(graph,graph_xml,**kwargs) :
             add_sub('degree_out', graph.out_degree().values())
         if 'importance' in evaluation_method :
             add_sub('importance',nx.eigenvector_centrality_numpy(graph.reverse()).values())
+        if 'clustering' in evaluation_method or 'heterogeneity' in evaluation_method :
+            add_sub('clustering',nx.clustering(graph.to_undirected()).values())
+        if 'community_structure' in evaluation_method :
+            add_sub('degree',graph.degree().values())
     else :
         if 'vertices' in evaluation_method :
             add_sub('vertices',2*nx.number_of_edges(graph)/(nodes*(nodes-1)))
         if 'communities' in evaluation_method :
             add_sub('communities',get_communities(graph))
-        if 'degrees' in evaluation_method :
+        if 'degrees' in evaluation_method or 'community_structure' in evaluation_method :
             add_sub('degrees',graph.degree().values())
-        if 'clustering' in evaluation_method :
+        if 'clustering' in evaluation_method or 'heterogeneity' in evaluation_method :
             add_sub('clustering',nx.clustering(graph).values())
         if 'importance' in evaluation_method :
             add_sub('importance',nx.eigenvector_centrality_numpy(graph).values())
@@ -533,6 +570,7 @@ def datas_2distributions_undirected(graph) :
     return '\n'.join([str(indegree),str(shortest_path)])
 '''    
 def get_number_of_nodes_and_edges(results_path,numero=None):
+    #bugged
     name = results_path.split("/")[-2]
     dynamic_network = xml.parse(results_path).getroot()
     if numero is not None :

@@ -132,7 +132,7 @@ def evolve(genome,initial_graph = None,**kwargs):
     algo.setGenerations(number_of_generations)
     algo.evolve()
    
-    store_best_network(algo.bestIndividual(),number_of_generations)   
+    #store_best_network(algo.bestIndividual(),number_of_generations)   
        
             
             
@@ -271,8 +271,10 @@ Functions that evaluate trees
 '''
 
 def store_best_network(chromosome,nb_tests) :
+    #bugged and unused, unknown use
     score_max = 0
     for _ in range(nb_tests) :
+        print chromosome.getParam("results_path")
         number_of_nodes,number_of_edges = ne.get_number_of_nodes_and_edges(chromosome.getParam("results_path"))
         net = nd.grow_network(chromosome,number_of_nodes,number_of_edges )
         scores = ne.eval_network(net,chromosome.getParam("results_path"),evaluation_method=chromosome.getParam("evaluation_method"),network_type = chromosome.getParam("network_type"), name = chromosome.getParam("name"))                          
@@ -309,7 +311,7 @@ def eval_func_dynamic(chromosome):
     scores ={}
     #we create a graph that is similar to the initial graph
          
-    initial_network = ne.read_typed_file(data_path+"0"+extension)
+    initial_network = ne.read_typed_file(data_path+name+"0"+extension)
     net = nd.createGraph(network_type,initial_network)
         
         
@@ -329,8 +331,8 @@ def eval_func_dynamic(chromosome):
                                                   network_type = network_type,
                                                   name = name)    
         
-    #we compute a list that contains aggregated proximity at each time step                      
-    scores_aggregated = [score['proximity_aggregated'] for numero,score in scores]
+    #we compute a list that contains aggregated proximity at each time step                     
+    scores_aggregated = [scores[str(score)]['proximity_aggregated'] for score in range(1,number_of_networks)]
     return min(scores_aggregated)   
      
 '''           

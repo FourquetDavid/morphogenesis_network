@@ -22,10 +22,9 @@ def main() :
     evaluation_method ="communities_degrees_distances_clustering_importance"
     tree_type = "with_constants"
     network_type = "undirected_unweighted"
-    network = "adjnoun"
+    network = "karate"
     multiprocessing = False
     dynamic = False
-    extension = ".gml"
     data_path = '../../data/{}/'.format(network)
     results_path ='../../results/{}/{}.xml'.format(network,evaluation_method)
     stats_path = '../../results/{}/{}_stats.txt'.format(network,evaluation_method)
@@ -45,7 +44,7 @@ def main() :
                                evaluation_method= evaluation_method,
                                network_type = network_type,
                                dynamic = dynamic,
-                               extension = extension)
+                               extension = ".gexf")
     
     
 #arguments : path to datas about the real network
@@ -68,7 +67,7 @@ def main() :
                        dynamic = dynamic,
                        tree_type = tree_type,
                        network_type = network_type,
-                       extension = extension
+                       extension = ".gexf"
                        )
     
 #optional arguments for evolve :

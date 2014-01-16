@@ -13,6 +13,7 @@ It allows us to update them easily instead of computing them many times.
 import networkx as nx
 import numpy as np
 import GraphWithUpdate as gwu
+import community as com 
 
 class Undirected_UnweightedGWU(gwu.GraphWithUpdate, nx.Graph):
     
@@ -94,11 +95,137 @@ class Undirected_UnweightedGWU(gwu.GraphWithUpdate, nx.Graph):
                       )               
         return probas
     
+    
+    
     def NormalizedTargId(self) : 
         ''' returns a 2d array containing the identity number of the target node for all edges divided by the number of nodes
         '''       
         return self.TargId()/self.number_of_nodes()
+    @profile
+    def OrigPagerank(self):
+        ''' returns a 2d array containing the pagerank of the origin node for all edges
+        ''' 
+        probas = np.dot( 
+                      np.array(nx.pagerank_numpy(self).values(),dtype=float).reshape(-1,1),
+                      np.ones((1,self.number_of_nodes())))
+        return probas
     
+    @profile
+    def TargPagerank(self):
+        ''' returns a 2d array containing the pagerank of the target node for all edges
+        ''' 
+        probas =  np.dot( 
+                      np.ones((self.number_of_nodes(),1)),
+                      np.array(nx.pagerank_numpy(self).values(),dtype=float).reshape(1,-1)
+                      )       
+        return probas
+    
+    @profile
+    def OrigCoreN(self):
+        ''' returns a 2d array containing the pagerank of the origin node for all edges
+        ''' 
+        probas = np.dot( 
+                      np.array(nx.core_number(self).values(),dtype=float).reshape(-1,1),
+                      np.ones((1,self.number_of_nodes())))
+        return probas
+    
+    @profile
+    def TargCoreN(self):
+        ''' returns a 2d array containing the pagerank of the target node for all edges
+        ''' 
+        probas =  np.dot( 
+                      np.ones((self.number_of_nodes(),1)),
+                      np.array(nx.core_number(self).values(),dtype=float).reshape(1,-1)
+                      )       
+        return probas
+    
+    @profile
+    def OrigCloseness(self):
+        ''' returns a 2d array containing the closeness of the origin node for all edges
+        ''' 
+        probas = np.dot( 
+                      np.array(nx.closeness_centrality(self).values(),dtype=float).reshape(-1,1),
+                      np.ones((1,self.number_of_nodes())))
+        return probas
+    
+    @profile
+    def TargCloseness(self):
+        ''' returns a 2d array containing the closeness of the target node for all edges
+        ''' 
+        probas =  np.dot( 
+                      np.ones((self.number_of_nodes(),1)),
+                      np.array(nx.closeness_centrality(self).values(),dtype=float).reshape(1,-1)
+                      )       
+        return probas
+    @profile
+    def OrigBetweenness(self):
+        ''' returns a 2d array containing the betweenness of the origin node for all edges
+        ''' 
+        probas = np.dot( 
+                      np.array(nx.betweenness_centrality(self).values(),dtype=float).reshape(-1,1),
+                      np.ones((1,self.number_of_nodes())))
+        return probas
+    
+    @profile
+    def TargBetweenness(self):
+        ''' returns a 2d array containing the betweenness of the target node for all edges
+        ''' 
+        probas =  np.dot( 
+                      np.ones((self.number_of_nodes(),1)),
+                      np.array(nx.betweenness_centrality(self).values(),dtype=float).reshape(1,-1)
+                      )       
+        return probas
+    @profile
+    def OrigClustering(self):
+        ''' returns a 2d array containing the clustering of the origin node for all edges
+        ''' 
+        probas = np.dot( 
+                      np.array(nx.clustering(self).values(),dtype=float).reshape(-1,1),
+                      np.ones((1,self.number_of_nodes())))
+        return probas
+    
+    @profile
+    def TargClustering(self):
+        ''' returns a 2d array containing the clustering of the target node for all edges
+        ''' 
+        probas =  np.dot( 
+                      np.ones((self.number_of_nodes(),1)),
+                      np.array(nx.clustering(self).values(),dtype=float).reshape(1,-1)
+                      )       
+        return probas
+    @profile
+    def OrigEccentricity(self):
+        ''' returns a 2d array containing the eccentricity of the origin node for all edges
+        ''' 
+        sp = self.get_shortest_path_dict()
+        probas = np.dot( 
+                      np.array(nx.eccentricity(self, sp = sp).values(),dtype=float).reshape(-1,1),
+                      np.ones((1,self.number_of_nodes())))
+        return probas
+    
+    @profile
+    def TargEccentricity(self):
+        ''' returns a 2d array containing the eccentricity of the target node for all edges
+        ''' 
+        sp = self.get_shortest_path_dict()
+        probas =  np.dot( 
+                      np.ones((self.number_of_nodes(),1)),
+                      np.array(nx.eccentricity(self, sp = sp).values(),dtype=float).reshape(1,-1)
+                      )       
+        return probas
+    @profile
+    def SameCommunity(self) :
+        ''' returns a 2d array containing 1 when both nodes are in the same community'''
+        partition = com.best_partition(self)
+        
+        probas = np.zeros((self.number_of_nodes(), self.number_of_nodes()))
+        
+        for node1 in partition :
+            for node2 in partition :
+                if partition[node1]==partition[node2] :
+                    probas[node1,node2] = 1.
+        
+        return probas
     
     def Distance(self) :
         ''' returns a 2d array containing the distance = shortest path length, takes weights into account'''
@@ -112,13 +239,13 @@ class Undirected_UnweightedGWU(gwu.GraphWithUpdate, nx.Graph):
             for node2, length in row.iteritems():
                 probas[node1, node2] = length 
         return probas
-    
+
     def NormalizedDistance(self) :
         ''' returns a 2d array containing the distance = shortest path length, takes weights into account'''
         ''' gives +infinity if no path'''
         ''' divides by distance maximal distance which is always real but can be 0 ''' 
         return self.Distance()/self.get_max_distance()
-    
+
     def NumberOfNodes(self):
         ''' returns a 2d array filled with only one value : the number of nodes of the network'''
         probas = np.empty((self.number_of_nodes(), self.number_of_nodes()))
@@ -146,7 +273,7 @@ class Undirected_UnweightedGWU(gwu.GraphWithUpdate, nx.Graph):
         probas = np.empty((self.number_of_nodes(), self.number_of_nodes()))
         value = sum(self.degree().values())/self.number_of_nodes()
         probas.fill(value)
-        return probas   
+        return probas
     
     
     def MaxDistance(self) :

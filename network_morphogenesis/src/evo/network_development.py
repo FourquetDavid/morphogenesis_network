@@ -241,7 +241,13 @@ def compute_function(data,value0,value1) :
                        "abs" : np.absolute,
                          "/" : div,
                          "inv" : inv,
-                         "opp" : opp
+                         "opp" : opp,
+                         "H" : H,
+                         "T": T,
+                         "N" :N,
+                         ">" : greater,
+                         "<" : less,
+                         "=" : around
                        }[data](value0,value1)  
                              
 def compute_leaf(graph,variable) :
@@ -343,6 +349,31 @@ def inv(a,b):
 
 def opp(a,b):
     return -a
+
+def H(a,b):
+    #only on a , 1 if a > 0, else 0
+    return (a>=0).astype(float)
+
+def T(a,b):
+    #th(a)+1 / 2
+    return (np.tanh(a)+1)/2
+
+def N(a,b):
+    return np.exp(-a**2)
+
+def greater(a,b):
+    '1 if a >b element-wise'
+    return (a>=b).astype(float)
+
+def less(a,b):
+    '1 if a <b element-wise'
+    return (a<b).astype(float)
+
+def around(a,b):
+    '1 if b-1<a < b+1 element-wise'
+    return (np.absolute(a-b)<1).astype(float)
+
+
 
 def normalize(x) :
     return (math.tanh(x)+1)/2
