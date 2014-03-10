@@ -101,7 +101,7 @@ class Undirected_UnweightedGWU(gwu.GraphWithUpdate, nx.Graph):
         ''' returns a 2d array containing the identity number of the target node for all edges divided by the number of nodes
         '''       
         return self.TargId()/self.number_of_nodes()
-    @profile
+    #@profile
     def OrigPagerank(self):
         ''' returns a 2d array containing the pagerank of the origin node for all edges
         ''' 
@@ -110,7 +110,7 @@ class Undirected_UnweightedGWU(gwu.GraphWithUpdate, nx.Graph):
                       np.ones((1,self.number_of_nodes())))
         return probas
     
-    @profile
+    #@profile
     def TargPagerank(self):
         ''' returns a 2d array containing the pagerank of the target node for all edges
         ''' 
@@ -120,7 +120,7 @@ class Undirected_UnweightedGWU(gwu.GraphWithUpdate, nx.Graph):
                       )       
         return probas
     
-    @profile
+    #@profile
     def OrigCoreN(self):
         ''' returns a 2d array containing the pagerank of the origin node for all edges
         ''' 
@@ -129,7 +129,7 @@ class Undirected_UnweightedGWU(gwu.GraphWithUpdate, nx.Graph):
                       np.ones((1,self.number_of_nodes())))
         return probas
     
-    @profile
+    #@profile
     def TargCoreN(self):
         ''' returns a 2d array containing the pagerank of the target node for all edges
         ''' 
@@ -139,7 +139,7 @@ class Undirected_UnweightedGWU(gwu.GraphWithUpdate, nx.Graph):
                       )       
         return probas
     
-    @profile
+    #@profile
     def OrigCloseness(self):
         ''' returns a 2d array containing the closeness of the origin node for all edges
         ''' 
@@ -148,7 +148,7 @@ class Undirected_UnweightedGWU(gwu.GraphWithUpdate, nx.Graph):
                       np.ones((1,self.number_of_nodes())))
         return probas
     
-    @profile
+    #@profile
     def TargCloseness(self):
         ''' returns a 2d array containing the closeness of the target node for all edges
         ''' 
@@ -157,7 +157,7 @@ class Undirected_UnweightedGWU(gwu.GraphWithUpdate, nx.Graph):
                       np.array(nx.closeness_centrality(self).values(),dtype=float).reshape(1,-1)
                       )       
         return probas
-    @profile
+    #@profile
     def OrigBetweenness(self):
         ''' returns a 2d array containing the betweenness of the origin node for all edges
         ''' 
@@ -166,7 +166,7 @@ class Undirected_UnweightedGWU(gwu.GraphWithUpdate, nx.Graph):
                       np.ones((1,self.number_of_nodes())))
         return probas
     
-    @profile
+    #@profile
     def TargBetweenness(self):
         ''' returns a 2d array containing the betweenness of the target node for all edges
         ''' 
@@ -175,7 +175,7 @@ class Undirected_UnweightedGWU(gwu.GraphWithUpdate, nx.Graph):
                       np.array(nx.betweenness_centrality(self).values(),dtype=float).reshape(1,-1)
                       )       
         return probas
-    @profile
+    #@profile
     def OrigClustering(self):
         ''' returns a 2d array containing the clustering of the origin node for all edges
         ''' 
@@ -184,7 +184,7 @@ class Undirected_UnweightedGWU(gwu.GraphWithUpdate, nx.Graph):
                       np.ones((1,self.number_of_nodes())))
         return probas
     
-    @profile
+    #@profile
     def TargClustering(self):
         ''' returns a 2d array containing the clustering of the target node for all edges
         ''' 
@@ -193,7 +193,7 @@ class Undirected_UnweightedGWU(gwu.GraphWithUpdate, nx.Graph):
                       np.array(nx.clustering(self).values(),dtype=float).reshape(1,-1)
                       )       
         return probas
-    @profile
+    #@profile
     def OrigEccentricity(self):
         ''' returns a 2d array containing the eccentricity of the origin node for all edges
         ''' 
@@ -203,7 +203,7 @@ class Undirected_UnweightedGWU(gwu.GraphWithUpdate, nx.Graph):
                       np.ones((1,self.number_of_nodes())))
         return probas
     
-    @profile
+    #@profile
     def TargEccentricity(self):
         ''' returns a 2d array containing the eccentricity of the target node for all edges
         ''' 
@@ -213,7 +213,7 @@ class Undirected_UnweightedGWU(gwu.GraphWithUpdate, nx.Graph):
                       np.array(nx.eccentricity(self, sp = sp).values(),dtype=float).reshape(1,-1)
                       )       
         return probas
-    @profile
+    #@profile
     def SameCommunity(self) :
         ''' returns a 2d array containing 1 when both nodes are in the same community'''
         partition = com.best_partition(self)

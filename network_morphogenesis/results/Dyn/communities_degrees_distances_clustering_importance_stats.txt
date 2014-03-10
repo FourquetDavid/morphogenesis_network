@@ -1,0 +1,118 @@
+name = Dyn 
+number of generations = 11 
+evaluation_method = communities_degrees_distances_clustering_importance 
+network_type = undirected_unweighted 
+tree_type = with_constants 
+selector = Slot [Selector] (Count: 1)
+		Name: GRouletteWheel - Weight: 0.50
+		Doc:  The Roulette Wheel selector 
+ 
+multiprocessing = False 
+#####      Generation  0   ###########
+- Statistics
+	Minimum raw score                             = 0.04
+	Fitness average                               = 0.19
+	Minimum fitness                               = 0.07
+	Raw scores variance                           = 0.00
+	Standard deviation of raw scores              = 0.05
+	Average of raw scores                         = 0.19
+	Maximum fitness                               = 0.23
+	Maximum raw score                             = 0.24
+######### Arbre num 0 ###########
+0.239183006536GTreeNodeBase [Childs=0] - [[3.112142142025168, 'Random']]
+######### Arbre num 1 ###########
+0.233333333333GTreeNodeBase [Childs=0] - [[0.7043568561500959, 'TargCloseness']]
+######### Arbre num 2 ###########
+0.229738562092GTreeNodeBase [Childs=0] - [[5.992968567152913, 'TargCoreN']]
+######### Arbre num 3 ###########
+0.22619047619GTreeNodeBase [Childs=0] - [[4.879673328593224, 'OrigClustering']]
+######### Arbre num 4 ###########
+0.22394005848GTreeNodeBase [Childs=0] - [[1.0006613943311424, 'OrigCloseness']]
+#####      Generation  5   ###########
+- Statistics
+	Minimum raw score                             = 0.10
+	Fitness average                               = 0.21
+	Minimum fitness                               = 0.11
+	Raw scores variance                           = 0.00
+	Standard deviation of raw scores              = 0.03
+	Average of raw scores                         = 0.21
+	Maximum fitness                               = 0.25
+	Maximum raw score                             = 0.25
+######### Arbre num 0 ###########
+0.253349673203GTreeNodeBase [Childs=2] - [+]
+  GTreeNodeBase [Childs=0] - [[3.9055422421269737, 'NormalizedOrigId']]
+  GTreeNodeBase [Childs=2] - [abs]
+    GTreeNodeBase [Childs=0] - [[8.458611868604544, 'TargBetweenness']]
+    GTreeNodeBase [Childs=2] - [abs]
+      GTreeNodeBase [Childs=0] - [[4.139154171183609, 'NumberOfEdges']]
+      GTreeNodeBase [Childs=0] - [[3.243627126131078, 'NormalizedTargDegree']]
+######### Arbre num 1 ###########
+0.229738562092GTreeNodeBase [Childs=0] - [[0.7520604227853035, 'NormalizedTargDegree']]
+######### Arbre num 2 ###########
+0.229738562092GTreeNodeBase [Childs=2] - [<]
+  GTreeNodeBase [Childs=2] - [max]
+    GTreeNodeBase [Childs=0] - [[4.139154171183609, 'NumberOfEdges']]
+    GTreeNodeBase [Childs=2] - [T]
+      GTreeNodeBase [Childs=0] - [[5.076576065885057, 'TargId']]
+      GTreeNodeBase [Childs=0] - [[5.95071358374096, 'TargCoreN']]
+  GTreeNodeBase [Childs=0] - [[4.380628606711754, 'TargId']]
+######### Arbre num 3 ###########
+0.229594820384GTreeNodeBase [Childs=0] - [[3.1391422794477353, 'OrigClustering']]
+######### Arbre num 4 ###########
+0.22619047619GTreeNodeBase [Childs=0] - [[3.243627126131078, 'NormalizedTargDegree']]
+#####      Generation  10   ###########
+- Statistics
+	Minimum raw score                             = 0.12
+	Fitness average                               = 0.21
+	Minimum fitness                               = 0.12
+	Raw scores variance                           = 0.00
+	Standard deviation of raw scores              = 0.03
+	Average of raw scores                         = 0.21
+	Maximum fitness                               = 0.25
+	Maximum raw score                             = 0.25
+######### Arbre num 0 ###########
+0.253349673203GTreeNodeBase [Childs=2] - [log]
+  GTreeNodeBase [Childs=2] - [/]
+    GTreeNodeBase [Childs=0] - [[4.886367288985257, 'OrigBetweenness']]
+    GTreeNodeBase [Childs=0] - [[3.514940878111333, 'NormalizedOrigDegree']]
+  GTreeNodeBase [Childs=0] - [[0.495161792690454, 'TargId']]
+######### Arbre num 1 ###########
+0.239183006536GTreeNodeBase [Childs=0] - [[4.139154171183609, 'NumberOfEdges']]
+######### Arbre num 2 ###########
+0.238GTreeNodeBase [Childs=0] - [[2.3457624118950373, 'NormalizedTargDegree']]
+######### Arbre num 3 ###########
+0.237134502924GTreeNodeBase [Childs=0] - [[2.6786627453737406, 'NormalizedTargDegree']]
+######### Arbre num 4 ###########
+0.236927174853GTreeNodeBase [Childs=0] - [[12.287373426287818, 'OrigCoreN']]
+#####      Generation  11   ###########
+- Statistics
+	Minimum raw score                             = 0.12
+	Fitness average                               = 0.21
+	Minimum fitness                               = 0.12
+	Raw scores variance                           = 0.00
+	Standard deviation of raw scores              = 0.03
+	Average of raw scores                         = 0.21
+	Maximum fitness                               = 0.25
+	Maximum raw score                             = 0.25
+######### Arbre num 0 ###########
+0.253349673203GTreeNodeBase [Childs=2] - [log]
+  GTreeNodeBase [Childs=2] - [/]
+    GTreeNodeBase [Childs=0] - [[4.886367288985257, 'OrigBetweenness']]
+    GTreeNodeBase [Childs=0] - [[3.514940878111333, 'NormalizedOrigDegree']]
+  GTreeNodeBase [Childs=0] - [[0.495161792690454, 'TargId']]
+######### Arbre num 1 ###########
+0.243333333333GTreeNodeBase [Childs=0] - [[4.139154171183609, 'NormalizedTargDegree']]
+######### Arbre num 2 ###########
+0.233333333333GTreeNodeBase [Childs=2] - [T]
+  GTreeNodeBase [Childs=2] - [-]
+    GTreeNodeBase [Childs=0] - [[3.1086955405278847, 'OrigCoreN']]
+    GTreeNodeBase [Childs=0] - [[10.122523314281116, 'OrigClustering']]
+  GTreeNodeBase [Childs=2] - [opp]
+    GTreeNodeBase [Childs=0] - [[3.514940878111333, 'NormalizedOrigDegree']]
+    GTreeNodeBase [Childs=0] - [[10.784446637776082, 'OrigCoreN']]
+######### Arbre num 3 ###########
+0.229738562092GTreeNodeBase [Childs=2] - [exp]
+  GTreeNodeBase [Childs=0] - [[5.534062083637792, 'OrigPagerank']]
+  GTreeNodeBase [Childs=0] - [[0.554923706646182, 'Distance']]
+######### Arbre num 4 ###########
+0.229738562092GTreeNodeBase [Childs=0] - [[2.4438638032683473, 'TargDegree']]
