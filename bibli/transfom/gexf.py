@@ -376,12 +376,16 @@ class GEXFWriter(GEXF):
         attvalues=Element('attvalues')
         if len(data)==0:
             return data
+        
+        if len(data)==1 and "key" in data :
+            return data
+            
         if 'start' in data or 'end' in data:
             self.graph_element.attrib['mode'] = 'dynamic'
         for k,v in data.items():
-            # rename generic multigraph key to avoid any name conflict
+            # remove useless generic multigraph key to avoid any name conflict
             if k == 'key':
-                k='networkx_key'
+                continue
             if type(v) == list :
                 mode ='dynamic'
             else :
@@ -802,11 +806,6 @@ class GEXFReader(GEXF):
         if edge_id is not None:
             data["id"] = edge_id
 
-        # check if there is a 'multigraph_key' and use that as edge_id
-        multigraph_key = data.pop('networkx_key',None)
-        if multigraph_key is not None:
-            edge_id=multigraph_key
-
         weight = edge_element.get('weight')
         if weight is not None:
             data['weight']=float(weight)
@@ -820,9 +819,9 @@ class GEXFReader(GEXF):
         if G.has_edge(source,target):
             # seen this edge before - this is a multigraph
             self.simple_graph=False
-        G.add_edge(source, target, key=edge_id, **data)
+        G.add_edge(source, target, **data)
         if edge_direction=='mutual':
-            G.add_edge(target, source, key=edge_id, **data)
+            G.add_edge(target, source, **data)
 
     def decode_attr_elements(self, gexf_keys, obj_xml):
         # Use the key information to decode the attr XML

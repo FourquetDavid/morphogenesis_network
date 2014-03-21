@@ -37,7 +37,7 @@ def verif(f,dynamic = False):
     else :
         net = nx.read_gexf("files/"+name+"/"+name+".gexf")
         
-    test(net)
+    #test(net)
     #gexf.write_gexf(net, "files/"+name+"/"+name+"2.gexf")
     print "copied :",
     print net.number_of_nodes(),
@@ -308,83 +308,115 @@ def VRND(name):
     test(net)
     suivi(net,name,dynamic = True)   
     
-            
-def EIES(name):
-    graph = nx.MultiDiGraph()
-    graph.name = "EIES"
+def stu98():
+    name = "stu98"
+    graph = nx.DiGraph()
+    graph.name = name
+    
+    
     def attribute() :
         i=0
-        for line in open(name+".ATT").read().splitlines() :
-    
-            def prof(number) :    
-                d =  {1 : "sociology", 2 : "anthropology", 3 : "mathematics/statistics", 4 : "psychology"}         
+        for line in open("stud98.txt").read().splitlines() :
+            def gen(number) :    
+                d =  {1 : "male" , 2 :"female"}         
                 return d[int(number)]
-            citations,type_research = [number for number in line.split(" ") if number != '']
+            def prog(number) :    
+                d =  {1 : "regular 4-year program" , 2 :"2-year program"}         
+                return d[int(number)]
+            def smo(number) :    
+                d =  {1 : "no" , 2 :"yes, at parties (social)",3:"1-3 cigarettes per day",4:"4-10 cigarettes per day"
+                      ,5:"more than 10 p.d.", 99 : "missing"}         
+                return d[int(number)]
+            _,gender,years,program,smoking = [number for number in line.split("\t") if number != '']
             
-            graph.add_node(i, dict(number_of_citations = int(citations), discipline = prof(type_research) ))
+            graph.add_node(i,  gender = gen(gender),age = int(years), program = prog(program),somking = smo(smoking) )
+            i=i+1
+            
+    def subgraph(number_time):
+        graph = nx.DiGraph()
+        def type_rel(number) : 
+            d =  {1 : "Best friendship", 2 : "Friendship", 3 : "Friendly relationship", 4 :"Neutral relationship",5:"Troubled relationship" }         
+            return d[int(number)]
+        source=0
+        for line in open(name +"t"+ str(number_time)+".txt").read().splitlines() :
+            target = 0
+            for number_of_messages in [number for number in line.split("\t") if number != ''] :
+                if int(number_of_messages) not in [0,6,8,9] : 
+                    keyhere = type_rel(int(number_of_messages))
+                    graph.add_edge(source,target, type_relationship = keyhere) 
+                target = target+1
+            source = source+1
+        return graph
+    
+    attribute()
+    net = create_first_slice(graph,0)
+    #test(net)
+    #test(subgraph(0))
+    net = add_following_slice(net, subgraph(0), 0, 0, 0)
+    #test(net)
+    net = add_following_slice(net, subgraph(2), 0, 0, 2)
+    net = add_following_slice(net, subgraph(3), 0, 2, 3)
+    net = add_following_slice(net, subgraph(5), 0, 3, 5)
+    net = add_following_slice(net, subgraph(6), 0, 4, 6) 
+    test(net)
+    suivi(net,"stud98.gexf",dynamic = True)   
+        
+            
+def EIES(name):
+    graph = nx.DiGraph()
+    graph.name = "EIES"
+    graph.dynamic = True
+    graph.timeformat = "double"
+    def attribute() :
+        i=0
+        for line in open("EIES.ATT").read().splitlines() :
+            field =  {1 : "sociology", 2 : "anthropology", 3 : "mathematics/statistics", 4 : "psychology"}
+            citations,type_research = [int(number) for number in line.split(" ") if number != '']
+            
+            graph.add_node(i, dict(number_of_citations = citations, discipline = field[type_research] ))
             i=i+1
     attribute()
     
-    print graph.node
     def message() :
-        subgraph = nx.DiGraph()
-        subgraph.name = name+"-messages"
-        subgraph.add_nodes_from(graph.nodes(data=True))
         source=0
         for line in open("messages.asc").read().splitlines() :
             target = 0
             for number_of_messages in [number for number in line.split(" ") if number != ''] :
                 if int(number_of_messages) != 0 :
-                    graph.add_edge(source,target, key = 'number_of_messages_sent', weight = int(number_of_messages))
-                    subgraph.add_edge(source, target, weight = int(number_of_messages))
+                    graph.add_edge(source,target, number_of_messages_sent = int(number_of_messages))
                 target = target+1
             source = source+1
-        return subgraph
-     
-    def time(number_time):
-        
+    
+                    
+    def subgraph(number_time):
+        subgraph = nx.DiGraph()
+        subgraph.add_nodes_from(graph.nodes(data=True))
         def type_rel(number) : 
             d =  {1 : "do_not_know_the_other", 2 : "heard_about_the_other,did_not_meet_him/her", 3 : "have_met_the_other", 4 :"friend" }         
-            return d[int(number)]
+            return d[number]
         source=0
-        for line in open(name +"."+ str(number_time)).read().splitlines() :
+        for line in open("EIES."+ str(number_time)).read().splitlines() :
             target = 0
-            for number_of_messages in [number for number in line.split(" ") if number != ''] :
-                if int(number_of_messages) != 0 : 
-                    keyhere = type_rel(int(number_of_messages))
-                    if not graph.get_edge_data(source, target, keyhere , False) :
-                        graph.add_edge(source,target, key = keyhere,start = number_time, end = number_time) 
-                    else :
-                        graph[source][target][keyhere]['end'] = number_time
+            for number_of_messages in [int(number) for number in line.split(" ") if number != ''] :
+                if  number_of_messages != 0  : 
+                    keyhere = type_rel(number_of_messages)
+                    subgraph.add_edge(source,target, type_relationship = keyhere)
                     
                 target = target+1
             source = source+1
-        
-            
-    def subgraph(number_time):
-        subgraph = nx.DiGraph()
-        subgraph.name = name+"-"+str(number_time)
-        subgraph.add_nodes_from(graph.nodes(data=True))
-        subgraph.add_edges_from([ (debut,fin, {"relation_type" : keyd}) for debut,fin,keyd,dico in graph.edges(data=True,keys = True) 
-                                 if dico.get('start',None)<=number_time<=dico.get('end',None)])
-        
         return subgraph
     
-    graph_message = message()
-    time(1)
-    time(2)
-    graph_1 = subgraph(1)
-    graph_2 = subgraph(2)
-    graph.mode = 'dynamic'
-    write(graph_1,name+"-1.gexf")
-    write(graph_2,name+"-2.gexf")
-    write(graph_message,name+"-messages.gexf")
-    if not os.path.exists("files/"+name): os.makedirs("files/"+name)
-    nx.write_gexf(graph, "files/"+name+"/"+name+".gexf")
-    print graph.node
-    print graph.edge[0]
-    print graph_1.edge[0]
-    print graph_2.edge[0]     
+    net = create_first_slice(graph,1)
+    #test(net)
+    #test(subgraph(0))
+    net = add_following_slice(net, subgraph(1), 1, 1,1)
+    net = add_following_slice(net, subgraph(2), 1, 1,2)
+    message()
+    test(net)
+    suivi(net,"EIES.gexf",dynamic = True)   
+     
+    
+      
 def kapf(name):
     graph = nx.MultiDiGraph()
     graph.name = name
@@ -593,76 +625,7 @@ def lazega():
     write(wo,name+"-work.gexf") 
     if not os.path.exists("files/"+name): os.makedirs("files/"+name)
     nx.write_gexf(graph, "files/"+name+"/"+name+".gexf")
-def stu98():
-    name = "stu98"
-    graph = nx.MultiDiGraph()
-    graph.name = name
-    
-    
-    def attribute() :
-        i=0
-        for line in open(name+"/stud98.txt").read().splitlines() :
-            def gen(number) :    
-                d =  {1 : "male" , 2 :"female"}         
-                return d[int(number)]
-            def prog(number) :    
-                d =  {1 : "regular 4-year program" , 2 :"2-year program"}         
-                return d[int(number)]
-            def smo(number) :    
-                d =  {1 : "no" , 2 :"yes, at parties (social)",3:"1-3 cigarettes per day",4:"4-10 cigarettes per day"
-                      ,5:"more than 10 p.d.", 99 : "missing"}         
-                return d[int(number)]
-            _,gender,years,program,smoking = [number for number in line.split("\t") if number != '']
-            
-            graph.add_node(i,  gender = gen(gender),age = int(years), program = prog(program),somking = smo(smoking) )
-            i=i+1
-    attribute()
-    
-    print graph.node
-    def message() :
-        source=0
-        for line in open("messages.asc").read().splitlines() :
-            target = 0
-            for number_of_messages in [number for number in line.split(" ") if number != ''] :
-                if int(number_of_messages) != 0 :
-                    graph.add_edge(source,target, key = 'number_of_messages_sent', weight = int(number_of_messages))
-                target = target+1
-            source = source+1
-    
 
-    def time(number_time):
-        def type_rel(number) : 
-            d =  {1 : "Best friendship", 2 : "Friendship", 3 : "Friendly relationship", 4 :"Neutral relationship",5:"Troubled relationship" }         
-            return d[int(number)]
-        source=0
-        for line in open(name+"/"+name +"t"+ str(number_time)+".txt").read().splitlines() :
-            target = 0
-            for number_of_messages in [number for number in line.split("\t") if number != ''] :
-                if int(number_of_messages) not in [0,6,8,9] : 
-                    keyhere = type_rel(int(number_of_messages))
-                    if not graph.get_edge_data(source, target, keyhere , False) :
-                        graph.add_edge(source,target, key = keyhere,start = number_time, end = number_time) 
-                    else :
-                        graph[source][target][keyhere]['end'] = number_time
-                target = target+1
-            source = source+1
-    
-    def subgraph(number_time):
-        subgraph = nx.DiGraph()
-        subgraph.name = name+"-"+str(number_time)
-        subgraph.add_nodes_from(graph.nodes(data=True))
-        subgraph.add_edges_from([ (debut,fin, {keyd : 1}) for debut,fin,keyd,dico in graph.edges(data=True,keys = True) 
-                                 if dico.get('start',float("-inf"))<=number_time<=dico.get('end',float("+inf"))])
-        
-        return subgraph
-
-    time(0);t0 = subgraph(0)
-    time(2);t2 = subgraph(2)
-    time(3);t3 = subgraph(3)
-    time(5);t5 = subgraph(5)
-    time(6);t6 = subgraph(6)
-    print graph.node
-    print graph.edge[0]
 
 
 def read_pajek(path,encoding='UTF-8'):
@@ -1613,9 +1576,10 @@ def bipartite_konect(graph_init,name,type0,type1,trois=None,quatre=None):
             linesplit = [element for element in line.split(" ") if element != '']
             graph.add_node(type0+"-"+linesplit[0], type = type0)
             graph.add_node(type1+"-"+linesplit[1], type = type1)
-            graph.add_edge(type0+"-"+linesplit[0], type1+"-"+linesplit[1])
-            if trois : graph[type0+"-"+linesplit[0]][type1+"-"+linesplit[1]].update({trois : linesplit[2]})
-            if quatre : graph[type0+"-"+linesplit[0]][type1+"-"+linesplit[1]].update({quatre : linesplit[3]})
+            attributes = {}
+            if trois : attributes.update({trois : linesplit[2]})
+            if quatre : attributes.update({quatre : linesplit[3]})
+            graph.add_edge(type0+"-"+linesplit[0], type1+"-"+linesplit[1],**attributes)
     suivi(graph,graph.name+".gexf")
 
 
@@ -1641,7 +1605,7 @@ for f in os.listdir('.') :
         net = None
         if ".gexf" in f :
             net = nx.read_gexf(f)
-            suivi(net,f)
+            #suivi(net,f)
         if "e.paj" in f :
             net = read_pajek(f)
             #mapy = {oldkey:int(oldkey) for oldkey in net}
@@ -1662,7 +1626,7 @@ for f in os.listdir('.') :
             net = read_pajek(f)
             #mapy = {oldkey:int(oldkey) for oldkey in net}
             #net = nx.relabel_nodes(net,mapy)
-            suivi(net,f) 
+            #suivi(net,f) 
   
         if ".txt" in f :
             print f
@@ -1671,7 +1635,7 @@ for f in os.listdir('.') :
         if ".gml" in f :
             print f
             net = nx.read_gml(f)
-            suivi(net,f)
+            #suivi(net,f)
 #dl_advogato()
 #bipartite_konect(nx.MultiGraph(),"dbpedia-country", "entity", "country")
 #bipartite_konect(nx.Graph(),"amazon-ratings", "user", "product",trois ="weight",quatre ="timestamp")
@@ -1680,7 +1644,23 @@ for f in os.listdir('.') :
 #konect(nx.DiGraph(),"amazon0601")
 #konect(nx.Graph(),"ca-AstroPh")
 #konect(nx.MultiGraph(),"ca-cit-HepPh",quatre = "timestamp")
-konect(nx.DiGraph(),"cit-HepPh")
+#konect(nx.MultiGraph(),"ca-cit-HepTh",quatre = "timestamp")
+#konect(nx.MultiDiGraph(),"cit-HepTh")
+#konect(nx.MultiDiGraph(),"hep-th-citations")
+#konect(nx.DiGraph(),"web-BerkStan")
+#konect(nx.MultiDiGraph(),"zhishi-baidu-internallink")
+#konect(nx.MultiDiGraph(),"zhishi-baidu-relatedpages")
+#konect(nx.MultiGraph(),"arenas-meta")
+#konect(nx.Graph(),"as-caida20071105")
+#konect(nx.Graph(),"loc-brightkite_edges")
+#konect(nx.MultiDiGraph(),"citeseer")
+#konect(nx.MultiDiGraph(),"zhishi-zhwiki-internallink")
+#konect(nx.Graph(),"roadNet-CA")
+#bipartite_konect(nx.MultiGraph(),"bibsonomy-2ti", "tag", "publication",quatre ="timestamp")
+#bipartite_konect(nx.MultiGraph(),"bibsonomy-2ui", "user", "publication",quatre ="timestamp")
+#bipartite_konect(nx.MultiGraph(),"bibsonomy-2ut", "user", "tag",quatre ="timestamp")
+#bipartite_konect(nx.Graph(),"bookcrossing_full-rating", "user", "book")
+#bipartite_konect(nx.Graph(),"bookcrossing_rating", "user", "book",trois = "rating")
 #EIES("EIES")
 #stu98()
 #lazega()
