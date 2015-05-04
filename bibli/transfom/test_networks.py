@@ -4,10 +4,11 @@ Created on 17 mars 2014
 @author: davidfourquet
 '''
 import networkx as nx
-import gexf
+#import gexf
 import csv
 from lxml import html
 import os
+import random
 
  
 
@@ -36,82 +37,119 @@ def getDataFromKonect() :
     ht = html.parse("http://konect.uni-koblenz.de/networks/")
     for network in ht.iter('tr'):
             try :
-                name = network[9][1][1].get("href").replace("../downloads/","").replace(".tar.bz2","")
+                name = network[9][1][1].get("href").replace("../downloads/","").replace(".tar.bz2","").replace("tsv/","")
             except :
                 continue
             
             nodes_info = int(network[6].text.replace(",",""))
             edges_info = int(network[7].text.replace(",",""))
-            directed =  network[3][1].get("alt").startswith("Directed")
-            bipartite =  network[3][1].get("alt").startswith("Bipartite")
-            multiple = network[4][1].get("alt").startswith("Multiple")
-            weighted = " weighted " in network[4][1].get("alt")  or "atings" in network[4][1].get("alt")
-            signed = "Signed" in network[4][1].get("alt")
+            directed =  network[3][1][0].get("alt").startswith("Directed")
+            bipartite =  network[3][1][0].get("alt").startswith("Bipartite")
+            multiple = network[4][1][0].get("alt").startswith("Multiple")
+            weighted = " weighted " in network[4][1][0].get("alt")  or "atings" in network[4][1][0].get("alt")
+            signed = "Signed" in network[4][1][0].get("alt")
             
             try : 
                 loop_info = False
-                loop_info = network[5][0][1][0].get("title","").startswith("Loop") 
+                loop_info = network[5][0][1][0][0].get("title","").startswith("Loop") 
             except: pass
             try : 
                 time_info = False
-                time_info = network[5][0][0][0].get("title","").startswith("Time")
+                time_info = network[5][0][0][0][0].get("title","").startswith("Time")
             except: pass
             
-            edge_types =0
-            if time_info : edge_types+=1
-            if weighted or signed : edge_types+=1
+            edge_data =0
+            edge_types = []
+            if time_info : 
+                edge_data+=1 
+                edge_types.append('timestamp')
+            if weighted or signed : 
+                edge_data+=1
+                edge_types.append('weight')
             
+            node_data =0
+            node_types =[]  
+            if bipartite : 
+                node_data+=1
+                node_types.append('type')
+                           
+                
             dict_datas = {"name" : name,
                       "bipartite" :bipartite,
                       "nbnodes":nodes_info,
                       "nbedges" : edges_info,
-                      "multiple" :multiple or loop_info,
+                      "multiple" :multiple,
                       "directed" : directed,
                       "weighted" : weighted,
                       "signed" : signed,
-                      "edgedata" : edge_types,
+                      "nodedata" : node_data,
+                      "node_types" : node_types,
+                      "edgedata" : edge_data,
+                      "edge_types" : edge_types,
+                      "loop" : loop_info,
                       "dynamic" : False}
             dict_id_datas[name] = dict_datas
 
 def getNetworksDone():
+    
     networks =[]
-    networkfile = open("done.csv")
-    for line in networkfile.read().splitlines() :
-        name = line.split(";",1)[0]
-        networks.append(name)
+    if os.path.isfile("done.csv") :
+        networkfile = open("done.csv")
+        for line in networkfile.read().splitlines() :
+            name = line.split(";",2)[1]
+            networks.append(name)
+    else :
+        networkfile = open("done.csv",'w')
+        networkfile.write("number;name;nb_nodes;nb_edges;is_directed;has_multiple_edges;is_bipartite;is_weighted;is_signed;is_dynamic;number_of_node_datas;list_node_datas;number_of_edge_datas;list_edge_datas;\n")
+    networkfile.close()
     return networks
 
 def getNetworksProblems():
     networks =[]
-    networkfile = open("problems.csv")
-    for line in networkfile.read().splitlines() :
-        name = line.split(";",1)[0]
-        networks.append(name)
+    if os.path.isfile("problems.csv") :
+        networkfile = open("problems.csv")
+        for line in networkfile.read().splitlines() :
+            name = line.split(";",2)[1]
+            networks.append(name)
+    else :
+        networkfile = open("problems.csv",'w')
+        networkfile.write("number;name;nb_nodes;nb_edges;is_directed;has_multiple_edges;is_bipartite;is_weighted;is_signed;is_dynamic;number_of_node_datas;list_node_datas;number_of_edge_datas;list_edge_datas;\n")
+    networkfile.close()
     return networks     
-
+ 
 def compareDataswithFiles():
     def study(carac) :
         perfect = True
         
         """ si les datas sont absentes"""
-        if not expected_datas[carac] :
-            print carac,"expected:", expected_datas[carac],"found:"
-            expected_datas['csv'] = expected_datas['csv']+str(expected_datas[carac])+",;"
-            del expected_datas[carac]
+        if carac not in expected_datas :
+            print carac,"found:", found_datas[carac],"nothing expected"
+            expected_datas['csv'] = expected_datas["csv"]+str(found_datas[carac])+";"
+            del found_datas[carac]
             perfect = False
             return perfect
         
+        """si les datas sont une liste"""
+        if type(expected_datas[carac]) == list or type(found_datas[carac]) == list :
+            if set(expected_datas[carac]) == set(found_datas[carac]) :
+                expected_datas['csv'] = expected_datas["csv"]+'_'.join(expected_datas[carac])+";"
+            else :
+                print carac,"expected:", expected_datas[carac],"found:", found_datas[carac]
+                expected_datas['csv'] = expected_datas["csv"]+'_'.join(expected_datas[carac])+"/"+'_'.join(found_datas[carac])+";"
+            del expected_datas[carac]
+            del found_datas[carac]
+            return perfect
         """ si les datas sont presentes mais incorrectes """
         if expected_datas[carac] == 'false' : expected_datas[carac] = False
         if expected_datas[carac] == 'true' : expected_datas[carac] = True
         
         if expected_datas[carac] != found_datas[carac] :
             print carac,"expected:", expected_datas[carac],"found:", found_datas[carac]
-            expected_datas['csv'] = expected_datas['csv']+str(expected_datas[carac])+","+str(found_datas[carac])+";"
-            perfect = False
+            expected_datas['csv'] = expected_datas["csv"]+str(expected_datas[carac])+"/"+str(found_datas[carac])+";"
+            return False
         else :
             """ si les datas sont presentes et correctes """
-            expected_datas['csv'] = expected_datas['csv']+str(expected_datas[carac])+";"
+            expected_datas['csv'] = expected_datas["csv"]+str(expected_datas[carac])+";"
         del expected_datas[carac]
         del found_datas[carac]
         return perfect
@@ -120,12 +158,13 @@ def compareDataswithFiles():
         
     networks = getNetworksDone()
     net2 = getNetworksProblems()
-    for directory in os.listdir("files") :
+    netfiles = os.listdir("files")
+    random.shuffle(netfiles)
+    for directory in netfiles :
         print 'STUDY', directory
-        name = directory.split("-",1)[1]
-        if os.path.isdir("files/"+directory) and (name not in networks) and (name not in net2) :
-            
-            try :
+        if os.path.isdir("files/"+directory) and (directory.split("-",1)[1] not in networks) and (directory.split("-",1)[1] not in net2) :
+                
+            #try :
                 expected_datas = find_expected_datas(directory)
                 found_datas = network_description(directory)
                 perfect = True
@@ -137,15 +176,25 @@ def compareDataswithFiles():
                 perfect = study("weighted") and perfect
                 perfect = study("signed") and perfect
                 perfect = study("dynamic") and perfect
+                perfect = study("nodedata") and perfect
+                perfect = study("node_types") and perfect
                 perfect = study("edgedata") and perfect
+                perfect = study("edge_types") and perfect
+                perfect = study("has_loop") and perfect
                 print "expected",expected_datas
-                print "found",found_datas
+                print "found",found_datas,"\n"
+                
                 if perfect : 
-                    open("done.csv",'a').write(expected_datas['csv']+"\n")
+                    networkfile = open("done.csv",'a')
+                    networkfile.write(expected_datas['csv']+"\n")
+                    networkfile.close()
                 else :
-                    open("problems.csv",'a').write(expected_datas['csv']+"\n")
-            except :
-                open("problems.csv",'a').write(name+"\n")
+                    networkfile = open("problems.csv",'a')
+                    networkfile.write(expected_datas['csv']+"\n")
+                    networkfile.close()
+                    
+            #except :
+                #open("problems.csv",'a').write(name+"\n")
             
             
             #cas ou pas de datas
@@ -154,21 +203,26 @@ def compareDataswithFiles():
             #cas parfait
             
 def find_expected_datas(directory) :
-                splitname =directory.split("-")
                 try : 
-                    number = int(splitname[0])
-                    if number == 0:
-                        name = '-'.join(splitname[1:])
-                        return dict_id_datas[name]
+                    splitname =directory.split("-")
+                    number = splitname[0]
+                    name = '-'.join(splitname[1:])
+                    if int(number) == 0:
+                        
+                        expected_datas = dict_id_datas[name]
+                        expected_datas["csv"] =number+";"+name+";"
+                        return expected_datas
                     else :
-                        return  dict_id_datas[number]
+                        expected_datas = dict_id_datas[int(number)]
+                        expected_datas["csv"] =number+";"+name+";"
+                        return expected_datas
                 except : return None        
         
     
     
 def network_description(directory):
     name = directory.split("-",1)[1]
-    net = gexf.read_gexf("files/"+directory+"/"+name+".gexf")
+    net = nx.gexf.read_gexf("files/"+directory+"/"+name+".gexf")
     
     network_datas ={}
     
@@ -189,12 +243,13 @@ def network_description(directory):
         network_datas['dynamic'] = dynamic
     
     def node_types():
-        from sets import Set
-        types = Set()
+        types = set()
         for _,data in net.nodes(data = True) :
             for type_node in data :
                 types.add(type_node)
+        types.remove("label")
         network_datas['node_types'] = list(types)
+        network_datas['nodedata'] = len(types)
         
     def edge_types():
         from sets import Set
@@ -225,18 +280,28 @@ def network_description(directory):
         node_types = Set()
         
         for _,data in net.nodes(data = True) :
-            if not data.get("type",False) :
+            if "type" not in data :
                 is_bipartite = False
                 break
             else :
-                node_types.append(data[type])
+                node_types.add(data["type"])
         network_datas['bipartite'] = is_bipartite
     
     def is_directed():
         network_datas["directed"] = isinstance(net, nx.DiGraph) or isinstance(net, nx.MultiDiGraph)
     
     def is_multiple():
-        network_datas["multiple"] = isinstance(net, nx.MultiGraph) or isinstance(net, nx.MultiDiGraph)
+        network_datas["has_loop"] = False
+        network_datas["multiple"] = False
+        if isinstance(net, nx.MultiGraph) or isinstance(net, nx.MultiDiGraph) :
+            for source,target,key in net.edges(keys = True) :
+                if source == target : 
+                    network_datas["has_loop"] = True
+                if key > 0 :
+                    network_datas["multiple"] = True
+            
+        
+            
     
     def is_weighted():
         weighted = True
@@ -248,6 +313,7 @@ def network_description(directory):
                 break
             if data['weight'] < 0 :
                 signed = True
+                weighted = False
                 break
         network_datas["signed"] = signed
         network_datas["weighted"] = weighted
@@ -269,6 +335,7 @@ def network_description(directory):
 dict_id_datas ={}   
 getDataFromSnas() 
 getDataFromKonect()
+#print(dict_id_datas)
 compareDataswithFiles() 
 
 

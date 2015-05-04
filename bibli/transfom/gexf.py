@@ -1,8 +1,9 @@
 '''
+Obsolete depuis la mise a jour de networkx
 Created on 20 fevr. 2014
 
 @author: davidfourquet
-'''
+
 """
 ****
 GEXF
@@ -816,7 +817,7 @@ class GEXFReader(GEXF):
 
 
 
-        if G.has_edge(source,target):
+        if G.has_edge(source,target) or source == target:
             # seen this edge before - this is a multigraph
             self.simple_graph=False
         G.add_edge(source, target, **data)
@@ -922,4 +923,4 @@ def relabel_gexf_graph(G):
     return H
 
 
-
+'''

@@ -12,6 +12,7 @@ if __name__ == '__main__':
     import  urllib
     import networkx as nx
     import gexf
+    import random
     
     def bipartite_konect(graph_init,name,type0,type1,trois=None,quatre=None):
         graph = graph_init
@@ -52,7 +53,7 @@ if __name__ == '__main__':
                         attributes.update({quatre : int(linesplit[3])})
                     except :
                         attributes.update({quatre : float(linesplit[3])})
-                graph.add_edge(int(linesplit[0]), int(linesplit[1]),**attributes)    
+                graph.add_edge(int(linesplit[0]), int(linesplit[1]),**attributes)
         return write(graph,graph.name+".gexf")
         
     def write(net,f):
@@ -68,7 +69,9 @@ if __name__ == '__main__':
     
         
     ht = html.parse("http://konect.uni-koblenz.de/networks/")
-    for network in ht.iter('tr'):
+    liste = list(ht.iter('tr'))
+    random.shuffle(liste)
+    for network in liste:
             try :
                 name = network[9][1][1].get("href").replace("../downloads/","").replace(".tar.bz2","")
             except :
@@ -77,19 +80,18 @@ if __name__ == '__main__':
             
             nodes_info = int(network[6].text.replace(",",""))
             edges_info = int(network[7].text.replace(",",""))
-            directed =  network[3][1].get("alt").startswith("Directed")
-            bipartite =  network[3][1].get("alt").startswith("Bipartite")
-            multiple = network[4][1].get("alt").startswith("Multiple")
-            weighted = " weighted " in network[4][1].get("alt") or "Signed" in network[4][1].get("alt") or "rating" in network[4][1].get("alt")
-
+            directed =  network[3][1][0].get("alt").startswith("Directed")
+            bipartite =  network[3][1][0].get("alt").startswith("Bipartite")
+            multiple = network[4][1][0].get("alt").startswith("Multiple")
+            weighted = " weighted " in network[4][1][0].get("alt") or "Signed" in network[4][1][0].get("alt") or "rating" in network[4][1][0].get("alt")
             
             try : 
                 loop_info = False
-                loop_info = network[5][0][1][0].get("title","").startswith("Loop") 
+                loop_info = network[5][0][1][0][0].get("title","").startswith("Loop") 
             except: pass
             try : 
                 time_info = False
-                time_info = network[5][0][0][0].get("title","").startswith("Time")
+                time_info = network[5][0][0][0][0].get("title","").startswith("Time")
             except: pass
             
             bip1,bip2 = "",""
@@ -99,13 +101,13 @@ if __name__ == '__main__':
                     if tr[0].text == "Vertex type " :
                         bip1,bip2 = tr[1].text.split(",")   
             
-            if not name in os.listdir("files") and not "0-"+name in os.listdir("files") :
+            if  not "0-"+name in os.listdir("files") :
                 print name,"| directed :",directed,"| bipartite :",bipartite,bip1,bip2,"| multiple :",multiple,"| weighted :",weighted,"| loop :",loop_info,"| time :",time_info 
                 if edges_info < 50000000 :
                     
                     """"DOWNLOAD"""""
                     try :
-                        if not os.path.exists(name+".tar.bz2") :
+                        if not os.path.exists(name+".tar.bz2") and not os.path.exists(name) :
                             urllib.urlretrieve ("http://konect.uni-koblenz.de/downloads/"+name+".tar.bz2", name+".tar.bz2")
                         print name,"downloaded"
                     except :
@@ -135,9 +137,11 @@ if __name__ == '__main__':
                     else :
                         nodes,edges = konect(graph,name,**options)
                     print name,"gexfied"
-                    try :os.renames(name, "used/"+name)
+                    try :
+                        os.renames(name, "used/"+name)
+                        os.remove(name+".tar.bz2")
                     except: pass
-                    os.remove(name+".tar.bz2")
+                    
                     if nodes != nodes_info or edges != edges_info :
                         print name,"failed : expected :",nodes_info,edges_info,"found :",nodes,edges
                     print name,"done"

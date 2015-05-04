@@ -1,15 +1,13 @@
 import networkx as nx
 import os
 import gexf
+from datetime import date
 #import igraph as ig
-def write(net,f,dynamic =False):
+def write(net,f):
     name = f.split('.')[-2]
     net.name = name
     if not os.path.exists("files/"+name): os.makedirs("files/"+name)
-    if dynamic :
-        gexf.write_gexf(net, "files/"+name+"/"+name+".gexf")
-    else :
-        nx.write_gexf(net, "files/"+name+"/"+name+".gexf")
+    nx.write_gexf(net, "files/"+name+"/"+name+".gexf")
     """
     nx.write_gml(net, "files/"+name+"/"+name+".gml")
     #igraphnet = ig.Graph.Read_GML("files/"+name+"/"+name+".gml")
@@ -30,12 +28,10 @@ def write(net,f,dynamic =False):
     print net.number_of_nodes(),
     print net.number_of_edges()
 
-def verif(f,dynamic = False):
+def verif(f):
     name = f.split('.')[-2]
-    if dynamic :
-        net = gexf.read_gexf("files/"+name+"/"+name+".gexf")
-    else :
-        net = nx.read_gexf("files/"+name+"/"+name+".gexf")
+    net = nx.read_gexf("files/"+name+"/"+name+".gexf")
+    
         
     #test(net)
     #gexf.write_gexf(net, "files/"+name+"/"+name+"2.gexf")
@@ -43,9 +39,9 @@ def verif(f,dynamic = False):
     print net.number_of_nodes(),
     print net.number_of_edges()
 
-def suivi(net,f,dynamic = False):
-    write(net,f,dynamic = dynamic)
-    verif(f,dynamic = dynamic)
+def suivi(net,f):
+    write(net,f)
+    verif(f)
     #os.rename(f,"used/"+f)
 
     
@@ -53,9 +49,8 @@ def network_description():
     def is_dynamic(net): 
         return False
     def is_bipartite(net):
-        from sets import Set
         is_bipartite = True
-        node_types = Set()
+        node_types = set()
         
         for node,data in net.nodes(data = True) :
             if not data[type] :
@@ -66,8 +61,7 @@ def network_description():
         return is_bipartite
     
     def try_multi(net):
-        from sets import Set
-        edge_types = Set()
+        edge_types = set()
         if net.is_instance(nx.Graph) or net.is_instance(nx.DiGraph) :
             return False,net
         
@@ -207,7 +201,7 @@ def livemocha(name,network):
     print net.number_of_edges()
     suivi(net,name+".gexf")
         
-def add_following_slice(net,netslice,start,end,currenttime):
+def add_following_slice(net,netslice,end,currenttime):
     
     for node in netslice.nodes() :
         try :
@@ -218,8 +212,8 @@ def add_following_slice(net,netslice,start,end,currenttime):
                     net.node[node]['spells'][-1].append((currenttime,currenttime))
                 
         except :
-            print "node not found : "+str(node) +" time: "+str(currenttime)
-            net.node[node]['spells'] =[(currenttime,currenttime)]
+            #print "node not found : "+str(node) +" time: "+str(currenttime)
+            net.add_node(node,spells =[(currenttime,currenttime)])
     
     for source,target,data in netslice.edges(data= True) :
         
@@ -230,7 +224,7 @@ def add_following_slice(net,netslice,start,end,currenttime):
             else : 
                 net[source][target]['spells'].append((currenttime,currenttime))
         except :
-            print "edge not found : "+str(source) +" "+str(target)+" time: "+str(currenttime)
+            #print "edge not found : "+str(source) +" "+str(target)+" time: "+str(currenttime)
             net.add_edge(source,target,spells=[(currenttime,currenttime)])
             
         
@@ -250,22 +244,22 @@ def add_following_slice(net,netslice,start,end,currenttime):
 def create_first_slice(net,start):
     for node in net.nodes() :
         net.node[node]['spells'] = [(start,start)]
-    for edge in net.edges() :
-        net[edge]['spells'] = [(start,start)]
+    for source,target in net.edges() :
+        net[source][target]['spells'] = [(start,start)]
     
     return net
 
 
 
 
-def VRND(name):
+def VRND():
     graph = nx.DiGraph()
     graph.name = "VanDeBunt_students"
     graph.dynamic = True
     graph.timeformat = "double"
     def attribute() :
         i=0
-        for line in open("VARS.DAT").read().splitlines() :
+        for line in open("VRND/VARS.DAT").read().splitlines() :
             gender = {1: "F", 2:"M"}
             program = {2:"2-year",3:"3-year",4:"4-year"}
             smoking = {1:"yes",2 :"no"}
@@ -282,7 +276,7 @@ def VRND(name):
             d =  {0 : "unknown", 1 : "best_friend", 2 : "friend", 3 : "friendly_relation", 4 :"neutral",5:"troubled"}         
             return d[number]
         source=0
-        for line in open("VRND32T"+ str(number_time)+".DAT").read().splitlines() :
+        for line in open("VRND/VRND32T"+ str(number_time)+".DAT").read().splitlines() :
             target = 0
             for number_of_messages in [int(number) for number in line.split(" ") if number != ''] :
                 if  number_of_messages != 6 and number_of_messages != 9 : 
@@ -306,7 +300,7 @@ def VRND(name):
     net = add_following_slice(net, subgraph(5), 0, 4, 5) 
     net = add_following_slice(net, subgraph(5), 0, 5, 6) 
     test(net)
-    suivi(net,name,dynamic = True)   
+    suivi(net,"VanDeBunt_students.gexf",dynamic = True)   
     
 def stu98():
     name = "stu98"
@@ -316,7 +310,7 @@ def stu98():
     
     def attribute() :
         i=0
-        for line in open("stud98.txt").read().splitlines() :
+        for line in open("stu98/stud98.txt").read().splitlines() :
             def gen(number) :    
                 d =  {1 : "male" , 2 :"female"}         
                 return d[int(number)]
@@ -338,12 +332,12 @@ def stu98():
             d =  {1 : "Best friendship", 2 : "Friendship", 3 : "Friendly relationship", 4 :"Neutral relationship",5:"Troubled relationship" }         
             return d[int(number)]
         source=0
-        for line in open(name +"t"+ str(number_time)+".txt").read().splitlines() :
+        for line in open("stu98/"+name +"t"+ str(number_time)+".txt").read().splitlines() :
             target = 0
             for number_of_messages in [number for number in line.split("\t") if number != ''] :
                 if int(number_of_messages) not in [0,6,8,9] : 
                     keyhere = type_rel(int(number_of_messages))
-                    graph.add_edge(source,target, type_relationship = keyhere) 
+                    graph.add_edge(source,target, relationship = keyhere) 
                 target = target+1
             source = source+1
         return graph
@@ -358,7 +352,7 @@ def stu98():
     net = add_following_slice(net, subgraph(3), 0, 2, 3)
     net = add_following_slice(net, subgraph(5), 0, 3, 5)
     net = add_following_slice(net, subgraph(6), 0, 4, 6) 
-    test(net)
+    #test(net)
     suivi(net,"stud98.gexf",dynamic = True)   
         
             
@@ -369,7 +363,7 @@ def EIES(name):
     graph.timeformat = "double"
     def attribute() :
         i=0
-        for line in open("EIES.ATT").read().splitlines() :
+        for line in open("EIES/EIES.ATT").read().splitlines() :
             field =  {1 : "sociology", 2 : "anthropology", 3 : "mathematics/statistics", 4 : "psychology"}
             citations,type_research = [int(number) for number in line.split(" ") if number != '']
             
@@ -379,7 +373,7 @@ def EIES(name):
     
     def message() :
         source=0
-        for line in open("messages.asc").read().splitlines() :
+        for line in open("EIES/messages.asc").read().splitlines() :
             target = 0
             for number_of_messages in [number for number in line.split(" ") if number != ''] :
                 if int(number_of_messages) != 0 :
@@ -395,12 +389,12 @@ def EIES(name):
             d =  {1 : "do_not_know_the_other", 2 : "heard_about_the_other,did_not_meet_him/her", 3 : "have_met_the_other", 4 :"friend" }         
             return d[number]
         source=0
-        for line in open("EIES."+ str(number_time)).read().splitlines() :
+        for line in open("EIES/EIES."+ str(number_time)).read().splitlines() :
             target = 0
             for number_of_messages in [int(number) for number in line.split(" ") if number != ''] :
                 if  number_of_messages != 0  : 
                     keyhere = type_rel(number_of_messages)
-                    subgraph.add_edge(source,target, type_relationship = keyhere)
+                    subgraph.add_edge(source,target, relationship = keyhere)
                     
                 target = target+1
             source = source+1
@@ -412,17 +406,17 @@ def EIES(name):
     net = add_following_slice(net, subgraph(1), 1, 1,1)
     net = add_following_slice(net, subgraph(2), 1, 1,2)
     message()
-    test(net)
+    #test(net)
     suivi(net,"EIES.gexf",dynamic = True)   
      
     
       
-def kapf(name):
+def kapf():
     graph = nx.MultiDiGraph()
-    graph.name = name
+    graph.name = "kapf"
     def attribute() :
         i=0
-        for line in open(name+"a_stat.dat").read().splitlines() :
+        for line in open("kapf/kapfa_stat.dat").read().splitlines() :
     
             def prof(number) :    
                 d =  {1 : "head tailor" , 2 :"cutter", 3 :"line 1 tailor", 4:"button machiner",
@@ -437,7 +431,7 @@ def kapf(name):
     print graph.node
     def message() :
         source=0
-        for line in open("messages.asc").read().splitlines() :
+        for line in open("kapf/messages.asc").read().splitlines() :
             target = 0
             for number_of_messages in [number for number in line.split(" ") if number != ''] :
                 if int(number_of_messages) != 0 :
@@ -446,59 +440,37 @@ def kapf(name):
             source = source+1
     
     
-    def time(number_time,type_rel,reduced_type):
+    def time(number_time):
+        subgraph = nx.DiGraph()
+        subgraph.add_nodes_from(graph.nodes(data=True))
         source=0
-        for line in open(name +reduced_type+ str(number_time)+".dat").read().splitlines() :
+        for line in open("kapf/kapfti"+ str(number_time)+".dat").read().splitlines() :
             target = 0
             for relate in [number for number in line.split(" ") if number != ''] :
                 if int(relate) != 0 : 
-                    keyhere = type_rel
-                    if not graph.get_edge_data(source, target, keyhere , False) :
-                        graph.add_edge(source,target, key = keyhere,start = number_time, end = number_time) 
-                    else :
-                        graph[source][target][keyhere]['end'] = number_time
+                        subgraph.add_edge(source,target, type = "instrumental_interactions") 
+
                 target = target+1
             source = source+1
-            
-    def subdigraph(number_time,key):
+        for line in open("kapf/kapfts"+ str(number_time)+".dat").read().splitlines() :
+            target = 0
+            for relate in [number for number in line.split(" ") if number != ''] :
+                if int(relate) != 0 : 
+                        subgraph.add_edge(source,target, type = "sociational_interactions") 
 
-        subgraph = nx.DiGraph()
-        subgraph.name = name+"-"+key+str(number_time)
-        subgraph.add_nodes_from(graph.nodes(data=True))
-        subgraph.add_edges_from([ (debut,fin) for debut,fin,keyd,dico in graph.edges(data=True,keys = True) 
-                                 if (keyd == key) & (dico.get('start',None)<=number_time<=dico.get('end',None))])
-        
+                target = target+1
+            source = source+1
         return subgraph
     
-    def subgraph(number_time,key):
-
-        subgraph = nx.Graph()
-        subgraph.name = name+"-"+key+str(number_time)
-        subgraph.add_nodes_from(graph.nodes(data=True))
-        subgraph.add_edges_from([ (debut,fin ) for debut,fin,keyd,dico in graph.edges(data=True,keys = True) 
-                                 if (keyd == key) & (dico.get('start',None)<=number_time<=dico.get('end',None))])
-        
-        return subgraph
-    time(1,"instrumental interactions","ti")
-    time(2,"instrumental interactions","ti")
-    time(1,"sociational interactions","ts")
-    time(2,"sociational interactions","ts")
-    graph_1_ti = subdigraph(1,"instrumental interactions")
-    graph_2_ti = subdigraph(2,"instrumental interactions")
-    graph_1_tr = subdigraph(1,"sociational interactions")
-    graph_2_tr = subdigraph(2,"sociational interactions")
-    write(graph_1_ti,name+"-instrumental-interactions-1.gexf")
-    write(graph_2_ti,name+"-instrumental-interactions-2.gexf")
-    write(graph_1_tr,name+"-sociational-interactions-1.gexf")
-    write(graph_2_tr,name+"-sociational-interactions-2.gexf")
-    if not os.path.exists("files/"+name): os.makedirs("files/"+name)
-    nx.write_gexf(graph, "files/"+name+"/"+name+".gexf")
-    print graph.node
-    print graph.edge[0]
-    print graph_1_tr.edge[0]
-    print graph_1_ti.edge[0]
-    print graph_2_tr.edge[0]
-    print graph_2_ti.edge[0]     
+    
+    net = create_first_slice(graph,1)
+    #test(net)
+    #test(subgraph(0))
+    net = add_following_slice(net, time(1), 1, 1,1)
+    net = add_following_slice(net, time(2), 1, 1,2)
+    message()
+    test(net)
+    suivi(net,"kapf.gexf",dynamic = True)     
 def twitter (name):
     realname = name+"-twitter"
     graph = nx.MultiDiGraph()
@@ -519,7 +491,7 @@ def twitter (name):
     def add_typed_edge(typedg):
         for line in open(name+"/"+name+"-"+typedg+".mtx").read().splitlines()[1:] :
             debut,fin,size = line.split(" ")
-            graph.add_edge(debut,fin,key = typedg, weight = float(size))
+            graph.add_edge(debut,fin,type = typedg, weight = float(size))
     
     add_typed_edge("followedby")
     add_typed_edge("follows")
@@ -546,22 +518,16 @@ def twitter (name):
        
     graph = nx.convert_node_labels_to_integers(graph)
     #print graph.nodes(data= True)
-    def subgraph(complement):
-        subgraph = nx.DiGraph()
-        subgraph.name = realname+complement
-        subgraph.add_nodes_from(graph.nodes(data=True))
-        subgraph.add_edges_from([ (debut,fin,dico) for debut,fin,keyd,dico in graph.edges(data=True,keys = True) if keyd==complement])
-        return subgraph
     
-    graph_follows = subgraph("follows")
-    graph_retweets = subgraph("retweets")
-    graph_mentions = subgraph("mentions")
-    print graph_follows.edge
-    write(graph_follows,realname+"-follows.gexf")
-    write(graph_retweets,realname+"-retweets.gexf")
-    write(graph_mentions,realname+"-mentions.gexf") 
-    if not os.path.exists("files/"+realname): os.makedirs("files/"+realname)
-    nx.write_gexf(graph, "files/"+realname+"/"+realname+".gexf")   
+    
+    #graph_follows = subgraph("follows")
+    #graph_retweets = subgraph("retweets")
+    #graph_mentions = subgraph("mentions")
+    #print graph_follows.edge
+    #write(graph_follows,realname+"-follows.gexf")
+    #write(graph_retweets,realname+"-retweets.gexf")
+    #write(graph_mentions,realname+"-mentions.gexf") 
+    suivi(graph, realname+".gexf")   
 
 def lazega():
     name = "LazegaLawyers"
@@ -599,7 +565,7 @@ def lazega():
             target = 0
             for number_of_messages in [number for number in line.split(" ") if number != ''] :
                 if int(number_of_messages) != 0 :
-                    graph.add_edge(source,target, key = exp_type)
+                    graph.add_edge(source,target, type = exp_type)
                 target = target+1
             source = source+1
     def subdigraph(key):
@@ -615,16 +581,16 @@ def lazega():
     message("adv","advice")
     message("friend","friend")
     message("work","work")
-    adv=subdigraph("advice")
-    fr=subdigraph("friend")
-    wo=subdigraph("work")
-    print graph.node
-    print graph.edge
-    write(adv,name+"-advice.gexf")
-    write(fr,name+"-friend.gexf")
-    write(wo,name+"-work.gexf") 
+    #adv=subdigraph("advice")
+    #fr=subdigraph("friend")
+    #wo=subdigraph("work")
+    #print graph.node
+    #print graph.edge
+    #write(adv,name+"-advice.gexf")
+    #write(fr,name+"-friend.gexf")
+    #write(wo,name+"-work.gexf") 
     if not os.path.exists("files/"+name): os.makedirs("files/"+name)
-    nx.write_gexf(graph, "files/"+name+"/"+name+".gexf")
+    suivi(graph, name+".gexf")
 
 
 
@@ -662,13 +628,6 @@ def read_pajek(path,encoding='UTF-8'):
                     G.add_node(label)
                     nodelabels[ida]=label
                     G.node[label]={'id':ida}
-                    try: 
-                        x,y,shape=splitline[2:5]
-                        G.node[label].update({'x':float(x),
-                                              'y':float(y),
-                                              'shape':shape})
-                    except:
-                        pass
                     extra_attr=zip(splitline[5::2],splitline[6::2])
                     G.node[label].update(extra_attr)
                 
@@ -760,7 +719,7 @@ def cities(filename ):
             break
         if l.startswith("*net"):
             _,name=l.split()
-            net.name = name
+            net.name = "Global cities"
         if l.startswith("*vertices"):
             _,totalnumber,numberofrows=l.split()
             for _ in range(int(numberofrows)) :
@@ -788,7 +747,7 @@ def cities(filename ):
                     if int(edges[target]) != 0 :
                         net.add_edge(source,target+int(numberofrows)+1,weight=int(edges[target]))
                     
-    suivi(net,f)
+    suivi(net,"globalCities.net")
 def stud_gov(filename ):
     net = nx.DiGraph()
     lines = iter(open(filename).read().splitlines())
@@ -827,15 +786,83 @@ def stud_gov(filename ):
                 net.node[int(numero)]['position'] = type_dict[type_node]
                 
         
-    test(net)                
+    #test(net)                
     suivi(net,filename)  
 
+def centrality(filename ="centrality_literature.paj" ):
+    net = nx.DiGraph()
+    lines = iter(open(filename).read().splitlines())
+    while lines :
+        l=next(lines)
+        net.name = filename.split(".")[0]
+        if l.startswith("*Vertices"):
+            _,totalnumber=l.replace(" ","").split("s")
+            for _ in range(int(totalnumber)) :
+                l = next(lines)
+                numero,name = [info for info in l.split('"') if info !=''][0:2]
+                net.add_node(int(numero))
+                net.node[int(numero)]['label'] = name    
+            break
+    
+    while lines :
+        try :
+            l=next(lines)  
+        except :
+            break
+        if l.startswith("*Arcs"): 
+            while lines :
+                l=next(lines)
+                if l.startswith("*Edges") : break
+                splitline = [value for value in l.split() if value != '']
+                if splitline ==[] : break
+                source,target = splitline[:2]
+                net.add_edge(int(source),int(target))
+
+                
+                 
+                
+    #test(net)                
+    suivi(net,filename)
+def Dining_partner(filename ="Dining-table_partners.net" ):
+    net = nx.DiGraph()
+    lines = iter(open(filename).read().splitlines())
+    while lines :
+        l=next(lines)
+        net.name = filename.split(".")[0]
+        if l.startswith("*Vertices"):
+            _,totalnumber=l.replace(" ","").split("s")
+            for _ in range(int(totalnumber)) :
+                l = next(lines)
+                numero,name = [info for info in l.split('"') if info !=''][0:2]
+                net.add_node(int(numero))
+                net.node[int(numero)]['label'] = name    
+            break
+    
+    while lines :
+        try :
+            l=next(lines)  
+        except :
+            break
+        if l.startswith("*Arcs"): 
+            while lines :
+                l=next(lines)
+                if l.startswith("*Edges") : break
+                splitline = [value for value in l.split() if value != '']
+                if splitline ==[] : break
+                source,target,rank = splitline[:3]
+                net.add_edge(int(source),int(target),rank = int(rank))
+
+                
+                 
+                
+    #test(net)                
+    suivi(net,filename)
 def sanjuan(filename ):
     net = nx.DiGraph()
     lines = iter(open(filename).read().splitlines())
     while lines :
         l=next(lines)
-        net.name = filename
+        net.name = filename.split(".")[0]
         if l.startswith("*Vertices"):
             _,totalnumber=l.replace(" ","").split("s")
             for _ in range(int(totalnumber)) :
@@ -877,7 +904,7 @@ def sanjuan(filename ):
                 type_node = int(l)
                 net.node[int(numero)]['prestige_leader'] = type_node
                 
-    test(net)                
+    #test(net)                
     suivi(net,filename)      
 def scotland(filename ):
     net = nx.Graph()
@@ -968,7 +995,10 @@ def read_ucinet_bimatrix(name,namerow,namecolumn):
                         net.add_edge(source,target+nb_nodes_type1+1)
                     
     return net
-            
+def galas():
+    net = read_ucinet_bimatrix("galas", "CEO", "club")
+    suivi(net,"galas.dat")
+        
 
 def read_ucinet(name):
     
@@ -1024,14 +1054,110 @@ def read_ucinet(name):
                 sourceindex,targetindex,value=l.split()
                 source = nodelabels[int(sourceindex)]
                 target = nodelabels[int(targetindex)]
-                edge_data={}
-                edge_data.update({'weight':int(value)})
                 if int(nb_of_networks) > 1 :
-                    net.add_edge(source,target,key=current_network,**edge_data)
+                    net.add_edge(source,target,type=current_network,weight = int(value))
                 else :
-                    net.add_edge(source,target,**edge_data)
+                    net.add_edge(source,target,weight = int(value))
     return net
 
+def csphd():
+    net = read_ucinet("csphd_2.0-agent-agent.dl")
+    suivi(net,"csphd.gexf")
+
+def dining():
+    
+    net = read_ucinet("dining_2.0-agent-agent.dl")
+    suivi(net,"dining.gexf")
+    
+def drug_net():  
+    net = read_ucinet("drug_net-agent-agent.dl")
+    suivi(net,"drug_net.gexf") 
+
+def Flying_teams():  
+    net = read_ucinet("Flying_teams-agent-agent.dl")
+    suivi(net,"Flying_teams.gexf") 
+
+def FauxMesaHigh():  
+    net = read_ucinet("FauxMesaHigh-Agent-Agent.dl")
+    suivi(net,"FauxMesaHigh.gexf") 
+
+def Galesburg():  
+    net = read_ucinet("Galesburg_2.0-agent-agent.dl")
+    suivi(net,"Galesburg.gexf") 
+
+def gama():  
+    net = read_ucinet("gama_2.0-agent-agent.dl")
+    suivi(net,"gama.gexf") 
+
+def knokbur():  
+    net = read_ucinet("knokbur_2.0-organization-organization.dl")
+    suivi(net,"knokbur.gexf") 
+    
+def literature_1976():  
+    net = read_ucinet("literature_1976-agent-agent.dl")
+    suivi(net,"literature_1976.gexf") 
+    
+
+def mexican_power():  
+    net = read_ucinet("mexican_power-agent-agent.dl")
+    suivi(net,"mexican_power.gexf") 
+    
+def ModMath():  
+    net = read_ucinet("ModMath-agent-agent.dl")
+    suivi(net,"ModMath.gexf") 
+
+def NewcombFraternity():  
+    net = read_ucinet("NewcombFraternity-agent-agent.dl")
+    suivi(net,"NewcombFraternity.gexf") 
+
+def SanJuanSur():  
+    net = read_ucinet("SanJuanSur-agent-agent.dl")
+    suivi(net,"SanJuanSur.gexf") 
+    
+
+def Sampson():  
+    net = read_ucinet("Sampson-agent-agent.dl")
+    suivi(net,"Sampson.gexf") 
+
+def Scotland():  
+    net = read_ucinet("Scotland-agent-agent.dl")
+    suivi(net,"Scotland.gexf") 
+
+def Stranke94():  
+    net = read_ucinet("Stranke94-agent-agent.dl")
+    suivi(net,"Stranke94.gexf") 
+
+def strike():  
+    net = read_ucinet("strike-agent-agent.dl")
+    suivi(net,"strike.gexf") 
+
+def szcid():  
+    net = read_ucinet("szcid-agent-agent.dl")
+    suivi(net,"szcid.gexf") 
+
+def taro():  
+    net = read_ucinet("taro-agent-agent.dl")
+    suivi(net,"taro.gexf") 
+    
+def thuroff():  
+    net = read_ucinet("thuroff-agent-agent.dl")
+    suivi(net,"thuroff.gexf") 
+    
+    
+def trade():  
+    net = read_ucinet("trade-location-location.dl")
+    suivi(net,"trade.gexf") 
+
+
+def bkfrat():
+    net = read_ucinet("bkfrat.dl")
+    suivi(net,"bkfrat.dl")
+def bkham():
+    net = read_ucinet("bkham.dl")
+    suivi(net,"bkham.dl")
+def bktec():
+    net = read_ucinet("bktec.dl")
+    suivi(net,"bktec.dl")
 
 def PGP() :
     graph = nx.Graph()
@@ -1053,7 +1179,57 @@ def mathscinet() :
         if  not line.startswith('#') :
             source,target,weight = line.split("\t")
             graph.add_edge(source, target, weight = weight)
-    suivi(graph,"MathSciNet.gexf") 
+    suivi(graph,"MathSciNet.gexf")
+
+def pin():
+    for network in os.listdir("pin") :
+        graph = nx.Graph()
+        name = network.replace(".txt","")
+        graph.name = name
+        for line in (open("pin/"+name+".txt").read().splitlines()) :
+            if  not line.startswith('#') :
+                source,target = line.split("\t")[0:2]
+                graph.add_edge(source, target)
+        suivi(graph,name+".gexf")
+
+def Www():
+        graph = nx.DiGraph()
+        name = "World-Wide-Web"
+        graph.name = name
+        for line in (open(name+".txt").read().splitlines()) :
+            if  not line.startswith('#') :
+                source,target = line.split(" ")[0:2]
+                graph.add_edge(source, target)
+        suivi(graph,name+".gexf") 
+               
+def autonomous():
+    graphe_dynamique = None
+    lasttime = None
+    for network in os.listdir("as-733") :
+        graph = nx.DiGraph()
+        name = network.replace(".txt","")
+        graph.name = name
+        for line in (open("as-733/"+name+".txt").read().splitlines()) :
+            if  not line.startswith('#') :
+                source,target = line.split("\t")
+                graph.add_edge(source, target)
+        suivi(graph,name+".gexf")
+        
+        if graphe_dynamique is None :
+            graphe_dynamique = graph.copy()
+            date = name.replace("as","")
+            date = date[0:4]+"-"+date[4:6]+"-"+date[6:8]
+            graphe_dynamique = create_first_slice(graphe_dynamique, date)
+            lasttime= date
+            print lasttime
+            
+        else :
+            date = name.replace("as","")
+            date = date[0:4]+"-"+date[4:6]+"-"+date[6:8]
+            add_following_slice(graphe_dynamique, graph,  lasttime, date)
+            lasttime= date
+            print lasttime
+    suivi(graphe_dynamique,"as733.gexf")
 
 def blogcatalog3():
     graph = nx.Graph()
@@ -1091,7 +1267,7 @@ def email():
         linesplit = [int(element) for element in line.split(" ") if element != '']
         graph.add_edge(int(linesplit[0]), int(linesplit[1]))
         if linesplit[2] != 1 : print str(linesplit)+"poids different de 1 : "+str(linesplit[2])
-    write(graph,graph.name+".gexf")
+    suivi(graph,graph.name+".gexf")
 
 def eu():
     graph = nx.DiGraph()
@@ -1215,14 +1391,18 @@ def slash():
 def southern():
     graph = nx.Graph()
     graph.name = "Davis_southern_club_women"
+    
+    women ={}
     i = 1
     for line in (open(graph.name+"-name.txt").read().splitlines()) :
-        graph.add_node(i, name = line.replace("\"",""))
+        women[i] = line.replace("\"","")
         i+=1
         
-    for line in (open(graph.name+"-Newman.txt").read().splitlines()) :
+    for line in (open(graph.name+"-two_mode.txt").read().splitlines()) :
         linesplit = [element for element in line.split(" ") if element != '']
-        graph.add_edge(int(linesplit[0]), int(linesplit[1]),weight = float(linesplit[1]))
+        graph.add_node(women[int(linesplit[0])], type = "woman")
+        graph.add_node("event-"+linesplit[1], type = "event")
+        graph.add_edge(women[int(linesplit[0])], "event-"+linesplit[1])
     suivi(graph,graph.name+".gexf")
 
 
@@ -1301,9 +1481,9 @@ def facebook(number):
     def attributes() : 
         list_features =[] 
         for line in open("facebook/"+str(number)+".featnames").read().splitlines() :
-            linesplit = line.split(" ")
-            feature = linesplit[1].replace("anonymized","")
-            feat_num = int(linesplit[-1])
+            linesplit = line.replace(";","_").split(" ")
+            feature = linesplit[1].replace("id","").replace("anonymized","")
+            feat_num = int(linesplit[0])
             list_features.append((feature,feat_num))
         return list_features  
     features = attributes()
@@ -1333,11 +1513,11 @@ def facebook(number):
             i=i+1
     myattributes()
     otherattributes()
-    print graph.node[0]
-    import random
-    node =random.choice(graph.nodes())
-    print node
-    print graph.edge[0]
+    #print graph.node[0]
+    #import random
+    #node =random.choice(graph.nodes())
+    #print node
+    #print graph.edge[0]
     def edges() :
         for line in open("facebook/"+str(number)+".edges").read().splitlines() :
             l =[int(numero) for numero in line.split(" ") if numero != '']
@@ -1345,25 +1525,26 @@ def facebook(number):
     def circles() :
         for line in open("facebook/"+str(number)+".circles").read().splitlines() :
             splitline =[numero for numero in line.split("\t") if numero != '']
-            numero_circle = splitline[0].replace("circle","")
-            print numero_circle
+            numero_circle = int(splitline[0].replace("circle",""))
+            #print numero_circle
             for numero in splitline[1:] :
                 graph.node[int(numero)]['circle']=numero_circle
     edges()
     circles()
-    print graph.edge[node]
-    print graph.node[node]['circle']
-    write(graph,graph.name+".gexf")
+    #print graph.edge[node]
+    #print graph.node[node]['circle']
+    suivi(graph,graph.name+".gexf")
     
 
 def consulting():
     graph = nx.MultiDiGraph()
-    name = "Cross_Parker-Consulting"
-    graph.name = name
+    realname = "Cross_Parker-Consulting"
+    name = "Cross_Parker/Cross_Parker-Consulting"
+    graph.name = realname
     def edge(nameE,nameExt,dico): 
         for line in open(name+"_"+nameE+".txt").read().splitlines() :
             source, target,weight = [int(entier) for entier in line.split(" ") if entier != '']
-            graph.add_edge(source, target, key = nameExt,**{nameExt : dico[weight]})
+            graph.add_edge(source, target, type = nameExt,**{nameExt : dico[weight]})
     edge("info","ask_for_advice",{0: "I Do Not Know This Person", 1: "Never", 2: "Seldom", 3: "Sometimes", 4: "Often", 5:"Very Often"})
     edge("value","has_expertise",{0: "I Do Not Know This Person", 1: "Strongly Disagree", 2: "Disagree", 3: "Neutral", 4: "Agree", 5: "Strongly Agree" })     
    
@@ -1380,19 +1561,20 @@ def consulting():
     attribute("region",{1: "Europe", 2: "USA"})
     attribute("location",{1: "Boston", 2: "London", 3: "Paris", 4: "Rome", 5: "Madrid", 6: "Oslo", 7: "Copenhagen"})
     
-    import random
-    print random.choice(graph.nodes(data=True))   
-    print random.choice(graph.edges(keys=True,data = True))
-    suivi(graph,name+".gexf")
+    #import random
+    #print random.choice(graph.nodes(data=True))   
+    #print random.choice(graph.edges(keys=True,data = True))
+    suivi(graph,realname+".gexf")
 
 def manufacturing():
     graph = nx.MultiDiGraph()
-    name = "Cross_Parker-Manufacturing"
-    graph.name = name
+    realname = "Cross_Parker-Manufacturing"
+    name = "Cross_Parker/Cross_Parker-Manufacturing"
+    graph.name = realname
     def edge(nameE,nameExt,dico): 
         for line in open(name+"_"+nameE+".txt").read().splitlines() :
                 source, target,weight = [int(entier) for entier in line.split(" ") if entier != '']
-                graph.add_edge(source, target, key = nameExt,**{nameExt : dico[weight]})
+                graph.add_edge(source, target, type = nameExt,**{nameExt : dico[weight]})
     edge("info","provides_information",{0: "I Do Not Know This Person", 1: "Very Infrequently", 2: "Infrequently", 3: "Somewhat Infrequently", 4: "Somewhat Frequently", 5:"Frequently",6:"Very Frequently"})
     edge("aware","aware_of_skill",{0: "I Do Not Know This Person", 1: "Strongly Disagree", 2: "Disagree", 3: "Somewhat Disagree", 4: "Somewhat Agree", 5: "Agree", 6: "Strongly Agree" })     
    
@@ -1408,10 +1590,10 @@ def manufacturing():
     attribute("orglevel",{1 : "Global Dept Manager", 2: "Local Dept Manager", 3: "Project Leader", 4: "Researcher"}, "organisational_level")
     attribute("location",{1: "Paris", 2: "Frankfurt", 3: "Warsaw", 4: "Geneva"})
     
-    import random
-    print random.choice(graph.nodes(data=True))   
-    print random.choice(graph.edges(keys=True,data=True))
-    suivi(graph,name+".gexf")
+    #import random
+    #print random.choice(graph.nodes(data=True))   
+    #print random.choice(graph.edges(keys=True,data=True))
+    suivi(graph,realname+".gexf")
 def terrorAttack():
     graph = nx.MultiDiGraph()
     name = "terrorist_attack"
@@ -1513,6 +1695,13 @@ def vand():
     write(subgraph(3),name+"-3.gexf")
     write(subgraph(4),name+"-4.gexf")
     write(subgraph(5),name+"-5.gexf")
+    net = create_first_slice(graphe,1)
+    #test(net)
+    #test(subgraph(0))
+    net = add_following_slice(net, time(1), 1, 1,1)
+    net = add_following_slice(net, time(2), 1, 1,2)
+    test(net)
+    suivi(net,"kapf.gexf",dynamic = True)
     
 
 def infect():
@@ -1596,46 +1785,70 @@ def konect(graph_init,name,trois = None, quatre = None):
             graph.add_edge(int(linesplit[0]), int(linesplit[1]),**attributes)    
     suivi(graph,graph.name+".gexf")
 
+def netscience():
+    net = nx.read_gml("netscience.gml")
+    net.name = "netscience"
+    for source,target in net.edges() :
+        net[source][target]['weight'] = net[source][target]['value']
+        del net[source][target]['value']
+    suivi(net,"netscience.gml")
 
+def condmat():
+    net = nx.read_gml("cond-mat-2005.gml")
+    net.name = "cond-mat-2005"
+    for source,target in net.edges() :
+        net[source][target]['weight'] = net[source][target]['value']
+        del net[source][target]['value']
+    suivi(net,"cond-mat-2005.gml")
+
+def polblogs():
+    net = nx.read_gml("polblogs.gml")
+    net.name = "polblogs"
+    suivi(net,"polblogs.gml")
+
+def jazz():
+    net = read_pajek("jazz.net")
+    net.name = "jazz"
+    mapy = {oldkey:int(oldkey) for oldkey in net}
+    net = nx.relabel_nodes(net,mapy)
+    suivi(net,"jazz.net") 
        
 
-                          
+                 
 for f in os.listdir('.') :
     if os.path.isfile(f) :
         net = None
-        if ".gexf" in f :
-            net = nx.read_gexf(f)
-            #suivi(net,f)
         if "e.paj" in f :
-            net = read_pajek(f)
+            #net = read_pajek(f)
             #mapy = {oldkey:int(oldkey) for oldkey in net}
             #net = nx.relabel_nodes(net,mapy)
-            for node in net.node :
-                print node
+            # for node in net.node :
+                #print node
+                pass
         if ".dat" in f :
             #net = read_ucinet_bimatrix("galas", "CEO", "club")
-            for node in net.nodes(data = True) :
-                print node
-            for edge in net.edges() :
-                print edge
+            #for node in net.nodes(data = True) :
+                #print node
+            #for edge in net.edges() :
+                #print edge
             #suivi(net,f)
-        if ".dl" in f :
-            net = read_ucinet(f)
-            suivi(net,f)
-        if ".net" in f :
-            net = read_pajek(f)
-            #mapy = {oldkey:int(oldkey) for oldkey in net}
-            #net = nx.relabel_nodes(net,mapy)
-            #suivi(net,f) 
-  
+            pass
+        
+       
         if ".txt" in f :
-            print f
+            #print f
             #net = nx.read_edgelist(f,create_using=nx.DiGraph(),nodetype=int)
             #suivi(net,f)
-        if ".gml" in f :
-            print f
-            net = nx.read_gml(f)
-            #suivi(net,f)
+            pass
+       
+
+#netscience()
+#jazz()
+#polblogs()
+#condmat()
+#email()
+#PGP()
+#mathscinet()
 #dl_advogato()
 #bipartite_konect(nx.MultiGraph(),"dbpedia-country", "entity", "country")
 #bipartite_konect(nx.Graph(),"amazon-ratings", "user", "product",trois ="weight",quatre ="timestamp")
@@ -1661,31 +1874,74 @@ for f in os.listdir('.') :
 #bipartite_konect(nx.MultiGraph(),"bibsonomy-2ut", "user", "tag",quatre ="timestamp")
 #bipartite_konect(nx.Graph(),"bookcrossing_full-rating", "user", "book")
 #bipartite_konect(nx.Graph(),"bookcrossing_rating", "user", "book",trois = "rating")
+#bkfrat()
+#bkham()
+#bktec()
+#galas()
 #EIES("EIES")
 #stu98()
 #lazega()
 #siena("EIES")
 #siena2("kapf")
-#VRND("VRND")
-#facebook(0)
+#VRND()
+facebook(0)
+facebook(107)
+facebook(348)
+facebook(414)
+facebook(686)
+facebook(698)
+facebook(1684)
+facebook(1912)
+facebook(3437)
+facebook(3980)
 #twitter("olympics")
 #twitter("football")
-#kapf("kapf")
+#twitter("rugby")
+#twitter("politicsuk")
+#kapf()
 #vand()
 #infect()
 #oclinks()
-#email()
-#PGP()
+#kapf()
+"""
+csphd()
+dining()
+drug_net()
+Flying_teams()
+FauxMesaHigh()
+Galesburg()
+gama()
+knokbur()
+literature_1976()
+mexican_power()
+ModMath()
+NewcombFraternity()
+SanJuanSur()
+Sampson()
+Scotland()
+Stranke94()
+strike()
+szcid()
+taro()
+thuroff()
+trade()
+"""
+Www()
+#pin()
+#autonomous()
+#
 #terrorAttack()
 #mathscinet()
 #consulting()
 #manufacturing()
 #southern()
-#YG()#db()record()flickr()
+#YG()
+#db()
+#record()
+#flickr()
 #wall()
 #eu()
-#southern()
-#slash()
+##slash()
 #munmun()
 #wikiconflict()
 #tribe()
@@ -1694,19 +1950,21 @@ for f in os.listdir('.') :
 #mun_twitt()
 #cat()
 #blogcatalog3()
-#douban()  
+#douban() 
+#Dining_partner()
+#centrality() 
 #sanjuan("SanJuanSur2.paj")
 #stud_gov("Student_government.paj")           
 #scotland("Scotland.paj")            
-#cities("dat6+.net")            
+#cities("da6+.net")            
 #EIES("EIES")
 #stu98()
 #lazega()
 #siena("EIES")
-#siena2("kapf")
+##siena2("kapf")
 #zoo("slashdot-zoo")
 #VRND("VRND.txt")
-#livemocha("BlogCatalog")
+#livemocha("BlogCatalog",nx.Graph())
 #livemocha("BuzzNet",nx.DiGraph())
 #livemocha("Delicious",nx.DiGraph())
 #livemocha("Digg",nx.DiGraph())

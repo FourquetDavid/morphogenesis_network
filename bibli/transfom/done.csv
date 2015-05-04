@@ -1,1 +1,2 @@
-
+number;name;nb_nodes;nb_edges;is_directed;has_multiple_edges;is_bipartite;is_weighted;is_signed;is_dynamic;number_of_node_datas;list_node_datas;number_of_edge_datas;list_edge_datas;
+0;sociopatterns-hypertext;113;20818;False;True;False;False;False;False;0;;1;timestamp;
